@@ -17,5 +17,5 @@ if __name__ == "__main__":
 	end("Finished Generating Predictions")
 
 	start("Start Writing Predictions")
-	parse.write_predictions_to_file(predictions)
+	write_predictions_to_file(predictions)
 	end("Finished Writing Predictions")
