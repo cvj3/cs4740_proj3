@@ -9,7 +9,8 @@ if __name__ == "__main__":
 	#predictions = get_baseline_predictions(parse.readTestDataBaseline("data", "test.txt"))
 
 	start("Start Parsing Test Data")
-	tests = parse.readTestData("data", "test.txt")
+	# tests = parse.readTestData("data", "test.txt")
+	tests = parse.readTestData("data", "unit_test.txt")
 	end("Finished Parsing Test Data")
 
 	start("Start Generating Predictions")
