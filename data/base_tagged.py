@@ -7,8 +7,6 @@ tagDict = {
 	'B-ORG': 3, 'O': 8009, 'B-PER': 4, 'I-PER': 1, 'I-MISC': 4, 'I-ORG': 1, 'B-LOC': 8
 }, 'VBN': {
 	'B-ORG': 11, 'I-PER': 2, 'O': 3997, 'I-ORG': 1, 'B-LOC': 22, 'B-PER': 6
-}, 'POS': {
-	'I-MISC': 15, 'I-LOC': 3, 'I-ORG': 28, 'O': 1437
 }, "''": {
 	'I-MISC': 1, 'O': 38
 }, 'VBP': {
@@ -23,32 +21,20 @@ tagDict = {
 	'O': 2351, 'I-LOC': 2, 'B-ORG': 3, 'I-PER': 2, 'B-PER': 9, 'I-MISC': 2, 'B-MISC': 2, 'I-ORG': 13, 'B-LOC': 1
 }, 'DT': {
 	'I-LOC': 3, 'B-ORG': 21, 'O': 13076, 'B-PER': 6, 'I-MISC': 9, 'B-MISC': 5, 'I-ORG': 12, 'B-LOC': 19
-}, '"': {
-	'O': 2104
 }, 'RP': {
 	'I-MISC': 13, 'B-PER': 1, 'O': 509
-}, '$': {
-	'B-MISC': 44, 'O': 388
 }, 'NN': {
 	'I-LOC': 6, 'B-ORG': 261, 'O': 22396, 'B-PER': 139, 'I-PER': 24, 'I-MISC': 26, 'B-MISC': 65, 'I-ORG': 74, 'B-LOC': 138
-}, ')': {
-	'I-LOC': 2, 'I-ORG': 11, 'O': 2997, 'I-PER': 2
-}, '(': {
-	'I-LOC': 2, 'I-ORG': 11, 'O': 3000, 'I-PER': 2
 }, 'FW': {
 	'I-LOC': 2, 'B-ORG': 27, 'O': 96, 'I-PER': 17, 'I-MISC': 2, 'B-MISC': 1, 'I-ORG': 5, 'B-PER': 20
-}, ',': {
-	'I-MISC': 1, 'I-LOC': 1, 'B-ORG': 1, 'I-ORG': 12, 'O': 7299
-}, '.': {
-	'I-MISC': 3, 'I-LOC': 4, 'I-ORG': 6, 'O': 7317
+}, 'POS': {
+	'I-MISC': 15, 'I-LOC': 3, 'I-ORG': 28, 'O': 1437
 }, 'TO': {
 	'B-ORG': 14, 'I-ORG': 1, 'B-LOC': 25, 'O': 3393, 'B-PER': 2
 }, 'PRP': {
 	'B-ORG': 11, 'B-LOC': 1, 'O': 2955, 'I-ORG': 1
 }, 'RB': {
 	'I-LOC': 1, 'B-ORG': 29, 'O': 3802, 'B-PER': 23, 'I-PER': 1, 'I-MISC': 1, 'B-MISC': 14, 'I-ORG': 2, 'B-LOC': 32
-}, ':': {
-	'I-MISC': 4, 'O': 2444
 }, 'NNS': {
 	'I-LOC': 1, 'B-ORG': 131, 'O': 9518, 'B-PER': 38, 'I-PER': 13, 'I-MISC': 28, 'B-MISC': 56, 'I-ORG': 20, 'B-LOC': 22
 }, 'NNP': {
@@ -67,6 +53,8 @@ tagDict = {
 	'B-LOC': 1, 'O': 38
 }, 'RBR': {
 	'O': 175
+}, 'O': {
+	'I-LOC': 9, 'B-ORG': 1, 'I-PER': 4, 'O': 25549, 'I-MISC': 8, 'B-MISC': 44, 'I-ORG': 40
 }, 'CD': {
 	'B-ORG': 15, 'O': 19232, 'B-PER': 4, 'I-MISC': 45, 'B-MISC': 20, 'I-ORG': 7, 'B-LOC': 1
 }, 'EX': {

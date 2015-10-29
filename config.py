@@ -1,4 +1,4 @@
-USING_BASELINE = True
+USING_BASELINE = False
 
 # train.txt
 TRAIN_FILENAME = "train.txt"

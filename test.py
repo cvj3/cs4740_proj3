@@ -6,8 +6,9 @@ from config import *
 __author__ = "Alin Barsan, Curtis Josey"
 
 if __name__ == "__main__":
-	parse.main("data", "train.txt")
-	#predictions = get_baseline_predictions(parse.readTestDataBaseline("data", "test.txt"))
+    parse.main("data", "train.txt")
+    # predictions = get_baseline_predictions( \
+    #    parse.readTestDataBaseline("data", "test.txt"))
 
     start("Start Parsing Test Data")
     tests = parse.readTestData("data", TEST_FILENAME)
