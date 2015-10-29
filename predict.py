@@ -3,6 +3,8 @@ if USING_BASELINE:
 	from data.base_combined import combinedDict as combined
 	from data.base_tagged import tagDict as tagged
 	from data.base_words import wordDict as words
+	# not actually used for baseline, but needed to compile
+	from data.entity import entityDict as entities
 else:
 	from data.combined import combinedDict as combined
 	from data.tagged import tagDict as tagged

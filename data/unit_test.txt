@@ -1,0 +1,36 @@
+Cleveland	2	DETROIT	1
+NNP	CD	NNP	CD
+0 1 2 3
+BASEBALL	-	MAJOR	LEAGUE	RESULTS	MONDAY	.
+NNP	:	NNP	NNP	NNP	NNP	.
+4 5 6 7 8 9 10
+Buffett	raises	Property	Capital	stake	.
+NNP	VBZ	NNP	NNP	NN	.
+11 12 13 14 15 16
+Omaha	billionaire	Warren	Buffett	said	Friday	he	raised	his	stake	in	Property	Capital	Trust	to	8.0	percent	from	6.7	percent	.
+NN	NN	NNP	NNP	VBD	NNP	PRP	VBD	PRP$	NN	IN	NNP	NNP	NNP	TO	CD	NN	IN	CD	NN	.
+17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37
+Soccer	-	Arab	team	breaks	new	ground	in	Israel	.
+JJR	:	JJ	NN	VBZ	JJ	NN	IN	NNP	.
+38 39 40 41 42 43 44 45 46 47
+Ori	Lewis
+NNP	NNP
+48 49
+One	officer	and	a	soldier	killed	in	accidental	clash	between	two	groups	of	soldiers	near	Chavakachcheri	in	Jaffna	.
+CD	NN	CC	DT	NN	VBN	IN	JJ	NN	IN	CD	NNS	IN	NNS	IN	NNP	IN	NNP	.
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68
+DAILY	NEWS
+NN	NN
+69 70
+Mother	Teresa	turns	86	but	still	in	danger	.
+NNP	NNP	VBZ	CD	CC	RB	IN	NN	.
+71 72 73 74 75 76 77 78 79
+Rupam	Banerjee
+NNP	NNP
+80 81
+Islamists	can	meet	in	London	,	minister	.
+NNS	MD	VB	IN	NNP	,	NN	.
+82 83 84 85 86 87 88 89
+Italian	Cup	winners	Fiorentina	beat
+NNP	NNP	NNS	NNP	VBD
+90 91 92 93 94
