@@ -5,7 +5,7 @@ from common import *
 __author__ = "Alin Barsan, Curtis Josey"
 
 if __name__ == "__main__":
-	#parse.main("data", "train.txt")
+	parse.main("data", "train.txt")
 	#predictions = get_baseline_predictions(parse.readTestDataBaseline("data", "test.txt"))
 
 	start("Start Parsing Test Data")
@@ -17,5 +17,5 @@ if __name__ == "__main__":
 	end("Finished Generating Predictions")
 
 	start("Start Writing Predictions")
-	write_predictions_to_file(predictions)
+	write_predictions_to_file(predictions, "refurbished-viterbi-IB-hybrid.csv")
 	end("Finished Writing Predictions")

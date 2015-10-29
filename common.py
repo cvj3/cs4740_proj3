@@ -35,6 +35,8 @@ def write_predictions_to_file(predictions, filename="results.csv"):
             if not spree: output += c + "-"
             if int(n) == (int(c) + 1):
                 spree = True
+                if i == len(predictions[term])-2:
+                    output += n
             else:
                 spree = False
                 output += c + " "

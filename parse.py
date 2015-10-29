@@ -9,7 +9,7 @@ __author__ = "Alin Barsan, Curtis Josey"
 # param1 = path, param2 = filename
 def main(param1, param2):
     # Read and Parse XML
-    textArray, posArray, entityArray = readData(param1, param2, False)
+    textArray, posArray, entityArray, startEnt, endEnt = readData(param1, param2, False)
 
     # build Data
     baseCombinedDict, baseWordDict, baseTagDict, entityDict, combined, word, tag = buildData(textArray, posArray, entityArray)
@@ -22,11 +22,15 @@ def main(param1, param2):
     writeData('data', 'combined.py', 'combinedDict', combined)
     writeData('data', 'words.py', 'wordDict', word)
     writeData('data', 'tagged.py', 'tagDict', tag)
+    writeData('data', 'start_entity.py', 'startEnt', startEnt)
+    writeData('data', 'end_entity.py', 'endEnt', endEnt)
 
 def readData(path, filename, verboseMode=False):
     textArray = []
     posArray = []
     entityArray = []
+    startEnt = {}
+    endEnt = {}
 
     dir = os.path.dirname(__file__)
     filename = os.path.join(dir, path + '/' + filename)
@@ -37,14 +41,16 @@ def readData(path, filename, verboseMode=False):
         # read / parse 3 lines at a time
         for line in f:
             iLoop += 1
-            if iLoop == 3: line = line.replace("I-", "").replace("B-", "")
+            #if iLoop == 3: line = line.replace("I-", "").replace("B-", "")
             line = line.strip().split() #split with no args splits on whitespace.  Train is tab deliminated.  Test is not.
             if iLoop == 1:
                 textArray += line
             elif iLoop == 2:
                 posArray += line
             else:
-                entityArray += line
+                entityArray += line   
+                startEnt[line[0]] = startEnt.get(line[0], 0) + 1
+                endEnt[line[-1]] = endEnt.get(line[-1], 0) + 1
                 iLoop = 0
 
                 # verify all three arrays are equal size, else throw error
@@ -53,7 +59,7 @@ def readData(path, filename, verboseMode=False):
                     raise Exception("readline error; array size mismatch! " + str(line))
 
     # return arrays
-    return textArray, posArray, entityArray
+    return textArray, posArray, entityArray, startEnt, endEnt
 
 def readTestDataBaseline(path, filename, verboseMode=False):
     textArray, posArray, positionArray = readData(path, filename, verboseMode)
@@ -96,7 +102,6 @@ def buildData(textArray, posArray, entityArray):
     combinedDict = dict()
     wordDict = dict()
     tagDict = dict()
-
 
     for i in range(len(textArray)):
         # textDict, posDict, entityDict
