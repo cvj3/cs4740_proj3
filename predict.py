@@ -1,4 +1,4 @@
-from config import USING_BASELINE
+from config import USING_BASELINE, USING_IB
 if USING_BASELINE:
 	from data.base_combined import combinedDict as combined
 	from data.base_tagged import tagDict as tagged
@@ -17,8 +17,8 @@ else:
 import operator
 import itertools
 
-STATES = ["I-PER", "I-LOC", "I-ORG", "I-MISC", "B-PER", "B-LOC", "B-ORG", "B-MISC", "O"]
-#STATES = ["PER", "LOC", "ORG", "MISC", "O"]
+if USING_IB: STATES = ["I-PER", "I-LOC", "I-ORG", "I-MISC", "B-PER", "B-LOC", "B-ORG", "B-MISC", "O"]
+else: STATES = ["PER", "LOC", "ORG", "MISC", "O"]
 
 
 def get_baseline_predictions(tests):

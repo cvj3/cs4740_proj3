@@ -7,13 +7,9 @@ wordDict = {
 	'O': 1
 }, '357,000': {
 	'O': 1
-}, 'becomes': {
-	'O': 2
 }, '1,800': {
 	'O': 1
 }, 'strong-dollar': {
-	'O': 1
-}, 'bar-room': {
 	'O': 1
 }, 'foul': {
 	'O': 3
@@ -49,6 +45,8 @@ wordDict = {
 	'O': 12
 }, 'beijing-funded': {
 	'B-MISC': 1
+}, '12th-ranked': {
+	'O': 2
 }, 'granting': {
 	'O': 2
 }, 'eligible': {
@@ -85,6 +83,8 @@ wordDict = {
 	'O': 1
 }, 'treasuries': {
 	'B-MISC': 1, 'B-ORG': 1, 'I-ORG': 1
+}, 'bar-room': {
+	'O': 1
 }, 'co-operation': {
 	'O': 1
 }, 'five-day': {
@@ -101,6 +101,8 @@ wordDict = {
 	'B-PER': 1
 }, 'bratislava': {
 	'O': 1, 'B-LOC': 7
+}, 'inventing': {
+	'O': 1
 }, 'bild': {
 	'B-ORG': 1
 }, '147.786': {
@@ -115,12 +117,12 @@ wordDict = {
 	'O': 7
 }, 'stabbed': {
 	'O': 5
-}, 'well-wishers': {
-	'O': 1
 }, 'bringing': {
 	'O': 5
 }, 'ironi': {
 	'I-ORG': 2
+}, '20-6-70-2': {
+	'O': 1
 }, 'goosen': {
 	'B-PER': 1, 'I-PER': 3
 }, '7,032': {
@@ -155,6 +157,8 @@ wordDict = {
 	'O': 1
 }, 'woods': {
 	'I-PER': 1
+}, '192': {
+	'O': 2
 }, 'judicial': {
 	'B-ORG': 1, 'O': 4
 }, 'path': {
@@ -223,6 +227,8 @@ wordDict = {
 	'O': 3
 }, 'fingers': {
 	'O': 1
+}, 'ruci': {
+	'I-PER': 1
 }, 'bonuses': {
 	'O': 1
 }, 'garamba': {
@@ -277,11 +283,7 @@ wordDict = {
 	'O': 1
 }, '74th': {
 	'O': 3
-}, 'customary': {
-	'O': 2
 }, 'affiliated': {
-	'O': 1
-}, 'army-controlled': {
 	'O': 1
 }, '3,800': {
 	'O': 2
@@ -293,8 +295,8 @@ wordDict = {
 	'I-LOC': 1
 }, '27-5-78-2': {
 	'O': 2
-}, 'sla': {
-	'B-ORG': 6, 'B-LOC': 1
+}, 'burkina': {
+	'O': 1, 'B-LOC': 2
 }, '6-0-32-2': {
 	'O': 1
 }, 'k': {
@@ -327,6 +329,8 @@ wordDict = {
 	'O': 2
 }, '28.99': {
 	'O': 1
+}, 'starker': {
+	'O': 1
 }, 'marino': {
 	'I-LOC': 2, 'I-ORG': 2
 }, 'vetoes': {
@@ -335,8 +339,6 @@ wordDict = {
 	'O': 2
 }, 'reichel': {
 	'I-PER': 1
-}, 'eugenio': {
-	'B-PER': 1
 }, 'explained': {
 	'O': 5
 }, 'lengthen': {
@@ -413,8 +415,8 @@ wordDict = {
 	'B-LOC': 1
 }, 'suffocated': {
 	'O': 1
-}, 'preparation': {
-	'O': 3
+}, 'hoffmann': {
+	'I-PER': 1
 }, 'relay': {
 	'O': 7
 }, '9.': {
@@ -433,6 +435,8 @@ wordDict = {
 	'O': 1
 }, 'glass': {
 	'I-PER': 1, 'O': 5
+}, 'pedestrain': {
+	'O': 1
 }, 'tying': {
 	'O': 3
 }, '5.15': {
@@ -475,8 +479,6 @@ wordDict = {
 	'I-PER': 1
 }, '2-141': {
 	'O': 1
-}, 'slice': {
-	'O': 2
 }, 'krasnoyarsk': {
 	'B-LOC': 1
 }, 'nato-led': {
@@ -511,8 +513,6 @@ wordDict = {
 	'B-ORG': 5, 'I-PER': 2
 }, 'currency': {
 	'O': 25
-}, 'guessing': {
-	'O': 1
 }, 'riedel': {
 	'I-PER': 1
 }, 'kingdoms': {
@@ -577,6 +577,8 @@ wordDict = {
 	'O': 6
 }, 'ljudmila': {
 	'B-PER': 1
+}, 'shimbun': {
+	'I-ORG': 1
 }, 'beauty': {
 	'O': 4
 }, 'battleford': {
@@ -610,8 +612,6 @@ wordDict = {
 }, 'extortion': {
 	'O': 3
 }, 'types': {
-	'O': 1
-}, 'mercedes': {
 	'O': 1
 }, 'tourism': {
 	'O': 2
@@ -651,8 +651,6 @@ wordDict = {
 	'B-LOC': 1
 }, 'keeps': {
 	'O': 4
-}, 'kelleners': {
-	'I-PER': 1
 }, 'dharmasena': {
 	'B-PER': 2, 'I-PER': 2
 }, 'democratic': {
@@ -673,8 +671,6 @@ wordDict = {
 	'B-PER': 1
 }, 'telecom': {
 	'I-ORG': 2
-}, 'okano': {
-	'I-PER': 1
 }, '2,840': {
 	'O': 1
 }, 'rebel-held': {
@@ -695,6 +691,8 @@ wordDict = {
 	'O': 2
 }, 'affect': {
 	'O': 5
+}, 'indicating': {
+	'O': 2
 }, 'jordi': {
 	'B-PER': 2
 }, 'fidelity': {
@@ -765,8 +763,6 @@ wordDict = {
 	'O': 1
 }, '2030': {
 	'O': 1
-}, '.188': {
-	'O': 1
 }, 'disturb': {
 	'O': 1
 }, 'arnaut': {
@@ -815,8 +811,6 @@ wordDict = {
 	'O': 1
 }, 'man-of-the-match': {
 	'O': 2
-}, 'origins': {
-	'O': 1
 }, 'norifumi': {
 	'B-PER': 1
 }, 'ingrid': {
@@ -825,8 +819,8 @@ wordDict = {
 	'O': 1
 }, 'interfering': {
 	'O': 1
-}, '12.56': {
-	'O': 1
+}, 'abdellaoui': {
+	'B-PER': 1
 }, 'burial': {
 	'O': 1
 }, 'financial': {
@@ -859,8 +853,6 @@ wordDict = {
 	'O': 1
 }, '1:53.043': {
 	'O': 1
-}, 'touched': {
-	'O': 2
 }, '2,500': {
 	'O': 1
 }, 'melting': {
@@ -897,6 +889,8 @@ wordDict = {
 	'B-LOC': 2
 }, '+6613377': {
 	'O': 1
+}, '81-3': {
+	'O': 1
 }, '4:16.141': {
 	'O': 1
 }, 'freeze': {
@@ -921,6 +915,8 @@ wordDict = {
 	'O': 4
 }, 'outburst': {
 	'O': 2
+}, '28-1': {
+	'O': 3
 }, '+167,330': {
 	'O': 1
 }, '108.2': {
@@ -939,8 +935,8 @@ wordDict = {
 	'O': 13
 }, 'fugitive': {
 	'O': 2
-}, 'bedouin': {
-	'B-MISC': 3
+}, 'thousand': {
+	'O': 2
 }, '60,960': {
 	'O': 1
 }, 'gorgona': {
@@ -1025,8 +1021,6 @@ wordDict = {
 	'O': 1
 }, '225-5': {
 	'O': 2
-}, '+4.7': {
-	'O': 1
 }, 'channels': {
 	'O': 1
 }, 'wash': {
@@ -1067,13 +1061,13 @@ wordDict = {
 	'O': 2
 }, 'fifty': {
 	'O': 1
-}, '.532': {
-	'O': 2
 }, 'lawsuits': {
 	'O': 2
 }, 'engagement': {
 	'O': 1
 }, 'zinfandel': {
+	'O': 1
+}, 'mercedes': {
 	'O': 1
 }, 'caen': {
 	'B-ORG': 7
@@ -1085,8 +1079,6 @@ wordDict = {
 	'O': 5
 }, 'businesslike': {
 	'O': 1
-}, 'dmitri': {
-	'B-PER': 1
 }, 'zieger': {
 	'B-PER': 1
 }, 'gilbert': {
@@ -1111,8 +1103,6 @@ wordDict = {
 	'B-LOC': 1
 }, 'basler': {
 	'I-PER': 1
-}, 'relative': {
-	'O': 1
 }, 'droits': {
 	'I-ORG': 1
 }, 'chilpancingo': {
@@ -1131,8 +1121,8 @@ wordDict = {
 	'O': 2
 }, 'defaulted': {
 	'O': 1
-}, 'cost-effective': {
-	'O': 1
+}, '362': {
+	'O': 2
 }, 'evil': {
 	'O': 1
 }, 'sulphur': {
@@ -1197,8 +1187,8 @@ wordDict = {
 	'O': 6
 }, 'third-round': {
 	'O': 1
-}, 'laurent': {
-	'B-PER': 6
+}, 'affects': {
+	'O': 2
 }, 'ochieng': {
 	'I-PER': 1
 }, 'forfeited': {
@@ -1217,8 +1207,6 @@ wordDict = {
 	'O': 1
 }, '128.6': {
 	'O': 1
-}, 'trident': {
-	'B-MISC': 1
 }, 'currie': {
 	'I-PER': 1
 }, 'saarbruecken': {
@@ -1353,6 +1341,8 @@ wordDict = {
 	'O': 3
 }, 'wreck': {
 	'O': 1
+}, 'syrian-backed': {
+	'O': 1
 }, 'rabat': {
 	'B-LOC': 2
 }, '300-club': {
@@ -1363,6 +1353,8 @@ wordDict = {
 	'O': 2
 }, 'agadir': {
 	'I-ORG': 1
+}, '2,341.5': {
+	'O': 1
 }, 'neg': {
 	'O': 2
 }, '85.26': {
@@ -1381,6 +1373,8 @@ wordDict = {
 	'O': 1
 }, 'barentsburg': {
 	'B-LOC': 1
+}, 'orlandi': {
+	'I-PER': 1
 }, 'hawksworth': {
 	'I-PER': 2
 }, 'meetings': {
@@ -1394,6 +1388,8 @@ wordDict = {
 }, 'tehran': {
 	'B-LOC': 8
 }, 'office-conservatives': {
+	'O': 1
+}, '1:51.857': {
 	'O': 1
 }, 'hungary': {
 	'B-LOC': 14
@@ -1415,12 +1411,10 @@ wordDict = {
 	'O': 1
 }, '696': {
 	'O': 1
-}, 'niall': {
-	'B-PER': 1
 }, 'skirmishes': {
 	'O': 1
-}, 'louise': {
-	'B-PER': 1
+}, 'indian-ruled': {
+	'B-MISC': 1
 }, 'rapist': {
 	'O': 3
 }, 'buran': {
@@ -1488,6 +1482,8 @@ wordDict = {
 }, 'volatility': {
 	'O': 11
 }, 'flanker': {
+	'O': 1
+}, 'plotted': {
 	'O': 1
 }, 'glentoran': {
 	'B-ORG': 3
@@ -1577,10 +1573,12 @@ wordDict = {
 	'B-LOC': 1
 }, 'cobra': {
 	'O': 1
-}, 'petrolul': {
-	'I-ORG': 2
+}, 'kidikas': {
+	'I-PER': 1
 }, '48th': {
 	'O': 3
+}, '769.4': {
+	'O': 1
 }, 'pressured': {
 	'O': 3
 }, 'ambitions': {
@@ -1595,8 +1593,6 @@ wordDict = {
 	'B-LOC': 1, 'O': 3
 }, 'score': {
 	'O': 20
-}, 'gore': {
-	'B-PER': 14, 'I-PER': 1
 }, 'melissa': {
 	'B-PER': 6
 }, 'nanne': {
@@ -1617,7 +1613,7 @@ wordDict = {
 	'O': 3
 }, 'never': {
 	'O': 24
-}, 'procured': {
+}, '100-1': {
 	'O': 1
 }, 'extend': {
 	'O': 3
@@ -1635,8 +1631,8 @@ wordDict = {
 	'O': 1
 }, 'managing': {
 	'O': 2
-}, '.353': {
-	'O': 2
+}, '.511': {
+	'O': 1
 }, '.512': {
 	'O': 4
 }, 'parramatta': {
@@ -1715,8 +1711,6 @@ wordDict = {
 	'O': 3
 }, 'tareq': {
 	'B-PER': 1
-}, 'strobe': {
-	'B-PER': 1
 }, '11.12': {
 	'O': 1
 }, 'uttar': {
@@ -1743,8 +1737,6 @@ wordDict = {
 	'O': 1
 }, '251': {
 	'O': 3
-}, 'mohib': {
-	'B-ORG': 1
 }, 'raith': {
 	'B-ORG': 3
 }, '254': {
@@ -1811,6 +1803,8 @@ wordDict = {
 	'I-MISC': 2, 'B-MISC': 18, 'B-ORG': 1, 'B-PER': 1, 'O': 25
 }, 'hospitalized': {
 	'O': 3
+}, 'ginn': {
+	'I-PER': 2
 }, 'benelux': {
 	'B-LOC': 2
 }, '76.6': {
@@ -1855,8 +1849,6 @@ wordDict = {
 	'O': 7
 }, 'willis': {
 	'I-PER': 1
-}, 'eleven': {
-	'O': 1
 }, '218.50': {
 	'O': 1
 }, 'organisers': {
@@ -1873,8 +1865,6 @@ wordDict = {
 	'O': 1
 }, 'giaconi': {
 	'I-PER': 1
-}, 'whisk': {
-	'O': 1
 }, 'betar': {
 	'B-ORG': 1
 }, 'iacomella': {
@@ -1905,8 +1895,6 @@ wordDict = {
 	'O': 1
 }, 'played': {
 	'O': 146
-}, 'revision': {
-	'O': 1
 }, 'al-anwar': {
 	'B-ORG': 2
 }, 'ashia': {
@@ -1924,8 +1912,6 @@ wordDict = {
 }, 'ignoring': {
 	'O': 2
 }, 'caesar': {
-	'B-PER': 1
-}, 'h': {
 	'B-PER': 1
 }, 'buckles': {
 	'O': 3
@@ -1965,12 +1951,10 @@ wordDict = {
 	'O': 1
 }, 'codename': {
 	'O': 1
-}, 'jean-pierre': {
-	'B-PER': 2
+}, 'veerakesari': {
+	'B-ORG': 1
 }, 'rebound': {
 	'O': 2
-}, 'grobbelaar': {
-	'B-PER': 5, 'I-PER': 1
 }, 'european': {
 	'I-MISC': 1, 'B-MISC': 58, 'B-ORG': 28, 'I-ORG': 2
 }, 'fairly': {
@@ -2017,8 +2001,6 @@ wordDict = {
 	'O': 1
 }, 'registering': {
 	'O': 4
-}, 'fiscally-tight': {
-	'O': 1
 }, 'lucas': {
 	'B-PER': 1
 }, 'lamont': {
@@ -2041,8 +2023,8 @@ wordDict = {
 	'I-PER': 1
 }, 'quantitative': {
 	'O': 1
-}, 'maarten': {
-	'B-PER': 2
+}, '1:16.63': {
+	'O': 1
 }, 'corporate': {
 	'O': 9
 }, 'adj': {
@@ -2057,8 +2039,6 @@ wordDict = {
 	'O': 1
 }, 'popescu': {
 	'O': 1, 'I-PER': 1
-}, 'willing': {
-	'O': 3
 }, 'waha': {
 	'B-LOC': 1
 }, 'distribute': {
@@ -2091,6 +2071,8 @@ wordDict = {
 	'O': 1
 }, 'previous': {
 	'O': 48
+}, 'percentile': {
+	'O': 1
 }, 'tonga': {
 	'B-LOC': 2
 }, 'trond': {
@@ -2139,6 +2121,8 @@ wordDict = {
 	'O': 2
 }, '13-month-old': {
 	'O': 2
+}, 'fabien': {
+	'B-PER': 2
 }, 'municipal': {
 	'I-ORG': 7, 'O': 20
 }, '70,848.86': {
@@ -2146,6 +2130,8 @@ wordDict = {
 }, 'emu': {
 	'B-MISC': 1
 }, 'survival': {
+	'O': 1
+}, 'politically': {
 	'O': 1
 }, 'posed': {
 	'O': 1
@@ -2170,6 +2156,8 @@ wordDict = {
 }, 'usually': {
 	'O': 2
 }, 'massively': {
+	'O': 1
+}, '3-33': {
 	'O': 1
 }, 'desire': {
 	'O': 2
@@ -2197,7 +2185,7 @@ wordDict = {
 	'B-LOC': 1
 }, 'steps': {
 	'O': 6
-}, 'paramilitary': {
+}, 'pacer': {
 	'O': 1
 }, 'brasov': {
 	'I-ORG': 2
@@ -2257,12 +2245,12 @@ wordDict = {
 	'O': 1
 }, 'sociology': {
 	'O': 1
+}, 'louder': {
+	'O': 1
 }, 'for': {
 	'I-MISC': 1, 'I-ORG': 13, 'O': 1396
 }, 'fos': {
 	'O': 2
-}, 'takeoff': {
-	'O': 1
 }, 'pregnant': {
 	'O': 3
 }, 'fox': {
@@ -2289,6 +2277,8 @@ wordDict = {
 	'O': 5
 }, 'disarcina': {
 	'I-PER': 1
+}, 'saline': {
+	'O': 2
 }, 'silke': {
 	'B-PER': 2
 }, 'annan': {
@@ -2331,6 +2321,8 @@ wordDict = {
 	'B-PER': 1
 }, 'dlrs': {
 	'O': 2
+}, 'cost-effective': {
+	'O': 1
 }, '1:25.39': {
 	'O': 1
 }, 'derailed': {
@@ -2352,6 +2344,8 @@ wordDict = {
 }, 'benched': {
 	'O': 1
 }, 'sightseers': {
+	'O': 1
+}, '32,970,000': {
 	'O': 1
 }, '1:50.99': {
 	'O': 1
@@ -2391,22 +2385,24 @@ wordDict = {
 	'I-PER': 4
 }, 'stormed': {
 	'O': 2
-}, '12/15/2014': {
-	'O': 1
+}, 'abdallah': {
+	'I-PER': 1
 }, 'son': {
 	'B-LOC': 1, 'O': 16
 }, 'administer': {
 	'O': 1
 }, 'respectable': {
 	'O': 2
-}, 'neamt': {
-	'I-ORG': 2
+}, 'beings': {
+	'O': 1
 }, 'rampaging': {
 	'O': 1
 }, 'magazines': {
 	'O': 1
 }, 'raises': {
 	'O': 4
+}, '251/07': {
+	'O': 1
 }, 'abduction': {
 	'O': 6
 }, 'sox': {
@@ -2423,8 +2419,6 @@ wordDict = {
 	'B-PER': 2
 }, 'waits': {
 	'O': 1
-}, '4-48': {
-	'O': 1
 }, 'uniceramic': {
 	'B-ORG': 1
 }, 'support': {
@@ -2439,7 +2433,7 @@ wordDict = {
 	'B-PER': 2
 }, 'raped': {
 	'O': 2
-}, '1,135m': {
+}, 'flung': {
 	'O': 1
 }, 'joseph': {
 	'B-PER': 4
@@ -2513,6 +2507,8 @@ wordDict = {
 	'O': 1
 }, 'tampico': {
 	'B-LOC': 1
+}, 'replaces': {
+	'O': 3
 }, '75,810': {
 	'O': 1
 }, 'inside': {
@@ -2541,6 +2537,8 @@ wordDict = {
 	'O': 5
 }, 'smashed': {
 	'O': 3
+}, '100=1992': {
+	'O': 1
 }, 'panels': {
 	'O': 1
 }, 'first-team': {
@@ -2571,6 +2569,8 @@ wordDict = {
 	'O': 1
 }, 'tournament': {
 	'O': 51
+}, 'well-flighted': {
+	'O': 1
 }, 'proven': {
 	'O': 1
 }, 'meagre': {
@@ -2579,8 +2579,6 @@ wordDict = {
 	'B-PER': 2, 'I-PER': 1
 }, 'minas': {
 	'B-LOC': 1
-}, 'dutra': {
-	'B-PER': 1, 'I-PER': 1
 }, 'hapoel': {
 	'B-ORG': 13
 }, 'accounting': {
@@ -2763,8 +2761,6 @@ wordDict = {
 	'O': 1
 }, '12.033': {
 	'O': 1
-}, 'asmara': {
-	'B-LOC': 1
 }, 'above-normal': {
 	'O': 3
 }, 'chair': {
@@ -2785,7 +2781,7 @@ wordDict = {
 	'O': 2
 }, '8863': {
 	'O': 1
-}, 'hose': {
+}, '02.sep.96-06.mar.97': {
 	'O': 1
 }, 'caldwell': {
 	'I-PER': 1
@@ -2807,8 +2803,8 @@ wordDict = {
 	'O': 2
 }, '1996-08-29': {
 	'O': 94
-}, 'waterville': {
-	'B-LOC': 1
+}, 'ange-felix': {
+	'B-PER': 1
 }, 'grappled': {
 	'O': 1
 }, 'sorensen': {
@@ -2875,6 +2871,8 @@ wordDict = {
 	'O': 1
 }, 'valley': {
 	'I-LOC': 2, 'O': 3
+}, '1:19.08': {
+	'O': 1
 }, '2.69': {
 	'O': 1
 }, 'rainwater': {
@@ -2901,8 +2899,6 @@ wordDict = {
 	'O': 12
 }, 'pec': {
 	'B-ORG': 2
-}, 'guided': {
-	'O': 2
 }, '941-434319': {
 	'O': 1
 }, 'unaware': {
@@ -2963,8 +2959,6 @@ wordDict = {
 	'O': 1
 }, 'movies': {
 	'O': 2
-}, 'tyler': {
-	'B-PER': 1
 }, 'mister': {
 	'B-LOC': 1
 }, 'antwerp': {
@@ -2995,21 +2989,23 @@ wordDict = {
 	'O': 1
 }, 'thrust': {
 	'O': 2
+}, 'ammar': {
+	'B-PER': 3
 }, '212.25': {
 	'O': 2
-}, '100-1': {
-	'O': 1
 }, 'arizona': {
 	'B-ORG': 2, 'B-PER': 1, 'B-LOC': 2
 }, 'jiangling': {
 	'B-ORG': 2
 }, '304': {
 	'O': 2
+}, '5.13': {
+	'O': 1
 }, 'concepts': {
 	'O': 1
 }, 'silpa-archa': {
 	'I-PER': 2
-}, 'turnings': {
+}, '208': {
 	'O': 1
 }, 'understanding': {
 	'O': 6
@@ -3171,6 +3167,8 @@ wordDict = {
 	'O': 1
 }, 'artillery': {
 	'O': 6
+}, 'hintsa': {
+	'B-PER': 3
 }, '44.92': {
 	'O': 1
 }, 'pavlos': {
@@ -3241,8 +3239,6 @@ wordDict = {
 	'O': 2
 }, 'goydos': {
 	'I-PER': 3
-}, 'off-season': {
-	'O': 1
 }, 'vega': {
 	'B-PER': 1, 'I-PER': 3
 }, 'values': {
@@ -3271,14 +3267,18 @@ wordDict = {
 	'B-PER': 2
 }, 'temperature': {
 	'O': 2
-}, 'commuted': {
-	'O': 1
 }, 'hideo': {
+	'B-PER': 1
+}, 'jean-denis': {
 	'B-PER': 1
 }, 'bagram': {
 	'B-LOC': 1
 }, 'nele': {
 	'B-PER': 1
+}, '7.8': {
+	'O': 2
+}, 'moengo': {
+	'B-LOC': 1
 }, 'locks': {
 	'O': 1
 }, 'sgorlon': {
@@ -3355,8 +3355,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'two-out': {
 	'O': 3
-}, 'inventing': {
-	'O': 1
+}, 'stood': {
+	'O': 5
 }, 'landmark': {
 	'O': 1
 }, 'provincial': {
@@ -3367,8 +3367,8 @@ wordDict = {
 	'B-PER': 3
 }, 'spot': {
 	'O': 18
-}, 'louder': {
-	'O': 1
+}, 'sprague': {
+	'B-LOC': 1
 }, 'umbria': {
 	'B-LOC': 1
 }, '992,860': {
@@ -3413,8 +3413,6 @@ wordDict = {
 	'O': 1
 }, 'sv': {
 	'B-ORG': 8, 'O': 1
-}, '170.42': {
-	'O': 2
 }, 'st': {
 	'O': 6, 'I-LOC': 2, 'B-ORG': 52, 'I-ORG': 10, 'B-LOC': 7
 }, '11.34': {
@@ -3423,8 +3421,8 @@ wordDict = {
 	'O': 65
 }, '101-member': {
 	'O': 2
-}, 'sawn-off': {
-	'O': 1
+}, 'sm': {
+	'B-ORG': 1, 'B-PER': 1
 }, 'gendarmerie': {
 	'O': 2
 }, 'truce': {
@@ -3449,6 +3447,8 @@ wordDict = {
 	'O': 1
 }, 'sell-off': {
 	'O': 2
+}, 'pedersen': {
+	'I-PER': 1
 }, '6.48': {
 	'O': 1
 }, 'years': {
@@ -3571,6 +3571,8 @@ wordDict = {
 	'I-PER': 1, 'B-LOC': 1
 }, 'unfruitful': {
 	'O': 1
+}, 'iraq-u.n.': {
+	'B-MISC': 1
 }, 'shouted': {
 	'O': 3
 }, '24.8': {
@@ -3621,8 +3623,8 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 1
 }, '4:21.454': {
 	'O': 1
-}, 'alloush': {
-	'I-PER': 1
+}, 'daughter-in-law': {
+	'O': 1
 }, 'revised': {
 	'O': 14
 }, 'irina': {
@@ -3669,8 +3671,6 @@ wordDict = {
 	'B-MISC': 8
 }, 'viscose': {
 	'O': 2
-}, '1-57': {
-	'O': 1
 }, 'stoppage': {
 	'O': 3
 }, '226': {
@@ -3729,8 +3729,8 @@ wordDict = {
 	'O': 2
 }, 'anchor': {
 	'O': 1
-}, 'baya': {
-	'O': 1
+}, 'saqr': {
+	'B-PER': 1, 'I-PER': 1
 }, 'unnamed': {
 	'O': 6
 }, 'whittier': {
@@ -3763,6 +3763,8 @@ wordDict = {
 	'B-LOC': 1
 }, 'livingston': {
 	'B-ORG': 2
+}, '61,514': {
+	'O': 1
 }, 'massive': {
 	'O': 4
 }, '1050-1100': {
@@ -3831,7 +3833,7 @@ wordDict = {
 	'I-ORG': 2, 'B-LOC': 1
 }, 'bite': {
 	'O': 1
-}, '1:16.75': {
+}, '1.50': {
 	'O': 2
 }, '12.341': {
 	'O': 1
@@ -3855,6 +3857,8 @@ wordDict = {
 	'O': 1
 }, 'stephanopoulos': {
 	'I-PER': 1
+}, '25.8.95': {
+	'O': 1
 }, 'structures': {
 	'O': 2
 }, '+3,428': {
@@ -3881,8 +3885,6 @@ wordDict = {
 	'O': 7
 }, 'sivas': {
 	'B-LOC': 1
-}, 'rupiah': {
-	'O': 9
 }, 'cyprus': {
 	'B-ORG': 1, 'B-LOC': 10
 }, 'kiely': {
@@ -3895,12 +3897,8 @@ wordDict = {
 	'O': 1
 }, 'slashed': {
 	'O': 2
-}, 'joulwan': {
-	'I-PER': 1
 }, 'specialists': {
 	'O': 3
-}, 'vicorp': {
-	'B-ORG': 2
 }, 'sandon': {
 	'B-PER': 2
 }, 'surged': {
@@ -3965,8 +3963,6 @@ wordDict = {
 	'O': 23
 }, 'argument': {
 	'O': 1
-}, 'agronomist': {
-	'O': 1
 }, 'deutsche': {
 	'B-ORG': 3, 'O': 1
 }, 'jewell': {
@@ -4007,8 +4003,8 @@ wordDict = {
 	'O': 2
 }, 'aside': {
 	'O': 3
-}, 'sewing': {
-	'O': 2
+}, '2,342.00': {
+	'O': 1
 }, 'peacekeeping': {
 	'O': 1
 }, 'note': {
@@ -4053,14 +4049,14 @@ wordDict = {
 	'O': 5
 }, 'two-run': {
 	'O': 9
-}, 'poking': {
-	'O': 1
 }, 'knew': {
 	'O': 6
 }, 'israeli': {
 	'B-MISC': 41
 }, 'masanaga': {
 	'B-PER': 1
+}, '.532': {
+	'O': 2
 }, 'detect': {
 	'O': 1
 }, 'pignol': {
@@ -4097,7 +4093,7 @@ wordDict = {
 	'B-PER': 1
 }, 'phil': {
 	'B-PER': 7
-}, '1:51.528': {
+}, 'infections': {
 	'O': 1
 }, 'sale': {
 	'I-ORG': 1, 'O': 31
@@ -4135,7 +4131,7 @@ wordDict = {
 	'B-ORG': 4, 'B-PER': 3, 'O': 1
 }, 'walking': {
 	'O': 4
-}, '8-120': {
+}, '10-0-53-3': {
 	'O': 1
 }, 'misconduct': {
 	'O': 4
@@ -4157,6 +4153,8 @@ wordDict = {
 	'O': 6
 }, 'football-thursday': {
 	'I-ORG': 1
+}, 'forma': {
+	'O': 5
 }, '52.91': {
 	'O': 1
 }, 'scarce': {
@@ -4201,6 +4199,8 @@ wordDict = {
 	'I-ORG': 2, 'O': 4
 }, '285th': {
 	'O': 1
+}, 'splinter': {
+	'O': 3
 }, 'outrage': {
 	'O': 1
 }, '10.16': {
@@ -4213,15 +4213,11 @@ wordDict = {
 	'O': 2
 }, 'dispute': {
 	'O': 4
-}, 'spirit': {
-	'O': 1
 }, 'guarded': {
 	'O': 3
 }, 'nilis': {
 	'B-PER': 3, 'I-PER': 2
 }, '9,500': {
-	'O': 1
-}, 'strengthened': {
 	'O': 1
 }, 'suitcases': {
 	'O': 1
@@ -4259,6 +4255,8 @@ wordDict = {
 	'O': 1
 }, 'resource': {
 	'I-ORG': 1
+}, '25.76': {
+	'O': 1
 }, 'artist': {
 	'O': 1
 }, 'rogel': {
@@ -4345,6 +4343,10 @@ wordDict = {
 	'B-ORG': 2
 }, 'jumped': {
 	'O': 3
+}, 'cadalora': {
+	'I-PER': 1
+}, '4:20.241': {
+	'O': 1
 }, 'representatives': {
 	'I-ORG': 5, 'O': 8
 }, 'uralmash': {
@@ -4417,8 +4419,12 @@ wordDict = {
 	'O': 3
 }, 'manu': {
 	'I-PER': 1
+}, 'sla': {
+	'B-ORG': 6, 'B-LOC': 1
 }, 'many': {
 	'O': 54
+}, '87.45': {
+	'O': 1
 }, '1:30': {
 	'O': 1
 }, '5240': {
@@ -4436,6 +4442,8 @@ wordDict = {
 }, 'residency': {
 	'O': 1
 }, 'dzmura': {
+	'I-PER': 1
+}, 'mancini': {
 	'I-PER': 1
 }, 'belim': {
 	'B-PER': 1, 'I-PER': 1
@@ -4545,16 +4553,16 @@ wordDict = {
 	'B-PER': 1
 }, 'influence': {
 	'O': 6
-}, 'occurs': {
-	'O': 2
+}, '98.9': {
+	'O': 1
 }, 'formed': {
 	'O': 8
 }, '22-year-old': {
 	'O': 1
 }, 'rekindled': {
 	'O': 1
-}, 'hambrecht': {
-	'B-ORG': 1
+}, '1,037': {
+	'O': 1
 }, 'tightened': {
 	'O': 3
 }, '1.206': {
@@ -4589,6 +4597,8 @@ wordDict = {
 	'O': 2
 }, 'policies': {
 	'O': 8
+}, '53112': {
+	'O': 1
 }, 'newspaper': {
 	'O': 55
 }, 'situation': {
@@ -4598,8 +4608,6 @@ wordDict = {
 }, 'buyoya': {
 	'B-PER': 1, 'I-PER': 1
 }, '53-year-old': {
-	'O': 1
-}, 'tide': {
 	'O': 1
 }, 'wroclaw': {
 	'I-ORG': 4, 'B-LOC': 1
@@ -4653,12 +4661,12 @@ wordDict = {
 	'O': 2
 }, 'verified': {
 	'O': 16
-}, 'syrian-backed': {
+}, 'hambrecht': {
+	'B-ORG': 1
+}, 'rebuke': {
 	'O': 1
-}, 'call-up': {
-	'O': 1
-}, '362': {
-	'O': 2
+}, 'wang': {
+	'B-PER': 3, 'I-PER': 1
 }, 'surveillance': {
 	'O': 3
 }, 'fatima': {
@@ -4687,8 +4695,6 @@ wordDict = {
 	'O': 1
 }, '020-504-5040': {
 	'O': 1
-}, 'bancarel': {
-	'B-PER': 1
 }, 'edged': {
 	'O': 7
 }, 'assigns': {
@@ -4717,13 +4723,13 @@ wordDict = {
 	'O': 1
 }, 'cheery': {
 	'O': 1
-}, 'pedestrain': {
-	'O': 1
 }, 'swebus': {
 	'B-ORG': 4
 }, '13-2': {
 	'O': 1
 }, 'psychiatrists': {
+	'O': 1
+}, 'ailment': {
 	'O': 1
 }, 'costa': {
 	'O': 2, 'B-MISC': 3, 'I-PER': 9, 'B-LOC': 16, 'B-PER': 1
@@ -4743,16 +4749,14 @@ wordDict = {
 	'O': 6
 }, 'gutenstein': {
 	'I-PER': 1
-}, 'incorporated': {
-	'I-ORG': 1, 'I-PER': 1
 }, '4-230': {
 	'O': 1
 }, 'baserunners': {
 	'O': 1
 }, 'dizziness': {
 	'O': 1
-}, 'guernsey': {
-	'B-LOC': 2
+}, 'hose': {
+	'O': 1
 }, 'trains': {
 	'O': 1
 }, 'mazzariol': {
@@ -4807,8 +4811,10 @@ wordDict = {
 	'O': 2
 }, 'plugged': {
 	'O': 2
-}, '7-283': {
+}, '85-share': {
 	'O': 1
+}, 'euser': {
+	'I-PER': 1
 }, 'weekly': {
 	'I-ORG': 1, 'O': 15
 }, 'vice-chancellor': {
@@ -4871,6 +4877,8 @@ wordDict = {
 	'I-ORG': 3
 }, 'vague': {
 	'O': 1
+}, 'mailed': {
+	'O': 1
 }, 'chester-le-street': {
 	'B-LOC': 2
 }, 'sensational': {
@@ -4891,8 +4899,6 @@ wordDict = {
 	'B-MISC': 1, 'O': 3
 }, 'preference': {
 	'O': 1
-}, 'cbot': {
-	'O': 5
 }, '11.53': {
 	'O': 1
 }, 'picabo': {
@@ -4931,8 +4937,6 @@ wordDict = {
 	'O': 1
 }, '5017': {
 	'O': 2
-}, 'erase': {
-	'O': 1
 }, 'conditional': {
 	'O': 2
 }, 'lebanon': {
@@ -5029,8 +5033,6 @@ wordDict = {
 	'O': 2
 }, 'retains': {
 	'O': 1
-}, '1036.575': {
-	'O': 1
 }, 'poise': {
 	'O': 1
 }, 'jahan': {
@@ -5079,13 +5081,13 @@ wordDict = {
 	'B-ORG': 2
 }, 'luigi': {
 	'I-PER': 2
-}, 'slalom': {
-	'O': 3
 }, 'mean': {
 	'O': 9
 }, 'fixed-wing': {
 	'O': 1
 }, 'gesturing': {
+	'O': 1
+}, 'stunting': {
 	'O': 1
 }, '113.02': {
 	'O': 1
@@ -5111,6 +5113,10 @@ wordDict = {
 	'B-ORG': 3, 'I-ORG': 4
 }, 'screws': {
 	'O': 1
+}, 'customary': {
+	'O': 2
+}, 'vice-premier': {
+	'O': 1
 }, 'homeless': {
 	'O': 1
 }, 'parties': {
@@ -5133,9 +5139,11 @@ wordDict = {
 	'I-PER': 2
 }, '60.66': {
 	'O': 2
+}, '16.9': {
+	'O': 1
 }, 'her': {
 	'O': 128
-}, 'tip-off': {
+}, "christian-shi'ite": {
 	'O': 1
 }, 'aguas': {
 	'B-LOC': 1
@@ -5149,8 +5157,6 @@ wordDict = {
 	'I-PER': 2
 }, '8-0-33-0': {
 	'O': 1
-}, 'centres': {
-	'O': 2
 }, 'italia': {
 	'I-MISC': 1
 }, 'sealed': {
@@ -5181,8 +5187,6 @@ wordDict = {
 	'O': 1
 }, 'warrington': {
 	'B-ORG': 4
-}, '87.45': {
-	'O': 1
 }, '39.': {
 	'O': 1
 }, 'lixion': {
@@ -5223,8 +5227,8 @@ wordDict = {
 	'O': 1
 }, 'monopoly': {
 	'O': 2
-}, 'knu': {
-	'B-ORG': 2
+}, 'strobe': {
+	'B-PER': 1
 }, 'http://www.pt.lu/infoweb/kreschtmaart': {
 	'O': 1
 }, '17.05': {
@@ -5299,6 +5303,8 @@ wordDict = {
 	'O': 1
 }, 'walks': {
 	'O': 5
+}, '1605': {
+	'O': 1
 }, '22.53': {
 	'O': 1
 }, 'crease': {
@@ -5333,14 +5339,10 @@ wordDict = {
 	'O': 1
 }, 'phenom': {
 	'O': 1
-}, '236-4': {
-	'O': 1
 }, 'incomprehensible': {
 	'O': 2
 }, 'michel': {
 	'B-PER': 2
-}, 'jan-july': {
-	'O': 1
 }, 'gloucestershire': {
 	'B-ORG': 11
 }, 'murless': {
@@ -5451,9 +5453,13 @@ wordDict = {
 	'B-PER': 2
 }, 'tours': {
 	'I-ORG': 1
+}, 'touched': {
+	'O': 2
 }, 'welfare': {
 	'I-ORG': 1, 'O': 12
 }, 'minors': {
+	'O': 1
+}, '145m': {
 	'O': 1
 }, 'pre-christmas': {
 	'O': 1
@@ -5477,6 +5483,8 @@ wordDict = {
 	'B-ORG': 1, 'I-ORG': 1, 'O': 4
 }, 'irrelevant': {
 	'O': 1
+}, 'hiroshige': {
+	'B-MISC': 1, 'B-PER': 1
 }, 'benchaou': {
 	'O': 1, 'I-PER': 1, 'B-PER': 1
 }, 'cloudy': {
@@ -5489,6 +5497,8 @@ wordDict = {
 	'O': 10
 }, 'complete-game': {
 	'O': 1
+}, 'nothstein': {
+	'I-PER': 1
 }, 'tm': {
 	'B-MISC': 3
 }, 'alvarez': {
@@ -5539,8 +5549,6 @@ wordDict = {
 	'O': 1
 }, 'bator': {
 	'I-PER': 1
-}, 'biologist': {
-	'O': 1
 }, 'offal': {
 	'O': 4
 }, 'floater': {
@@ -5575,7 +5583,7 @@ wordDict = {
 	'O': 1
 }, 'venezuela': {
 	'B-LOC': 14
-}, 'well-flighted': {
+}, 'heist': {
 	'O': 1
 }, 'developing': {
 	'O': 3
@@ -5603,8 +5611,6 @@ wordDict = {
 	'O': 3
 }, '31.8-percent': {
 	'O': 1
-}, 'schalkwyk': {
-	'I-PER': 1
 }, '19=': {
 	'O': 3
 }, '900': {
@@ -5649,6 +5655,8 @@ wordDict = {
 	'B-PER': 3
 }, 'humpback': {
 	'O': 1
+}, 'enemy': {
+	'O': 2
 }, 'franco': {
 	'B-PER': 2
 }, 'richard': {
@@ -5675,10 +5683,12 @@ wordDict = {
 	'O': 1
 }, 'scientists': {
 	'O': 5
-}, 'kijimuta': {
-	'I-PER': 3
+}, '6.65': {
+	'O': 1
 }, 'agrregate': {
 	'O': 1
+}, 'joakim': {
+	'B-PER': 1
 }, 'method': {
 	'O': 1
 }, '11-15': {
@@ -5727,8 +5737,6 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 1
 }, 'legend': {
 	'O': 1
-}, 'tyrrell': {
-	'B-ORG': 2
 }, '96.78': {
 	'O': 1
 }, 'osce': {
@@ -5741,8 +5749,8 @@ wordDict = {
 	'O': 4
 }, 'prior': {
 	'O': 7
-}, 'saline': {
-	'O': 2
+}, 'defectors': {
+	'O': 1
 }, '246': {
 	'O': 2
 }, '100m': {
@@ -5770,8 +5778,6 @@ wordDict = {
 }, 'janne': {
 	'B-PER': 1
 }, 'vie': {
-	'O': 1
-}, '198,226': {
 	'O': 1
 }, 'malardeau': {
 	'I-PER': 1
@@ -5837,8 +5843,8 @@ wordDict = {
 	'B-LOC': 2
 }, 'archives': {
 	'B-ORG': 1, 'I-ORG': 1, 'O': 1
-}, 'stanic': {
-	'I-PER': 1
+}, 'foucras': {
+	'B-PER': 1, 'I-PER': 2
 }, '6': {
 	'O': 316
 }, '210,622': {
@@ -5875,6 +5881,8 @@ wordDict = {
 	'O': 1
 }, 'p.v.': {
 	'B-PER': 1
+}, 'trident': {
+	'B-MISC': 1
 }, '4,325-acre': {
 	'O': 1
 }, 'logging': {
@@ -5899,14 +5907,14 @@ wordDict = {
 	'B-LOC': 10
 }, 'patriarch': {
 	'O': 2
-}, 'dhahran': {
-	'B-LOC': 2
+}, 'griqualand': {
+	'B-ORG': 1
+}, 'occurs': {
+	'O': 2
 }, 'delphis': {
 	'O': 2
 }, 'ravindra': {
 	'B-PER': 2
-}, 'prosecutors': {
-	'O': 1
 }, '14-28': {
 	'I-MISC': 1
 }, 'tillekeratne': {
@@ -5924,6 +5932,8 @@ wordDict = {
 }, 'male': {
 	'O': 4
 }, 'belga': {
+	'B-ORG': 2
+}, 'knu': {
 	'B-ORG': 2
 }, 'beautiful': {
 	'I-MISC': 1, 'O': 1
@@ -5963,8 +5973,6 @@ wordDict = {
 	'O': 4
 }, 'gallon': {
 	'O': 2
-}, 'mortuary': {
-	'O': 1
 }, 'showcase-fans': {
 	'O': 1
 }, '426': {
@@ -5975,8 +5983,6 @@ wordDict = {
 	'O': 1
 }, 'information': {
 	'B-ORG': 2, 'I-ORG': 9, 'O': 22
-}, '.460': {
-	'O': 1
 }, 'montenegrin': {
 	'B-MISC': 1, 'O': 1
 }, '170,952': {
@@ -6013,8 +6019,6 @@ wordDict = {
 	'I-PER': 1
 }, 'seoul': {
 	'B-LOC': 14
-}, 'henrietta': {
-	'B-PER': 2
 }, 'countryside': {
 	'O': 3
 }, 'batons': {
@@ -6045,6 +6049,8 @@ wordDict = {
 	'O': 1
 }, 'lanka': {
 	'I-LOC': 38
+}, 'collaborating': {
+	'O': 2
 }, 'erbakan': {
 	'B-PER': 1, 'I-PER': 5
 }, 'acquisitions': {
@@ -6103,6 +6109,8 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 1
 }, 'fraser': {
 	'I-PER': 1, 'B-LOC': 2
+}, 'deletraz': {
+	'I-PER': 1
 }, 'televisa': {
 	'B-LOC': 1
 }, 'azocar': {
@@ -6133,10 +6141,10 @@ wordDict = {
 	'O': 2
 }, 'gimnasia-la': {
 	'B-ORG': 1
-}, 'pinas': {
-	'B-PER': 4, 'I-PER': 1
 }, 'shifts': {
 	'O': 1
+}, 'fallah': {
+	'B-PER': 1
 }, 'gerald': {
 	'B-PER': 1
 }, 'gunpoint': {
@@ -6197,6 +6205,8 @@ wordDict = {
 	'O': 1
 }, 'ki-choo': {
 	'I-PER': 1
+}, 'muslimov': {
+	'I-PER': 1
 }, 'executions': {
 	'O': 3
 }, 'aryeh': {
@@ -6205,8 +6215,8 @@ wordDict = {
 	'B-PER': 15, 'I-PER': 5
 }, 'hotdogs': {
 	'I-ORG': 1
-}, 'iraq-u.n.': {
-	'B-MISC': 1
+}, 'shipload': {
+	'O': 1
 }, '822.0': {
 	'O': 1
 }, '1,260': {
@@ -6253,6 +6263,8 @@ wordDict = {
 	'O': 17
 }, 'status': {
 	'B-ORG': 1, 'O': 10
+}, 'courtney': {
+	'B-PER': 4
 }, 'england': {
 	'I-LOC': 2, 'I-ORG': 4, 'B-LOC': 131
 }, 'upstairs': {
@@ -6325,6 +6337,8 @@ wordDict = {
 	'O': 2
 }, 'ministerial': {
 	'O': 2
+}, 'u.n': {
+	'O': 1
 }, 'non-callable': {
 	'O': 1
 }, '10,760': {
@@ -6355,18 +6369,14 @@ wordDict = {
 	'O': 1
 }, 'x-olympiakos': {
 	'B-ORG': 1
-}, 'thousand': {
-	'O': 2
-}, 'roland': {
-	'B-PER': 1
+}, 'raphanel': {
+	'B-PER': 1, 'I-PER': 1
 }, '22.77': {
 	'O': 1
 }, 'qualify': {
 	'O': 2
 }, 'arable': {
 	'O': 3
-}, 'traffickers': {
-	'O': 1
 }, 'conditioning': {
 	'O': 1
 }, '45.810': {
@@ -6386,8 +6396,6 @@ wordDict = {
 }, 'freddy': {
 	'B-PER': 1
 }, 'tribes': {
-	'O': 1
-}, 'indiscriminate': {
 	'O': 1
 }, 'optics': {
 	'I-ORG': 1
@@ -6445,12 +6453,12 @@ wordDict = {
 	'O': 1
 }, 'feeder': {
 	'O': 2
+}, 'needle': {
+	'O': 1
 }, 'anonymity': {
 	'O': 2
 }, 'alomella': {
 	'B-LOC': 1
-}, '12/16/1996': {
-	'O': 1
 }, "gen'l": {
 	'O': 4
 }, 'pledge': {
@@ -6469,8 +6477,6 @@ wordDict = {
 	'O': 12
 }, 'benedict': {
 	'B-PER': 1
-}, 'sm': {
-	'B-ORG': 1, 'B-PER': 1
 }, 'ata-ur-rehman': {
 	'B-PER': 3
 }, 'threatening': {
@@ -6515,8 +6521,6 @@ wordDict = {
 	'O': 4
 }, '7-3/8': {
 	'O': 1
-}, 'minutka': {
-	'B-LOC': 1
 }, 'interviewed': {
 	'O': 4
 }, 'immediate': {
@@ -6531,6 +6535,8 @@ wordDict = {
 	'B-PER': 1
 }, 'crop': {
 	'O': 8
+}, '236-4': {
+	'O': 1
 }, 'consult': {
 	'O': 2
 }, 'focusing': {
@@ -6547,8 +6553,6 @@ wordDict = {
 	'O': 1
 }, '+0.4m': {
 	'O': 1
-}, '32,970,000': {
-	'O': 1
 }, 'observatory': {
 	'I-ORG': 1
 }, '232-km': {
@@ -6563,12 +6567,12 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 1
 }, '28.19': {
 	'O': 1
-}, 'taxpayer': {
+}, '4:26.467': {
 	'O': 1
 }, 'nikolaus': {
 	'B-PER': 1
-}, '120-103': {
-	'O': 1
+}, 'overmars': {
+	'I-PER': 1
 }, 'honour': {
 	'O': 1
 }, 'determined': {
@@ -6589,6 +6593,8 @@ wordDict = {
 	'B-PER': 1
 }, '154.1': {
 	'O': 1
+}, '148.20': {
+	'O': 1
 }, 'fights': {
 	'O': 1
 }, 'organisations': {
@@ -6601,8 +6607,8 @@ wordDict = {
 	'O': 2
 }, 'sukarnoputri': {
 	'I-PER': 1
-}, '1,086': {
-	'O': 1
+}, 'keizai': {
+	'I-ORG': 1
 }, 'reorganisation': {
 	'O': 2
 }, 'zuleeg': {
@@ -6645,8 +6651,8 @@ wordDict = {
 	'O': 7
 }, '1yr': {
 	'O': 1
-}, 'maryborough': {
-	'B-PER': 1
+}, 'remark': {
+	'O': 3
 }, 'frail': {
 	'O': 1
 }, 'declines': {
@@ -6711,6 +6717,8 @@ wordDict = {
 	'O': 3
 }, 'seize': {
 	'O': 5
+}, '13.18': {
+	'O': 1
 }, 'sometimes': {
 	'O': 9
 }, 'cover': {
@@ -6745,6 +6753,8 @@ wordDict = {
 	'O': 6
 }, 'asuu': {
 	'B-ORG': 2
+}, 'hiroya': {
+	'B-PER': 1
 }, 'brauner': {
 	'I-PER': 2
 }, 'piper': {
@@ -6833,6 +6843,8 @@ wordDict = {
 	'O': 1
 }, 'zarcas': {
 	'I-LOC': 1
+}, 'supporter': {
+	'O': 1
 }, 'unearthed': {
 	'O': 2
 }, 'preparing': {
@@ -6871,8 +6883,6 @@ wordDict = {
 	'B-ORG': 2, 'I-ORG': 3
 }, '4:07.27': {
 	'O': 1
-}, 'possessors': {
-	'O': 1
 }, 'piped': {
 	'O': 1
 }, 'banking': {
@@ -6885,8 +6895,6 @@ wordDict = {
 	'B-LOC': 8
 }, '100-30': {
 	'O': 2
-}, 'roasted': {
-	'O': 1
 }, '3120264': {
 	'O': 1
 }, 'kill': {
@@ -6895,8 +6903,6 @@ wordDict = {
 	'B-ORG': 1
 }, 'river': {
 	'I-LOC': 2, 'B-ORG': 1, 'I-ORG': 1, 'O': 8
-}, 'impede': {
-	'O': 1
 }, '.465': {
 	'O': 3
 }, 'glib': {
@@ -6923,8 +6929,6 @@ wordDict = {
 	'B-PER': 2
 }, 'sex': {
 	'O': 14
-}, '12/15/2009': {
-	'O': 1
 }, '.468': {
 	'O': 1
 }, 'see': {
@@ -6971,6 +6975,8 @@ wordDict = {
 	'I-PER': 1
 }, '279.9': {
 	'O': 1
+}, 'hero': {
+	'O': 1
 }, 'clippers': {
 	'I-ORG': 1
 }, '441': {
@@ -6980,8 +6986,6 @@ wordDict = {
 }, 'europe': {
 	'B-ORG': 1, 'I-ORG': 7, 'B-LOC': 35
 }, 'milder': {
-	'O': 1
-}, 'tracked': {
 	'O': 1
 }, 'tristan': {
 	'B-PER': 1
@@ -7001,6 +7005,8 @@ wordDict = {
 	'O': 7
 }, 'ultimate': {
 	'O': 2
+}, '1646': {
+	'O': 1
 }, 'incident': {
 	'O': 13
 }, 'renewed': {
@@ -7039,8 +7045,12 @@ wordDict = {
 	'O': 1
 }, 'shockwaves': {
 	'O': 1
+}, 'guided': {
+	'O': 2
 }, 'thom': {
 	'I-PER': 1
+}, 'impede': {
+	'O': 1
 }, 'connection': {
 	'O': 7
 }, 'thon': {
@@ -7081,10 +7091,12 @@ wordDict = {
 	'B-MISC': 1, 'I-ORG': 2, 'O': 16
 }, '123.2': {
 	'O': 1
-}, 'maakinen': {
-	'B-PER': 1
+}, 'carlo': {
+	'B-PER': 3
 }, 'agents': {
 	'O': 9
+}, 'roasted': {
+	'O': 1
 }, 'church': {
 	'I-LOC': 3, 'I-ORG': 1, 'O': 11
 }, 'raw': {
@@ -7098,8 +7110,6 @@ wordDict = {
 }, 'sherwin': {
 	'B-PER': 2
 }, 'surpasses': {
-	'O': 1
-}, '10-percent': {
 	'O': 1
 }, 'palace': {
 	'I-LOC': 1, 'I-ORG': 5, 'O': 3
@@ -7185,8 +7195,6 @@ wordDict = {
 	'O': 8
 }, '11th-seeded': {
 	'O': 1
-}, '5.79': {
-	'O': 1
 }, '1996-08-21': {
 	'O': 5
 }, 'all-time': {
@@ -7203,6 +7211,8 @@ wordDict = {
 	'O': 17
 }, 'budget': {
 	'O': 32
+}, 'fast-growing': {
+	'O': 1
 }, 'donizetti': {
 	'B-PER': 1
 }, 'technical': {
@@ -7271,6 +7281,8 @@ wordDict = {
 	'B-ORG': 3
 }, 'k.c.': {
 	'I-PER': 1
+}, 'misleading': {
+	'O': 1
 }, 'voica': {
 	'I-PER': 2
 }, 'phelps': {
@@ -7291,8 +7303,8 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 1
 }, '20.': {
 	'O': 7
-}, 'bombarded': {
-	'O': 1
+}, 'spirlea': {
+	'I-PER': 2
 }, 'reachable': {
 	'O': 1
 }, 'virtually': {
@@ -7367,6 +7379,8 @@ wordDict = {
 	'O': 10
 }, 'leoni': {
 	'I-PER': 1
+}, 'mobs': {
+	'O': 1
 }, 'involves': {
 	'O': 5
 }, 'cannes': {
@@ -7431,30 +7445,30 @@ wordDict = {
 	'O': 2
 }, 'sheepmeat': {
 	'O': 2
-}, 'psv': {
-	'B-ORG': 23
+}, 'rebecca': {
+	'B-PER': 1
 }, 'admission': {
 	'O': 1
 }, 'abimael': {
 	'B-PER': 1
 }, 'anti-drug': {
 	'O': 2
+}, 'conflict': {
+	'O': 11
 }, 'signals': {
 	'O': 1
 }, 'rangers': {
 	'B-ORG': 10, 'I-ORG': 10
 }, 'parents': {
 	'O': 3
-}, 'pro-israel': {
-	'B-MISC': 1
 }, 'sydney': {
 	'B-ORG': 19, 'I-ORG': 4, 'B-LOC': 13
 }, '334': {
 	'O': 2
 }, 'full-back': {
 	'O': 1
-}, 'enrique': {
-	'B-PER': 1, 'O': 1
+}, 'irrespective': {
+	'O': 1
 }, '+392': {
 	'O': 1
 }, 'submissions': {
@@ -7483,6 +7497,8 @@ wordDict = {
 	'O': 1
 }, 'couple': {
 	'O': 15
+}, 'maryborough': {
+	'B-PER': 1
 }, 'bureaucrat': {
 	'O': 1
 }, 'shwe': {
@@ -7499,8 +7515,6 @@ wordDict = {
 	'O': 2
 }, 'clutched': {
 	'O': 1
-}, 'capicik': {
-	'I-PER': 1
 }, 'inhabitants': {
 	'O': 1
 }, 'notts': {
@@ -7527,6 +7541,8 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 1
 }, 'spine': {
 	'O': 1
+}, 'augment': {
+	'O': 1
 }, 'parliamentarians': {
 	'O': 2
 }, '19,775': {
@@ -7539,8 +7555,6 @@ wordDict = {
 	'O': 26
 }, 'yields': {
 	'O': 5
-}, 'boardman': {
-	'B-PER': 6, 'I-PER': 5
 }, 'ocei': {
 	'B-ORG': 2
 }, 'ivan': {
@@ -7563,8 +7577,6 @@ wordDict = {
 	'O': 1
 }, 'yulia': {
 	'B-PER': 1
-}, 'mancini': {
-	'I-PER': 1
 }, '45th': {
 	'O': 3
 }, 'senate': {
@@ -7583,6 +7595,8 @@ wordDict = {
 	'I-ORG': 1
 }, 'hassane': {
 	'I-PER': 1
+}, 'janette': {
+	'B-PER': 1
 }, '+4.2r': {
 	'O': 1
 }, 'pall': {
@@ -7599,8 +7613,6 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 1
 }, 'committing': {
 	'O': 1
-}, 'halo': {
-	'B-LOC': 1
 }, 'oil-rich': {
 	'O': 1
 }, 'sharma': {
@@ -7611,6 +7623,8 @@ wordDict = {
 	'O': 1
 }, 'veterinary': {
 	'B-ORG': 1, 'O': 7
+}, 'rainstorm': {
+	'O': 1
 }, 'pubished': {
 	'O': 1
 }, 'discharge': {
@@ -7695,6 +7709,8 @@ wordDict = {
 	'O': 1
 }, 'ivernia': {
 	'B-ORG': 1
+}, 'unsure': {
+	'O': 3
 }, 'libero': {
 	'O': 1
 }, 'reduced': {
@@ -7717,8 +7733,6 @@ wordDict = {
 	'O': 1
 }, '1:49.51': {
 	'O': 1
-}, 'transvaal': {
-	'I-ORG': 1
 }, 'repair': {
 	'O': 1
 }, 'sashurin': {
@@ -7839,8 +7853,6 @@ wordDict = {
 	'O': 7
 }, 'competition': {
 	'O': 31
-}, 'kyou-hyuk': {
-	'I-PER': 1
 }, '3-8/16': {
 	'O': 1
 }, '10.10': {
@@ -7857,7 +7869,9 @@ wordDict = {
 	'B-PER': 2
 }, 'posted': {
 	'O': 10
-}, '16.9': {
+}, '1:51.588': {
+	'O': 1
+}, 'non-oil': {
 	'O': 1
 }, 'yoelvis': {
 	'B-PER': 1
@@ -7883,8 +7897,8 @@ wordDict = {
 	'B-ORG': 1, 'B-LOC': 3
 }, 'maturity': {
 	'O': 7
-}, 'dugmore': {
-	'B-PER': 1, 'I-PER': 1
+}, 'danie': {
+	'B-PER': 1
 }, 'un': {
 	'B-ORG': 3
 }, 'customers': {
@@ -7919,6 +7933,8 @@ wordDict = {
 	'O': 1
 }, 'nighttime': {
 	'O': 1
+}, '4-66': {
+	'O': 1
 }, 'chan': {
 	'I-PER': 1
 }, '47-10-116-2': {
@@ -7935,6 +7951,8 @@ wordDict = {
 	'O': 1
 }, 'canteen': {
 	'O': 4
+}, 'huracan': {
+	'B-ORG': 1
 }, 'burnley': {
 	'B-ORG': 4
 }, 'feeding': {
@@ -7953,8 +7971,8 @@ wordDict = {
 	'O': 1
 }, '950': {
 	'O': 1
-}, 'sohail': {
-	'B-PER': 3, 'I-PER': 16
+}, '95/96': {
+	'O': 1
 }, 'edwards': {
 	'I-ORG': 2, 'I-PER': 3
 }, 'sung-hee': {
@@ -7965,8 +7983,10 @@ wordDict = {
 	'O': 2
 }, 'tetouan': {
 	'B-ORG': 1
-}, 'points': {
-	'O': 130
+}, 'definitely': {
+	'O': 7
+}, 'call-up': {
+	'O': 1
 }, 'hove': {
 	'B-LOC': 1
 }, 'tech': {
@@ -8049,6 +8069,8 @@ wordDict = {
 	'I-PER': 1
 }, '6-190': {
 	'O': 1
+}, 'stocher': {
+	'I-PER': 1
 }, '46.21': {
 	'O': 1
 }, 'carrying': {
@@ -8071,8 +8093,6 @@ wordDict = {
 	'O': 23
 }, '12.19': {
 	'O': 1
-}, 'al-tadamun': {
-	'B-ORG': 1
 }, 'kafawin': {
 	'I-PER': 1
 }, 'monterey': {
@@ -8083,7 +8103,7 @@ wordDict = {
 	'I-MISC': 1, 'O': 1
 }, 'partial': {
 	'O': 3
-}, 'regards': {
+}, '2,250': {
 	'O': 1
 }, 'saying': {
 	'O': 67
@@ -8105,8 +8125,8 @@ wordDict = {
 	'B-ORG': 1, 'I-ORG': 1, 'B-LOC': 6
 }, 'broader': {
 	'O': 2
-}, '4,200': {
-	'O': 1
+}, 'valdes': {
+	'I-PER': 1
 }, 'bomb': {
 	'O': 28
 }, 'salang': {
@@ -8135,6 +8155,8 @@ wordDict = {
 	'O': 9
 }, 'vicenza': {
 	'O': 1, 'B-ORG': 1, 'B-PER': 1, 'B-LOC': 1
+}, 'vicious': {
+	'O': 2
 }, 'tricolour': {
 	'O': 1
 }, '0.': {
@@ -8145,6 +8167,8 @@ wordDict = {
 	'O': 1
 }, 'subscription': {
 	'O': 1
+}, 'oljeselskap': {
+	'I-ORG': 1
 }, 'resources': {
 	'I-ORG': 1, 'O': 1
 }, 'deficit': {
@@ -8173,8 +8197,6 @@ wordDict = {
 	'O': 2
 }, 'manly': {
 	'B-ORG': 2
-}, 'hameed': {
-	'I-PER': 1
 }, 'mixing': {
 	'O': 1
 }, 'cleymans': {
@@ -8193,8 +8215,6 @@ wordDict = {
 	'O': 1
 }, 'northwestern': {
 	'O': 4
-}, '3-0-11-1': {
-	'I-PER': 1
 }, 'magic': {
 	'O': 2
 }, '238.36': {
@@ -8223,8 +8243,8 @@ wordDict = {
 	'B-PER': 1
 }, 'yr-ago': {
 	'O': 2
-}, 'nothstein': {
-	'I-PER': 1
+}, 'bally': {
+	'B-ORG': 1
 }, 'leonardo': {
 	'B-PER': 1
 }, 'dimitris': {
@@ -8321,6 +8341,8 @@ wordDict = {
 	'B-PER': 3
 }, 'harassing': {
 	'O': 1
+}, 'capicik': {
+	'I-PER': 1
 }, 'thin': {
 	'O': 7
 }, 'scenery': {
@@ -8377,6 +8399,8 @@ wordDict = {
 	'O': 1
 }, 'physiology': {
 	'O': 1
+}, 'rupiah': {
+	'O': 9
 }, 'great': {
 	'B-LOC': 1, 'O': 22
 }, 'engage': {
@@ -8387,8 +8411,6 @@ wordDict = {
 	'O': 8
 }, 'involved': {
 	'O': 21
-}, 'bad-tempered': {
-	'O': 1
 }, 'casino': {
 	'B-ORG': 1, 'O': 3
 }, 'ould': {
@@ -8493,8 +8515,8 @@ wordDict = {
 	'I-PER': 1
 }, '1:18.98': {
 	'O': 1
-}, 'brewery': {
-	'O': 2
+}, 'kyou-hyuk': {
+	'I-PER': 1
 }, 'sturrup': {
 	'I-PER': 2
 }, 'chenab': {
@@ -8561,8 +8583,8 @@ wordDict = {
 	'O': 1
 }, 'this': {
 	'O': 312
-}, 'bally': {
-	'B-ORG': 1
+}, 'station': {
+	'I-LOC': 1, 'O': 8
 }, 'challenge': {
 	'I-MISC': 1, 'O': 11
 }, 'pour': {
@@ -8611,6 +8633,8 @@ wordDict = {
 	'B-LOC': 2, 'O': 46, 'I-ORG': 1
 }, 'spruce': {
 	'O': 1
+}, 'henrietta': {
+	'B-PER': 2
 }, 'woodlands': {
 	'B-LOC': 1
 }, 'wotherspoon': {
@@ -8619,6 +8643,8 @@ wordDict = {
 	'O': 1
 }, 'reynolds': {
 	'I-PER': 1
+}, 'contacting': {
+	'O': 1
 }, 'weaken': {
 	'O': 1
 }, '173-5': {
@@ -8639,14 +8665,16 @@ wordDict = {
 	'B-ORG': 3, 'B-PER': 4, 'O': 1, 'I-PER': 1
 }, '213,989': {
 	'O': 1
-}, 'casiraghi': {
-	'I-PER': 1
+}, '1,940': {
+	'O': 1
 }, 'delay': {
 	'O': 10
 }, 'shuffles': {
 	'O': 1
 }, 'gump': {
 	'I-MISC': 1
+}, 'cristofoletto': {
+	'I-PER': 1
 }, 'animal': {
 	'I-LOC': 1, 'I-ORG': 1, 'O': 8
 }, 'guelfs': {
@@ -8893,8 +8921,6 @@ wordDict = {
 	'O': 1
 }, 'undertaking': {
 	'O': 5
-}, 'fabien': {
-	'B-PER': 2
 }, 'britons': {
 	'B-MISC': 1
 }, 'expell': {
@@ -8919,8 +8945,8 @@ wordDict = {
 	'O': 4
 }, 'beneath': {
 	'O': 1
-}, 'stock': {
-	'I-MISC': 1, 'B-ORG': 1, 'I-ORG': 14, 'O': 41
+}, 'onlookers': {
+	'O': 2
 }, '02/09': {
 	'O': 1
 }, '6-120': {
@@ -8961,6 +8987,8 @@ wordDict = {
 	'O': 9
 }, 'witness': {
 	'O': 2
+}, 'telegraph': {
+	'I-PER': 1
 }, 'fundamentally': {
 	'O': 1
 }, "'": {
@@ -9003,8 +9031,8 @@ wordDict = {
 	'O': 1
 }, 'shut': {
 	'O': 6
-}, 'raise': {
-	'O': 4
+}, 'tempe': {
+	'B-LOC': 1
 }, 'col': {
 	'O': 1, 'B-LOC': 2
 }, '22.85': {
@@ -9097,6 +9125,8 @@ wordDict = {
 	'O': 1
 }, 'muhammad': {
 	'I-PER': 3
+}, 'employees': {
+	'O': 12
 }, 'catapulted': {
 	'O': 1
 }, '2.5-0-8-1': {
@@ -9285,8 +9315,6 @@ wordDict = {
 	'O': 1
 }, '3-1/2': {
 	'O': 2
-}, 'escorted': {
-	'O': 1
 }, 'defending': {
 	'O': 11
 }, '4064/89': {
@@ -9393,8 +9421,6 @@ wordDict = {
 	'I-PER': 1
 }, 'manson': {
 	'I-PER': 1
-}, '251/07': {
-	'O': 1
 }, '10-2-51-0': {
 	'O': 1
 }, 'bred': {
@@ -9437,6 +9463,8 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 1
 }, 'yamakage': {
 	'B-PER': 1
+}, 'chipsets': {
+	'O': 1
 }, 'midcontinent': {
 	'O': 1
 }, 'vacancy': {
@@ -9463,6 +9491,8 @@ wordDict = {
 	'O': 1
 }, '3,333.05': {
 	'O': 1
+}, '4.60': {
+	'O': 3
 }, 'mcgriff': {
 	'B-PER': 1, 'I-PER': 2
 }, 'avaz': {
@@ -9551,8 +9581,6 @@ wordDict = {
 	'O': 1
 }, 'committees': {
 	'O': 2
-}, '25.76': {
-	'O': 1
 }, 'baresi': {
 	'I-PER': 1
 }, 'mittermayer': {
@@ -9573,8 +9601,6 @@ wordDict = {
 	'I-PER': 1
 }, '6mo': {
 	'O': 1
-}, 'trueman': {
-	'I-PER': 1
 }, 'neo-fascist': {
 	'O': 1
 }, 'ohio': {
@@ -9607,6 +9633,8 @@ wordDict = {
 	'I-PER': 1
 }, 'esnaider': {
 	'B-PER': 1
+}, '0172': {
+	'O': 1
 }, 'edition': {
 	'O': 4
 }, 'alessandro': {
@@ -9635,8 +9663,6 @@ wordDict = {
 	'B-ORG': 8
 }, 'error': {
 	'O': 3
-}, 'sharman': {
-	'I-PER': 1
 }, 'nationwide': {
 	'O': 2
 }, 'insulting': {
@@ -9651,6 +9677,8 @@ wordDict = {
 	'O': 2
 }, '160.36': {
 	'O': 2
+}, 'mohib': {
+	'B-ORG': 1
 }, '44th': {
 	'O': 5
 }, 'week-old': {
@@ -9663,9 +9691,9 @@ wordDict = {
 	'O': 1
 }, 'pistol': {
 	'O': 1
+}, 'consistently': {
+	'O': 2
 }, 'herrera': {
-	'I-PER': 1
-}, 'gajadhar': {
 	'I-PER': 1
 }, 'ends': {
 	'O': 11
@@ -9717,11 +9745,11 @@ wordDict = {
 	'B-PER': 3
 }, 'restrictions': {
 	'O': 4
-}, '1646': {
+}, '198,226': {
 	'O': 1
 }, '1640': {
 	'O': 4
-}, '.511': {
+}, '1642': {
 	'O': 1
 }, 'kofi': {
 	'B-PER': 1
@@ -9747,14 +9775,14 @@ wordDict = {
 	'I-MISC': 1
 }, 'nevus': {
 	'O': 1
+}, 'dmitri': {
+	'B-PER': 1
 }, 'invites': {
 	'O': 1
 }, '32.7': {
 	'O': 1
 }, 'chest': {
 	'O': 4
-}, '1:16.63': {
-	'O': 1
 }, 'adjusted': {
 	'O': 4
 }, 'co': {
@@ -9775,6 +9803,8 @@ wordDict = {
 	'O': 4
 }, '576': {
 	'O': 2
+}, 'volcano-hit': {
+	'O': 1
 }, '574': {
 	'O': 1
 }, 'trampled': {
@@ -9783,8 +9813,6 @@ wordDict = {
 	'B-PER': 1
 }, 'taylor': {
 	'B-ORG': 1, 'B-PER': 1, 'I-PER': 5
-}, 'xhosa': {
-	'B-MISC': 2
 }, '1-for-2': {
 	'O': 1
 }, 'allocated': {
@@ -9893,8 +9921,6 @@ wordDict = {
 	'I-PER': 1
 }, 'dodge': {
 	'B-LOC': 2
-}, 'pro-rated': {
-	'O': 1
 }, 'runway': {
 	'O': 2
 }, 'freeport': {
@@ -9905,14 +9931,14 @@ wordDict = {
 	'O': 1
 }, 'grech': {
 	'I-PER': 2
-}, 'circle': {
-	'O': 1
 }, 'rbi': {
 	'B-MISC': 12
 }, 'vladoiu': {
 	'I-PER': 1
 }, '786.6': {
 	'O': 1
+}, '6.1': {
+	'O': 4
 }, 'fielding': {
 	'O': 2
 }, '3359.200': {
@@ -9921,8 +9947,6 @@ wordDict = {
 	'O': 2
 }, 'yemeni': {
 	'B-MISC': 1
-}, 'alkhan-yurt': {
-	'B-LOC': 2
 }, 'va': {
 	'I-LOC': 1, 'B-LOC': 2
 }, '72.41': {
@@ -10047,6 +10071,8 @@ wordDict = {
 	'B-ORG': 5
 }, 'afghan': {
 	'I-MISC': 1, 'B-MISC': 9
+}, 'hank': {
+	'B-PER': 1
 }, 'fielder': {
 	'O': 3
 }, '17/12': {
@@ -10103,8 +10129,8 @@ wordDict = {
 	'O': 1
 }, '1.24': {
 	'O': 1
-}, 'a0': {
-	'O': 1
+}, 'georgiopoulos': {
+	'I-PER': 1
 }, 'newest': {
 	'O': 1
 }, 'velodrome': {
@@ -10127,8 +10153,6 @@ wordDict = {
 	'O': 1
 }, 'zurbriggen': {
 	'I-PER': 5
-}, 'needle': {
-	'O': 1
 }, '5-55': {
 	'O': 1
 }, '24.88': {
@@ -10211,8 +10235,6 @@ wordDict = {
 	'O': 1
 }, '1995/96': {
 	'O': 3
-}, 'tripled': {
-	'O': 1
 }, 'crux': {
 	'I-ORG': 1
 }, 'gephardt': {
@@ -10261,6 +10283,8 @@ wordDict = {
 	'O': 1
 }, 'canyon': {
 	'I-LOC': 1
+}, '101': {
+	'O': 4
 }, '318-2': {
 	'O': 2
 }, 'michaela': {
@@ -10273,8 +10297,6 @@ wordDict = {
 	'O': 1
 }, 'become': {
 	'O': 18
-}, 'latif': {
-	'I-PER': 1
 }, 'farrelly': {
 	'I-PER': 1
 }, 'replacement': {
@@ -10449,8 +10471,6 @@ wordDict = {
 	'I-PER': 1
 }, 'pro-baseball': {
 	'O': 8
-}, 'fierce': {
-	'O': 3
 }, 'catherine': {
 	'B-PER': 3
 }, 'commitment': {
@@ -10473,6 +10493,8 @@ wordDict = {
 	'I-PER': 1
 }, 'banco': {
 	'B-ORG': 3
+}, '21,346': {
+	'O': 1
 }, '1,130': {
 	'O': 1
 }, 'belgrade': {
@@ -10487,6 +10509,8 @@ wordDict = {
 	'O': 4
 }, 'segers': {
 	'I-PER': 1
+}, 'sugarcane': {
+	'O': 1
 }, 'spots': {
 	'O': 4
 }, 'peters': {
@@ -10561,8 +10585,8 @@ wordDict = {
 	'I-PER': 1
 }, 'tossed': {
 	'O': 2
-}, 'chandrika': {
-	'B-PER': 1
+}, 'calls': {
+	'O': 12
 }, 'places': {
 	'O': 6
 }, 'alejandro': {
@@ -10677,14 +10701,10 @@ wordDict = {
 	'O': 1
 }, 'derrick': {
 	'B-PER': 3
-}, 'compares': {
-	'O': 1
+}, 'horst': {
+	'B-PER': 1
 }, 'details': {
 	'O': 30
-}, '336,000': {
-	'O': 1
-}, 'suppress': {
-	'O': 1
 }, '89,300': {
 	'O': 2
 }, 'dumbarton': {
@@ -10771,9 +10791,7 @@ wordDict = {
 	'O': 1
 }, 'rule': {
 	'O': 26
-}, 'salvatore': {
-	'B-PER': 1
-}, 'maenmuan': {
+}, 'casiraghi': {
 	'I-PER': 1
 }, '473': {
 	'O': 3
@@ -10787,24 +10805,22 @@ wordDict = {
 	'O': 1
 }, '475': {
 	'O': 1
+}, 'tide': {
+	'O': 1
 }, 'rural': {
 	'O': 11
-}, 'cambodia': {
-	'B-LOC': 4
 }, 'tax-exempt': {
 	'O': 2
 }, 'woodforde': {
 	'B-PER': 1, 'I-PER': 2
 }, 'inning': {
 	'O': 25
-}, 'badminton': {
-	'O': 6
 }, 'suicidal': {
 	'O': 1
 }, 'kambli': {
 	'I-PER': 2
-}, 'migrated': {
-	'O': 1
+}, 'slowly': {
+	'O': 3
 }, 'surrounding': {
 	'O': 2
 }, 'consolidated': {
@@ -10819,8 +10835,8 @@ wordDict = {
 	'O': 1
 }, 'khalid': {
 	'B-PER': 1
-}, 'senator': {
-	'O': 3
+}, '12.56': {
+	'O': 1
 }, 'atlalanta': {
 	'B-ORG': 1
 }, '4-36': {
@@ -10857,6 +10873,8 @@ wordDict = {
 	'O': 3
 }, 'punjab': {
 	'B-LOC': 3
+}, 'matescu': {
+	'I-PER': 1
 }, '24,137,000': {
 	'O': 1
 }, 'specialising': {
@@ -10913,8 +10931,6 @@ wordDict = {
 	'O': 1
 }, 'shoot': {
 	'O': 4
-}, 'epr': {
-	'B-ORG': 6
 }, 'asanka': {
 	'B-PER': 2
 }, 'rec': {
@@ -10987,8 +11003,6 @@ wordDict = {
 	'O': 2
 }, '29th': {
 	'O': 6
-}, 'telegraph': {
-	'I-PER': 1
 }, 'phones': {
 	'O': 1
 }, 'rebels--poll': {
@@ -11011,8 +11025,8 @@ wordDict = {
 	'I-PER': 1
 }, '7th': {
 	'O': 3
-}, 'five-test': {
-	'O': 1
+}, 'pro-israel': {
+	'B-MISC': 1
 }, 'kaliningrad': {
 	'I-ORG': 1
 }, '17-0-91-0': {
@@ -11021,14 +11035,12 @@ wordDict = {
 	'I-ORG': 3, 'O': 1
 }, '13.36': {
 	'O': 2
-}, 'ornate': {
-	'O': 1
 }, 'established': {
 	'O': 10
 }, 'considerably': {
 	'O': 1
-}, 'settlement': {
-	'O': 22
+}, 'ptt': {
+	'B-ORG': 1, 'I-ORG': 5
 }, 'mosenergo': {
 	'B-ORG': 1
 }, 'discus': {
@@ -11045,8 +11057,6 @@ wordDict = {
 	'I-ORG': 4
 }, 'near': {
 	'B-MISC': 1, 'B-LOC': 1, 'O': 46
-}, 'ruci': {
-	'I-PER': 1
 }, 'london-based': {
 	'O': 1
 }, '37.1-7-97-3': {
@@ -11073,6 +11083,8 @@ wordDict = {
 	'O': 1
 }, 'vidal-quadras': {
 	'I-PER': 1
+}, 'giambatista': {
+	'B-PER': 1
 }, 'dahman': {
 	'B-PER': 2, 'I-PER': 1
 }, 'jolts': {
@@ -11277,6 +11289,8 @@ wordDict = {
 	'I-PER': 1
 }, 'worn': {
 	'O': 1
+}, 'kovanda': {
+	'I-PER': 1
 }, 'era': {
 	'B-MISC': 2, 'O': 3
 }, '7-195': {
@@ -11295,6 +11309,8 @@ wordDict = {
 	'B-ORG': 9, 'B-PER': 1
 }, 'omari': {
 	'B-LOC': 1
+}, 'eugenio': {
+	'B-PER': 1
 }, 'neiland': {
 	'I-PER': 1
 }, 'personifaction': {
@@ -11335,14 +11351,14 @@ wordDict = {
 	'B-PER': 2
 }, '8.30': {
 	'O': 4
-}, 'valdes': {
-	'I-PER': 1
 }, 'uae': {
 	'I-ORG': 1, 'B-LOC': 1
 }, '8.39': {
 	'O': 1
-}, 'eritrean': {
-	'B-MISC': 2
+}, '1:18.21': {
+	'O': 1
+}, '.460': {
+	'O': 1
 }, 'recovery': {
 	'O': 11
 }, 'farce': {
@@ -11421,8 +11437,10 @@ wordDict = {
 	'O': 12
 }, 'whistle-stop': {
 	'O': 2
-}, 'receding': {
-	'O': 2
+}, 'hua': {
+	'I-PER': 1
+}, 'senator': {
+	'O': 3
 }, 'elusive': {
 	'O': 3
 }, 'greer': {
@@ -11533,8 +11551,6 @@ wordDict = {
 	'O': 11
 }, 'denver': {
 	'B-ORG': 2, 'B-PER': 1
-}, '9:30': {
-	'O': 1
 }, 'gene-therapy': {
 	'O': 1
 }, 'production': {
@@ -11551,6 +11567,8 @@ wordDict = {
 	'I-PER': 3
 }, 'russian-built': {
 	'B-MISC': 1
+}, 'kelleners': {
+	'I-PER': 1
 }, 'harmony': {
 	'O': 1
 }, 'skills-based': {
@@ -11581,14 +11599,20 @@ wordDict = {
 	'I-LOC': 1, 'B-LOC': 1, 'O': 1
 }, 'heike': {
 	'B-PER': 1
+}, 'spirit': {
+	'O': 1
 }, 'shameful': {
 	'O': 1
 }, 'they': {
 	'O': 367
+}, 'hameed': {
+	'I-PER': 1
 }, 'kibet': {
 	'I-PER': 1
 }, 'jesus': {
 	'B-PER': 2
+}, 'inhuman': {
+	'O': 1
 }, 'bank': {
 	'I-LOC': 21, 'B-ORG': 8, 'O': 58, 'I-PER': 1, 'I-ORG': 23
 }, 'bread': {
@@ -11597,11 +11621,13 @@ wordDict = {
 	'O': 1
 }, '1.03': {
 	'O': 1
-}, 'veerakesari': {
-	'B-ORG': 1
+}, 'jean-pierre': {
+	'B-PER': 2
 }, '1.05': {
 	'O': 1
 }, 'chavalit': {
+	'B-PER': 1
+}, 'alfonse': {
 	'B-PER': 1
 }, 'vinod': {
 	'B-PER': 1
@@ -11619,6 +11645,8 @@ wordDict = {
 	'B-PER': 2
 }, 'rocks': {
 	'O': 4
+}, 're-examined': {
+	'O': 1
 }, 'lazio': {
 	'B-ORG': 1, 'B-PER': 1, 'O': 1
 }, 'improvements': {
@@ -11701,6 +11729,8 @@ wordDict = {
 	'B-PER': 14, 'I-PER': 1
 }, 'remorse': {
 	'O': 1
+}, 'guernsey': {
+	'B-LOC': 2
 }, 'detroux': {
 	'B-PER': 1
 }, 'sacramento': {
@@ -11833,15 +11863,11 @@ wordDict = {
 	'I-PER': 2
 }, '74.42-79.19': {
 	'O': 1
-}, 'exchanger': {
-	'O': 1
 }, 'another': {
 	'O': 52
 }, 'uruguayan': {
 	'B-PER': 1
 }, 'comic': {
-	'O': 1
-}, 'investigator': {
 	'O': 1
 }, 'electronic': {
 	'B-ORG': 2, 'O': 4
@@ -11925,6 +11951,8 @@ wordDict = {
 	'O': 1
 }, 'toronto': {
 	'B-ORG': 25, 'B-PER': 1, 'B-LOC': 16, 'I-ORG': 3
+}, '662-252-9950': {
+	'O': 1
 }, 'susi': {
 	'B-PER': 3
 }, 'fuelled': {
@@ -11959,7 +11987,7 @@ wordDict = {
 	'O': 11
 }, 'minus': {
 	'O': 5
-}, 'rant': {
+}, 'reintegrate': {
 	'O': 1
 }, '30.9': {
 	'O': 1
@@ -12051,15 +12079,13 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 2
 }, 'exercised': {
 	'O': 1
-}, 'extending': {
+}, '7-283': {
 	'O': 1
 }, 'involving': {
 	'O': 8
 }, 'germany': {
 	'I-LOC': 1, 'I-ORG': 1, 'B-LOC': 154, 'B-PER': 1
 }, '357,143': {
-	'O': 1
-}, 'sojurn': {
 	'O': 1
 }, 'phase': {
 	'O': 4
@@ -12103,10 +12129,10 @@ wordDict = {
 	'O': 1
 }, 'accounted': {
 	'O': 5
+}, 'randall': {
+	'B-PER': 1, 'I-PER': 1
 }, 'shatoi': {
 	'B-LOC': 2
-}, '41.58': {
-	'O': 1
 }, 'massoud': {
 	'B-PER': 2
 }, 'responded': {
@@ -12223,8 +12249,6 @@ wordDict = {
 	'B-LOC': 1
 }, 'de': {
 	'I-LOC': 10, 'O': 3, 'I-PER': 25, 'I-MISC': 2, 'I-ORG': 10, 'B-PER': 6
-}, 'shaved': {
-	'O': 1
 }, 'roberta': {
 	'B-PER': 1
 }, 'cardinals': {
@@ -12277,6 +12301,8 @@ wordDict = {
 	'O': 1
 }, 'insurgents': {
 	'O': 1
+}, 'govt.budget': {
+	'O': 1
 }, 'steak': {
 	'O': 1
 }, 'steal': {
@@ -12293,18 +12319,12 @@ wordDict = {
 	'O': 1
 }, '9.33': {
 	'O': 1
-}, 'susanti': {
-	'I-PER': 3
 }, 'sylvain': {
 	'B-PER': 2
 }, 'roberto': {
 	'B-PER': 8, 'I-ORG': 1
-}, 'nihon': {
-	'B-ORG': 1
 }, 'crohn': {
 	'B-PER': 4
-}, '190.70': {
-	'O': 1
 }, '+91-22-265': {
 	'O': 2
 }, 'observed': {
@@ -12587,6 +12607,8 @@ wordDict = {
 	'O': 1
 }, '0.17': {
 	'O': 1
+}, 'cambodia': {
+	'B-LOC': 4
 }, '0.10': {
 	'O': 2
 }, '0.13': {
@@ -12618,6 +12640,8 @@ wordDict = {
 }, 'heifer': {
 	'B-PER': 1, 'O': 1
 }, '17-3-42-1': {
+	'O': 1
+}, 'ornate': {
 	'O': 1
 }, 'air': {
 	'I-MISC': 1, 'B-ORG': 4, 'I-ORG': 1, 'O': 16
@@ -12673,8 +12697,6 @@ wordDict = {
 	'O': 1
 }, 'bastia': {
 	'B-ORG': 9
-}, '1:51.588': {
-	'O': 1
 }, 'comparative': {
 	'O': 3
 }, 'zahoor': {
@@ -12783,8 +12805,6 @@ wordDict = {
 	'B-LOC': 2
 }, 'blamed': {
 	'O': 13
-}, 'kallis': {
-	'B-PER': 1, 'I-PER': 1
 }, 'centred': {
 	'O': 3
 }, 'vermont': {
@@ -12981,8 +13001,8 @@ wordDict = {
 	'B-PER': 1
 }, '112.0-149.0': {
 	'O': 1
-}, 'bpd': {
-	'O': 6
+}, 'nicky': {
+	'B-PER': 2
 }, 'hogs': {
 	'I-PER': 1, 'O': 4
 }, 'berlex': {
@@ -13071,10 +13091,10 @@ wordDict = {
 	'O': 1
 }, 'unavoidable': {
 	'O': 1
-}, 'gibbs': {
-	'B-PER': 3, 'I-PER': 2
 }, '/': {
 	'I-ORG': 7, 'O': 248
+}, 'indiscriminate': {
+	'O': 1
 }, 'filming': {
 	'O': 2
 }, 'asking': {
@@ -13087,10 +13107,14 @@ wordDict = {
 	'O': 5
 }, 'participation': {
 	'O': 4
+}, 'humphries': {
+	'I-PER': 2
 }, '5-15': {
 	'O': 1
 }, 'columbus': {
 	'I-ORG': 1, 'B-LOC': 1
+}, '55.99': {
+	'O': 1
 }, 'baht': {
 	'O': 6
 }, '2:28.98': {
@@ -13141,6 +13165,8 @@ wordDict = {
 	'B-ORG': 1, 'B-PER': 2, 'I-PER': 4
 }, 'increasingly': {
 	'O': 2
+}, 'stg-plus': {
+	'O': 1
 }, 'stomil': {
 	'B-ORG': 3
 }, 'newspapers': {
@@ -13152,6 +13178,8 @@ wordDict = {
 }, 'pohang': {
 	'B-ORG': 3
 }, 'marie-jose': {
+	'B-PER': 1
+}, 'samir': {
 	'B-PER': 1
 }, 'jacquet': {
 	'I-PER': 1
@@ -13315,6 +13343,8 @@ wordDict = {
 	'B-PER': 1
 }, 'girard-leno': {
 	'I-PER': 1
+}, 'desert': {
+	'O': 1
 }, '728-9559': {
 	'O': 1
 }, 'prayed': {
@@ -13333,8 +13363,6 @@ wordDict = {
 	'O': 1
 }, 'warring': {
 	'O': 2
-}, 'cartilage': {
-	'O': 1
 }, 'molata': {
 	'B-PER': 1
 }, 'evidence': {
@@ -13349,6 +13377,8 @@ wordDict = {
 	'O': 2
 }, 'subsidy': {
 	'O': 1
+}, 'cinco': {
+	'B-ORG': 2
 }, 'five-point': {
 	'O': 1
 }, 'physical': {
@@ -13357,6 +13387,8 @@ wordDict = {
 	'O': 1
 }, '8520': {
 	'O': 6
+}, 'trulsen': {
+	'B-PER': 1, 'I-PER': 1
 }, 'ravenna': {
 	'B-ORG': 1
 }, 'wagle': {
@@ -13373,8 +13405,6 @@ wordDict = {
 	'O': 4
 }, 'inverness': {
 	'B-ORG': 2, 'B-LOC': 1
-}, 'nielsen': {
-	'I-PER': 1
 }, 'interested': {
 	'O': 3
 }, 'chonan': {
@@ -13387,8 +13417,6 @@ wordDict = {
 	'I-MISC': 2, 'O': 60
 }, 'hype': {
 	'O': 1
-}, 'holocaust': {
-	'O': 1, 'B-LOC': 1
 }, 'short-term': {
 	'O': 6
 }, 'kenyan': {
@@ -13419,6 +13447,8 @@ wordDict = {
 	'O': 5
 }, 'walton': {
 	'I-PER': 2
+}, 'talbott': {
+	'B-PER': 3, 'I-PER': 1
 }, 'ivanisevic': {
 	'I-PER': 2
 }, 'alomar': {
@@ -13433,12 +13463,10 @@ wordDict = {
 	'B-ORG': 1, 'I-ORG': 2
 }, 'socal': {
 	'B-ORG': 2
-}, 'srour': {
-	'I-PER': 1
 }, 'riviera': {
 	'B-LOC': 1
-}, '1,558': {
-	'O': 1
+}, 'tottenham': {
+	'B-ORG': 3
 }, 'jeddah': {
 	'B-LOC': 1
 }, 'balloon': {
@@ -13451,6 +13479,8 @@ wordDict = {
 	'I-PER': 1
 }, 'megan': {
 	'B-PER': 1, 'O': 2
+}, 'sparking': {
+	'O': 1
 }, 'issa': {
 	'B-PER': 1
 }, 'gheorghe': {
@@ -13491,6 +13521,8 @@ wordDict = {
 	'O': 2
 }, 'dance': {
 	'O': 1
+}, 'puk-run': {
+	'B-MISC': 1
 }, 'redeployment': {
 	'O': 1
 }, 'global': {
@@ -13501,6 +13533,8 @@ wordDict = {
 	'B-ORG': 2
 }, 'drop-off': {
 	'O': 1
+}, 'karel': {
+	'B-PER': 1
 }, 'underwriter': {
 	'O': 1
 }, 'moisture': {
@@ -13515,6 +13549,8 @@ wordDict = {
 	'I-ORG': 1, 'B-LOC': 1
 }, 'creative': {
 	'B-ORG': 1, 'O': 1
+}, 'suction': {
+	'O': 1
 }, 'mesures': {
 	'O': 1
 }, 'contributing': {
@@ -13533,8 +13569,6 @@ wordDict = {
 	'O': 1
 }, '------------------------': {
 	'O': 5
-}, 'hintsa': {
-	'B-PER': 3
 }, '15:07.85': {
 	'O': 1
 }, 'counter-attack': {
@@ -13543,12 +13577,12 @@ wordDict = {
 	'I-LOC': 1
 }, '10-1-25-2': {
 	'O': 1
+}, 'waterville': {
+	'B-LOC': 1
 }, 'okada': {
 	'I-PER': 1
 }, 'gigi': {
 	'B-PER': 1
-}, 'u.n': {
-	'O': 1
 }, 'rhythm': {
 	'O': 1
 }, 'kahalani': {
@@ -13559,8 +13593,6 @@ wordDict = {
 	'I-ORG': 1
 }, 'giga': {
 	'B-ORG': 1
-}, 'movladi': {
-	'B-PER': 1
 }, 'penetrating': {
 	'O': 1
 }, 'southwest': {
@@ -13611,10 +13643,10 @@ wordDict = {
 	'I-PER': 1
 }, 'salvador': {
 	'I-ORG': 1, 'B-LOC': 3
+}, '1,433.4': {
+	'O': 1
 }, 'rittner': {
 	'I-PER': 2
-}, 'laminate': {
-	'O': 1
 }, '12th': {
 	'B-MISC': 1, 'O': 7
 }, '1,466.1': {
@@ -13659,6 +13691,8 @@ wordDict = {
 	'I-PER': 1
 }, '12.246': {
 	'O': 1
+}, '1.13': {
+	'O': 1
 }, 'cost': {
 	'O': 20
 }, '23.47': {
@@ -13677,6 +13711,8 @@ wordDict = {
 	'O': 1
 }, 'curse': {
 	'O': 1
+}, 'elbrewery': {
+	'B-PER': 1
 }, 'appear': {
 	'O': 12
 }, 'covi': {
@@ -13699,7 +13735,7 @@ wordDict = {
 	'I-ORG': 1, 'B-LOC': 1
 }, 'shared': {
 	'O': 6
-}, 'matescu': {
+}, 'danielyan': {
 	'I-PER': 1
 }, 'appeal': {
 	'O': 22
@@ -13735,8 +13771,6 @@ wordDict = {
 	'O': 1
 }, 'giles': {
 	'B-PER': 1, 'I-PER': 5
-}, '1,119.0': {
-	'O': 1
 }, '2:37': {
 	'O': 1
 }, 'apache': {
@@ -13749,14 +13783,18 @@ wordDict = {
 	'O': 2
 }, 'rapajic': {
 	'I-PER': 1
-}, 'appears': {
-	'O': 5
+}, 'teacher': {
+	'O': 2
 }, 'change': {
 	'O': 26
+}, '.354': {
+	'O': 1
 }, '43.': {
 	'O': 1
 }, 'sending': {
 	'O': 5
+}, 'croat': {
+	'B-MISC': 3, 'B-ORG': 2
 }, '850m': {
 	'O': 2
 }, 'exemption': {
@@ -13909,6 +13947,8 @@ wordDict = {
 	'O': 6
 }, 'commissioner': {
 	'O': 7
+}, 'willison': {
+	'I-PER': 1
 }, 'missionaries': {
 	'B-ORG': 3, 'O': 8
 }, 'jayasuriya': {
@@ -13929,8 +13969,8 @@ wordDict = {
 	'O': 1
 }, 'mansfield': {
 	'B-ORG': 4
-}, 'uncertain': {
-	'O': 2
+}, 'kladno': {
+	'I-ORG': 1
 }, 'riding': {
 	'O': 5
 }, 'mlada': {
@@ -13941,6 +13981,8 @@ wordDict = {
 	'O': 1
 }, 'beaver': {
 	'B-PER': 2
+}, 'recognised': {
+	'O': 1
 }, 'bowles': {
 	'I-PER': 1
 }, '1676/96': {
@@ -14039,8 +14081,6 @@ wordDict = {
 	'O': 1
 }, 'restitution': {
 	'O': 2
-}, '292': {
-	'O': 1
 }, '6-11': {
 	'O': 1
 }, '.408': {
@@ -14063,16 +14103,12 @@ wordDict = {
 	'O': 3
 }, '.407': {
 	'O': 1
-}, 'hoffmann': {
-	'I-PER': 1
 }, '.405': {
 	'O': 1
 }, 'write': {
 	'O': 3
-}, 'hasely': {
-	'B-PER': 1
-}, 'deletraz': {
-	'I-PER': 1
+}, 'disqualify': {
+	'O': 1
 }, '47-year-old': {
 	'O': 1
 }, 'akram': {
@@ -14081,8 +14117,8 @@ wordDict = {
 	'B-ORG': 3, 'O': 1
 }, 'marshal': {
 	'O': 1
-}, '3-33': {
-	'O': 1
+}, 'kucan': {
+	'B-PER': 1, 'I-PER': 1
 }, 'careers': {
 	'O': 1
 }, 'dominance': {
@@ -14129,8 +14165,8 @@ wordDict = {
 	'O': 1
 }, '0.79': {
 	'O': 1
-}, 'roadblock': {
-	'O': 2
+}, 'changeup': {
+	'O': 1
 }, 'nomination': {
 	'O': 8
 }, 'tergat': {
@@ -14141,8 +14177,8 @@ wordDict = {
 	'O': 25
 }, '3/94': {
 	'O': 1
-}, 'penh': {
-	'I-LOC': 3
+}, '1-57': {
+	'O': 1
 }, 'half-year': {
 	'O': 2
 }, 'grandson': {
@@ -14172,8 +14208,6 @@ wordDict = {
 }, 'anatoly': {
 	'B-PER': 1
 }, 'title-holders': {
-	'O': 1
-}, '1,037': {
 	'O': 1
 }, '1:55.101': {
 	'O': 1
@@ -14207,7 +14241,7 @@ wordDict = {
 	'O': 6
 }, 'consulting': {
 	'O': 4
-}, '55,929.89': {
+}, 'managerless': {
 	'O': 1
 }, '375.00': {
 	'O': 1
@@ -14277,12 +14311,8 @@ wordDict = {
 	'O': 3
 }, 'sergio': {
 	'B-PER': 2
-}, 'refuelling': {
-	'O': 1
 }, 'halt': {
 	'O': 6
-}, '12.91': {
-	'O': 1
 }, 'prunea': {
 	'I-PER': 1
 }, 'thrid': {
@@ -14325,8 +14355,6 @@ wordDict = {
 	'I-PER': 1
 }, 'placate': {
 	'O': 1
-}, 'wang': {
-	'B-PER': 3, 'I-PER': 1
 }, 'goulnara': {
 	'B-PER': 2
 }, 'servant': {
@@ -14335,8 +14363,6 @@ wordDict = {
 	'B-PER': 10
 }, 'drop': {
 	'O': 17
-}, 'beings': {
-	'O': 1
 }, 'social-democratic': {
 	'O': 1
 }, '5,696': {
@@ -14345,6 +14371,8 @@ wordDict = {
 	'O': 1
 }, '63,969': {
 	'I-PER': 1
+}, '1,041': {
+	'O': 1
 }, 'lancien': {
 	'I-PER': 2
 }, 'stockholm': {
@@ -14393,6 +14421,8 @@ wordDict = {
 	'O': 4
 }, 'unimported': {
 	'O': 2
+}, 'experienced': {
+	'O': 6
 }, 'blantyre': {
 	'B-LOC': 1
 }, 'year': {
@@ -14425,6 +14455,8 @@ wordDict = {
 	'O': 5
 }, 'space': {
 	'O': 6
+}, 'off-season': {
+	'O': 1
 }, '1:55.333': {
 	'O': 1
 }, 'irony': {
@@ -14507,8 +14539,6 @@ wordDict = {
 	'O': 2
 }, 'british': {
 	'B-MISC': 74, 'B-ORG': 12, 'O': 1, 'B-LOC': 5, 'I-ORG': 1
-}, 'supporter': {
-	'O': 1
 }, 'selymess': {
 	'I-PER': 1
 }, 'fc': {
@@ -14549,13 +14579,15 @@ wordDict = {
 	'O': 3
 }, 'cur': {
 	'O': 1
-}, 'rarest': {
-	'O': 1
+}, 'dha': {
+	'B-ORG': 2
 }, 'yourself': {
 	'O': 2
 }, 'bestop': {
 	'B-ORG': 1
-}, 'pacer': {
+}, '38,000': {
+	'O': 1
+}, 'fiscally-tight': {
 	'O': 1
 }, 'directly': {
 	'O': 6
@@ -14595,10 +14627,14 @@ wordDict = {
 	'B-ORG': 1, 'B-LOC': 1
 }, 'bourse': {
 	'O': 12
+}, 'banisadr': {
+	'B-PER': 5, 'I-PER': 1
 }, 'tragic': {
 	'O': 1
 }, 'biogen': {
 	'B-ORG': 9
+}, 'fierce': {
+	'O': 3
 }, 'desmond': {
 	'B-PER': 3
 }, 'frame': {
@@ -14719,6 +14755,8 @@ wordDict = {
 	'I-PER': 1
 }, 'anger': {
 	'O': 3
+}, '8.70': {
+	'O': 1
 }, 'breakfast': {
 	'B-ORG': 1, 'O': 1
 }, 'recover': {
@@ -14779,6 +14817,8 @@ wordDict = {
 	'O': 13
 }, 'chimonetos': {
 	'I-PER': 1
+}, '292': {
+	'O': 1
 }, '12-1-76-0': {
 	'O': 1
 }, 'price': {
@@ -14823,8 +14863,6 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 2
 }, 'failure': {
 	'O': 7
-}, 'equestrian': {
-	'O': 1
 }, '2230': {
 	'O': 1
 }, '9,167,000': {
@@ -14889,8 +14927,6 @@ wordDict = {
 	'O': 1
 }, 'discovered': {
 	'O': 4
-}, 'installations': {
-	'O': 1
 }, 'colombo': {
 	'I-PER': 1, 'B-LOC': 22
 }, 'teamed': {
@@ -14907,16 +14943,12 @@ wordDict = {
 	'I-LOC': 1, 'I-ORG': 3, 'O': 24
 }, 'dougan': {
 	'I-PER': 1
-}, '4.60': {
-	'O': 3
 }, 'snack': {
 	'O': 1
 }, 'ratio': {
 	'O': 1
 }, 'title': {
 	'I-PER': 1, 'O': 26
-}, '1,940': {
-	'O': 1
 }, '106.5': {
 	'O': 2
 }, '49.06': {
@@ -14933,6 +14965,8 @@ wordDict = {
 	'O': 1
 }, 'only': {
 	'O': 130
+}, 'matching': {
+	'O': 1
 }, 'snyman': {
 	'B-PER': 1, 'I-PER': 1
 }, 'thompson': {
@@ -14983,12 +15017,8 @@ wordDict = {
 	'O': 1
 }, 'moral': {
 	'O': 3
-}, 'keizai': {
-	'I-ORG': 1
 }, 'celebrate': {
 	'O': 2
-}, 'ange-felix': {
-	'B-PER': 1
 }, 'confirmation': {
 	'O': 3
 }, 'homegrown': {
@@ -14997,12 +15027,10 @@ wordDict = {
 	'O': 1
 }, '32607.500': {
 	'O': 1
-}, 'randall': {
-	'B-PER': 1, 'I-PER': 1
 }, 'ginola': {
 	'I-PER': 1
-}, 'matuzici': {
-	'B-LOC': 2
+}, 'mental': {
+	'O': 5
 }, '9-0-41-1': {
 	'O': 1
 }, 'thermal': {
@@ -15019,6 +15047,8 @@ wordDict = {
 	'O': 4
 }, 'agrotonz': {
 	'B-ORG': 1
+}, 'nihad': {
+	'O': 1
 }, '685,000': {
 	'O': 2
 }, '31,347': {
@@ -15067,24 +15097,16 @@ wordDict = {
 	'O': 1
 }, 'versus': {
 	'O': 6
-}, 'roaring': {
-	'O': 1
 }, 'sport': {
 	'B-ORG': 2, 'I-ORG': 1, 'O': 4
 }, 'oestersund': {
 	'B-LOC': 1
-}, 'runoff': {
-	'O': 1
 }, 'concern': {
 	'O': 20
 }, 'gillingham': {
 	'B-ORG': 4
 }, 'suspects': {
 	'O': 6
-}, 'giroix': {
-	'I-PER': 1
-}, 'cinco': {
-	'B-ORG': 2
 }, 'kleinova': {
 	'B-PER': 1
 }, 'tackling': {
@@ -15129,12 +15151,14 @@ wordDict = {
 	'O': 5
 }, 'monarchy': {
 	'O': 1
-}, 'actor': {
-	'O': 5
+}, 'pinas': {
+	'B-PER': 4, 'I-PER': 1
 }, 'takagi': {
 	'B-LOC': 1, 'I-PER': 4
 }, 'victimised': {
 	'O': 1
+}, 'realised': {
+	'O': 3
 }, 'probation': {
 	'O': 1
 }, 'style': {
@@ -15143,8 +15167,6 @@ wordDict = {
 	'O': 7
 }, 'na=not': {
 	'O': 1
-}, 'willison': {
-	'I-PER': 1
 }, '42-2-2423-0003': {
 	'O': 3
 }, 'saqlain': {
@@ -15161,8 +15183,6 @@ wordDict = {
 	'O': 2
 }, 'mont-sur-marchienne': {
 	'B-LOC': 1
-}, 'unfavoured': {
-	'O': 1
 }, 'javier': {
 	'B-PER': 10
 }, 'talented': {
@@ -15205,6 +15225,8 @@ wordDict = {
 	'I-ORG': 2, 'O': 1
 }, 'back-to-back': {
 	'O': 2
+}, 'stabilisation': {
+	'O': 1
 }, 'madness': {
 	'O': 1
 }, 'armenia': {
@@ -15265,8 +15287,8 @@ wordDict = {
 	'O': 1
 }, '100.92': {
 	'O': 1
-}, 'sporitelna': {
-	'I-ORG': 1
+}, '158': {
+	'O': 1
 }, 'linguistic': {
 	'O': 1
 }, 'exhaustion': {
@@ -15279,8 +15301,8 @@ wordDict = {
 	'O': 1
 }, '20.21': {
 	'O': 1
-}, 'madeleine': {
-	'B-PER': 3
+}, 'recruiting': {
+	'O': 1
 }, 'perfetti': {
 	'B-PER': 1
 }, 'chernyshev': {
@@ -15307,6 +15329,8 @@ wordDict = {
 	'O': 1
 }, 'homestake': {
 	'B-ORG': 3, 'O': 1
+}, 'jyvasklya': {
+	'B-LOC': 1
 }, 'hodgson': {
 	'I-PER': 2
 }, '4-0': {
@@ -15327,8 +15351,6 @@ wordDict = {
 	'O': 1
 }, 'these': {
 	'O': 62
-}, '1642': {
-	'O': 1
 }, 'valero': {
 	'B-ORG': 1
 }, 'shockwave': {
@@ -15345,6 +15367,8 @@ wordDict = {
 	'O': 1
 }, 'shirtfront': {
 	'O': 1
+}, 'stuck': {
+	'O': 1
 }, 'mikael': {
 	'B-PER': 4
 }, 'sorghum': {
@@ -15357,6 +15381,8 @@ wordDict = {
 	'O': 2
 }, 'udovenko': {
 	'I-PER': 1
+}, 'gisenyi': {
+	'B-LOC': 3
 }, '4-53': {
 	'O': 2
 }, 'zenith': {
@@ -15411,6 +15437,8 @@ wordDict = {
 	'O': 1
 }, '11.7': {
 	'O': 2
+}, 'prinosil': {
+	'I-PER': 2
 }, '11.1': {
 	'O': 1
 }, '11.3': {
@@ -15429,8 +15457,6 @@ wordDict = {
 	'O': 1
 }, 'inchon': {
 	'B-LOC': 1
-}, 'technologists': {
-	'O': 1
 }, 'document': {
 	'O': 13
 }, 'frazier': {
@@ -15501,8 +15527,6 @@ wordDict = {
 	'O': 1
 }, 'severe': {
 	'O': 5
-}, '85-share': {
-	'O': 1
 }, 'congressmen': {
 	'O': 1
 }, 'coordinate': {
@@ -15520,6 +15544,8 @@ wordDict = {
 }, 'taxi': {
 	'O': 6
 }, 'pfd-2': {
+	'O': 1
+}, '75-100': {
 	'O': 1
 }, 'frankie': {
 	'B-PER': 5
@@ -15605,8 +15631,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'lada': {
 	'B-ORG': 1
-}, 'rouxel': {
-	'B-PER': 1
+}, 'nielsen': {
+	'I-PER': 1
 }, 'spectacular': {
 	'O': 1
 }, 'bryan': {
@@ -15627,6 +15653,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'early': {
 	'O': 69
+}, 'friction': {
+	'O': 1
 }, 'pesetas': {
 	'O': 5
 }, 'using': {
@@ -15635,8 +15663,8 @@ wordDict = {
 	'O': 1
 }, 'amr': {
 	'B-ORG': 3, 'B-PER': 3
-}, 'rebecca': {
-	'B-PER': 1
+}, 'psv': {
+	'B-ORG': 23
 }, 'amt': {
 	'O': 3
 }, 'rear': {
@@ -15709,6 +15737,8 @@ wordDict = {
 	'B-LOC': 5
 }, 'hacks': {
 	'O': 1
+}, 'sewing': {
+	'O': 2
 }, 'privatization': {
 	'O': 6
 }, 'eddie': {
@@ -15793,6 +15823,8 @@ wordDict = {
 	'O': 3
 }, 'unease': {
 	'O': 2
+}, 'badminton': {
+	'O': 6
 }, 'volkswagen': {
 	'B-ORG': 2
 }, 'credits': {
@@ -15877,6 +15909,8 @@ wordDict = {
 	'O': 1
 }, '8.56': {
 	'O': 1
+}, 'tin': {
+	'O': 1
 }, 'romero': {
 	'I-PER': 1
 }, 'mammals': {
@@ -15901,8 +15935,6 @@ wordDict = {
 	'O': 8
 }, 'watchdog': {
 	'O': 2
-}, 'fallah': {
-	'B-PER': 1
 }, 'your': {
 	'O': 17
 }, 'lucchese': {
@@ -15951,6 +15983,8 @@ wordDict = {
 	'O': 1
 }, 'dalian': {
 	'B-LOC': 3
+}, 'fastest-growing': {
+	'O': 1
 }, 'immaculate': {
 	'O': 1
 }, '1,750-hectare': {
@@ -16037,8 +16071,8 @@ wordDict = {
 	'O': 1
 }, 'boyden': {
 	'I-PER': 1
-}, 'mounting': {
-	'O': 1
+}, 'dugmore': {
+	'B-PER': 1, 'I-PER': 1
 }, 'arabs': {
 	'B-MISC': 2
 }, 'gennadi': {
@@ -16057,8 +16091,6 @@ wordDict = {
 	'B-MISC': 1, 'O': 2
 }, 'saleh': {
 	'B-PER': 2, 'I-PER': 1
-}, '147': {
-	'O': 1
 }, '225-share': {
 	'O': 1
 }, 'moves': {
@@ -16133,6 +16165,8 @@ wordDict = {
 	'O': 1
 }, 'peat': {
 	'I-ORG': 2
+}, 'zifa': {
+	'B-ORG': 2
 }, 'drift': {
 	'O': 2
 }, 'disclosed': {
@@ -16147,8 +16181,6 @@ wordDict = {
 	'O': 3
 }, '60m': {
 	'O': 1
-}, 'cheveley': {
-	'B-ORG': 1
 }, '38.43': {
 	'O': 1
 }, 'sniffer': {
@@ -16163,8 +16195,6 @@ wordDict = {
 	'I-PER': 1
 }, 'vadim': {
 	'B-PER': 1
-}, 'kladno': {
-	'I-ORG': 1
 }, 'telekomunikasi': {
 	'B-PER': 1
 }, '3-7': {
@@ -16231,8 +16261,6 @@ wordDict = {
 	'O': 2
 }, 'month': {
 	'O': 88
-}, 'tempe': {
-	'B-LOC': 1
 }, 'unrest': {
 	'O': 10
 }, 'deadline': {
@@ -16295,6 +16323,8 @@ wordDict = {
 	'O': 1
 }, '5:17': {
 	'O': 1
+}, 'ldp-dominated': {
+	'B-MISC': 1
 }, 'confidential': {
 	'O': 2
 }, 'lebanese': {
@@ -16325,6 +16355,8 @@ wordDict = {
 	'O': 1
 }, 'austerity': {
 	'O': 2
+}, 'mth': {
+	'O': 2
 }, 'vern': {
 	'O': 1
 }, 'naoto': {
@@ -16343,8 +16375,6 @@ wordDict = {
 	'B-PER': 1
 }, 'breathalyse': {
 	'O': 1
-}, 'banat': {
-	'B-LOC': 1
 }, 'mile': {
 	'O': 3
 }, "o'sullivan": {
@@ -16375,6 +16405,8 @@ wordDict = {
 	'O': 1
 }, 'appearance': {
 	'O': 6
+}, 'shop': {
+	'O': 1
 }, 'streets': {
 	'O': 11
 }, '3.14': {
@@ -16433,6 +16465,8 @@ wordDict = {
 	'B-PER': 2
 }, '5.65': {
 	'O': 1
+}, 'rutter': {
+	'I-PER': 2
 }, '3.02': {
 	'O': 1
 }, 'certificates': {
@@ -16441,8 +16475,6 @@ wordDict = {
 	'O': 1
 }, 'hijacked': {
 	'O': 8
-}, 'joakim': {
-	'B-PER': 1
 }, '34.475': {
 	'O': 1
 }, 'deborah': {
@@ -16491,8 +16523,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'zaglebie': {
 	'B-ORG': 3
-}, 'matching': {
-	'O': 1
+}, 'eugen': {
+	'B-PER': 2
 }, '14,600': {
 	'O': 1
 }, 'lome': {
@@ -16555,8 +16587,8 @@ wordDict = {
 	'O': 1
 }, 'thatcher': {
 	'I-PER': 1
-}, 'ask': {
-	'I-ORG': 3, 'O': 8
+}, 'put': {
+	'O': 56
 }, 'hemmings': {
 	'I-PER': 1
 }, 'lagos': {
@@ -16581,9 +16613,11 @@ wordDict = {
 	'O': 1
 }, 'season-high': {
 	'O': 1
+}, 'agronomist': {
+	'O': 1
 }, 'conventional': {
 	'O': 1
-}, 'resisted': {
+}, 'hapless': {
 	'O': 1
 }, 'khan': {
 	'I-LOC': 1, 'B-PER': 1, 'I-PER': 25
@@ -16617,8 +16651,8 @@ wordDict = {
 	'O': 1
 }, 'taken': {
 	'O': 42
-}, '96/04': {
-	'O': 1
+}, 'newbridge': {
+	'B-ORG': 1
 }, 'gourvennec': {
 	'B-PER': 1
 }, 'injury': {
@@ -16641,8 +16675,6 @@ wordDict = {
 	'O': 2
 }, 'hannes': {
 	'B-PER': 1, 'O': 1
-}, 'effigy': {
-	'O': 2
 }, 'dion': {
 	'B-PER': 1
 }, 'zemin': {
@@ -16653,15 +16685,13 @@ wordDict = {
 	'O': 1
 }, 'motorsports': {
 	'O': 1
-}, 'vice-premier': {
-	'O': 1
 }, 'broke': {
 	'O': 17
 }, 'iulian': {
 	'B-PER': 1
 }, '7000': {
 	'O': 1
-}, 'suction': {
+}, 'laughing': {
 	'O': 1
 }, 'mounted': {
 	'O': 2
@@ -16709,8 +16739,6 @@ wordDict = {
 	'O': 1
 }, 'guerrouj': {
 	'I-PER': 1
-}, 'revealed': {
-	'O': 2
 }, 'history': {
 	'O': 12
 }, '740': {
@@ -16737,11 +16765,9 @@ wordDict = {
 	'O': 3
 }, 'claimed': {
 	'O': 13
-}, '12.208': {
-	'O': 1
+}, 'roadblock': {
+	'O': 2
 }, 'quartets': {
-	'O': 1
-}, '1663/96': {
 	'O': 1
 }, 'partner': {
 	'O': 8
@@ -16753,8 +16779,6 @@ wordDict = {
 	'B-ORG': 1
 }, 'workington': {
 	'B-ORG': 4
-}, 'credited': {
-	'O': 1
 }, '.598': {
 	'O': 4
 }, '2:00.91': {
@@ -16775,8 +16799,6 @@ wordDict = {
 	'O': 2
 }, 'kuna': {
 	'O': 1
-}, 'dorfmeister': {
-	'I-PER': 1
 }, 'reject': {
 	'O': 1
 }, '69.45-74.18': {
@@ -16800,6 +16822,8 @@ wordDict = {
 }, 'tried': {
 	'O': 25
 }, '119.3': {
+	'O': 1
+}, 'baya': {
 	'O': 1
 }, 'rudi': {
 	'B-PER': 2
@@ -16913,7 +16937,7 @@ wordDict = {
 	'O': 1
 }, 'all-cargo': {
 	'O': 1
-}, '108,288': {
+}, '4-48': {
 	'O': 1
 }, 'highlighted': {
 	'O': 2
@@ -16983,6 +17007,8 @@ wordDict = {
 	'O': 2
 }, '1-16': {
 	'O': 1
+}, '12/15/2005': {
+	'O': 1
 }, 'terrain': {
 	'O': 1
 }, 'outbreak': {
@@ -16999,18 +17025,14 @@ wordDict = {
 	'I-PER': 1
 }, 'flemming': {
 	'B-PER': 3, 'I-PER': 1
-}, '1994-95': {
-	'O': 2
-}, 'shipload': {
-	'O': 1
 }, 'feet': {
 	'O': 12
 }, 'three-man': {
 	'O': 2
 }, 'imprisoned': {
 	'O': 2
-}, 'oradea': {
-	'B-LOC': 1
+}, 'lb-10': {
+	'O': 1
 }, '450,000': {
 	'O': 4
 }, 'fully': {
@@ -17137,6 +17159,8 @@ wordDict = {
 	'O': 1
 }, 'subway': {
 	'O': 1
+}, '.263': {
+	'O': 1
 }, 'reck': {
 	'I-PER': 1
 }, '3024.95': {
@@ -17171,10 +17195,8 @@ wordDict = {
 	'I-PER': 1
 }, 'bala': {
 	'B-PER': 1
-}, 'hoek': {
-	'B-ORG': 2
-}, 'put': {
-	'O': 56
+}, 'ask': {
+	'I-ORG': 3, 'O': 8
 }, 'matthews': {
 	'I-LOC': 1, 'I-PER': 1
 }, 'southend': {
@@ -17231,8 +17253,8 @@ wordDict = {
 	'O': 1
 }, '1,683': {
 	'O': 1
-}, '662-252-9950': {
-	'O': 1
+}, 'hoek': {
+	'B-ORG': 2
 }, 'partnerships': {
 	'O': 1
 }, 'knots': {
@@ -17241,8 +17263,6 @@ wordDict = {
 	'O': 2
 }, 'consultations': {
 	'O': 2
-}, '71,200': {
-	'O': 1
 }, 'fischer': {
 	'B-PER': 1, 'I-PER': 2
 }, 'probability': {
@@ -17275,14 +17295,14 @@ wordDict = {
 	'I-ORG': 1
 }, 'lucerne': {
 	'B-ORG': 2
+}, 'investigator': {
+	'O': 1
 }, 'miss': {
 	'B-MISC': 2, 'O': 10
 }, 'prohibitively': {
 	'O': 1
 }, 'fearing': {
 	'O': 2
-}, 'alfonse': {
-	'B-PER': 1
 }, 'pro-opposition': {
 	'O': 1
 }, 'gajdos': {
@@ -17345,8 +17365,8 @@ wordDict = {
 	'O': 1
 }, 'taxable': {
 	'O': 4
-}, 'theme': {
-	'O': 2
+}, 'surprising': {
+	'O': 1
 }, '1913': {
 	'O': 1
 }, '1912': {
@@ -17381,8 +17401,8 @@ wordDict = {
 	'O': 1
 }, 'linfield': {
 	'B-ORG': 2
-}, 'banners': {
-	'O': 2
+}, '7-0-28-1': {
+	'O': 1
 }, 'autumn': {
 	'O': 4
 }, 'greg': {
@@ -17435,6 +17455,8 @@ wordDict = {
 	'O': 2
 }, 'sentences': {
 	'O': 6
+}, 'shaved': {
+	'O': 1
 }, 'skiing': {
 	'O': 3, 'I-PER': 1
 }, "gov't": {
@@ -17599,6 +17621,8 @@ wordDict = {
 	'O': 1
 }, 'abdullah': {
 	'I-PER': 2
+}, 'susanti': {
+	'I-PER': 3
 }, 'hovered': {
 	'O': 1
 }, '667': {
@@ -17617,6 +17641,8 @@ wordDict = {
 	'O': 1
 }, 'two-year-olds': {
 	'O': 1
+}, 'stefaan': {
+	'B-PER': 1
 }, 'ncb': {
 	'B-ORG': 4
 }, '830.60': {
@@ -17625,6 +17651,8 @@ wordDict = {
 	'O': 3
 }, 'j.s.': {
 	'B-PER': 1
+}, '625m': {
+	'O': 1
 }, 'copyright': {
 	'O': 6
 }, 'duncan': {
@@ -17655,7 +17683,7 @@ wordDict = {
 	'O': 1
 }, 'hardened': {
 	'O': 1
-}, 'militarists': {
+}, 'circle': {
 	'O': 1
 }, 'rotterdam': {
 	'I-ORG': 15, 'B-LOC': 3
@@ -17795,6 +17823,8 @@ wordDict = {
 	'I-PER': 1
 }, 'howley': {
 	'I-PER': 1
+}, 'blown': {
+	'O': 2
 }, 'tatiana': {
 	'B-PER': 1
 }, 'drug-related': {
@@ -17813,6 +17843,8 @@ wordDict = {
 	'O': 1
 }, 'won': {
 	'O': 164
+}, 'petrolul': {
+	'I-ORG': 2
 }, 'grandparents': {
 	'O': 2
 }, '6-242': {
@@ -17825,7 +17857,7 @@ wordDict = {
 	'O': 38
 }, 'flashlight': {
 	'O': 1
-}, 'seaside': {
+}, 'quota': {
 	'O': 1
 }, 'insulted': {
 	'O': 2
@@ -17841,6 +17873,8 @@ wordDict = {
 	'O': 1
 }, 'hollioake': {
 	'I-PER': 1
+}, 'laurent': {
+	'B-PER': 6
 }, 'unstoppable': {
 	'O': 1
 }, 'aqaba': {
@@ -17853,6 +17887,8 @@ wordDict = {
 	'B-MISC': 1, 'O': 3
 }, 'natalya': {
 	'B-PER': 4
+}, 'damein': {
+	'B-PER': 1
 }, '8-1-60-0': {
 	'O': 1
 }, 'dally': {
@@ -17861,6 +17897,8 @@ wordDict = {
 	'O': 2
 }, 'hardline': {
 	'O': 4
+}, '9373': {
+	'O': 1
 }, 'abruptly': {
 	'O': 1
 }, 'league': {
@@ -17887,12 +17925,10 @@ wordDict = {
 	'O': 4
 }, 'anti-inflation': {
 	'O': 1
-}, '63,913': {
-	'O': 1
 }, 'capelle': {
 	'I-PER': 1
-}, 'canadians': {
-	'B-MISC': 2
+}, 'fourth-largest': {
+	'O': 1
 }, 'vault': {
 	'O': 3
 }, 'fixing': {
@@ -17910,6 +17946,8 @@ wordDict = {
 }, 'headed': {
 	'O': 11
 }, 'sickened': {
+	'O': 1
+}, 'eleven': {
 	'O': 1
 }, 'address': {
 	'O': 10
@@ -18007,6 +18045,8 @@ wordDict = {
 	'O': 3
 }, 'anthony': {
 	'B-PER': 4
+}, 'matos': {
+	'B-PER': 1, 'I-PER': 1
 }, 'recalled': {
 	'O': 7
 }, 'compromised': {
@@ -18067,8 +18107,6 @@ wordDict = {
 	'B-PER': 2
 }, 'millfeed': {
 	'O': 4
-}, 'mth': {
-	'O': 2
 }, 'riverways': {
 	'O': 1
 }, 'richter': {
@@ -18095,6 +18133,8 @@ wordDict = {
 	'O': 2
 }, 'breweries': {
 	'I-ORG': 1
+}, 'banners': {
+	'O': 2
 }, '1,617': {
 	'O': 1
 }, 'fiedler': {
@@ -18121,6 +18161,8 @@ wordDict = {
 	'O': 1
 }, 'jpr': {
 	'O': 1
+}, 'otero': {
+	'I-PER': 1
 }, 'wartorn': {
 	'O': 1
 }, '53.706': {
@@ -18233,8 +18275,6 @@ wordDict = {
 	'O': 4
 }, 'nonetheless': {
 	'O': 1
-}, 'mobs': {
-	'O': 1
 }, 'lim': {
 	'I-PER': 1
 }, 'calcutta': {
@@ -18311,12 +18351,10 @@ wordDict = {
 	'O': 3
 }, 'petrolem': {
 	'I-ORG': 1
-}, 'bedouins': {
-	'B-MISC': 1
+}, 'alloush': {
+	'I-PER': 1
 }, 'questioned': {
 	'O': 14
-}, 'irrespective': {
-	'O': 1
 }, 'ballots': {
 	'O': 2
 }, 'guarantees': {
@@ -18339,8 +18377,6 @@ wordDict = {
 	'O': 1
 }, 'showing': {
 	'O': 7
-}, 'politically': {
-	'O': 1
 }, 'displaced': {
 	'I-ORG': 1, 'O': 3
 }, 'ipo': {
@@ -18369,8 +18405,6 @@ wordDict = {
 	'O': 1
 }, 'defied': {
 	'O': 1
-}, 'odnosum': {
-	'I-PER': 1
 }, 'glenallen': {
 	'B-PER': 1
 }, 'outright': {
@@ -18465,8 +18499,6 @@ wordDict = {
 	'O': 2
 }, 'markka': {
 	'O': 9
-}, 'hero': {
-	'O': 1
 }, 'weiss': {
 	'B-PER': 2, 'I-PER': 1
 }, '1:07.258': {
@@ -18481,6 +18513,8 @@ wordDict = {
 	'I-PER': 1
 }, 'w.c.': {
 	'B-LOC': 1
+}, 'gibbs': {
+	'B-PER': 3, 'I-PER': 2
 }, 'limelight-loving': {
 	'O': 1
 }, 'competitions': {
@@ -18498,8 +18532,6 @@ wordDict = {
 }, '7.': {
 	'O': 60
 }, '55,000': {
-	'O': 1
-}, 'regiment': {
 	'O': 1
 }, 'installed': {
 	'O': 5
@@ -18613,8 +18645,8 @@ wordDict = {
 	'B-LOC': 1
 }, 'within': {
 	'I-PER': 1, 'O': 26
-}, 'testimony': {
-	'O': 4
+}, '12/15/2014': {
+	'O': 1
 }, '14.15': {
 	'O': 1
 }, 'uniting': {
@@ -18637,7 +18669,9 @@ wordDict = {
 	'O': 3
 }, 'militarily': {
 	'O': 1
-}, 'alexandrou': {
+}, '23:58.6': {
+	'O': 1
+}, 'mendy': {
 	'I-PER': 1
 }, '41.8': {
 	'O': 1
@@ -18667,8 +18701,12 @@ wordDict = {
 	'O': 11
 }, 'p1020': {
 	'O': 1
+}, 'h': {
+	'B-PER': 1
 }, 'wearing': {
 	'O': 1
+}, '78': {
+	'O': 17
 }, 'disallowed': {
 	'O': 1
 }, 'anti-corruption': {
@@ -18743,12 +18781,12 @@ wordDict = {
 	'O': 5
 }, '1:55.385': {
 	'O': 1
+}, 'prft': {
+	'O': 1
 }, 'mobile': {
 	'O': 2
 }, 'malin': {
 	'I-PER': 1
-}, 'mental': {
-	'O': 5
 }, '38:18.759': {
 	'O': 2
 }, 'munis': {
@@ -18769,8 +18807,6 @@ wordDict = {
 	'B-ORG': 11
 }, 'slobodan': {
 	'B-PER': 1
-}, 'loxley': {
-	'B-ORG': 2
 }, 'ordered': {
 	'O': 19
 }, 'adults': {
@@ -18791,18 +18827,16 @@ wordDict = {
 	'O': 2
 }, 'reopening': {
 	'O': 2
-}, 'lindholm': {
-	'I-PER': 1
+}, '63,913': {
+	'O': 1
 }, 'languishing': {
 	'O': 1
 }, '2.00-2.25': {
 	'O': 1
-}, 'huracan': {
-	'B-ORG': 1
+}, '748': {
+	'O': 1
 }, 'rupert': {
 	'I-LOC': 1, 'I-ORG': 1, 'B-PER': 1
-}, '12th-ranked': {
-	'O': 2
 }, '1890': {
 	'O': 1
 }, 'novelist': {
@@ -18831,8 +18865,8 @@ wordDict = {
 	'O': 1
 }, 'fears': {
 	'O': 7
-}, 'haeggman': {
-	'I-PER': 1
+}, 'cbot': {
+	'O': 5
 }, 'rewriting': {
 	'O': 1
 }, 'application': {
@@ -18847,7 +18881,11 @@ wordDict = {
 	'O': 2
 }, 'department': {
 	'B-ORG': 3, 'I-ORG': 18, 'O': 8
+}, 'holocaust': {
+	'O': 1, 'B-LOC': 1
 }, 'fast-moving': {
+	'O': 1
+}, 'origins': {
 	'O': 1
 }, 'draw': {
 	'I-PER': 3, 'O': 32, 'B-PER': 3
@@ -18941,10 +18979,10 @@ wordDict = {
 	'O': 1
 }, 'kilometre': {
 	'O': 5
-}, 'jyvasklya': {
-	'B-LOC': 1
 }, 'villeurbanne': {
 	'B-PER': 1
+}, 'mounting': {
+	'O': 1
 }, 'hurricane': {
 	'I-ORG': 1, 'O': 6
 }, 'hilde': {
@@ -18963,6 +19001,8 @@ wordDict = {
 	'O': 2
 }, 'proposition': {
 	'I-MISC': 1
+}, '1990s': {
+	'O': 1
 }, 'gb': {
 	'O': 21
 }, '45.455': {
@@ -19021,8 +19061,6 @@ wordDict = {
 	'B-LOC': 1
 }, 'steppes': {
 	'O': 1
-}, '293': {
-	'O': 2
 }, '1:06.615': {
 	'O': 1
 }, 'portfolios': {
@@ -19045,22 +19083,22 @@ wordDict = {
 	'O': 1
 }, 'chooses': {
 	'O': 1
+}, 'militarists': {
+	'O': 1
 }, 'ralf': {
 	'B-PER': 1
 }, '80th': {
 	'O': 5
 }, 'g.': {
 	'B-PER': 23
-}, '1605': {
+}, 'adversary': {
 	'O': 1
-}, 'confessional': {
+}, '12/16/1996': {
 	'O': 1
 }, 'rumbek': {
 	'B-LOC': 1
 }, 'mauritania': {
 	'B-LOC': 4
-}, 'croat': {
-	'B-MISC': 3, 'B-ORG': 2
 }, '47,200': {
 	'O': 1
 }, 'olaf': {
@@ -19137,8 +19175,6 @@ wordDict = {
 	'I-ORG': 1
 }, 'buettner': {
 	'I-PER': 1
-}, 'north-west': {
-	'O': 1
 }, 'polish-born': {
 	'O': 1
 }, 'picked': {
@@ -19241,6 +19277,8 @@ wordDict = {
 	'I-PER': 1
 }, '56.00': {
 	'O': 1
+}, '601,000': {
+	'O': 1
 }, 'bakker': {
 	'I-PER': 3
 }, 'brunet': {
@@ -19297,8 +19335,6 @@ wordDict = {
 	'I-PER': 1
 }, 'salvation': {
 	'I-ORG': 2
-}, 'severance': {
-	'O': 1
 }, 'balances': {
 	'O': 4
 }, 'examining': {
@@ -19317,8 +19353,8 @@ wordDict = {
 	'B-PER': 3
 }, 'sicily': {
 	'B-LOC': 1
-}, 'collaborating': {
-	'O': 2
+}, 'vacek': {
+	'I-PER': 3
 }, 'baier': {
 	'I-PER': 1
 }, 'coerced': {
@@ -19449,6 +19485,8 @@ wordDict = {
 	'O': 7
 }, 'crosses': {
 	'O': 1
+}, '1994-95': {
+	'O': 2
 }, 'rebelled': {
 	'O': 1
 }, 'announcing': {
@@ -19487,6 +19525,8 @@ wordDict = {
 	'B-LOC': 23
 }, 'levski': {
 	'B-ORG': 1
+}, '336,000': {
+	'O': 1
 }, 'kenny': {
 	'B-PER': 5, 'I-ORG': 1
 }, 'hides': {
@@ -19513,8 +19553,8 @@ wordDict = {
 	'O': 1
 }, 'whistled': {
 	'O': 1
-}, 'documenting': {
-	'O': 1
+}, 'alen': {
+	'I-ORG': 1
 }, 'sought': {
 	'O': 9
 }, 'founding': {
@@ -19551,6 +19591,8 @@ wordDict = {
 	'O': 6
 }, 'alvarado': {
 	'B-PER': 1, 'I-PER': 1
+}, 'strides': {
+	'O': 1
 }, 'compiled': {
 	'O': 1
 }, 'ferdinand': {
@@ -19585,10 +19627,10 @@ wordDict = {
 	'O': 1
 }, 'fouled': {
 	'O': 1
+}, 'quist': {
+	'I-ORG': 1
 }, '746.3': {
 	'O': 1
-}, 'gpg': {
-	'B-ORG': 5
 }, 'gagiano': {
 	'I-PER': 1
 }, 'belongings': {
@@ -19619,8 +19661,8 @@ wordDict = {
 	'O': 1
 }, 'manhattan': {
 	'B-LOC': 3
-}, '+0,2': {
-	'O': 2
+}, 'jin': {
+	'B-PER': 1
 }, '37-10-78-6': {
 	'O': 1
 }, 'rain-curtailed': {
@@ -19637,8 +19679,6 @@ wordDict = {
 	'B-PER': 1, 'O': 23
 }, 'encyclopedia': {
 	'I-MISC': 1
-}, 'mauricio': {
-	'B-PER': 1
 }, 'agenda': {
 	'I-MISC': 1, 'O': 10
 }, 'healthcare': {
@@ -19665,8 +19705,8 @@ wordDict = {
 	'O': 1
 }, 'commerical': {
 	'O': 1
-}, 'lynne': {
-	'B-PER': 1
+}, 'poking': {
+	'O': 1
 }, 'chief-of-staff': {
 	'O': 5
 }, 'basement': {
@@ -19679,6 +19719,8 @@ wordDict = {
 	'O': 1
 }, 'including': {
 	'O': 54
+}, 'whisk': {
+	'O': 1
 }, 'cruise': {
 	'O': 1, 'B-PER': 1, 'I-PER': 1
 }, '356,725': {
@@ -19737,6 +19779,8 @@ wordDict = {
 	'B-PER': 1
 }, 'blom': {
 	'B-MISC': 1
+}, 'trueman': {
+	'I-PER': 1
 }, 'zagreb': {
 	'B-LOC': 1, 'I-PER': 1
 }, 'auto': {
@@ -19745,8 +19789,6 @@ wordDict = {
 	'O': 4
 }, 'auth': {
 	'B-ORG': 1
-}, '158': {
-	'O': 1
 }, 'grossed': {
 	'O': 1
 }, '265m': {
@@ -19825,8 +19867,8 @@ wordDict = {
 	'O': 1
 }, 'long-standing': {
 	'O': 1
-}, 'devised': {
-	'O': 1
+}, 'northcote': {
+	'B-ORG': 2
 }, '7-1/8': {
 	'O': 1
 }, '11-6': {
@@ -19893,8 +19935,8 @@ wordDict = {
 	'B-PER': 4
 }, 'demos': {
 	'O': 1
-}, 'critics': {
-	'O': 9
+}, 'may': {
+	'I-PER': 2, 'O': 103
 }, 'wellman': {
 	'I-ORG': 7, 'I-PER': 1
 }, '28:42.26': {
@@ -19903,6 +19945,8 @@ wordDict = {
 	'B-ORG': 2
 }, 'libor': {
 	'B-MISC': 1, 'O': 1
+}, 'zenit': {
+	'B-ORG': 1
 }, 'clearing': {
 	'O': 3
 }, 'underpinned': {
@@ -19911,15 +19955,11 @@ wordDict = {
 	'I-ORG': 2, 'O': 9
 }, 'non-seeded': {
 	'O': 1
-}, 'danielyan': {
-	'I-PER': 1
 }, '3.186': {
 	'O': 1
 }, 'achievements': {
 	'O': 1
 }, '1630': {
-	'O': 1
-}, 'forgery': {
 	'O': 1
 }, 'umbrella': {
 	'O': 2
@@ -19941,12 +19981,14 @@ wordDict = {
 	'O': 4
 }, 'hopkins': {
 	'I-LOC': 1
+}, 'equestrian': {
+	'O': 1
 }, '70m': {
 	'O': 1
 }, 'completely': {
 	'O': 3
-}, '273-2730': {
-	'O': 1
+}, 'jill': {
+	'B-PER': 1
 }, '6-1-23-2': {
 	'O': 1
 }, 'lamonts': {
@@ -19973,6 +20015,8 @@ wordDict = {
 	'O': 4
 }, 'fueled': {
 	'O': 2
+}, 'norio': {
+	'B-PER': 1
 }, 'precaution': {
 	'O': 2
 }, 'route': {
@@ -19995,8 +20039,8 @@ wordDict = {
 	'I-PER': 1
 }, 'bjorkman': {
 	'I-PER': 1
-}, 'fastest-growing': {
-	'O': 1
+}, 'stainless': {
+	'B-MISC': 1
 }, '299': {
 	'O': 2
 }, 'routs': {
@@ -20007,6 +20051,8 @@ wordDict = {
 	'I-PER': 1
 }, 'designed': {
 	'O': 4
+}, 'deducted': {
+	'O': 1
 }, '23.92': {
 	'O': 1
 }, 'evans': {
@@ -20021,6 +20067,8 @@ wordDict = {
 	'O': 1
 }, 'baldato': {
 	'B-PER': 1, 'I-PER': 1
+}, '10-1-54-0': {
+	'O': 1
 }, 'congo': {
 	'B-LOC': 4
 }, '4nb': {
@@ -20129,6 +20177,8 @@ wordDict = {
 	'O': 1
 }, 'manipulation': {
 	'O': 1
+}, 'joulwan': {
+	'I-PER': 1
 }, 'reunification': {
 	'O': 1
 }, 'herself': {
@@ -20225,6 +20275,8 @@ wordDict = {
 	'O': 1
 }, 'ewald': {
 	'B-PER': 1
+}, 'niall': {
+	'B-PER': 1
 }, '4:19.699': {
 	'O': 2
 }, 'pursued': {
@@ -20237,8 +20289,6 @@ wordDict = {
 	'I-ORG': 1
 }, '2.6': {
 	'O': 6
-}, '12/15/2005': {
-	'O': 1
 }, 'mustapha': {
 	'B-PER': 2
 }, 'relatives': {
@@ -20255,12 +20305,12 @@ wordDict = {
 	'I-PER': 1
 }, 'jettisoning': {
 	'O': 1
+}, '107.0': {
+	'O': 2
 }, 'medals': {
 	'O': 5
 }, 'blades': {
 	'I-PER': 1
-}, '.263': {
-	'O': 1
 }, 'sequel': {
 	'O': 3
 }, '.436': {
@@ -20365,8 +20415,8 @@ wordDict = {
 	'B-LOC': 1
 }, 'parked': {
 	'O': 1
-}, 'heerenveen': {
-	'B-ORG': 14, 'B-LOC': 1
+}, 'soldiers': {
+	'O': 22
 }, 'molest': {
 	'O': 1
 }, 'high-level': {
@@ -20381,6 +20431,8 @@ wordDict = {
 	'O': 2
 }, 'based': {
 	'O': 24
+}, 'kerosene': {
+	'O': 5
 }, 'tire': {
 	'O': 1
 }, 'earned': {
@@ -20435,8 +20487,8 @@ wordDict = {
 	'B-PER': 1
 }, 'slows': {
 	'O': 1
-}, 'dias': {
-	'I-ORG': 2
+}, 'strengthened': {
+	'O': 1
 }, 'jammu': {
 	'B-LOC': 2
 }, '12/01': {
@@ -20503,8 +20555,8 @@ wordDict = {
 	'I-PER': 3
 }, 'sharpshooter': {
 	'O': 1
-}, 'adige': {
-	'B-LOC': 1
+}, 'centres': {
+	'O': 2
 }, 'felipe': {
 	'B-PER': 1
 }, '1992/93': {
@@ -20681,8 +20733,6 @@ wordDict = {
 	'O': 1
 }, 'spray': {
 	'O': 1
-}, '27.70': {
-	'O': 1
 }, '0.8': {
 	'O': 2
 }, 'korneev': {
@@ -20719,8 +20769,6 @@ wordDict = {
 	'O': 3
 }, 'periodic': {
 	'O': 1
-}, 'binding': {
-	'O': 1
 }, 'six-run': {
 	'O': 2
 }, 'tuesday': {
@@ -20739,6 +20787,8 @@ wordDict = {
 	'B-ORG': 4
 }, 'johann': {
 	'B-PER': 1
+}, 'resisted': {
+	'O': 1
 }, 'uhelna': {
 	'I-ORG': 1
 }, '7658': {
@@ -20791,6 +20841,8 @@ wordDict = {
 	'O': 1
 }, 'malawi': {
 	'B-LOC': 4
+}, 'freak': {
+	'O': 1
 }, '5,951': {
 	'O': 1
 }, 'chandigarh': {
@@ -20801,8 +20853,6 @@ wordDict = {
 	'O': 3
 }, 'controlled': {
 	'O': 8
-}, 'ascertain': {
-	'O': 1
 }, 'both': {
 	'O': 70
 }, '77.01-81.80': {
@@ -20849,8 +20899,6 @@ wordDict = {
 	'O': 2
 }, 'foindu': {
 	'B-LOC': 2
-}, 'staying': {
-	'O': 1
 }, '77-minute': {
 	'O': 1
 }, 'moya': {
@@ -20885,6 +20933,8 @@ wordDict = {
 	'O': 1
 }, '141.6': {
 	'O': 1
+}, 'alkhan-yurt': {
+	'B-LOC': 2
 }, 'bludgeoned': {
 	'O': 2
 }, 'gorini': {
@@ -21057,8 +21107,6 @@ wordDict = {
 	'I-PER': 1
 }, 'restore': {
 	'O': 2
-}, 'georgiopoulos': {
-	'I-PER': 1
 }, 'zelezarny': {
 	'I-ORG': 1
 }, '59440': {
@@ -21125,6 +21173,8 @@ wordDict = {
 	'O': 1
 }, 'ljubljana': {
 	'B-ORG': 1, 'B-LOC': 3
+}, 'compares': {
+	'O': 1
 }, '0.5': {
 	'O': 3
 }, '7-1-24-0': {
@@ -21178,6 +21228,8 @@ wordDict = {
 }, '269': {
 	'O': 4
 }, 'aliuska': {
+	'B-PER': 2
+}, 'maarten': {
 	'B-PER': 2
 }, 'deligst': {
 	'B-ORG': 1
@@ -21277,8 +21329,6 @@ wordDict = {
 	'O': 1
 }, 'confiscates': {
 	'O': 1
-}, 'vetoing': {
-	'O': 1
 }, 'complied': {
 	'O': 1
 }, 'projection': {
@@ -21287,8 +21337,6 @@ wordDict = {
 	'O': 1
 }, 'near-record': {
 	'O': 1
-}, 'criville': {
-	'I-PER': 1
 }, 'communes': {
 	'O': 1
 }, 'objected': {
@@ -21305,8 +21353,8 @@ wordDict = {
 	'B-MISC': 1
 }, '66th': {
 	'O': 2
-}, '12.0': {
-	'O': 1
+}, 'inflammation': {
+	'O': 2
 }, 'northsea': {
 	'B-ORG': 1
 }, 'miyaga': {
@@ -21318,8 +21366,6 @@ wordDict = {
 }, 'leszic': {
 	'B-PER': 1
 }, '2-225': {
-	'O': 1
-}, 'reopen': {
 	'O': 1
 }, 'berrie': {
 	'I-ORG': 2
@@ -21363,6 +21409,8 @@ wordDict = {
 	'I-PER': 3
 }, 'daschle': {
 	'B-PER': 2, 'I-PER': 2
+}, '79-2': {
+	'O': 1
 }, '468p': {
 	'O': 1
 }, 'bhutto': {
@@ -21497,6 +21545,8 @@ wordDict = {
 	'O': 2
 }, 'blaming': {
 	'O': 2
+}, '71,200': {
+	'O': 1
 }, 'collected': {
 	'O': 3
 }, 'neutral': {
@@ -21629,8 +21679,6 @@ wordDict = {
 	'O': 2
 }, 'canada': {
 	'B-PER': 1, 'I-PER': 1, 'B-LOC': 55, 'I-ORG': 4
-}, 'quota': {
-	'O': 1
 }, 'star': {
 	'B-ORG': 1, 'I-ORG': 7, 'O': 6
 }, 'dilution': {
@@ -21677,8 +21725,8 @@ wordDict = {
 	'B-PER': 20, 'I-PER': 21, 'I-ORG': 1
 }, 'compagnoni': {
 	'I-PER': 1
-}, '4:20.241': {
-	'O': 1
+}, 'salvatore': {
+	'B-PER': 1
 }, 'ortega': {
 	'I-PER': 1
 }, 'rounding': {
@@ -21703,8 +21751,6 @@ wordDict = {
 	'O': 1
 }, 'aided': {
 	'O': 1
-}, '1:02.795': {
-	'O': 1
 }, 'hoechst': {
 	'B-ORG': 1
 }, 'interacciones': {
@@ -21715,12 +21761,14 @@ wordDict = {
 	'B-ORG': 1
 }, '1200': {
 	'O': 2
-}, '15,062': {
-	'O': 1
+}, 'harding': {
+	'I-PER': 1
 }, 'dissolution': {
 	'O': 3
 }, 'four-year': {
 	'O': 4
+}, 'regards': {
+	'O': 1
 }, 'knelt': {
 	'O': 1
 }, 'uzbekistan': {
@@ -21745,8 +21793,8 @@ wordDict = {
 	'O': 35
 }, 'tajikistan': {
 	'B-LOC': 1
-}, 'employees': {
-	'O': 12
+}, 'unfavoured': {
+	'O': 1
 }, 'jeopardising': {
 	'O': 1
 }, 'whose': {
@@ -21825,10 +21873,10 @@ wordDict = {
 	'O': 1
 }, 'reforms': {
 	'O': 4
-}, 'kucan': {
-	'B-PER': 1, 'I-PER': 1
 }, 'vass': {
 	'B-PER': 1
+}, 'makelele': {
+	'I-PER': 1
 }, 'identities': {
 	'O': 2
 }, 'commack': {
@@ -21903,6 +21951,10 @@ wordDict = {
 	'O': 1
 }, 'samara': {
 	'I-ORG': 1
+}, '1,135m': {
+	'O': 1
+}, '12.0': {
+	'O': 1
 }, 'likely': {
 	'O': 29
 }, '217': {
@@ -21913,8 +21965,6 @@ wordDict = {
 	'O': 1
 }, 'bobkova': {
 	'I-PER': 1
-}, 'urban': {
-	'O': 1
 }, 'vidigal': {
 	'I-PER': 1
 }, 'kidnap': {
@@ -21931,6 +21981,8 @@ wordDict = {
 	'O': 5
 }, 'constantine': {
 	'B-PER': 1
+}, 'govt.fcast': {
+	'O': 1
 }, 'prisons': {
 	'O': 1
 }, 'asif': {
@@ -21985,8 +22037,6 @@ wordDict = {
 	'I-PER': 1
 }, 'drew': {
 	'O': 12
-}, '1,041': {
-	'O': 1
 }, 'met': {
 	'O': 22
 }, '108': {
@@ -22021,6 +22071,8 @@ wordDict = {
 	'O': 1
 }, 'tapes': {
 	'O': 1
+}, 'mid-east': {
+	'B-ORG': 1
 }, 'guus': {
 	'B-PER': 1
 }, 'p.': {
@@ -22037,10 +22089,10 @@ wordDict = {
 	'B-ORG': 3, 'I-ORG': 2, 'O': 6
 }, '.750': {
 	'O': 1
-}, 'norio': {
-	'B-PER': 1
 }, 'omar': {
 	'B-PER': 3
+}, 'three-wicket': {
+	'O': 1
 }, 'california': {
 	'B-MISC': 1, 'B-ORG': 25, 'I-ORG': 2, 'I-PER': 1, 'B-LOC': 18
 }, 'suitable': {
@@ -22109,6 +22161,8 @@ wordDict = {
 	'O': 17
 }, 'proprietary': {
 	'O': 1
+}, 'pertile': {
+	'I-PER': 1
 }, 'lezion': {
 	'O': 1
 }, 'call': {
@@ -22141,6 +22195,8 @@ wordDict = {
 	'O': 15
 }, 'lungs': {
 	'O': 1
+}, 'commuted': {
+	'O': 1
 }, 'oscar': {
 	'B-PER': 6
 }, 'expose': {
@@ -22155,8 +22211,6 @@ wordDict = {
 	'O': 1
 }, 'petah': {
 	'I-ORG': 2
-}, '0915': {
-	'O': 1
 }, 'wash.-based': {
 	'B-MISC': 1
 }, 'berlin': {
@@ -22189,12 +22243,14 @@ wordDict = {
 	'B-PER': 1
 }, 'gasoline': {
 	'O': 8
-}, '160.55': {
-	'O': 2
+}, 'dhahran': {
+	'B-LOC': 2
 }, 'oleg': {
 	'B-PER': 1, 'I-PER': 1
 }, 'obstacle': {
 	'O': 2
+}, '7-100': {
+	'O': 1
 }, 'hansen': {
 	'I-PER': 3
 }, 'root': {
@@ -22205,7 +22261,7 @@ wordDict = {
 	'O': 1
 }, 'kox': {
 	'I-PER': 1
-}, 'vodka': {
+}, 'procured': {
 	'O': 1
 }, 'front-month': {
 	'O': 1
@@ -22253,8 +22309,8 @@ wordDict = {
 	'I-PER': 1
 }, 'geology': {
 	'O': 2
-}, 'pedersen': {
-	'I-PER': 1
+}, 'tktx': {
+	'O': 1
 }, 'grows': {
 	'O': 1
 }, 'kabul': {
@@ -22323,12 +22379,14 @@ wordDict = {
 	'B-PER': 1
 }, 'third': {
 	'I-MISC': 1, 'O': 112
-}, 'station': {
-	'I-LOC': 1, 'O': 8
+}, 'contingency': {
+	'O': 1
 }, 'bigica': {
 	'I-PER': 1
 }, 'vfb': {
 	'B-ORG': 7
+}, '190.70': {
+	'O': 1
 }, '11.959': {
 	'O': 1
 }, '274.4': {
@@ -22429,18 +22487,18 @@ wordDict = {
 	'B-LOC': 2
 }, 'durum': {
 	'B-ORG': 2, 'O': 3
+}, 'dallas': {
+	'B-ORG': 3, 'B-LOC': 2
 }, 'krejner': {
 	'I-PER': 1
 }, 'superhighway': {
 	'O': 1
-}, '202.59': {
+}, '10-percent': {
 	'O': 1
 }, 'stalemate': {
 	'O': 2
 }, 'weeks': {
 	'O': 47
-}, '142.3': {
-	'O': 1
 }, 'overcome': {
 	'O': 5
 }, 'rfdg': {
@@ -22455,14 +22513,14 @@ wordDict = {
 	'B-PER': 1
 }, 'combination': {
 	'O': 2
-}, 'abelardofernandez': {
-	'O': 1
 }, 'weakness': {
 	'O': 4
 }, 'unemployed': {
 	'O': 3
 }, 'louay': {
 	'B-PER': 1
+}, '.188': {
+	'O': 1
 }, 'intimidation': {
 	'O': 1
 }, '34.6': {
@@ -22495,8 +22553,6 @@ wordDict = {
 	'B-PER': 1
 }, 'chandraratne': {
 	'I-PER': 1
-}, 'giambatista': {
-	'B-PER': 1
 }, 'delahunty': {
 	'I-PER': 1
 }, 'rhetoric': {
@@ -22507,7 +22563,7 @@ wordDict = {
 	'B-PER': 1
 }, 'meat': {
 	'O': 4
-}, 'lb-10': {
+}, 'reopen': {
 	'O': 1
 }, 'dinamina': {
 	'B-ORG': 1
@@ -22625,6 +22681,8 @@ wordDict = {
 	'O': 1
 }, 'talen': {
 	'I-PER': 1
+}, 'vicorp': {
+	'B-ORG': 2
 }, 'surprise': {
 	'O': 10
 }, 'jumhouriya': {
@@ -22637,8 +22695,6 @@ wordDict = {
 	'O': 1
 }, 'post-communist': {
 	'O': 1
-}, '48.61': {
-	'O': 2
 }, 'luanda': {
 	'B-LOC': 2
 }, 'assaults': {
@@ -22672,8 +22728,6 @@ wordDict = {
 }, '242': {
 	'O': 4
 }, '9-1-49-0': {
-	'O': 1
-}, 'bowlers': {
 	'O': 1
 }, '248': {
 	'O': 2
@@ -22781,8 +22835,6 @@ wordDict = {
 	'B-LOC': 1
 }, 'turnhout': {
 	'B-LOC': 1
-}, 'tekstilshik': {
-	'B-ORG': 1
 }, 'inflow': {
 	'O': 1
 }, 'peso': {
@@ -22799,6 +22851,8 @@ wordDict = {
 	'O': 1
 }, 'convene': {
 	'O': 3
+}, 'tracked': {
+	'O': 1
 }, 'eurobourses': {
 	'B-ORG': 1
 }, 'kirsten': {
@@ -22823,22 +22877,18 @@ wordDict = {
 	'O': 3
 }, 'distance': {
 	'O': 6
-}, '748': {
-	'O': 1
 }, 'pamplona': {
 	'B-LOC': 1
 }, 'princeton': {
 	'B-PER': 1
 }, 'league-australian': {
 	'B-MISC': 1
-}, 're-examined': {
-	'O': 1
 }, 'older': {
 	'O': 2
 }, 'enabled': {
 	'O': 1
-}, 'vitor': {
-	'B-PER': 2
+}, 'preparation': {
+	'O': 3
 }, 'matter': {
 	'O': 4
 }, 'all-share': {
@@ -22864,8 +22914,6 @@ wordDict = {
 }, 'norilsk': {
 	'B-MISC': 1, 'B-LOC': 4, 'B-ORG': 2, 'B-PER': 5, 'O': 4
 }, '5-160': {
-	'O': 1
-}, '1990s': {
 	'O': 1
 }, 't&n': {
 	'B-ORG': 4
@@ -22899,8 +22947,8 @@ wordDict = {
 	'O': 1
 }, '0.1-0-0-0': {
 	'O': 1
-}, 'quist': {
-	'I-ORG': 1
+}, 'galvez-lopez': {
+	'I-PER': 1
 }, '5.05': {
 	'O': 4
 }, 'seen': {
@@ -22925,8 +22973,8 @@ wordDict = {
 	'B-PER': 1
 }, 'power-hungry': {
 	'O': 1
-}, 'slowly': {
-	'O': 3
+}, 'ihlas': {
+	'B-ORG': 1
 }, 'efendija': {
 	'I-PER': 1
 }, 'bengal': {
@@ -22973,8 +23021,8 @@ wordDict = {
 	'O': 1
 }, 'mario': {
 	'B-PER': 5
-}, 'raphanel': {
-	'B-PER': 1, 'I-PER': 1
+}, '12.91': {
+	'O': 1
 }, 'regular': {
 	'O': 8
 }, 'testicular': {
@@ -23019,8 +23067,8 @@ wordDict = {
 	'B-ORG': 2
 }, 'competitors': {
 	'O': 4
-}, 'definitely': {
-	'O': 7
+}, 'points': {
+	'O': 130
 }, 'centre-right': {
 	'O': 1
 }, 'principle': {
@@ -23081,16 +23129,12 @@ wordDict = {
 	'O': 1
 }, '13-9': {
 	'O': 1
-}, 'stabilisation': {
-	'O': 1
 }, 'arthroscopic': {
 	'O': 1
 }, 'judges': {
 	'O': 3
 }, 'northeast': {
 	'O': 7
-}, '625m': {
-	'O': 1
 }, 'statoil': {
 	'B-ORG': 2
 }, '1:48.91': {
@@ -23131,6 +23175,8 @@ wordDict = {
 	'O': 7
 }, 'glaciers': {
 	'O': 1
+}, 'cigarettes': {
+	'O': 3
 }, 'confiscation': {
 	'O': 1
 }, 'ijaya': {
@@ -23241,6 +23287,8 @@ wordDict = {
 	'O': 1
 }, 'encephalopathy': {
 	'I-MISC': 2, 'O': 2
+}, 'cheveley': {
+	'B-ORG': 1
 }, 'chryste': {
 	'B-PER': 1
 }, 'startups': {
@@ -23293,8 +23341,6 @@ wordDict = {
 	'O': 1
 }, 'recapitalisation': {
 	'O': 1
-}, 'greig': {
-	'I-PER': 1
 }, 'hancock': {
 	'I-PER': 1
 }, '2.209': {
@@ -23319,8 +23365,8 @@ wordDict = {
 	'O': 1
 }, '5,465': {
 	'O': 1
-}, 'recruiting': {
-	'O': 1
+}, 'bpd': {
+	'O': 6
 }, 'nirmal': {
 	'B-LOC': 1
 }, '388': {
@@ -23351,8 +23397,6 @@ wordDict = {
 	'O': 4
 }, '1626': {
 	'O': 1
-}, 'daughter-in-law': {
-	'O': 1
 }, 'against': {
 	'I-ORG': 2, 'O': 223
 }, '226-1': {
@@ -23365,7 +23409,7 @@ wordDict = {
 	'I-PER': 2
 }, 'und': {
 	'O': 2
-}, 'fourth-largest': {
+}, 'cartilage': {
 	'O': 1
 }, 'extremist': {
 	'O': 2
@@ -23417,8 +23461,8 @@ wordDict = {
 	'O': 9
 }, 'tilburg': {
 	'I-ORG': 11
-}, 'andria': {
-	'I-ORG': 1
+}, 'contractor': {
+	'O': 2
 }, 'balks': {
 	'O': 1
 }, 'ether': {
@@ -23459,8 +23503,8 @@ wordDict = {
 	'O': 14
 }, 'lovely': {
 	'I-MISC': 1
-}, '2,342.00': {
-	'O': 1
+}, 'curuchet': {
+	'I-PER': 2
 }, 'riley': {
 	'B-PER': 1, 'I-PER': 3
 }, 'threw': {
@@ -23469,16 +23513,16 @@ wordDict = {
 	'B-PER': 1
 }, '16.': {
 	'O': 9
-}, 'graeme': {
-	'B-PER': 1
+}, 'cricketers': {
+	'O': 1
 }, 'tamer': {
 	'B-PER': 1
 }, 'mci': {
 	'B-ORG': 1
 }, 'yassin': {
 	'B-PER': 5, 'I-PER': 1
-}, 'ginn': {
-	'I-PER': 2
+}, 'suppress': {
+	'O': 1
 }, 'cut-off-rate': {
 	'O': 1
 }, 'mcc': {
@@ -23515,8 +23559,8 @@ wordDict = {
 	'O': 1
 }, 'exception': {
 	'O': 3
-}, 'cornwell': {
-	'O': 1, 'I-PER': 1
+}, 'vetoing': {
+	'O': 1
 }, 'tank': {
 	'O': 1
 }, 'guimaraes': {
@@ -23641,6 +23685,8 @@ wordDict = {
 	'O': 2
 }, 'sammer': {
 	'I-PER': 2
+}, 'takeoff': {
+	'O': 1
 }, 'analysts': {
 	'O': 40
 }, 'markgraaff': {
@@ -23651,16 +23697,12 @@ wordDict = {
 	'B-PER': 2
 }, '97-94': {
 	'O': 1
-}, 'nano': {
-	'I-PER': 1
 }, 'human-rights': {
 	'O': 1
 }, 'declaring': {
 	'O': 3
 }, 'palacio': {
 	'I-PER': 1
-}, '.389': {
-	'O': 1
 }, 'kit': {
 	'I-PER': 1
 }, 'delight': {
@@ -23701,8 +23743,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'smoker': {
 	'O': 1
-}, 'expectation': {
-	'O': 1
+}, 'cornwell': {
+	'O': 1, 'I-PER': 1
 }, 'thawra': {
 	'B-ORG': 1
 }, 'materials': {
@@ -23737,6 +23779,8 @@ wordDict = {
 	'O': 98
 }, 'sentence': {
 	'O': 11
+}, 'willing': {
+	'O': 3
 }, '194-0': {
 	'O': 1
 }, 'sporting': {
@@ -23797,6 +23841,8 @@ wordDict = {
 	'O': 2
 }, '=1,000': {
 	'O': 1
+}, 'bedouins': {
+	'B-MISC': 1
 }, 'potential': {
 	'O': 14
 }, 'copyrights': {
@@ -23855,7 +23901,7 @@ wordDict = {
 	'I-ORG': 1
 }, '1555': {
 	'O': 1
-}, 'flung': {
+}, 'submission': {
 	'O': 1
 }, '8.67': {
 	'O': 3
@@ -23879,6 +23925,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'novye': {
 	'B-LOC': 6
+}, '273-2730': {
+	'O': 1
 }, 'notorious': {
 	'O': 1
 }, '20-man': {
@@ -23933,8 +23981,6 @@ wordDict = {
 	'B-PER': 5, 'I-PER': 5
 }, 'yasushi': {
 	'B-PER': 1
-}, 'misleading': {
-	'O': 1
 }, 'dense': {
 	'O': 2
 }, 'trace': {
@@ -23963,6 +24009,8 @@ wordDict = {
 	'O': 1
 }, 'fightback': {
 	'O': 2
+}, 'regiment': {
+	'O': 1
 }, 'french-educated': {
 	'B-MISC': 1
 }, '1998/99': {
@@ -23970,8 +24018,6 @@ wordDict = {
 }, 'loudspeakers': {
 	'O': 1
 }, '237km': {
-	'O': 1
-}, 'desert': {
 	'O': 1
 }, 'falter': {
 	'O': 1
@@ -23985,6 +24031,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'efes': {
 	'B-PER': 1
+}, 'hasely': {
+	'B-PER': 1
 }, 'glimt': {
 	'I-ORG': 2
 }, 'translated': {
@@ -23995,8 +24043,6 @@ wordDict = {
 	'O': 1
 }, 'keeper': {
 	'O': 3
-}, 'mijatovic': {
-	'O': 1
 }, 'super': {
 	'I-MISC': 7, 'B-ORG': 1, 'B-PER': 1, 'O': 8
 }, 'camaras': {
@@ -24101,8 +24147,6 @@ wordDict = {
 	'B-ORG': 2
 }, 'beth': {
 	'B-PER': 1
-}, '55.99': {
-	'O': 1
 }, 'brakes': {
 	'O': 1
 }, 'applets': {
@@ -24127,6 +24171,8 @@ wordDict = {
 	'O': 1
 }, 'fraction': {
 	'O': 1
+}, 'occasionally': {
+	'O': 1
 }, 'factions': {
 	'O': 13
 }, '1/16': {
@@ -24143,6 +24189,8 @@ wordDict = {
 	'I-PER': 1
 }, 'form': {
 	'O': 18
+}, 'rouxel': {
+	'B-PER': 1
 }, '37.93': {
 	'O': 1
 }, 'spike': {
@@ -24245,6 +24293,8 @@ wordDict = {
 	'O': 1
 }, 'newsletter': {
 	'O': 1
+}, 'migrated': {
+	'O': 1
 }, 'jadeja': {
 	'B-PER': 1, 'I-PER': 2
 }, 'agreeing': {
@@ -24271,8 +24321,6 @@ wordDict = {
 	'O': 1
 }, 'humberto': {
 	'B-PER': 2
-}, 'unsure': {
-	'O': 3
 }, 'refining': {
 	'I-ORG': 2, 'O': 1
 }, 'institutional': {
@@ -24299,6 +24347,8 @@ wordDict = {
 	'O': 1
 }, 'fell': {
 	'O': 44
+}, 'mw': {
+	'O': 2
 }, 'exported': {
 	'O': 4
 }, 'aalst': {
@@ -24365,8 +24415,6 @@ wordDict = {
 	'O': 1
 }, 'eldest': {
 	'O': 2
-}, 'scalp': {
-	'O': 1
 }, 'provocation': {
 	'O': 1
 }, 'h.k.': {
@@ -24427,12 +24475,16 @@ wordDict = {
 	'I-PER': 3
 }, 'taument': {
 	'B-PER': 1, 'I-PER': 2
+}, 'urban': {
+	'O': 1
 }, 'marks': {
 	'O': 12
 }, 'taleban': {
 	'I-MISC': 1
 }, 'suffered': {
 	'O': 17
+}, '110.1': {
+	'O': 1
 }, 'turnabout': {
 	'O': 1
 }, 'low-margin': {
@@ -24441,10 +24493,12 @@ wordDict = {
 	'B-LOC': 1
 }, 'adviser': {
 	'O': 4
+}, '187': {
+	'O': 2
 }, 'string': {
 	'O': 4
-}, '4-66': {
-	'O': 1
+}, '293': {
+	'O': 2
 }, 'lb-8': {
 	'O': 2
 }, 'reconvene': {
@@ -24453,8 +24507,6 @@ wordDict = {
 	'O': 1
 }, 'barngetuny': {
 	'I-PER': 1
-}, 'thinly-veiled': {
-	'O': 1
 }, '5.2893': {
 	'O': 1
 }, 'stroyev': {
@@ -24467,6 +24519,8 @@ wordDict = {
 	'O': 2
 }, '1620': {
 	'O': 1
+}, 'messed': {
+	'O': 1
 }, 'lynch': {
 	'I-ORG': 5, 'I-PER': 2, 'B-PER': 1
 }, 'advised': {
@@ -24477,8 +24531,6 @@ wordDict = {
 	'O': 1
 }, 'elahi': {
 	'I-PER': 1
-}, '1.13': {
-	'O': 1
 }, 'governments': {
 	'O': 6
 }, 'three-day': {
@@ -24515,7 +24567,7 @@ wordDict = {
 	'O': 1
 }, 'zuberbuehler': {
 	'I-PER': 1
-}, '0172': {
+}, 'rant': {
 	'O': 1
 }, 'guingamp': {
 	'B-ORG': 9
@@ -24583,10 +24635,8 @@ wordDict = {
 	'B-PER': 3
 }, 'favour': {
 	'O': 9
-}, '3-78': {
+}, '5,350': {
 	'O': 1
-}, 'stefaan': {
-	'B-PER': 1
 }, 'inter-ethnic': {
 	'O': 2
 }, 'suspect': {
@@ -24681,8 +24731,6 @@ wordDict = {
 	'O': 1
 }, 'suggestion': {
 	'O': 1
-}, 'saqr': {
-	'B-PER': 1, 'I-PER': 1
 }, 'khouribga': {
 	'B-ORG': 1
 }, 'bob': {
@@ -24759,8 +24807,6 @@ wordDict = {
 	'O': 3
 }, 'shi-ting': {
 	'B-PER': 1, 'I-PER': 2
-}, 'stuck': {
-	'O': 1
 }, 'peru': {
 	'B-LOC': 5
 }, '4-205': {
@@ -24841,6 +24887,8 @@ wordDict = {
 	'O': 1
 }, 'sour': {
 	'O': 1
+}, 'gore': {
+	'B-PER': 14, 'I-PER': 1
 }, '9th': {
 	'O': 2
 }, 'growing': {
@@ -24857,6 +24905,8 @@ wordDict = {
 	'O': 7
 }, '8.32': {
 	'O': 2
+}, 'rarest': {
+	'O': 1
 }, 'claim': {
 	'O': 2
 }, 'crazy': {
@@ -24947,8 +24997,8 @@ wordDict = {
 	'O': 3
 }, '141': {
 	'O': 2
-}, 'may': {
-	'I-PER': 2, 'O': 103
+}, 'critics': {
+	'O': 9
 }, 'max': {
 	'B-PER': 7, 'O': 1, 'I-PER': 1
 }, '7-1/3': {
@@ -24969,8 +25019,6 @@ wordDict = {
 	'O': 13
 }, '14.': {
 	'O': 6
-}, 'cigarettes': {
-	'O': 3
 }, 'maj': {
 	'O': 2
 }, 'journals': {
@@ -25027,8 +25075,8 @@ wordDict = {
 	'O': 20
 }, 'fusai': {
 	'I-PER': 2
-}, '1150-1200': {
-	'O': 1
+}, 'citko': {
+	'I-PER': 1
 }, 'moustapha': {
 	'B-PER': 2
 }, 'appelmans': {
@@ -25057,8 +25105,6 @@ wordDict = {
 	'O': 2
 }, 'windhoek': {
 	'B-LOC': 1
-}, 'indian-ruled': {
-	'B-MISC': 1
 }, 'pitch': {
 	'O': 8
 }, 'spinoff': {
@@ -25085,6 +25131,8 @@ wordDict = {
 	'O': 1
 }, 'hat-trick': {
 	'O': 2
+}, '3-78': {
+	'O': 1
 }, 'yorkshire': {
 	'B-ORG': 11
 }, 'coaching': {
@@ -25103,7 +25151,7 @@ wordDict = {
 	'O': 36
 }, 'mercken': {
 	'I-PER': 1
-}, '10-1-47-2': {
+}, '818.10': {
 	'O': 1
 }, 'texas': {
 	'B-ORG': 27, 'B-LOC': 9
@@ -25139,6 +25187,8 @@ wordDict = {
 	'O': 1
 }, 'prima': {
 	'I-ORG': 1
+}, 'graeme': {
+	'B-PER': 1
 }, 'nine-wicket': {
 	'O': 1
 }, 'killed': {
@@ -25217,8 +25267,6 @@ wordDict = {
 	'I-PER': 1
 }, '161,600': {
 	'O': 1
-}, 'experienced': {
-	'O': 6
 }, 'becanovic': {
 	'B-PER': 2, 'I-PER': 1
 }, 'sifted': {
@@ -25267,8 +25315,6 @@ wordDict = {
 	'O': 1
 }, 'ocasek': {
 	'O': 1
-}, 'gualtiero': {
-	'B-PER': 1
 }, 'correct': {
 	'O': 4
 }, 'assurance': {
@@ -25277,12 +25323,16 @@ wordDict = {
 	'O': 1
 }, 'charlotte': {
 	'B-ORG': 1
+}, 'forgery': {
+	'O': 1
 }, 'earlier': {
 	'O': 91
 }, 'mercantile': {
 	'B-ORG': 1
 }, 'monster': {
 	'O': 1
+}, 'raise': {
+	'O': 4
 }, '4-334': {
 	'O': 3
 }, 'hefty': {
@@ -25339,14 +25389,12 @@ wordDict = {
 	'O': 100
 }, 'elland': {
 	'B-LOC': 1
-}, 'samir': {
-	'B-PER': 1
 }, 'thing': {
 	'O': 13
 }, 'firsy': {
 	'O': 1
-}, '61,514': {
-	'O': 1
+}, 'nikkola': {
+	'B-PER': 1, 'I-PER': 1
 }, '17.8.90': {
 	'O': 1
 }, '8720': {
@@ -25413,14 +25461,16 @@ wordDict = {
 	'O': 2
 }, 'pusan': {
 	'B-ORG': 3
+}, 'epr': {
+	'B-ORG': 6
 }, 'anyone': {
 	'O': 7
 }, 'plains': {
 	'I-LOC': 2
 }, 'gorre': {
 	'B-PER': 2, 'I-PER': 1
-}, 'consultation': {
-	'O': 1
+}, 'sakai': {
+	'B-LOC': 8
 }, 'loewen': {
 	'I-PER': 1
 }, 'rein': {
@@ -25429,6 +25479,8 @@ wordDict = {
 	'I-MISC': 3
 }, 'restraining': {
 	'O': 1
+}, 'croci': {
+	'I-PER': 1
 }, '30.054': {
 	'O': 1
 }, 'ribeiro': {
@@ -25509,13 +25561,9 @@ wordDict = {
 	'O': 61
 }, '18': {
 	'O': 75
-}, 'alen': {
-	'I-ORG': 1
 }, 'browning': {
 	'I-PER': 1
 }, '61st': {
-	'O': 1
-}, 'four-decade': {
 	'O': 1
 }, 'ventura': {
 	'B-LOC': 1
@@ -25529,16 +25577,14 @@ wordDict = {
 	'I-ORG': 1, 'O': 6
 }, 'were': {
 	'O': 530
+}, 'mauricio': {
+	'B-PER': 1
 }, 'stockport': {
 	'B-ORG': 4
 }, 'giuly': {
 	'B-PER': 1
-}, 'fleeing': {
-	'O': 2
 }, '1.': {
 	'O': 92
-}, '346,000': {
-	'O': 1
 }, 'gathering': {
 	'O': 8
 }, 'teething': {
@@ -25665,8 +25711,6 @@ wordDict = {
 	'B-PER': 2
 }, 'reiterated': {
 	'O': 2
-}, '107.0': {
-	'O': 2
 }, 'hardships': {
 	'O': 1
 }, 'queens': {
@@ -25753,8 +25797,6 @@ wordDict = {
 	'O': 1
 }, 'mubarak': {
 	'B-PER': 7, 'I-PER': 3
-}, 'fast-growing': {
-	'O': 1
 }, 'dick': {
 	'B-PER': 3
 }, 'sidhu': {
@@ -25795,8 +25837,6 @@ wordDict = {
 	'O': 52
 }, 'contracts': {
 	'O': 9
-}, 'bowler': {
-	'O': 1
 }, 'winters': {
 	'O': 1
 }, '8-15': {
@@ -25883,8 +25923,8 @@ wordDict = {
 	'O': 33
 }, '5.45': {
 	'O': 4
-}, '6.1': {
-	'O': 4
+}, 'sohail': {
+	'B-PER': 3, 'I-PER': 16
 }, 'svoboda': {
 	'I-PER': 1
 }, 'criticized': {
@@ -25895,8 +25935,8 @@ wordDict = {
 	'I-PER': 1
 }, 'seat': {
 	'B-ORG': 2, 'O': 6
-}, 'cologne': {
-	'B-ORG': 8, 'I-PER': 1, 'B-LOC': 2
+}, 'relative': {
+	'O': 1
 }, 'bolswessanen': {
 	'B-ORG': 1
 }, 'j.': {
@@ -25933,6 +25973,8 @@ wordDict = {
 	'O': 29
 }, 'boutros': {
 	'B-PER': 6
+}, 'shimokawa': {
+	'I-PER': 2
 }, 'behind': {
 	'O': 55
 }, 'tacis': {
@@ -25945,8 +25987,8 @@ wordDict = {
 	'O': 3
 }, 'dried': {
 	'O': 2
-}, 'damein': {
-	'B-PER': 1
+}, 'yakoma': {
+	'B-LOC': 1
 }, 'infrastructure': {
 	'O': 4
 }, 'august': {
@@ -26033,7 +26075,7 @@ wordDict = {
 	'O': 1
 }, 'minor-league': {
 	'O': 1
-}, 'cadalora': {
+}, 'nano': {
 	'I-PER': 1
 }, 'among': {
 	'O': 19
@@ -26049,8 +26091,6 @@ wordDict = {
 	'O': 3
 }, 'tbf': {
 	'O': 3
-}, 'marushko': {
-	'I-PER': 1
 }, 'hospice': {
 	'O': 1
 }, '2:05': {
@@ -26071,7 +26111,7 @@ wordDict = {
 	'I-LOC': 1
 }, 'cancel': {
 	'O': 2
-}, 'freak': {
+}, '3.50': {
 	'O': 1
 }, 'prasad': {
 	'B-PER': 2, 'I-PER': 2
@@ -26103,8 +26143,6 @@ wordDict = {
 	'B-ORG': 1
 }, 'maru': {
 	'I-MISC': 1, 'I-PER': 1
-}, '1:18.21': {
-	'O': 1
 }, 'waqar': {
 	'B-PER': 28
 }, '18:00': {
@@ -26133,8 +26171,8 @@ wordDict = {
 	'I-PER': 1
 }, 'begerow': {
 	'I-PER': 1
-}, 'bme': {
-	'B-ORG': 2
+}, 'madeleine': {
+	'B-PER': 3
 }, 'marko': {
 	'B-PER': 1
 }, 'bjorn': {
@@ -26147,6 +26185,8 @@ wordDict = {
 	'B-PER': 1
 }, '10th-ranked': {
 	'O': 1
+}, 'nazi': {
+	'B-MISC': 1
 }, 'decrees': {
 	'O': 2
 }, '1:16.47': {
@@ -26181,12 +26221,12 @@ wordDict = {
 	'O': 1
 }, 'margit': {
 	'I-PER': 1
+}, 'lindholm': {
+	'I-PER': 1
 }, 'slumber': {
 	'O': 2
 }, 'geronimo': {
 	'B-PER': 1
-}, 'carolina': {
-	'B-ORG': 2
 }, 'profiles': {
 	'O': 1
 }, "n't": {
@@ -26249,6 +26289,8 @@ wordDict = {
 	'I-PER': 4
 }, 'three-stroke': {
 	'O': 2
+}, 'kallis': {
+	'B-PER': 1, 'I-PER': 1
 }, 'litres': {
 	'O': 2
 }, 'protein': {
@@ -26265,8 +26307,8 @@ wordDict = {
 	'B-ORG': 6
 }, 'bags': {
 	'O': 8
-}, 'different': {
-	'O': 13
+}, 'par': {
+	'O': 18
 }, 'pas': {
 	'I-PER': 1
 }, 'pat': {
@@ -26275,10 +26317,14 @@ wordDict = {
 	'O': 1
 }, 'doctor': {
 	'O': 3
+}, 'garba': {
+	'I-PER': 1
 }, 'pay': {
 	'O': 39
 }, 'edwin': {
 	'B-PER': 2
+}, '0915': {
+	'O': 1
 }, 'tour': {
 	'I-MISC': 4, 'B-MISC': 9, 'B-ORG': 1, 'O': 39
 }, 'same': {
@@ -26294,6 +26340,8 @@ wordDict = {
 }, "o'brien": {
 	'B-PER': 3, 'I-PER': 7
 }, '17.5': {
+	'O': 1
+}, 'consultation': {
 	'O': 1
 }, 'struggling': {
 	'O': 2
@@ -26331,6 +26379,8 @@ wordDict = {
 	'I-PER': 1
 }, 'motorcade': {
 	'O': 1
+}, 'theme': {
+	'O': 2
 }, 'roubles': {
 	'O': 7
 }, 'totally': {
@@ -26349,13 +26399,15 @@ wordDict = {
 	'O': 11
 }, 'walkover': {
 	'O': 5
-}, 'hiroaki': {
-	'B-PER': 1, 'I-PER': 1
 }, 'lady': {
 	'I-LOC': 1, 'O': 3
 }, 'wellington': {
 	'B-LOC': 14
+}, 'jonah': {
+	'B-PER': 1
 }, 'fifth-wicket': {
+	'O': 1
+}, 'seaside': {
 	'O': 1
 }, 'solve': {
 	'O': 1
@@ -26381,8 +26433,6 @@ wordDict = {
 	'O': 1
 }, 'suitor': {
 	'O': 2
-}, 'pet': {
-	'O': 1
 }, 'generalisation': {
 	'O': 1
 }, 'money': {
@@ -26405,6 +26455,8 @@ wordDict = {
 	'O': 1
 }, '+1.7;+22.0': {
 	'O': 1
+}, 'roland': {
+	'B-PER': 1
 }, 'migration': {
 	'O': 4
 }, 'feedlots': {
@@ -26427,12 +26479,10 @@ wordDict = {
 	'O': 1
 }, 'scunthorpe': {
 	'B-ORG': 4
-}, 'remark': {
-	'O': 3
 }, '4': {
 	'O': 545
-}, 'bitar': {
-	'O': 5, 'I-PER': 3, 'B-PER': 1
+}, '65,000': {
+	'O': 3
 }, 'fourth-seeded': {
 	'O': 1
 }, 'extensive': {
@@ -26447,8 +26497,8 @@ wordDict = {
 	'B-PER': 1
 }, 'tissier': {
 	'I-PER': 1
-}, 'zulu': {
-	'B-PER': 1, 'B-LOC': 1, 'I-ORG': 1
+}, 'leu': {
+	'I-PER': 2
 }, '0120': {
 	'O': 1
 }, 'brno': {
@@ -26457,6 +26507,8 @@ wordDict = {
 	'B-ORG': 2
 }, 'photocopies': {
 	'O': 2
+}, 'eradication': {
+	'O': 1
 }, 'mok': {
 	'I-PER': 1
 }, 'bergkamp': {
@@ -26467,8 +26519,6 @@ wordDict = {
 	'O': 3
 }, 'mon': {
 	'O': 6
-}, '1,200m': {
-	'O': 2
 }, 'mob': {
 	'O': 2
 }, '610,000': {
@@ -26531,14 +26581,16 @@ wordDict = {
 	'I-PER': 1
 }, 'fulfil': {
 	'O': 1
+}, '15,062': {
+	'O': 1
 }, 'al-turabi': {
 	'I-PER': 1
 }, 'jews': {
 	'I-MISC': 1, 'B-MISC': 3
 }, '1:18.48': {
 	'O': 2
-}, 'burkina': {
-	'O': 1, 'B-LOC': 2
+}, 'two-nil': {
+	'O': 1
 }, 'imprisonment': {
 	'O': 5
 }, '2774': {
@@ -26577,6 +26629,8 @@ wordDict = {
 	'O': 3
 }, '14:06': {
 	'O': 1
+}, 'severance': {
+	'O': 1
 }, 'confirm': {
 	'O': 6
 }, 'sudan': {
@@ -26591,8 +26645,8 @@ wordDict = {
 	'B-ORG': 2
 }, 'nsanze': {
 	'B-PER': 1
-}, 'ptt': {
-	'B-ORG': 1, 'I-ORG': 5
+}, 'carretero': {
+	'I-PER': 1
 }, 'celta': {
 	'B-ORG': 1
 }, 'flight-related': {
@@ -26603,16 +26657,12 @@ wordDict = {
 	'O': 15
 }, 'expressing': {
 	'O': 2
-}, '.354': {
-	'O': 1
 }, '40s': {
 	'O': 1
 }, 'beiersdorfer': {
 	'I-PER': 1
 }, 'moderate': {
 	'O': 2
-}, 'okabe': {
-	'B-PER': 1, 'I-PER': 1
 }, 'knife': {
 	'O': 1
 }, 'internazionale': {
@@ -26655,8 +26705,6 @@ wordDict = {
 	'O': 1
 }, 'underworld': {
 	'O': 1
-}, 'aaxis': {
-	'B-ORG': 4
 }, 'londono': {
 	'I-PER': 1
 }, 'manufacturer': {
@@ -26683,12 +26731,14 @@ wordDict = {
 	'O': 3
 }, 'burea': {
 	'I-ORG': 1
-}, 'excavations': {
-	'O': 1
+}, 'solidify': {
+	'O': 2
 }, 'partizan': {
 	'B-ORG': 7, 'B-PER': 2
 }, 'mixed': {
 	'O': 13
+}, 'well-wishers': {
+	'O': 1
 }, 'alec': {
 	'B-PER': 3
 }, 'provisional': {
@@ -26763,8 +26813,6 @@ wordDict = {
 	'O': 1
 }, '431': {
 	'O': 1
-}, 'surprising': {
-	'O': 1
 }, 'compliant': {
 	'O': 1
 }, 'lions': {
@@ -26787,8 +26835,12 @@ wordDict = {
 	'O': 1
 }, 'crimes': {
 	'O': 3
+}, '6.08': {
+	'O': 1
 }, 'pitkowski': {
 	'I-PER': 2
+}, 'fleeing': {
+	'O': 2
 }, 'watkin': {
 	'I-PER': 1
 }, 'unsettled': {
@@ -26805,6 +26857,8 @@ wordDict = {
 	'O': 1
 }, 'mutawakel': {
 	'B-PER': 1
+}, 'refuelling': {
+	'O': 1
 }, '595,400': {
 	'O': 1
 }, '50-1': {
@@ -26829,8 +26883,6 @@ wordDict = {
 	'O': 1
 }, 'romantic': {
 	'O': 3
-}, '154.82': {
-	'O': 1
 }, 'pitting': {
 	'O': 3
 }, 'ronaldo': {
@@ -26871,8 +26923,12 @@ wordDict = {
 	'O': 1
 }, 'hanged': {
 	'O': 6
+}, '1150-1200': {
+	'O': 1
 }, 'shkirko': {
 	'B-PER': 1, 'I-PER': 1
+}, 'giroix': {
+	'I-PER': 1
 }, 'leaked': {
 	'O': 1
 }, '116.5': {
@@ -26901,6 +26957,8 @@ wordDict = {
 	'O': 2
 }, 'enable': {
 	'O': 2
+}, 'devised': {
+	'O': 1
 }, 'file': {
 	'O': 2
 }, '15.00': {
@@ -26923,7 +26981,7 @@ wordDict = {
 	'O': 4
 }, 'again': {
 	'O': 36
-}, 'subversive': {
+}, 'extending': {
 	'O': 1
 }, 'strikers': {
 	'O': 8
@@ -26935,10 +26993,12 @@ wordDict = {
 	'O': 7
 }, 'drivers': {
 	'O': 4
-}, '924': {
-	'O': 1
+}, 'bme': {
+	'B-ORG': 2
 }, 'field': {
 	'I-LOC': 2, 'I-PER': 3, 'O': 12
+}, '1:02.795': {
+	'O': 1
 }, 'dier': {
 	'I-PER': 2
 }, '98.4': {
@@ -26969,14 +27029,14 @@ wordDict = {
 	'O': 1
 }, 'students': {
 	'O': 25
-}, 'consistently': {
-	'O': 2
 }, 'pontefract': {
 	'B-LOC': 1
 }, 'schuster': {
 	'I-PER': 5
 }, 'squash': {
 	'O': 6
+}, 'justification': {
+	'O': 1
 }, 'arch-rivals': {
 	'O': 2
 }, '23,000-strong': {
@@ -27003,23 +27063,19 @@ wordDict = {
 	'O': 7
 }, 'tranfers': {
 	'O': 1
-}, 'inhuman': {
-	'O': 1
 }, 'havana': {
 	'B-LOC': 1
-}, 'remote': {
-	'O': 4
+}, 'subdivision': {
+	'O': 1
 }, 'assets': {
 	'O': 14
 }, 'monsignor': {
 	'O': 1
 }, 'jan-may': {
 	'O': 3
-}, 'buffalo': {
-	'B-ORG': 2
+}, 'watkinson': {
+	'I-PER': 2
 }, 'deja-voodoo': {
-	'O': 1
-}, 'pierced': {
 	'O': 1
 }, 'gritsoun': {
 	'I-PER': 1
@@ -27165,6 +27221,8 @@ wordDict = {
 	'O': 3
 }, 'amtrak': {
 	'B-ORG': 5
+}, 'bad-tempered': {
+	'O': 1
 }, 'pueblo': {
 	'I-LOC': 1
 }, 'hinterland': {
@@ -27181,6 +27239,8 @@ wordDict = {
 	'B-ORG': 1, 'O': 1
 }, 'forth': {
 	'O': 1, 'B-LOC': 1
+}, 'five-test': {
+	'O': 1
 }, '31.5': {
 	'O': 1
 }, 'windy': {
@@ -27193,8 +27253,6 @@ wordDict = {
 	'B-PER': 5
 }, 'saudi': {
 	'B-MISC': 8, 'B-ORG': 1, 'B-LOC': 12
-}, '192': {
-	'O': 2
 }, '9251-274757': {
 	'O': 1
 }, '80.70': {
@@ -27241,12 +27299,10 @@ wordDict = {
 	'O': 1
 }, 'defence': {
 	'B-ORG': 3, 'I-ORG': 1, 'O': 21
-}, 'stood': {
-	'O': 5
+}, 'bancarel': {
+	'B-PER': 1
 }, 'opted': {
 	'O': 1
-}, 'sharjah': {
-	'B-LOC': 1
 }, 'short-lived': {
 	'O': 1
 }, '70th-ranked': {
@@ -27271,6 +27327,8 @@ wordDict = {
 	'O': 1
 }, 'tribute': {
 	'O': 5
+}, 'tyler': {
+	'B-PER': 1
 }, 'lb-4': {
 	'O': 3
 }, 'public': {
@@ -27315,8 +27373,10 @@ wordDict = {
 	'O': 2
 }, 'surfed': {
 	'O': 1
-}, '254,247': {
+}, 'army-controlled': {
 	'O': 1
+}, 'gajadhar': {
+	'I-PER': 1
 }, 'basarab': {
 	'B-PER': 1
 }, '902': {
@@ -27331,6 +27391,8 @@ wordDict = {
 	'O': 1
 }, '895m': {
 	'O': 1
+}, 'crowds': {
+	'O': 4
 }, 'marijuana': {
 	'O': 5
 }, 'falsified': {
@@ -27369,6 +27431,8 @@ wordDict = {
 	'B-ORG': 1
 }, '9554': {
 	'O': 1
+}, 'grobbelaar': {
+	'B-PER': 5, 'I-PER': 1
 }, 'shanghai': {
 	'B-ORG': 4, 'B-LOC': 14
 }, 'disregard': {
@@ -27399,6 +27463,8 @@ wordDict = {
 	'I-PER': 1
 }, 'rampage': {
 	'O': 1
+}, 'sharjah': {
+	'B-LOC': 1
 }, 'rican': {
 	'I-MISC': 4
 }, 'expelling': {
@@ -27459,10 +27525,10 @@ wordDict = {
 	'O': 3
 }, '861723': {
 	'O': 1
-}, 'tobacco': {
-	'I-ORG': 1, 'O': 3
-}, 'deducted': {
-	'O': 1
+}, 'cedars': {
+	'I-ORG': 1
+}, 'ceahlaul': {
+	'B-ORG': 2
 }, '11th-ranked': {
 	'O': 1
 }, 'baseman': {
@@ -27483,6 +27549,8 @@ wordDict = {
 	'O': 1
 }, 'privately-operated': {
 	'O': 1
+}, 'okabe': {
+	'B-PER': 1, 'I-PER': 1
 }, '10.5-42.3': {
 	'O': 1
 }, 're-nomination': {
@@ -27571,8 +27639,8 @@ wordDict = {
 	'I-PER': 2
 }, 'minimum': {
 	'O': 7
-}, 'rainstorm': {
-	'O': 1
+}, '1,200m': {
+	'O': 2
 }, 'numbers': {
 	'O': 12
 }, 'purchased': {
@@ -27581,6 +27649,8 @@ wordDict = {
 	'O': 1
 }, 'seized': {
 	'O': 24
+}, 'mortuary': {
+	'O': 1
 }, 'robinson': {
 	'I-PER': 4
 }, 'steffi': {
@@ -27603,8 +27673,8 @@ wordDict = {
 	'O': 1
 }, 'demolition': {
 	'O': 2
-}, '53112': {
-	'O': 1
+}, 'jiul': {
+	'B-ORG': 2
 }, 'mid-tier': {
 	'O': 1
 }, 'renew': {
@@ -27635,8 +27705,8 @@ wordDict = {
 	'B-LOC': 1
 }, 'muratovic': {
 	'B-PER': 1, 'I-PER': 1
-}, 'prft': {
-	'O': 1
+}, 'incorporated': {
+	'I-ORG': 1, 'I-PER': 1
 }, 'pozzi': {
 	'I-PER': 1
 }, 'uprising': {
@@ -27645,8 +27715,8 @@ wordDict = {
 	'O': 5
 }, '82.20': {
 	'O': 2
-}, 'par': {
-	'O': 18
+}, 'different': {
+	'O': 13
 }, 'questioning': {
 	'O': 1
 }, '7.85-8.15': {
@@ -27669,12 +27739,8 @@ wordDict = {
 	'O': 1
 }, 'response': {
 	'O': 7
-}, 'galvez-lopez': {
-	'I-PER': 1
 }, '11,046,000': {
 	'O': 1
-}, 'sakai': {
-	'B-LOC': 8
 }, 'brady': {
 	'B-MISC': 1, 'B-PER': 7, 'I-PER': 5
 }, 'dejesus': {
@@ -27737,8 +27803,8 @@ wordDict = {
 	'O': 100
 }, 'heirs': {
 	'O': 2
-}, 'indicating': {
-	'O': 2
+}, 'ignorance': {
+	'O': 1
 }, 'ganguly': {
 	'B-PER': 1, 'I-PER': 2
 }, 'sequels': {
@@ -27771,8 +27837,8 @@ wordDict = {
 	'O': 1
 }, 'tutu': {
 	'B-PER': 2, 'I-PER': 2
-}, 'changeup': {
-	'O': 1
+}, 'gualtiero': {
+	'B-PER': 1
 }, '28': {
 	'O': 55
 }, '29': {
@@ -27825,13 +27891,15 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 3
 }, 'traore': {
 	'B-PER': 1
+}, 'fee': {
+	'O': 1
 }, 'under-fire': {
 	'O': 1
 }, 'limped': {
 	'O': 1
 }, 'differential': {
 	'O': 1
-}, '1:51.857': {
+}, '3-0-17-0': {
 	'O': 1
 }, 'humans': {
 	'O': 4
@@ -27867,8 +27935,10 @@ wordDict = {
 	'O': 1
 }, 'hails': {
 	'O': 1
-}, '13.18': {
+}, 'possessors': {
 	'O': 1
+}, 'bedouin': {
+	'B-MISC': 3
 }, '2-1-4-0': {
 	'O': 2
 }, 'cvrd': {
@@ -27887,8 +27957,12 @@ wordDict = {
 	'B-LOC': 7
 }, 'pan': {
 	'B-MISC': 1, 'O': 1
+}, 'boardman': {
+	'B-PER': 6, 'I-PER': 5
 }, '34-35': {
 	'O': 1
+}, 'absentia': {
+	'O': 3
 }, 'pao': {
 	'B-ORG': 1, 'I-ORG': 1
 }, 'ports': {
@@ -27955,9 +28029,9 @@ wordDict = {
 	'I-ORG': 1
 }, 'assignments': {
 	'O': 1
+}, 'criville': {
+	'I-PER': 1
 }, '1:46.26': {
-	'O': 1
-}, '81-3': {
 	'O': 1
 }, 'projected': {
 	'O': 2
@@ -28037,8 +28111,6 @@ wordDict = {
 	'I-ORG': 1, 'B-LOC': 33
 }, 'tosco': {
 	'B-ORG': 1
-}, '11-0': {
-	'O': 1
 }, 'nizhny': {
 	'I-ORG': 1
 }, 'conducted': {
@@ -28049,8 +28121,6 @@ wordDict = {
 	'I-PER': 2
 }, 'freiburg': {
 	'B-ORG': 10, 'I-ORG': 1, 'B-LOC': 1
-}, 'kidikas': {
-	'I-PER': 1
 }, 'pilots': {
 	'O': 2
 }, '10.57:33': {
@@ -28061,6 +28131,8 @@ wordDict = {
 	'O': 1
 }, 'concluded': {
 	'O': 4
+}, 'oradea': {
+	'B-LOC': 1
 }, 'kanpur': {
 	'B-LOC': 5
 }, 'pentagon': {
@@ -28109,8 +28181,6 @@ wordDict = {
 	'O': 1
 }, 'zilinskiene': {
 	'I-PER': 1
-}, 'bordon': {
-	'I-PER': 1
 }, 'kinder': {
 	'B-PER': 2, 'O': 1
 }, 'divorce': {
@@ -28141,8 +28211,8 @@ wordDict = {
 	'O': 1
 }, 'compromise': {
 	'O': 2
-}, '188': {
-	'O': 2
+}, 'floods': {
+	'O': 1
 }, 'compartment': {
 	'O': 2
 }, '18=': {
@@ -28189,6 +28259,8 @@ wordDict = {
 	'O': 16
 }, '90.20': {
 	'O': 1
+}, 'sojurn': {
+	'O': 1
 }, 'believe': {
 	'O': 21
 }, 'diouf': {
@@ -28197,8 +28269,6 @@ wordDict = {
 	'O': 14
 }, 'emiliano': {
 	'B-PER': 1
-}, 'heartbeat': {
-	'O': 2
 }, 'eastwards': {
 	'O': 1
 }, 'b': {
@@ -28207,8 +28277,6 @@ wordDict = {
 	'B-PER': 2
 }, 'horizons': {
 	'I-ORG': 2
-}, 'mypa-47': {
-	'B-ORG': 2
 }, 'inderjit': {
 	'B-PER': 1
 }, 'recording': {
@@ -28223,7 +28291,7 @@ wordDict = {
 	'B-PER': 1
 }, 'polishing': {
 	'O': 1
-}, 'voice': {
+}, '1225.0': {
 	'O': 1
 }, 'treated': {
 	'O': 7
@@ -28231,7 +28299,7 @@ wordDict = {
 	'O': 4
 }, 'israeli-held': {
 	'O': 1
-}, 'morale-boosting': {
+}, '202.59': {
 	'O': 1
 }, 'cuthbert': {
 	'I-PER': 2
@@ -28253,8 +28321,6 @@ wordDict = {
 	'O': 4
 }, 'affray': {
 	'O': 1
-}, 'jumbish': {
-	'B-PER': 1
 }, '5-67': {
 	'O': 1
 }, 'violating': {
@@ -28289,6 +28355,8 @@ wordDict = {
 	'I-ORG': 1
 }, 'gorbachev': {
 	'I-PER': 1
+}, 'dimitrios': {
+	'B-PER': 2
 }, 'k.': {
 	'B-PER': 8
 }, 'zairean': {
@@ -28353,8 +28421,8 @@ wordDict = {
 	'B-PER': 1
 }, 'kb': {
 	'I-ORG': 1
-}, '15-11': {
-	'O': 10
+}, 'zeri': {
+	'B-ORG': 1
 }, 'clemente': {
 	'I-PER': 1
 }, 'kg': {
@@ -28397,8 +28465,6 @@ wordDict = {
 	'O': 1
 }, 'larisa': {
 	'B-PER': 1
-}, 'hua': {
-	'I-PER': 1
 }, 'gigajoule': {
 	'O': 1
 }, 'joining': {
@@ -28429,6 +28495,8 @@ wordDict = {
 	'I-PER': 1
 }, 'fini': {
 	'B-PER': 1, 'I-PER': 1
+}, 'may-august': {
+	'O': 1, 'B-LOC': 1
 }, 'outdoor': {
 	'O': 1
 }, 'businesses': {
@@ -28571,6 +28639,8 @@ wordDict = {
 	'O': 1
 }, 'garcia': {
 	'I-PER': 4
+}, 'subversive': {
+	'O': 1
 }, 'rubens': {
 	'B-PER': 2
 }, 'common': {
@@ -28595,6 +28665,8 @@ wordDict = {
 	'I-PER': 1
 }, 'mobbs': {
 	'I-PER': 1
+}, '10.45': {
+	'O': 1
 }, '164.2': {
 	'O': 1
 }, 'vine': {
@@ -28631,8 +28703,6 @@ wordDict = {
 	'O': 3
 }, 'vasco': {
 	'B-ORG': 2
-}, 'govt.fcast': {
-	'O': 1
 }, 'stance': {
 	'O': 7
 }, 'expert': {
@@ -28675,11 +28745,13 @@ wordDict = {
 	'O': 1
 }, 'iks': {
 	'I-ORG': 1
+}, 'bitar': {
+	'O': 5, 'I-PER': 3, 'B-PER': 1
 }, 'seeded': {
 	'O': 17
 }, '2.45': {
 	'O': 1
-}, 'totti': {
+}, 'greig': {
 	'I-PER': 1
 }, 'responses': {
 	'O': 1
@@ -28697,8 +28769,8 @@ wordDict = {
 	'I-PER': 1
 }, 'pagoda': {
 	'O': 1
-}, 'ta': {
-	'B-PER': 1
+}, '.353': {
+	'O': 2
 }, 'aircraft': {
 	'O': 19
 }, 'sigit': {
@@ -28711,8 +28783,6 @@ wordDict = {
 	'O': 2
 }, 'slated': {
 	'O': 3
-}, '9373': {
-	'O': 1
 }, 'claydon': {
 	'I-PER': 2
 }, 'full-time': {
@@ -28735,6 +28805,8 @@ wordDict = {
 	'O': 12
 }, 'explore': {
 	'O': 1
+}, '55.66': {
+	'O': 1
 }, 'foreign': {
 	'B-ORG': 12, 'O': 102
 }, 'mcdonald': {
@@ -28745,8 +28817,6 @@ wordDict = {
 	'I-ORG': 5, 'O': 11, 'I-PER': 1
 }, 'celica': {
 	'I-MISC': 5
-}, 'reintegrate': {
-	'O': 1
 }, 'kandir': {
 	'I-PER': 1
 }, 'baltimore': {
@@ -28801,8 +28871,6 @@ wordDict = {
 	'O': 1
 }, 'bradtke': {
 	'I-PER': 1
-}, 'eradication': {
-	'O': 1
 }, 'create': {
 	'O': 11
 }, 'underage': {
@@ -28841,8 +28909,6 @@ wordDict = {
 	'B-ORG': 2
 }, 'four-run': {
 	'O': 2
-}, '769.4': {
-	'O': 1
 }, 'valkucak': {
 	'B-PER': 1
 }, '25,000,000': {
@@ -28879,8 +28945,6 @@ wordDict = {
 	'I-PER': 1
 }, 'likened': {
 	'O': 2
-}, 'recognised': {
-	'O': 1
 }, 'pierce': {
 	'I-PER': 1
 }, 'hitchcock': {
@@ -28957,20 +29021,20 @@ wordDict = {
 	'O': 1
 }, '.22': {
 	'O': 1
-}, 'norske': {
-	'I-ORG': 1
+}, '9.0-10.5': {
+	'O': 1
 }, 'lomas': {
 	'I-PER': 4
 }, '130.2': {
 	'O': 1
-}, 'shimazaki': {
-	'B-PER': 2
 }, 'dax': {
 	'B-MISC': 2
 }, 'labat': {
 	'I-PER': 2
 }, 'italy': {
 	'O': 1, 'B-PER': 1, 'B-LOC': 128
+}, 'zulu': {
+	'B-PER': 1, 'B-LOC': 1, 'I-ORG': 1
 }, 'santapaola': {
 	'I-PER': 1
 }, '6mth': {
@@ -28987,8 +29051,6 @@ wordDict = {
 	'O': 1
 }, 'italo': {
 	'B-PER': 1
-}, '4:24.427': {
-	'O': 1
 }, 'vaclav': {
 	'B-PER': 4
 }, 'belenenses': {
@@ -29027,6 +29089,8 @@ wordDict = {
 	'I-ORG': 1
 }, 'desks': {
 	'O': 1
+}, 'ta': {
+	'B-PER': 1
 }, 'moment': {
 	'O': 12
 }, 'parliamentarian': {
@@ -29046,6 +29110,8 @@ wordDict = {
 }, 'tretschok': {
 	'B-PER': 1
 }, 'imola': {
+	'B-LOC': 1
+}, 'ex-minister': {
 	'B-LOC': 1
 }, 'gestures': {
 	'O': 1
@@ -29067,6 +29133,8 @@ wordDict = {
 	'O': 3
 }, 'harper': {
 	'B-PER': 1, 'I-PER': 1
+}, '40.': {
+	'O': 1
 }, 'malysia': {
 	'B-LOC': 1
 }, 'flags': {
@@ -29221,8 +29289,6 @@ wordDict = {
 	'I-PER': 1
 }, 'follows': {
 	'O': 7
-}, 'augment': {
-	'O': 1
 }, 'unrepentant': {
 	'O': 1
 }, 'austria': {
@@ -29249,8 +29315,6 @@ wordDict = {
 	'O': 1
 }, 'unhindered': {
 	'O': 1
-}, 'mangosuthu': {
-	'I-ORG': 1
 }, 'iae-3': {
 	'O': 1
 }, 'outscored': {
@@ -29285,8 +29349,6 @@ wordDict = {
 	'O': 1
 }, 'insincere': {
 	'O': 1
-}, 'croci': {
-	'I-PER': 1
 }, 'pricing': {
 	'O': 1
 }, 'apply': {
@@ -29337,7 +29399,7 @@ wordDict = {
 	'I-PER': 1
 }, 'verbally': {
 	'O': 1
-}, 'mailed': {
+}, 'scalp': {
 	'O': 1
 }, 'iceland': {
 	'B-LOC': 2
@@ -29379,8 +29441,8 @@ wordDict = {
 	'O': 1
 }, 'get-well': {
 	'O': 1
-}, 'fee': {
-	'O': 1
+}, 'maenmuan': {
+	'I-PER': 1
 }, 'chanting': {
 	'O': 1
 }, 'w97.50': {
@@ -29471,8 +29533,8 @@ wordDict = {
 	'O': 1
 }, 'lesson': {
 	'O': 1
-}, 'dimitrios': {
-	'B-PER': 2
+}, 'okano': {
+	'I-PER': 1
 }, 'downhill': {
 	'B-PER': 1, 'O': 12
 }, 'bankruptcy': {
@@ -29499,7 +29561,7 @@ wordDict = {
 	'O': 1
 }, 'misappropriating': {
 	'O': 1
-}, '1.50': {
+}, 'effigy': {
 	'O': 2
 }, '15-12': {
 	'O': 13
@@ -29533,6 +29595,8 @@ wordDict = {
 	'O': 1
 }, 'ordeal': {
 	'O': 3
+}, '12/15/2009': {
+	'O': 1
 }, 're-enacting': {
 	'O': 1
 }, 'constitutionally': {
@@ -29577,14 +29641,14 @@ wordDict = {
 	'O': 2
 }, 'clips': {
 	'O': 1
+}, '160.55': {
+	'O': 2
 }, '37.86': {
 	'O': 1
 }, "'re": {
 	'O': 31
 }, 'exploration': {
 	'O': 4
-}, '65,000': {
-	'O': 3
 }, 'planes': {
 	'O': 5
 }, 'reviewed': {
@@ -29598,6 +29662,8 @@ wordDict = {
 }, 'calculated': {
 	'O': 2
 }, 'disappeared': {
+	'O': 1
+}, 'technologists': {
 	'O': 1
 }, 'mouscron': {
 	'B-ORG': 3
@@ -29695,8 +29761,6 @@ wordDict = {
 	'O': 1
 }, 'shimizu': {
 	'B-PER': 1
-}, '40.': {
-	'O': 1
 }, 'prepared': {
 	'O': 11
 }, 'lens': {
@@ -29733,6 +29797,8 @@ wordDict = {
 	'I-PER': 1
 }, 'vehicles': {
 	'I-ORG': 1, 'O': 9
+}, 'anza': {
+	'B-LOC': 2
 }, 'bankers': {
 	'O': 1
 }, 'ceska': {
@@ -29760,8 +29826,6 @@ wordDict = {
 }, '2009': {
 	'O': 2
 }, 'tube': {
-	'O': 1
-}, 'invaders': {
 	'O': 1
 }, '172,580': {
 	'O': 1
@@ -29793,20 +29857,16 @@ wordDict = {
 	'O': 1
 }, 'kwasniewski': {
 	'B-PER': 5, 'I-PER': 2
-}, 'dha': {
-	'B-ORG': 2
 }, 'leong': {
 	'I-PER': 1
-}, 'shimokawa': {
-	'I-PER': 2
 }, 'westwood': {
 	'I-PER': 3
 }, 'golfer': {
 	'O': 1
 }, '15,000': {
 	'O': 11
-}, 'carretero': {
-	'I-PER': 1
+}, 'bowler': {
+	'O': 1
 }, '10,756': {
 	'O': 1
 }, '6.05': {
@@ -29829,6 +29889,8 @@ wordDict = {
 	'O': 2
 }, 'germain': {
 	'I-ORG': 9
+}, 'guessing': {
+	'O': 1
 }, 'helps': {
 	'O': 4
 }, 'preview': {
@@ -29871,8 +29933,6 @@ wordDict = {
 	'O': 2
 }, 'surgeon': {
 	'O': 1
-}, 'adversary': {
-	'O': 1
 }, 'attendants': {
 	'O': 1
 }, 'arrange': {
@@ -29891,6 +29951,8 @@ wordDict = {
 	'O': 1
 }, 'agius': {
 	'I-PER': 2
+}, 'laminate': {
+	'O': 1
 }, 'knight': {
 	'I-PER': 6, 'O': 2, 'B-PER': 1
 }, 'joel': {
@@ -29949,12 +30011,12 @@ wordDict = {
 	'O': 1
 }, 'matsushita': {
 	'B-PER': 2, 'I-PER': 1
-}, '69-year-old': {
+}, '4,200': {
 	'O': 1
 }, 'copenhagen': {
 	'B-LOC': 5
-}, 'carlo': {
-	'B-PER': 3
+}, 'masturbation': {
+	'O': 1
 }, 'tomich': {
 	'I-PER': 1
 }, 'georgios': {
@@ -29971,8 +30033,6 @@ wordDict = {
 	'B-ORG': 51, 'I-ORG': 1, 'B-LOC': 60, 'B-PER': 1
 }, 'giving': {
 	'O': 12
-}, 'recorder': {
-	'I-ORG': 1
 }, 'pipes': {
 	'O': 5
 }, 'zaandam': {
@@ -30003,6 +30063,8 @@ wordDict = {
 	'O': 1
 }, 'exercise': {
 	'O': 5
+}, 'binding': {
+	'O': 1
 }, 'body': {
 	'O': 18
 }, '6,688,000': {
@@ -30093,8 +30155,8 @@ wordDict = {
 	'O': 1
 }, '4.95': {
 	'O': 2
-}, 'jiul': {
-	'B-ORG': 2
+}, 'guidance': {
+	'O': 2
 }, 'looted': {
 	'O': 2
 }, 'named': {
@@ -30105,12 +30167,10 @@ wordDict = {
 	'O': 1
 }, '67.0': {
 	'O': 1
-}, 'splinter': {
-	'O': 3
+}, 'limp': {
+	'O': 1
 }, 'weibring': {
 	'I-PER': 2
-}, 'vacek': {
-	'I-PER': 3
 }, 'bushman': {
 	'O': 1
 }, 'private': {
@@ -30135,6 +30195,8 @@ wordDict = {
 	'O': 1
 }, 'lima': {
 	'B-LOC': 3, 'I-PER': 1
+}, 'pessimism': {
+	'O': 2
 }, 'gateway': {
 	'B-ORG': 1, 'O': 1
 }, 'sermon': {
@@ -30177,6 +30239,8 @@ wordDict = {
 	'O': 1
 }, 'year-ago': {
 	'O': 7
+}, 'brewery': {
+	'O': 2
 }, 'themselves': {
 	'O': 5
 }, 'harrowing': {
@@ -30223,8 +30287,8 @@ wordDict = {
 	'O': 1
 }, '11,175,000': {
 	'O': 1
-}, '2,250': {
-	'O': 1
+}, 'tomasz': {
+	'B-PER': 1
 }, 'spitz': {
 	'I-PER': 1
 }, 'arranging': {
@@ -30263,12 +30327,16 @@ wordDict = {
 	'O': 4
 }, 'zitelli': {
 	'B-PER': 1
+}, 'schalkwyk': {
+	'I-PER': 1
 }, '20-7': {
 	'O': 1
 }, '20-6': {
 	'O': 1
 }, 'erwin': {
 	'B-PER': 2
+}, 'bombarded': {
+	'O': 1
 }, 'eiden': {
 	'I-PER': 1
 }, 'praise': {
@@ -30277,24 +30345,22 @@ wordDict = {
 	'I-ORG': 1
 }, 'closing': {
 	'B-PER': 1, 'O': 8
-}, 'onlookers': {
-	'O': 2
 }, 'predecessor': {
 	'O': 3
 }, 'violence': {
 	'O': 29
 }, 'rallies': {
 	'O': 2
+}, 'documenting': {
+	'O': 1
 }, 'botham': {
 	'B-PER': 4, 'I-PER': 4
 }, 'carl-uwe': {
 	'B-PER': 2
 }, 'delbruck': {
 	'I-PER': 1
-}, 'jean-denis': {
-	'B-PER': 1
-}, 'nicky': {
-	'B-PER': 2
+}, 'konrad': {
+	'I-MISC': 1, 'I-PER': 1
 }, '2.240': {
 	'O': 1
 }, 'effectively': {
@@ -30351,8 +30417,10 @@ wordDict = {
 	'I-PER': 1
 }, 'lapena': {
 	'O': 1
-}, 'solidify': {
-	'O': 2
+}, 'tekstilshik': {
+	'B-ORG': 1
+}, 'stock': {
+	'I-MISC': 1, 'B-ORG': 1, 'I-ORG': 14, 'O': 41
 }, 'profile': {
 	'O': 6
 }, 'yoshikawa': {
@@ -30375,6 +30443,8 @@ wordDict = {
 	'B-PER': 1
 }, 'hussain': {
 	'B-PER': 2, 'I-PER': 4
+}, 'gpg': {
+	'B-ORG': 5
 }, 'billings': {
 	'B-LOC': 1
 }, 'eager': {
@@ -30387,6 +30457,8 @@ wordDict = {
 	'O': 4
 }, '1998c': {
 	'O': 1
+}, 'penh': {
+	'I-LOC': 3
 }, 'bombers': {
 	'O': 2
 }, 'chasing': {
@@ -30409,8 +30481,6 @@ wordDict = {
 	'I-PER': 1
 }, '941': {
 	'O': 6
-}, '818.10': {
-	'O': 1
 }, 'chief': {
 	'I-ORG': 1, 'O': 50
 }, '10-day': {
@@ -30457,7 +30527,7 @@ wordDict = {
 	'O': 1
 }, 'preclinical': {
 	'O': 1
-}, 'rutter': {
+}, 'freund': {
 	'I-PER': 2
 }, '12-6': {
 	'O': 1
@@ -30575,6 +30645,8 @@ wordDict = {
 	'I-MISC': 7, 'I-ORG': 1, 'O': 109
 }, 'preschool': {
 	'O': 1
+}, '1,119.0': {
+	'O': 1
 }, 'stunts': {
 	'O': 1
 }, 'february': {
@@ -30609,10 +30681,14 @@ wordDict = {
 	'B-PER': 2
 }, 'condominium': {
 	'O': 1
+}, 'vodka': {
+	'O': 1
 }, 'clerck': {
 	'I-PER': 1
 }, 'shrs': {
 	'O': 3
+}, 'unwound': {
+	'O': 1
 }, 'rakow': {
 	'B-ORG': 3
 }, 'publicity': {
@@ -30625,8 +30701,6 @@ wordDict = {
 	'O': 1
 }, '3,000': {
 	'O': 16
-}, '8.70': {
-	'O': 1
 }, '395.0': {
 	'O': 1
 }, 'tension': {
@@ -30640,6 +30714,8 @@ wordDict = {
 }, 'inception': {
 	'O': 1
 }, '2:43.18': {
+	'O': 1
+}, '598': {
 	'O': 1
 }, 'accumulated': {
 	'O': 2
@@ -30669,8 +30745,6 @@ wordDict = {
 	'O': 2
 }, 'rep': {
 	'B-MISC': 3
-}, '4:21.009': {
-	'O': 1
 }, 'rev': {
 	'O': 1
 }, 'cwt': {
@@ -30691,8 +30765,6 @@ wordDict = {
 	'B-LOC': 2
 }, 'outdid': {
 	'O': 1
-}, 'zenit': {
-	'B-ORG': 1
 }, '16-6': {
 	'O': 1
 }, 'postpone': {
@@ -30741,8 +30813,6 @@ wordDict = {
 	'B-PER': 4
 }, 'marathon': {
 	'O': 1
-}, 'inswinging': {
-	'O': 1
 }, 'receipts': {
 	'O': 5
 }, 'chiefs': {
@@ -30769,8 +30839,6 @@ wordDict = {
 	'B-PER': 12, 'I-PER': 1
 }, 'allied': {
 	'O': 7
-}, 'strides': {
-	'O': 1
 }, '8-9': {
 	'O': 2
 }, '205.10': {
@@ -30797,8 +30865,6 @@ wordDict = {
 	'B-LOC': 1
 }, 'plastics': {
 	'O': 2
-}, 'janette': {
-	'B-PER': 1
 }, 'dallas-fort': {
 	'B-LOC': 1
 }, 'pga': {
@@ -30847,8 +30913,6 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 2
 }, 'decrease': {
 	'O': 2
-}, 'ihlas': {
-	'B-ORG': 1
 }, 'bologna': {
 	'O': 1, 'B-ORG': 1, 'B-PER': 2, 'I-PER': 3
 }, 'laps': {
@@ -30871,8 +30935,6 @@ wordDict = {
 	'B-PER': 1
 }, 'dominguez': {
 	'I-PER': 1
-}, 'hiroshige': {
-	'B-MISC': 1, 'B-PER': 1
 }, 'w.': {
 	'B-PER': 6, 'B-LOC': 1, 'I-ORG': 2
 }, 'palestine': {
@@ -30883,8 +30945,6 @@ wordDict = {
 	'B-MISC': 9, 'B-LOC': 2
 }, 'averted': {
 	'O': 1
-}, 'ceahlaul': {
-	'B-ORG': 2
 }, 'scans': {
 	'O': 1
 }, 'dillard': {
@@ -30911,6 +30971,8 @@ wordDict = {
 	'O': 1
 }, 'environmental': {
 	'O': 1
+}, 'recorder': {
+	'I-ORG': 1
 }, 'majorities': {
 	'O': 2
 }, 'stefano': {
@@ -30953,14 +31015,16 @@ wordDict = {
 	'I-PER': 2
 }, 'ottoz': {
 	'I-PER': 2
+}, 'latif': {
+	'I-PER': 1
 }, 'visited': {
 	'O': 17
 }, 'doctorate': {
 	'O': 2
 }, 'downer': {
 	'B-PER': 2, 'I-PER': 2
-}, 'frontier': {
-	'B-ORG': 1, 'O': 1
+}, 'erase': {
+	'O': 1
 }, 'passports': {
 	'O': 1
 }, '224,609': {
@@ -30970,6 +31034,8 @@ wordDict = {
 }, 'bulldozer': {
 	'O': 1
 }, 'inundating': {
+	'O': 1
+}, 'mistake-free': {
 	'O': 1
 }, 'sevilla': {
 	'B-ORG': 1, 'B-PER': 1
@@ -30983,8 +31049,6 @@ wordDict = {
 	'O': 4
 }, 'richmond-based': {
 	'B-MISC': 1
-}, 'abdellaoui': {
-	'B-PER': 1
 }, 'comfortably': {
 	'O': 1
 }, 'unlikely': {
@@ -31047,6 +31111,8 @@ wordDict = {
 	'O': 1
 }, '1.33': {
 	'O': 1
+}, 'bordon': {
+	'I-PER': 1
 }, '1.35': {
 	'O': 1
 }, 'kotaik': {
@@ -31069,12 +31135,10 @@ wordDict = {
 	'O': 2
 }, 'oilseed': {
 	'O': 3
-}, 'stg-plus': {
-	'O': 1
+}, 'vitor': {
+	'B-PER': 2
 }, 'skopje': {
 	'B-LOC': 3
-}, 'apparel': {
-	'I-ORG': 2, 'O': 1
 }, 'eight': {
 	'O': 68
 }, 'savaged': {
@@ -31099,12 +31163,10 @@ wordDict = {
 	'I-PER': 1
 }, 'inexorable': {
 	'O': 1
-}, 'nazi': {
-	'B-MISC': 1
+}, '1:51.528': {
+	'O': 1
 }, 'muscular': {
 	'O': 4
-}, 'elbrewery': {
-	'B-PER': 1
 }, 'nunthorpe': {
 	'B-MISC': 2, 'O': 1
 }, 'bohdan': {
@@ -31115,8 +31177,6 @@ wordDict = {
 	'O': 7
 }, 'disease': {
 	'I-MISC': 2, 'O': 35
-}, '5,350': {
-	'O': 1
 }, '1,000': {
 	'B-MISC': 7, 'O': 20
 }, 'quilter': {
@@ -31129,8 +31189,8 @@ wordDict = {
 	'O': 1
 }, 'mick': {
 	'B-PER': 1
-}, 'kerosene': {
-	'O': 5
+}, '1,558': {
+	'O': 1
 }, 'takanobu': {
 	'B-PER': 1
 }, 'normally': {
@@ -31193,8 +31253,6 @@ wordDict = {
 	'B-ORG': 2
 }, 'controls': {
 	'O': 7
-}, 'mistake-free': {
-	'O': 1
 }, 'kse': {
 	'B-ORG': 2
 }, 'bernard': {
@@ -31215,8 +31273,8 @@ wordDict = {
 	'B-LOC': 1
 }, 'communist': {
 	'B-MISC': 1, 'B-ORG': 1, 'I-ORG': 1, 'O': 10
-}, 'stored': {
-	'O': 2
+}, 'srour': {
+	'I-PER': 1
 }, 'nj': {
 	'B-ORG': 1
 }, 'regularly': {
@@ -31271,6 +31329,8 @@ wordDict = {
 	'O': 1
 }, '7.84': {
 	'O': 1
+}, 'eritrean': {
+	'B-MISC': 2
 }, '2-70': {
 	'O': 1
 }, 'sociedad': {
@@ -31289,12 +31349,8 @@ wordDict = {
 	'O': 5
 }, '130': {
 	'O': 9
-}, 'liberty': {
-	'O': 1
 }, 'canonica': {
 	'I-PER': 1
-}, 'nihad': {
-	'O': 1
 }, '2060': {
 	'O': 1
 }, 'biljana': {
@@ -31425,8 +31481,6 @@ wordDict = {
 	'B-PER': 3, 'B-LOC': 1, 'O': 3, 'I-PER': 3, 'I-ORG': 1
 }, 'straights': {
 	'O': 1
-}, '26:43.53': {
-	'O': 1
 }, 'haessler': {
 	'B-PER': 1, 'I-PER': 1
 }, 'commenting': {
@@ -31489,9 +31543,9 @@ wordDict = {
 	'I-MISC': 3, 'O': 5
 }, 'ac': {
 	'B-ORG': 5, 'B-PER': 1
-}, 'volcano-hit': {
-	'O': 1
 }, '1990-95': {
+	'O': 1
+}, 'morale-boosting': {
 	'O': 1
 }, 'gong': {
 	'B-ORG': 1, 'B-PER': 2
@@ -31632,8 +31686,6 @@ wordDict = {
 }, 'jhurova': {
 	'I-PER': 1
 }, 'carved': {
-	'O': 1
-}, '148.20': {
 	'O': 1
 }, '.111': {
 	'O': 1
@@ -31797,13 +31849,15 @@ wordDict = {
 	'B-LOC': 1
 }, '721': {
 	'O': 1
-}, 'levitt': {
+}, 'haeggman': {
 	'I-PER': 1
 }, 'denpasar': {
 	'B-LOC': 1
 }, 'sets': {
 	'O': 13
 }, 'pre-trial': {
+	'O': 1
+}, 'installations': {
 	'O': 1
 }, 'wreckage': {
 	'O': 3
@@ -31889,14 +31943,10 @@ wordDict = {
 	'O': 2
 }, 'add': {
 	'O': 15
-}, 'crowds': {
-	'O': 4
 }, 'delegations': {
 	'O': 1
 }, 'citizen': {
 	'O': 5
-}, 'non-oil': {
-	'O': 1
 }, '280': {
 	'O': 8
 }, '283': {
@@ -31915,10 +31965,10 @@ wordDict = {
 	'O': 5
 }, 'tests': {
 	'O': 15
-}, 'leu': {
-	'I-PER': 2
 }, 'taichung': {
 	'B-ORG': 1
+}, 'backlash': {
+	'O': 1
 }, '6,200': {
 	'O': 1
 }, 'judiciary': {
@@ -31927,8 +31977,6 @@ wordDict = {
 	'O': 1
 }, 'telecommunciations': {
 	'I-ORG': 1
-}, 'friction': {
-	'O': 1
 }, 'ericks': {
 	'I-PER': 1
 }, 'deployment': {
@@ -31967,10 +32015,6 @@ wordDict = {
 	'B-LOC': 10
 }, 'heed': {
 	'O': 1
-}, '598': {
-	'O': 1
-}, 'gayle': {
-	'I-PER': 1
 }, 'radstrom': {
 	'I-PER': 2
 }, 'works': {
@@ -31989,8 +32033,8 @@ wordDict = {
 	'I-PER': 4
 }, 'nfl': {
 	'B-ORG': 1, 'O': 1
-}, 'humphries': {
-	'I-PER': 2
+}, 'alexandrou': {
+	'I-PER': 1
 }, 'pauline': {
 	'B-PER': 2
 }, 'kerdos': {
@@ -32087,8 +32131,6 @@ wordDict = {
 	'O': 1
 }, 'slight': {
 	'O': 6, 'B-PER': 6, 'I-PER': 2
-}, 'rudyard': {
-	'B-LOC': 1
 }, '743.50': {
 	'O': 1
 }, '75.20': {
@@ -32097,8 +32139,6 @@ wordDict = {
 	'I-PER': 1
 }, 'host': {
 	'O': 8
-}, 'f1': {
-	'I-MISC': 1, 'B-MISC': 1
 }, 'widness': {
 	'B-PER': 2, 'I-PER': 1
 }, 'although': {
@@ -32121,6 +32161,8 @@ wordDict = {
 	'O': 2
 }, 'justin': {
 	'B-PER': 6
+}, 'escorted': {
+	'O': 1
 }, 'raniero': {
 	'B-PER': 1
 }, 'trln': {
@@ -32165,7 +32207,7 @@ wordDict = {
 	'O': 1
 }, 'depart': {
 	'O': 1
-}, 'accurately': {
+}, '10.11': {
 	'O': 1
 }, 'brotherhood': {
 	'B-ORG': 1
@@ -32215,24 +32257,18 @@ wordDict = {
 	'O': 5
 }, 'rushed': {
 	'O': 3
-}, 'stainless': {
-	'B-MISC': 1
+}, 'canadians': {
+	'B-MISC': 2
 }, 'vegetables': {
 	'O': 2
 }, 'mcmillan': {
 	'I-PER': 1
 }, 'banc': {
 	'B-ORG': 1
-}, 'sugarcane': {
-	'O': 1
 }, '1988': {
 	'O': 6
 }, '1989': {
 	'O': 10
-}, '6,512,000': {
-	'O': 1
-}, 'pertile': {
-	'I-PER': 1
 }, 'dinar': {
 	'O': 1
 }, 'obilic': {
@@ -32291,14 +32327,10 @@ wordDict = {
 	'O': 7
 }, '8.22': {
 	'O': 2
-}, 'captives': {
-	'O': 1
-}, 'subdivision': {
-	'O': 1
+}, 'remote': {
+	'O': 4
 }, '8.29': {
 	'O': 2
-}, '9.0-10.5': {
-	'O': 1
 }, 'partially': {
 	'O': 2
 }, 'embargo': {
@@ -32319,6 +32351,8 @@ wordDict = {
 	'O': 1
 }, 'unload': {
 	'O': 3
+}, 'exert': {
+	'O': 1
 }, '149.6': {
 	'O': 1
 }, 'underpriviledged': {
@@ -32379,12 +32413,12 @@ wordDict = {
 	'O': 12
 }, 'radka': {
 	'B-PER': 2
-}, '80': {
-	'O': 17
-}, '25.8.95': {
-	'O': 1
+}, 'zaire': {
+	'B-LOC': 18
 }, 'pierluigi': {
 	'B-PER': 1
+}, '1:16.75': {
+	'O': 2
 }, '48': {
 	'O': 28
 }, 'praecip': {
@@ -32439,8 +32473,8 @@ wordDict = {
 	'B-MISC': 6
 }, 'hugely': {
 	'O': 1
-}, 'mid-east': {
-	'B-ORG': 1
+}, 'dias': {
+	'I-ORG': 2
 }, 'nooijer': {
 	'I-PER': 1
 }, 'skiing-goetchl': {
@@ -32453,6 +32487,8 @@ wordDict = {
 	'O': 1
 }, 'ecological': {
 	'O': 2
+}, 'four-hour': {
+	'O': 3
 }, '1:49.85': {
 	'O': 1
 }, 'kuusamo': {
@@ -32479,10 +32515,10 @@ wordDict = {
 	'B-ORG': 1
 }, 'two-fifths': {
 	'O': 1
-}, 'talbott': {
-	'B-PER': 3, 'I-PER': 1
 }, 'seedings': {
 	'O': 6
+}, '12.208': {
+	'O': 1
 }, 'morav.chemic.': {
 	'B-ORG': 1
 }, 'parole': {
@@ -32505,8 +32541,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'americast': {
 	'B-ORG': 4
-}, 'harding': {
-	'I-PER': 1
+}, '10-1-47-2': {
+	'O': 1
 }, 'gevirtz': {
 	'I-PER': 1
 }, 'implants': {
@@ -32731,6 +32767,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'hakkinen': {
 	'I-PER': 2
+}, 'kappes': {
+	'I-PER': 1
 }, '15.475': {
 	'O': 1
 }, 'endorse': {
@@ -32763,8 +32801,8 @@ wordDict = {
 	'O': 1
 }, 'korean-related': {
 	'I-MISC': 1
-}, 'shelbourne': {
-	'B-ORG': 2
+}, 'penfriend': {
+	'O': 1
 }, 'hundreds': {
 	'O': 12
 }, 'penberthy': {
@@ -32783,14 +32821,10 @@ wordDict = {
 	'O': 1
 }, 'seasongood': {
 	'B-ORG': 1
-}, 'dallas': {
-	'B-ORG': 3, 'B-LOC': 2
 }, '23.8.96': {
 	'O': 1
 }, 'resalat': {
 	'B-ORG': 2
-}, 'eugen': {
-	'B-PER': 2
 }, 'generals': {
 	'O': 2
 }, '53.13': {
@@ -32919,8 +32953,6 @@ wordDict = {
 	'O': 1
 }, 'attractive': {
 	'O': 1
-}, 'denote': {
-	'O': 1
 }, 'ferrying': {
 	'O': 1
 }, '24.32': {
@@ -32933,8 +32965,6 @@ wordDict = {
 	'O': 1
 }, 'musa': {
 	'B-PER': 1
-}, 'nikkola': {
-	'B-PER': 1, 'I-PER': 1
 }, 'petroleums': {
 	'I-ORG': 2
 }, 'phone': {
@@ -32991,7 +33021,7 @@ wordDict = {
 	'O': 1
 }, 'mt': {
 	'B-LOC': 4
-}, 'mw': {
+}, 'slice': {
 	'O': 2
 }, 'straits': {
 	'I-LOC': 1, 'I-ORG': 1, 'O': 1
@@ -33029,8 +33059,6 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 2
 }, 'sentries': {
 	'O': 1
-}, 'konrad': {
-	'I-MISC': 1, 'I-PER': 1
 }, '1/9/95': {
 	'O': 1
 }, 'exile': {
@@ -33091,6 +33119,8 @@ wordDict = {
 	'O': 7
 }, 'ancestor': {
 	'O': 1
+}, 'marushko': {
+	'I-PER': 1
 }, 'cyberspace': {
 	'O': 2
 }, 'equalised': {
@@ -33109,6 +33139,8 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 2
 }, 'adrian': {
 	'B-PER': 11
+}, 'ascertain': {
+	'O': 1
 }, 'coffers': {
 	'O': 1
 }, 'demanding': {
@@ -33183,8 +33215,6 @@ wordDict = {
 	'O': 1
 }, 'misery': {
 	'O': 2
-}, 'guidance': {
-	'O': 2
 }, 'london': {
 	'B-ORG': 22, 'I-ORG': 4, 'B-LOC': 155
 }, 'spla': {
@@ -33245,8 +33275,6 @@ wordDict = {
 	'O': 1
 }, 'asylum-seekers': {
 	'O': 1
-}, 'shop': {
-	'O': 1
 }, '409': {
 	'O': 3
 }, 'reformed': {
@@ -33259,12 +33287,16 @@ wordDict = {
 	'O': 6
 }, 'prevented': {
 	'O': 4
+}, 'apparel': {
+	'I-ORG': 2, 'O': 1
 }, 'incorrectly': {
 	'O': 1
 }, 'roost': {
 	'I-PER': 1
 }, '10.5': {
 	'O': 1
+}, 'albanian-born': {
+	'B-MISC': 1
 }, 'revelations': {
 	'O': 1
 }, 'parliaments': {
@@ -33325,10 +33357,10 @@ wordDict = {
 	'O': 35
 }, 'nablus': {
 	'B-LOC': 1
+}, 'excavations': {
+	'O': 1
 }, 'podujevo': {
 	'B-LOC': 1
-}, 'heist': {
-	'O': 1
 }, 'lasting': {
 	'O': 3
 }, 'consolidate': {
@@ -33355,18 +33387,18 @@ wordDict = {
 	'O': 3
 }, 'seasonally': {
 	'O': 2
+}, '147': {
+	'O': 1
 }, 'practising': {
 	'O': 1
 }, 'weather-related': {
 	'O': 1
 }, 'madhusudan': {
 	'B-PER': 1
-}, 'hardcourts': {
-	'O': 1
+}, 'rovers': {
+	'B-ORG': 1, 'I-ORG': 3
 }, 'as-safir': {
 	'B-ORG': 2
-}, 'shimbun': {
-	'I-ORG': 1
 }, '12.60': {
 	'O': 2
 }, 'saturday': {
@@ -33387,7 +33419,9 @@ wordDict = {
 	'O': 4
 }, 'two-hour': {
 	'O': 1
-}, 'cricketers': {
+}, 'lynne': {
+	'B-PER': 1
+}, 'sawn-off': {
 	'O': 1
 }, 'theodore': {
 	'B-PER': 1
@@ -33413,6 +33447,8 @@ wordDict = {
 	'O': 24
 }, '38:32.040': {
 	'O': 1
+}, 'staying': {
+	'O': 1
 }, 'numerical': {
 	'O': 1
 }, 'carcass': {
@@ -33425,8 +33461,6 @@ wordDict = {
 	'B-PER': 2
 }, 'qadissiya': {
 	'B-ORG': 1
-}, 'private-sector': {
-	'O': 1
 }, 'free': {
 	'I-LOC': 3, 'I-ORG': 1, 'O': 28
 }, 'fred': {
@@ -33435,10 +33469,12 @@ wordDict = {
 	'O': 1
 }, 'nisbet': {
 	'I-PER': 2
+}, 'paramilitary': {
+	'O': 1
 }, '253,337': {
 	'O': 1
-}, 'counterparts': {
-	'O': 1
+}, 'pakistan-ruled': {
+	'B-MISC': 2
 }, 'boosting': {
 	'O': 1
 }, 'banja': {
@@ -33559,14 +33595,18 @@ wordDict = {
 	'O': 2
 }, 'too': {
 	'O': 28
+}, '1663/96': {
+	'O': 1
 }, 'tom': {
 	'B-PER': 14, 'O': 1
+}, 'transvaal': {
+	'I-ORG': 1
 }, 'abstentions': {
 	'O': 2
 }, 'percentage': {
 	'O': 24
-}, 'ailment': {
-	'O': 1
+}, 'mypa-47': {
+	'B-ORG': 2
 }, 'militancy': {
 	'O': 1
 }, '99.9': {
@@ -33611,8 +33651,6 @@ wordDict = {
 	'O': 1
 }, 'tuscany': {
 	'B-LOC': 1
-}, '208': {
-	'O': 1
 }, 'abated': {
 	'O': 3
 }, 'brushed': {
@@ -33685,8 +33723,6 @@ wordDict = {
 	'B-PER': 1
 }, 'offcial': {
 	'O': 2
-}, 'pieter': {
-	'B-PER': 1
 }, 'shivnarine': {
 	'B-PER': 4
 }, 'kyle': {
@@ -33813,6 +33849,8 @@ wordDict = {
 	'O': 2
 }, 'size-per-order': {
 	'O': 1
+}, '15-11': {
+	'O': 10
 }, 'mcquillan': {
 	'I-PER': 1
 }, 'hubner': {
@@ -33875,6 +33913,8 @@ wordDict = {
 	'B-LOC': 2
 }, 'baia': {
 	'I-PER': 2
+}, 'louise': {
+	'B-PER': 1
 }, 'stringent': {
 	'O': 1
 }, 'radio': {
@@ -33951,6 +33991,8 @@ wordDict = {
 	'O': 3
 }, 'daryll': {
 	'B-PER': 1
+}, 'kijimuta': {
+	'I-PER': 3
 }, 'amazon': {
 	'B-ORG': 1, 'B-LOC': 3
 }, 'mational': {
@@ -33969,8 +34011,8 @@ wordDict = {
 	'O': 2
 }, '6/9': {
 	'O': 1
-}, 'tin': {
-	'O': 1
+}, 'becomes': {
+	'O': 2
 }, '12-1': {
 	'B-PER': 1, 'O': 3
 }, '65.61': {
@@ -33987,8 +34029,8 @@ wordDict = {
 	'O': 1
 }, '85,000': {
 	'O': 2
-}, '02.sep.96-06.mar.97': {
-	'O': 1
+}, 'hezb-i-islami': {
+	'B-ORG': 1
 }, 'twice': {
 	'O': 14
 }, '34th': {
@@ -34009,8 +34051,6 @@ wordDict = {
 	'O': 1
 }, '4.7200': {
 	'O': 1
-}, 'submission': {
-	'O': 1
 }, '133.82': {
 	'O': 1
 }, 'swoop': {
@@ -34026,6 +34066,8 @@ wordDict = {
 }, 'liquor': {
 	'O': 2
 }, '11361.330': {
+	'O': 1
+}, '988.2': {
 	'O': 1
 }, 'send-off': {
 	'O': 1
@@ -34045,12 +34087,8 @@ wordDict = {
 	'O': 1
 }, 'sporadic': {
 	'O': 3
-}, 'blown': {
-	'O': 2
 }, 'dahshour': {
 	'B-LOC': 2
-}, 'goetschi': {
-	'I-PER': 1
 }, 'capacity': {
 	'O': 11
 }, 'benes': {
@@ -34247,12 +34285,10 @@ wordDict = {
 	'B-PER': 5, 'I-PER': 1
 }, 'fondriest': {
 	'I-PER': 1
-}, '187': {
-	'O': 2
 }, 'expected': {
 	'O': 96
-}, 'contractor': {
-	'O': 2
+}, 'captives': {
+	'O': 1
 }, 'irna': {
 	'B-ORG': 4
 }, 'sawamatsu': {
@@ -34271,10 +34307,12 @@ wordDict = {
 	'O': 1
 }, 'drugs': {
 	'O': 22
+}, '11-0': {
+	'O': 1
 }, 'kumara': {
 	'B-PER': 2
-}, '10,119,000': {
-	'O': 1
+}, '3-0-11-1': {
+	'I-PER': 1
 }, 'speeches': {
 	'O': 3
 }, 'transatlantic': {
@@ -34339,6 +34377,8 @@ wordDict = {
 	'O': 1
 }, 'brewer': {
 	'O': 1
+}, 'revision': {
+	'O': 1
 }, 'keller': {
 	'B-PER': 2
 }, 'apr-sept': {
@@ -34361,8 +34401,6 @@ wordDict = {
 	'O': 3
 }, 'casting': {
 	'O': 1
-}, 'forma': {
-	'O': 5
 }, 'turrent': {
 	'I-PER': 1
 }, 'containing': {
@@ -34377,7 +34415,7 @@ wordDict = {
 	'B-ORG': 1
 }, 'wound': {
 	'I-ORG': 1
-}, 'defectors': {
+}, 'expectation': {
 	'O': 1
 }, '255-3': {
 	'O': 2
@@ -34391,12 +34429,12 @@ wordDict = {
 	'B-LOC': 16
 }, '185-members': {
 	'O': 1
-}, '3.50': {
+}, 'inswinging': {
 	'O': 1
 }, 'several': {
 	'O': 54
-}, 'mozambican': {
-	'B-MISC': 1
+}, 'actor': {
+	'O': 5
 }, 'keiichi': {
 	'B-PER': 1
 }, 'youth': {
@@ -34529,8 +34567,6 @@ wordDict = {
 	'O': 1
 }, 'expos': {
 	'B-ORG': 1, 'I-ORG': 4
-}, 'stunting': {
-	'O': 1
 }, 'hiv-pensioner': {
 	'B-MISC': 1
 }, 'burnt': {
@@ -34565,8 +34601,6 @@ wordDict = {
 	'O': 47
 }, 'serbia': {
 	'B-LOC': 5
-}, '10.45': {
-	'O': 1
 }, 'shimpei': {
 	'B-PER': 1
 }, 'sidestepped': {
@@ -34609,8 +34643,6 @@ wordDict = {
 	'O': 8
 }, 'apart': {
 	'O': 3
-}, 'managerless': {
-	'O': 1
 }, 'cronje': {
 	'I-PER': 1
 }, 'exxon': {
@@ -34655,6 +34687,8 @@ wordDict = {
 	'O': 2
 }, 'coxless': {
 	'O': 1
+}, 'pierced': {
+	'O': 1
 }, '2,455': {
 	'O': 1
 }, 'hunt': {
@@ -34675,8 +34709,6 @@ wordDict = {
 	'O': 1
 }, '2:23': {
 	'O': 1
-}, 'jill': {
-	'B-PER': 1
 }, 'escape': {
 	'O': 4
 }, 'peacemaker': {
@@ -34701,6 +34733,8 @@ wordDict = {
 	'B-ORG': 3
 }, 'combat': {
 	'O': 3
+}, '24.57': {
+	'O': 1
 }, '42.': {
 	'O': 1
 }, 'nyva': {
@@ -34769,6 +34803,8 @@ wordDict = {
 	'O': 4
 }, 'invaluable': {
 	'O': 1
+}, 'excellent': {
+	'O': 3
 }, '1:45.24': {
 	'O': 1
 }, 'permitted': {
@@ -34803,8 +34839,8 @@ wordDict = {
 	'O': 1
 }, 'ensure': {
 	'O': 8
-}, 'taha': {
-	'B-PER': 2, 'I-PER': 1
+}, '356': {
+	'O': 1
 }, 'steadily': {
 	'O': 2
 }, 'sepp': {
@@ -34823,6 +34859,8 @@ wordDict = {
 	'I-PER': 1
 }, '47.93': {
 	'O': 2
+}, 'punishable': {
+	'O': 1
 }, 'rye': {
 	'B-ORG': 2, 'O': 1
 }, 'presence': {
@@ -34832,8 +34870,6 @@ wordDict = {
 }, 'ppi': {
 	'O': 1
 }, 'obtaining': {
-	'O': 1
-}, '23:58.6': {
 	'O': 1
 }, 'obscene': {
 	'O': 2
@@ -34907,8 +34943,8 @@ wordDict = {
 	'O': 3
 }, 'steers': {
 	'I-PER': 1, 'O': 15
-}, 'foucras': {
-	'B-PER': 1, 'I-PER': 2
+}, 'pitching': {
+	'O': 1
 }, 'co-chairman': {
 	'O': 1
 }, '45.91': {
@@ -35037,8 +35073,8 @@ wordDict = {
 	'O': 3
 }, 'nl': {
 	'B-MISC': 2
-}, 'cedars': {
-	'I-ORG': 1
+}, 'gajduskova': {
+	'I-PER': 1
 }, 'techs': {
 	'I-ORG': 1
 }, 'no': {
@@ -35119,6 +35155,8 @@ wordDict = {
 	'O': 3
 }, 'ashish': {
 	'B-PER': 1
+}, 'kristian': {
+	'B-PER': 1
 }, 'morishima': {
 	'I-PER': 1
 }, 'weston': {
@@ -35141,11 +35179,13 @@ wordDict = {
 	'O': 1
 }, 'memorial': {
 	'O': 1
-}, 'deportivo': {
-	'B-ORG': 3, 'B-PER': 1
+}, '+0,2': {
+	'O': 2
 }, 'vietnam': {
 	'B-MISC': 1, 'O': 1
 }, '127.3': {
+	'O': 1
+}, 'liberty': {
 	'O': 1
 }, 'remarked': {
 	'O': 1
@@ -35155,7 +35195,7 @@ wordDict = {
 	'B-PER': 1
 }, '29.05': {
 	'O': 1
-}, '4.252': {
+}, 'tripled': {
 	'O': 1
 }, 'gak': {
 	'B-ORG': 3
@@ -35169,20 +35209,14 @@ wordDict = {
 	'O': 4
 }, 'roo': {
 	'I-LOC': 1
-}, 'garba': {
-	'I-PER': 1
 }, 'rob': {
 	'B-PER': 4, 'O': 1
-}, 'makelele': {
-	'I-PER': 1
 }, '72-0': {
 	'O': 1
 }, 'focus': {
 	'O': 4
 }, 'deliveries': {
 	'O': 4
-}, 'moengo': {
-	'B-LOC': 1
 }, 'leads': {
 	'O': 7
 }, 'roy': {
@@ -35203,6 +35237,8 @@ wordDict = {
 	'O': 1
 }, '.01': {
 	'O': 4
+}, 'exchanger': {
+	'O': 1
 }, 'row': {
 	'O': 11
 }, '1948': {
@@ -35229,16 +35265,16 @@ wordDict = {
 	'O': 1
 }, 'promoting': {
 	'O': 2
-}, 'kappes': {
-	'I-PER': 1
+}, '346,000': {
+	'O': 1
 }, 'weakening': {
 	'O': 2
 }, 'gopal': {
 	'B-PER': 1, 'I-PER': 1
 }, 'demel': {
 	'B-PER': 3, 'I-PER': 1
-}, 'oljeselskap': {
-	'I-ORG': 1
+}, 'neamt': {
+	'I-ORG': 2
 }, 'henderson': {
 	'I-PER': 2
 }, 'tanzanian': {
@@ -35251,6 +35287,8 @@ wordDict = {
 	'O': 11
 }, 'drop-goal': {
 	'O': 1
+}, 'matuzici': {
+	'B-LOC': 2
 }, 'cska': {
 	'B-ORG': 1, 'B-PER': 1
 }, 'ibrahim': {
@@ -35293,6 +35331,8 @@ wordDict = {
 	'O': 15
 }, 'level': {
 	'O': 29
+}, 'bowlers': {
+	'O': 1
 }, 'valentin': {
 	'B-PER': 2, 'I-PER': 1
 }, 'philippines': {
@@ -35307,8 +35347,6 @@ wordDict = {
 	'O': 2
 }, 'standards': {
 	'O': 2
-}, 'intriguing': {
-	'O': 1
 }, 'ivar': {
 	'I-PER': 1
 }, 'domestically': {
@@ -35355,20 +35393,16 @@ wordDict = {
 	'O': 2
 }, 'galanta': {
 	'B-LOC': 1
-}, 'karel': {
-	'B-PER': 1
 }, 'widened': {
 	'O': 2
 }, 'colin': {
 	'B-PER': 9
 }, 'intercepted': {
 	'O': 4
-}, 'soldiers': {
-	'O': 22
+}, 'heerenveen': {
+	'B-ORG': 14, 'B-LOC': 1
 }, 'trent': {
 	'B-LOC': 6
-}, 'gajduskova': {
-	'I-PER': 1
 }, 'hmg': {
 	'B-ORG': 1
 }, 'bales': {
@@ -35381,10 +35415,12 @@ wordDict = {
 	'O': 4
 }, "o'meara": {
 	'B-PER': 1, 'I-PER': 1
+}, '924': {
+	'O': 1
 }, 'boats': {
 	'O': 1
-}, 'croft': {
-	'B-PER': 17, 'I-PER': 7
+}, 'constitution': {
+	'O': 4
 }, 'materialized': {
 	'O': 1
 }, 'ara': {
@@ -35447,6 +35483,8 @@ wordDict = {
 	'B-LOC': 1
 }, 'kamo': {
 	'I-PER': 1
+}, 'turnings': {
+	'O': 1
 }, 'waitrose': {
 	'O': 1
 }, 'water': {
@@ -35511,10 +35549,10 @@ wordDict = {
 	'O': 1
 }, 'christchurch': {
 	'B-LOC': 2
-}, 'occasionally': {
-	'O': 1
 }, 'seaford': {
 	'B-LOC': 1
+}, 'accurately': {
+	'O': 1
 }, 'rafael': {
 	'B-PER': 3, 'O': 1
 }, 'tallinna': {
@@ -35553,6 +35591,8 @@ wordDict = {
 	'O': 7
 }, 'nuestra': {
 	'I-LOC': 1
+}, 'taha': {
+	'B-PER': 2, 'I-PER': 1
 }, 'crisis': {
 	'O': 9
 }, 'trinidad': {
@@ -35587,6 +35627,8 @@ wordDict = {
 	'I-PER': 5
 }, 'centavos': {
 	'O': 3
+}, 'shelbourne': {
+	'B-ORG': 2
 }, 'arabian': {
 	'B-PER': 1
 }, 'andy': {
@@ -35617,6 +35659,8 @@ wordDict = {
 	'O': 3
 }, 'clicking': {
 	'O': 1
+}, '5.79': {
+	'O': 1
 }, 'inherited': {
 	'O': 1
 }, 'alkmaar': {
@@ -35641,8 +35685,6 @@ wordDict = {
 	'O': 16
 }, 'torrens-valero': {
 	'I-PER': 2
-}, 'mendy': {
-	'I-PER': 1
 }, 'april-july': {
 	'O': 1
 }, 'tribunal': {
@@ -35687,8 +35729,6 @@ wordDict = {
 	'I-LOC': 1, 'O': 2
 }, 'blijlevens': {
 	'I-PER': 2
-}, 'percentile': {
-	'O': 1
 }, 'sense': {
 	'O': 6
 }, 'glitch': {
@@ -35775,8 +35815,6 @@ wordDict = {
 	'O': 1
 }, 'levy': {
 	'B-PER': 6, 'I-PER': 3
-}, '20-6-70-2': {
-	'O': 1
 }, 'paramount': {
 	'B-ORG': 2, 'O': 1, 'B-LOC': 1
 }, 'irrational': {
@@ -35799,8 +35837,6 @@ wordDict = {
 	'O': 1
 }, 'crashed': {
 	'O': 10
-}, 'contingency': {
-	'O': 1
 }, 'birthday': {
 	'O': 6
 }, 'tipped': {
@@ -35837,6 +35873,8 @@ wordDict = {
 	'I-PER': 1
 }, 'two-try': {
 	'O': 1
+}, '170.42': {
+	'O': 2
 }, 'two-man': {
 	'O': 3
 }, 'inform': {
@@ -35848,8 +35886,6 @@ wordDict = {
 }, 'gerard': {
 	'B-PER': 4
 }, 'b-6': {
-	'O': 1
-}, '3-0-17-0': {
 	'O': 1
 }, 'pau-orthez': {
 	'B-PER': 1
@@ -35927,8 +35963,6 @@ wordDict = {
 	'O': 1
 }, 'iscor': {
 	'B-ORG': 2
-}, 'fortnight': {
-	'O': 1
 }, 'bacau': {
 	'I-ORG': 2
 }, '7-2-11-0': {
@@ -35949,8 +35983,8 @@ wordDict = {
 	'O': 25
 }, 'unveiling': {
 	'O': 2
-}, '356': {
-	'O': 1
+}, 'receding': {
+	'O': 2
 }, 'conversations': {
 	'O': 1
 }, 'sadam': {
@@ -36077,8 +36111,6 @@ wordDict = {
 	'O': 39
 }, 'boroughmuir': {
 	'B-ORG': 1
-}, 'constitution': {
-	'O': 4
 }, 'sadova': {
 	'I-PER': 1
 }, 'citing': {
@@ -36092,8 +36124,6 @@ wordDict = {
 }, 'oklahoma': {
 	'B-MISC': 1, 'B-ORG': 2, 'I-ORG': 1, 'B-LOC': 3
 }, '12.112': {
-	'O': 1
-}, '6.08': {
 	'O': 1
 }, 'dehydrated': {
 	'O': 1
@@ -36149,10 +36179,14 @@ wordDict = {
 	'O': 1
 }, 'edinburgh': {
 	'B-LOC': 1
+}, '41.58': {
+	'O': 1
+}, 'al-tadamun': {
+	'B-ORG': 1
 }, 'dinamo': {
 	'B-ORG': 5
-}, 'affects': {
-	'O': 2
+}, 'rudyard': {
+	'B-LOC': 1
 }, 'croatian': {
 	'B-MISC': 2
 }, 'dirk': {
@@ -36197,6 +36231,8 @@ wordDict = {
 	'O': 2
 }, 'hakme': {
 	'O': 1, 'B-PER': 1, 'I-PER': 1
+}, 'nihon': {
+	'B-ORG': 1
 }, 'grainbelt': {
 	'O': 1
 }, 'symbolic': {
@@ -36206,8 +36242,6 @@ wordDict = {
 }, 'oversaw': {
 	'O': 1
 }, 'awfully': {
-	'O': 1
-}, "christian-shi'ite": {
 	'O': 1
 }, 'maltese': {
 	'B-MISC': 1
@@ -36275,8 +36309,6 @@ wordDict = {
 	'B-ORG': 4, 'O': 19, 'B-PER': 3, 'I-PER': 10, 'I-ORG': 5, 'B-LOC': 12
 }, '5,300': {
 	'O': 1
-}, '1,433.4': {
-	'O': 1
 }, 'modernisation': {
 	'O': 2
 }, 'gives': {
@@ -36297,8 +36329,6 @@ wordDict = {
 	'O': 2
 }, 'season': {
 	'O': 71
-}, 'exert': {
-	'O': 1
 }, '39-32': {
 	'O': 1
 }, 'hui': {
@@ -36311,8 +36341,6 @@ wordDict = {
 	'O': 37
 }, 'huw': {
 	'B-PER': 1
-}, 'penfriend': {
-	'O': 1
 }, 'muthiah': {
 	'B-PER': 2
 }, '28.0': {
@@ -36415,8 +36443,8 @@ wordDict = {
 	'O': 1
 }, 'reformer': {
 	'O': 2
-}, 'transmitter': {
-	'O': 2
+}, 'thinly-veiled': {
+	'O': 1
 }, 'scoured': {
 	'O': 1
 }, 'gks': {
@@ -36501,6 +36529,8 @@ wordDict = {
 	'O': 1
 }, 'carole': {
 	'B-PER': 6
+}, 'abelardofernandez': {
+	'O': 1
 }, 'considered': {
 	'O': 13
 }, 'jakarta': {
@@ -36545,6 +36575,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'whitlinger': {
 	'I-PER': 2
+}, 'jacqui': {
+	'B-PER': 1
 }, 'spacek': {
 	'I-PER': 1
 }, 'allegations': {
@@ -36587,6 +36619,8 @@ wordDict = {
 	'I-LOC': 6, 'B-ORG': 2, 'B-LOC': 4, 'O': 1, 'B-MISC': 7
 }, 'favor': {
 	'O': 2
+}, 'halo': {
+	'B-LOC': 1
 }, '55-11-2324411': {
 	'O': 1
 }, '12.83': {
@@ -36615,6 +36649,8 @@ wordDict = {
 	'B-PER': 1
 }, 'dreaded': {
 	'O': 1
+}, 'stored': {
+	'O': 2
 }, '1,456.7': {
 	'O': 1
 }, 'larsson': {
@@ -36675,8 +36711,12 @@ wordDict = {
 	'O': 2
 }, 'outsiders': {
 	'O': 2
+}, 'adige': {
+	'B-LOC': 1
 }, '2410': {
 	'O': 2
+}, 'intriguing': {
+	'O': 1
 }, 'embassy': {
 	'O': 28
 }, '18-year-old': {
@@ -36791,8 +36831,8 @@ wordDict = {
 	'I-PER': 1
 }, '24.5': {
 	'O': 1
-}, 'dns': {
-	'O': 4
+}, '26:43.53': {
+	'O': 1
 }, 'originated': {
 	'O': 1
 }, 'void': {
@@ -36851,6 +36891,8 @@ wordDict = {
 	'O': 1
 }, 'contract': {
 	'O': 39
+}, '27.70': {
+	'O': 1
 }, 'degenerates': {
 	'O': 1
 }, 'managua': {
@@ -36939,8 +36981,8 @@ wordDict = {
 	'B-PER': 4
 }, 'consultancy': {
 	'O': 2
-}, '145m': {
-	'O': 1
+}, 'soybean': {
+	'I-ORG': 1, 'O': 3
 }, 'grenades': {
 	'O': 5
 }, 'peruvian': {
@@ -36983,7 +37025,7 @@ wordDict = {
 	'O': 1
 }, 'andres': {
 	'B-PER': 1
-}, '98.9': {
+}, 'jan-july': {
 	'O': 1
 }, 'skilful': {
 	'O': 1
@@ -37059,8 +37101,6 @@ wordDict = {
 	'O': 1
 }, '0.20-0.70': {
 	'O': 1
-}, 'gisenyi': {
-	'B-LOC': 3
 }, 'crusader': {
 	'O': 1
 }, 'coupled': {
@@ -37074,8 +37114,6 @@ wordDict = {
 }, 'telephone': {
 	'B-ORG': 1, 'O': 14
 }, 'dissident': {
-	'O': 1
-}, 'firming': {
 	'O': 1
 }, 'refinery': {
 	'O': 4
@@ -37094,6 +37132,8 @@ wordDict = {
 }, '60,131': {
 	'O': 1
 }, 'helmet': {
+	'O': 1
+}, 'credited': {
 	'O': 1
 }, 'wintry': {
 	'O': 1
@@ -37161,6 +37201,8 @@ wordDict = {
 	'I-ORG': 1, 'O': 3
 }, 'first-half': {
 	'O': 10
+}, 'tyrrell': {
+	'B-ORG': 2
 }, 'arose': {
 	'O': 2
 }, 'cattle-on-feed': {
@@ -37195,8 +37237,8 @@ wordDict = {
 	'O': 1
 }, 'walls': {
 	'O': 1
-}, 'jonah': {
-	'B-PER': 1
+}, '1,086': {
+	'O': 1
 }, 'arabised': {
 	'B-LOC': 1
 }, 'mcloughlin': {
@@ -37211,8 +37253,6 @@ wordDict = {
 	'B-MISC': 1
 }, 'inability': {
 	'O': 1
-}, 'zeri': {
-	'B-ORG': 1
 }, 'model': {
 	'O': 6
 }, 'reward': {
@@ -37237,7 +37277,7 @@ wordDict = {
 	'B-ORG': 5, 'B-LOC': 1
 }, 'boldon': {
 	'I-PER': 3
-}, '10.11': {
+}, '7.23': {
 	'O': 1
 }, 'cauet': {
 	'I-PER': 1
@@ -37260,8 +37300,6 @@ wordDict = {
 }, 'harrison': {
 	'B-PER': 1, 'I-PER': 1
 }, 'kilo': {
-	'O': 1
-}, '1225.0': {
 	'O': 1
 }, 'polish': {
 	'B-MISC': 27
@@ -37387,8 +37425,8 @@ wordDict = {
 	'I-PER': 1
 }, 'venantius': {
 	'B-ORG': 2
-}, '101': {
-	'O': 4
+}, 'pro-rated': {
+	'O': 1
 }, 'cooper': {
 	'B-PER': 1, 'I-PER': 1
 }, '22.95': {
@@ -37429,8 +37467,6 @@ wordDict = {
 	'I-PER': 1
 }, 'value-added': {
 	'O': 1
-}, '10-1-54-0': {
-	'O': 1
 }, 'loyalty': {
 	'O': 1
 }, '204-947-3548': {
@@ -37441,10 +37477,10 @@ wordDict = {
 	'O': 1
 }, 'table': {
 	'O': 10
+}, 'confessional': {
+	'O': 1
 }, 'solano': {
 	'I-PER': 1
-}, '79-2': {
-	'O': 1
 }, 'dionne': {
 	'B-PER': 2
 }, 'dofara': {
@@ -37515,8 +37551,8 @@ wordDict = {
 	'I-PER': 2
 }, '4.425': {
 	'O': 1
-}, 'tktx': {
-	'O': 1
+}, 'hiroaki': {
+	'B-PER': 1, 'I-PER': 1
 }, 'slaughter': {
 	'B-PER': 5, 'O': 15
 }, 'buiatti': {
@@ -37527,6 +37563,8 @@ wordDict = {
 	'O': 1
 }, 'winningest': {
 	'O': 1
+}, 'f1': {
+	'I-MISC': 1, 'B-MISC': 1
 }, 'coverable': {
 	'O': 1
 }, 'calmer': {
@@ -37539,8 +37577,8 @@ wordDict = {
 	'B-PER': 1
 }, 'sammiya': {
 	'B-PER': 1
-}, 'ex-minister': {
-	'B-LOC': 1
+}, 'marek': {
+	'B-PER': 1
 }, 'flaxseed': {
 	'O': 1
 }, 'stretchered': {
@@ -37559,16 +37597,12 @@ wordDict = {
 	'O': 1, 'B-LOC': 1
 }, 'of': {
 	'I-MISC': 21, 'I-LOC': 7, 'I-ORG': 107, 'O': 3583
-}, 'punishable': {
-	'O': 1
 }, 'karak': {
 	'B-LOC': 4
 }, 'discussed': {
 	'O': 5
 }, 'ob': {
 	'B-ORG': 12
-}, 'three-wicket': {
-	'O': 1
 }, 'remmy': {
 	'B-PER': 1
 }, 'mutually': {
@@ -37613,8 +37647,6 @@ wordDict = {
 	'O': 1
 }, 'panutan': {
 	'B-ORG': 2, 'B-PER': 1
-}, 'kovanda': {
-	'I-PER': 1
 }, 'speculates': {
 	'O': 1
 }, 'spinal': {
@@ -37661,7 +37693,7 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 1
 }, 'interfax': {
 	'B-ORG': 13
-}, '75-100': {
+}, '6,512,000': {
 	'O': 1
 }, 'strict': {
 	'O': 3
@@ -37693,6 +37725,8 @@ wordDict = {
 	'B-MISC': 1
 }, '750': {
 	'O': 1
+}, 'sharman': {
+	'I-PER': 1
 }, 'afash': {
 	'I-PER': 1
 }, 'zaklady': {
@@ -37843,6 +37877,8 @@ wordDict = {
 	'O': 370
 }, 'grenade': {
 	'O': 1
+}, 'enrique': {
+	'B-PER': 1, 'O': 1
 }, 'roest': {
 	'B-PER': 2
 }, 'residence': {
@@ -37871,8 +37907,6 @@ wordDict = {
 	'O': 2
 }, 'bruckner': {
 	'I-PER': 1
-}, 'zifa': {
-	'B-ORG': 2
 }, 'souls': {
 	'O': 1
 }, 'p.w.': {
@@ -37905,18 +37939,20 @@ wordDict = {
 	'O': 5
 }, 'missed': {
 	'O': 9
-}, '184': {
+}, '108,288': {
 	'O': 1
 }, 'booked': {
 	'O': 1
 }, 'bilateral': {
 	'O': 10
-}, 'calls': {
-	'O': 12
+}, 'chandrika': {
+	'B-PER': 1
 }, 'wife': {
 	'O': 18
 }, 'five-run': {
 	'O': 5
+}, '4.252': {
+	'O': 1
 }, 'odds': {
 	'O': 4
 }, 'dog': {
@@ -37971,6 +38007,8 @@ wordDict = {
 	'O': 1
 }, 'ala': {
 	'B-LOC': 2
+}, 'dns': {
+	'O': 4
 }, 'surgical': {
 	'O': 2
 }, 'concept': {
@@ -37983,8 +38021,8 @@ wordDict = {
 	'O': 4
 }, 'meditation': {
 	'I-MISC': 1, 'O': 1
-}, 'research': {
-	'I-ORG': 3, 'O': 17
+}, 'settlement': {
+	'O': 22
 }, 'decisions': {
 	'O': 7
 }, 'toledo': {
@@ -38087,8 +38125,8 @@ wordDict = {
 	'O': 2
 }, 'sentimental': {
 	'B-PER': 1, 'O': 3
-}, 'muslimov': {
-	'I-PER': 1
+}, 'unlike': {
+	'O': 4
 }, '6-20': {
 	'O': 1
 }, 'bailundo': {
@@ -38133,10 +38171,12 @@ wordDict = {
 	'B-ORG': 1, 'B-PER': 1, 'O': 1, 'I-ORG': 1
 }, 'ten': {
 	'B-MISC': 2, 'O': 7
-}, 'ignorance': {
-	'O': 1
+}, 'shimazaki': {
+	'B-PER': 2
 }, 'haas': {
 	'B-PER': 1, 'I-PER': 3
+}, 'xhosa': {
+	'B-MISC': 2
 }, 'burks': {
 	'I-PER': 1
 }, 'tee': {
@@ -38199,8 +38239,10 @@ wordDict = {
 	'O': 9
 }, 'pulpit': {
 	'O': 1
-}, '6.65': {
-	'O': 1
+}, 'minutka': {
+	'B-LOC': 1
+}, 'kv': {
+	'O': 5
 }, '.02': {
 	'O': 7
 }, 'racing': {
@@ -38225,6 +38267,8 @@ wordDict = {
 	'B-PER': 4
 }, 'conte': {
 	'B-PER': 1, 'I-PER': 1
+}, 'testimony': {
+	'O': 4
 }, '0100': {
 	'O': 1
 }, 'behaviour': {
@@ -38269,10 +38313,12 @@ wordDict = {
 	'O': 1
 }, 'infringe': {
 	'O': 1
+}, '254,247': {
+	'O': 1
 }, 'broken-bat': {
 	'O': 1
-}, 'heath': {
-	'B-PER': 1
+}, 'runoff': {
+	'O': 1
 }, 'versfeld': {
 	'I-LOC': 1
 }, 'chain': {
@@ -38290,6 +38336,8 @@ wordDict = {
 }, 'ex-president': {
 	'O': 2
 }, 'disposition': {
+	'O': 1
+}, 'pet': {
 	'O': 1
 }, 'kschwendt': {
 	'I-PER': 2
@@ -38323,8 +38371,8 @@ wordDict = {
 	'I-ORG': 1, 'B-LOC': 3
 }, 'florence': {
 	'B-PER': 5, 'B-LOC': 4, 'I-PER': 1
-}, '55.66': {
-	'O': 1
+}, 'research': {
+	'I-ORG': 3, 'O': 17
 }, '1900': {
 	'O': 1
 }, 'fenandez': {
@@ -38349,8 +38397,6 @@ wordDict = {
 	'I-ORG': 4
 }, 'brandes': {
 	'B-PER': 3, 'I-PER': 2
-}, '7.8': {
-	'O': 2
 }, 'bonilla': {
 	'B-PER': 2, 'I-PER': 3
 }, '12-week': {
@@ -38377,8 +38423,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'tavarez': {
 	'B-PER': 1, 'I-PER': 2
-}, 'trulsen': {
-	'B-PER': 1, 'I-PER': 1
+}, 'tobacco': {
+	'I-ORG': 1, 'O': 3
 }, 'bumped': {
 	'O': 2
 }, 're-elected': {
@@ -38393,6 +38439,8 @@ wordDict = {
 	'O': 1
 }, 'flax': {
 	'B-ORG': 1, 'O': 1
+}, 'voice': {
+	'O': 1
 }, 'flag': {
 	'O': 3
 }, '37-year': {
@@ -38443,8 +38491,6 @@ wordDict = {
 	'I-ORG': 2, 'O': 117, 'B-PER': 1
 }, 'unfairness': {
 	'O': 1
-}, '10-0-53-3': {
-	'O': 1
 }, 'kreissig': {
 	'I-PER': 1
 }, 'espionage': {
@@ -38483,6 +38529,8 @@ wordDict = {
 	'B-ORG': 4
 }, 'protects': {
 	'O': 1
+}, 'prosecutors': {
+	'O': 1
 }, 'arise': {
 	'O': 1
 }, 'trouble-makers': {
@@ -38497,7 +38545,7 @@ wordDict = {
 	'O': 2
 }, 'marcello': {
 	'B-PER': 2
-}, 'sparking': {
+}, '4:21.009': {
 	'O': 1
 }, '21-11': {
 	'O': 1
@@ -38533,6 +38581,8 @@ wordDict = {
 	'B-LOC': 15
 }, 'playmaker': {
 	'O': 1
+}, 'dorfmeister': {
+	'I-PER': 1
 }, '+7': {
 	'O': 2
 }, 'buenos': {
@@ -38541,6 +38591,8 @@ wordDict = {
 	'O': 2
 }, 'aravinda': {
 	'B-PER': 2
+}, '7.80': {
+	'O': 1
 }, 'revisions': {
 	'O': 3
 }, 'post-election': {
@@ -38601,8 +38653,6 @@ wordDict = {
 	'O': 1
 }, 'susan': {
 	'B-PER': 3
-}, 'disqualify': {
-	'O': 1
 }, 'venezuelan': {
 	'B-MISC': 3
 }, 'artyom': {
@@ -38633,10 +38683,10 @@ wordDict = {
 	'O': 41
 }, 'turnover': {
 	'O': 13
-}, 'hiroya': {
-	'B-PER': 1
 }, 'euphemism': {
 	'O': 1
+}, '48.61': {
+	'O': 2
 }, 'tallahassee': {
 	'B-LOC': 1
 }, 'schillings': {
@@ -38663,8 +38713,6 @@ wordDict = {
 	'O': 1
 }, 'scientist': {
 	'I-ORG': 1, 'O': 6
-}, 'curuchet': {
-	'I-PER': 2
 }, 'unite': {
 	'O': 4
 }, 'darlington': {
@@ -38691,8 +38739,8 @@ wordDict = {
 	'O': 1
 }, 'jacobs': {
 	'I-PER': 1, 'B-LOC': 1
-}, '38,000': {
-	'O': 1
+}, 'aaxis': {
+	'B-ORG': 4
 }, 'forwards': {
 	'O': 5
 }, '8p': {
@@ -38787,8 +38835,6 @@ wordDict = {
 	'O': 1
 }, 'marcus': {
 	'B-PER': 5
-}, '7-0-28-1': {
-	'O': 1
 }, 'castilla': {
 	'B-ORG': 1, 'I-PER': 3
 }, 'marwan': {
@@ -38811,8 +38857,6 @@ wordDict = {
 	'O': 1
 }, 'turns': {
 	'O': 2
-}, 'absentia': {
-	'O': 3
 }, 'athletics': {
 	'B-ORG': 1, 'I-ORG': 5, 'O': 15
 }, 'last-ditch': {
@@ -38955,8 +38999,6 @@ wordDict = {
 	'O': 1
 }, 'automation': {
 	'O': 2
-}, 'albanian-born': {
-	'B-MISC': 1
 }, 'gebreselassie': {
 	'I-PER': 1
 }, '3.385': {
@@ -38987,8 +39029,6 @@ wordDict = {
 	'O': 1
 }, 'aa-': {
 	'O': 5
-}, '21,346': {
-	'O': 1
 }, 'abdou': {
 	'B-PER': 1
 }, 'circuit': {
@@ -39009,8 +39049,6 @@ wordDict = {
 	'O': 9
 }, 'usda': {
 	'B-ORG': 26, 'I-ORG': 1
-}, 'hezb-i-islami': {
-	'B-ORG': 1
 }, 'ylonen': {
 	'I-PER': 1
 }, 'feel': {
@@ -39039,6 +39077,8 @@ wordDict = {
 	'I-ORG': 1, 'B-LOC': 18
 }, 'fees': {
 	'O': 3
+}, 'norske': {
+	'I-ORG': 1
 }, 'north-east': {
 	'O': 1
 }, '631': {
@@ -39085,7 +39125,7 @@ wordDict = {
 	'I-PER': 1
 }, 'pitted': {
 	'O': 1
-}, 'floods': {
+}, '142.3': {
 	'O': 1
 }, 'finances': {
 	'O': 2
@@ -39133,6 +39173,8 @@ wordDict = {
 	'O': 1
 }, 'convinced': {
 	'O': 6
+}, '188': {
+	'O': 2
 }, 'explodes': {
 	'O': 2
 }, 'terroritsts': {
@@ -39191,8 +39233,12 @@ wordDict = {
 	'O': 18
 }, 'suspicious': {
 	'O': 1
+}, 'pieter': {
+	'B-PER': 1
 }, '+541': {
 	'O': 2
+}, 'odnosum': {
+	'I-PER': 1
 }, 'overwork': {
 	'O': 1
 }, 'overran': {
@@ -39303,8 +39349,8 @@ wordDict = {
 	'O': 1
 }, 'soared': {
 	'O': 3
-}, '78': {
-	'O': 17
+}, 'croft': {
+	'B-PER': 17, 'I-PER': 7
 }, '747s': {
 	'O': 1
 }, '56,261': {
@@ -39327,8 +39373,6 @@ wordDict = {
 	'O': 1
 }, '10-1-50-1': {
 	'O': 1
-}, '110.1': {
-	'O': 1
 }, '4.40s': {
 	'O': 1
 }, 'auchard': {
@@ -39347,12 +39391,12 @@ wordDict = {
 	'B-ORG': 1, 'B-PER': 1
 }, 'a$': {
 	'B-MISC': 10
-}, 'orlandi': {
-	'I-PER': 1
 }, 'barter': {
 	'O': 14
 }, '7:32.44': {
 	'O': 1
+}, 'carolina': {
+	'B-ORG': 2
 }, 'lay': {
 	'O': 1
 }, 'memorandum': {
@@ -39361,6 +39405,8 @@ wordDict = {
 	'O': 1
 }, 'stumped': {
 	'O': 1
+}, 'nadal': {
+	'I-PER': 1
 }, 'vereinsbank': {
 	'I-ORG': 2
 }, 'nadeau': {
@@ -39428,6 +39474,8 @@ wordDict = {
 }, '226.859': {
 	'O': 1
 }, '212-859-1640': {
+	'O': 1
+}, '1036.575': {
 	'O': 1
 }, '212-859-1646': {
 	'O': 2
@@ -39525,8 +39573,6 @@ wordDict = {
 	'O': 1
 }, 'arrives': {
 	'O': 7
-}, '4:26.467': {
-	'O': 1
 }, 'lansana': {
 	'B-PER': 1
 }, 'arb': {
@@ -39537,8 +39583,6 @@ wordDict = {
 	'O': 1
 }, 'are': {
 	'O': 348
-}, 'polluters': {
-	'O': 1
 }, 'biovest': {
 	'B-ORG': 1
 }, 'chiate': {
@@ -39561,6 +39605,8 @@ wordDict = {
 	'O': 1
 }, 'defends': {
 	'O': 4
+}, 'goetschi': {
+	'I-PER': 1
 }, 'curtain-raising': {
 	'O': 1
 }, 'threats': {
@@ -39569,14 +39615,12 @@ wordDict = {
 	'O': 1
 }, 'e.c.india': {
 	'B-LOC': 1
-}, 'overmars': {
-	'I-PER': 1
+}, '120-103': {
+	'O': 1
 }, 'mushota': {
 	'B-PER': 1, 'I-PER': 1
 }, 'inge': {
 	'B-PER': 1
-}, 'matos': {
-	'B-PER': 1, 'I-PER': 1
 }, 'overseers': {
 	'O': 1
 }, 'inga': {
@@ -39620,8 +39664,6 @@ wordDict = {
 }, 'recently': {
 	'O': 19
 }, 'creating': {
-	'O': 1
-}, 'govt.budget': {
 	'O': 1
 }, 'initially': {
 	'O': 7
@@ -39711,8 +39753,6 @@ wordDict = {
 	'I-PER': 1
 }, 'tanura': {
 	'I-PER': 1
-}, 'soybean': {
-	'I-ORG': 1, 'O': 3
 }, 'henchoz': {
 	'I-PER': 1
 }, '6-8': {
@@ -39727,6 +39767,8 @@ wordDict = {
 	'O': 1
 }, 'sweep': {
 	'O': 4
+}, '96/04': {
+	'O': 1
 }, '.542': {
 	'O': 4
 }, 'guzman': {
@@ -39759,8 +39801,8 @@ wordDict = {
 	'O': 4
 }, 'pp': {
 	'B-ORG': 1
-}, 'spirlea': {
-	'I-PER': 2
+}, 'roaring': {
+	'O': 1
 }, '2,832': {
 	'O': 1
 }, 'enhancements': {
@@ -39779,8 +39821,8 @@ wordDict = {
 	'O': 86
 }, '3,710': {
 	'O': 1
-}, 'teacher': {
-	'O': 2
+}, 'appears': {
+	'O': 5
 }, 'bjp': {
 	'B-ORG': 2, 'B-PER': 1, 'O': 1
 }, 'whom': {
@@ -39797,6 +39839,8 @@ wordDict = {
 	'O': 1
 }, 'mokhoff': {
 	'B-PER': 3, 'I-PER': 1
+}, '10,119,000': {
+	'O': 1
 }, 'nato': {
 	'B-ORG': 24
 }, 'orioles': {
@@ -39831,8 +39875,6 @@ wordDict = {
 	'B-ORG': 3
 }, 'jeopardised': {
 	'O': 1
-}, 'may-august': {
-	'O': 1, 'B-LOC': 1
 }, '1860': {
 	'B-ORG': 8, 'I-ORG': 1, 'O': 2
 }, '1865': {
@@ -39915,8 +39957,8 @@ wordDict = {
 	'I-PER': 1
 }, 'rohan': {
 	'B-PER': 1
-}, '7-100': {
-	'O': 1
+}, 'jumbish': {
+	'B-PER': 1
 }, 'rif': {
 	'B-ORG': 1
 }, 'aslan': {
@@ -40003,6 +40045,8 @@ wordDict = {
 	'O': 24
 }, '40,989': {
 	'O': 1
+}, 'denote': {
+	'O': 1
 }, 'birch': {
 	'I-PER': 2
 }, '03/09': {
@@ -40053,6 +40097,8 @@ wordDict = {
 	'O': 1
 }, 'noriyuki': {
 	'B-PER': 3
+}, 'revealed': {
+	'O': 2
 }, 'alessandra': {
 	'B-PER': 2
 }, 'abilities': {
@@ -40115,8 +40161,8 @@ wordDict = {
 	'O': 1
 }, 'clarksburg': {
 	'B-LOC': 1
-}, 'conflict': {
-	'O': 11
+}, 'andria': {
+	'I-ORG': 1
 }, 'carlton': {
 	'B-ORG': 2
 }, 'nt': {
@@ -40131,8 +40177,6 @@ wordDict = {
 	'I-PER': 1
 }, 'boddington': {
 	'B-LOC': 1
-}, 'pessimism': {
-	'O': 2
 }, 'violations': {
 	'O': 10
 }, 'confederacy': {
@@ -40173,8 +40217,6 @@ wordDict = {
 	'O': 1
 }, 'swimming': {
 	'O': 2
-}, '28-1': {
-	'O': 3
 }, 'softbank': {
 	'B-ORG': 4
 }, 'sharpened': {
@@ -40183,8 +40225,8 @@ wordDict = {
 	'B-ORG': 2, 'B-LOC': 1
 }, 'moody': {
 	'B-ORG': 11, 'B-PER': 3, 'O': 2, 'I-PER': 3
-}, 'kristian': {
-	'B-PER': 1
+}, 'traffickers': {
+	'O': 1
 }, 'uphill': {
 	'O': 2
 }, 'rotate': {
@@ -40221,6 +40263,8 @@ wordDict = {
 	'O': 1
 }, 'nairobi': {
 	'B-LOC': 8
+}, 'mangosuthu': {
+	'I-ORG': 1
 }, 'stefanovic': {
 	'I-PER': 1
 }, 'konga': {
@@ -40373,8 +40417,6 @@ wordDict = {
 	'O': 6
 }, 'stricker': {
 	'I-PER': 4
-}, 'rebuke': {
-	'O': 1
 }, '1250-1400': {
 	'O': 1
 }, 'lifeless': {
@@ -40491,8 +40533,6 @@ wordDict = {
 	'O': 2
 }, 'slough': {
 	'B-ORG': 5
-}, 'hapless': {
-	'O': 1
 }, 'likhovtseva': {
 	'I-PER': 2
 }, 'overs-a-side': {
@@ -40507,8 +40547,6 @@ wordDict = {
 	'I-PER': 1
 }, 'walikale': {
 	'B-LOC': 1
-}, '24.57': {
-	'O': 1
 }, 'repeatedly': {
 	'O': 6
 }, 'filed': {
@@ -40545,6 +40583,8 @@ wordDict = {
 	'O': 1
 }, 'fries': {
 	'O': 1
+}, 'taxpayer': {
+	'O': 1
 }, '1991-1786': {
 	'O': 1
 }, 'freight-tonne': {
@@ -40557,6 +40597,8 @@ wordDict = {
 	'O': 1
 }, 'growth': {
 	'O': 32
+}, '69-year-old': {
+	'O': 1
 }, '2467.872': {
 	'O': 1
 }, 'trip-canada': {
@@ -40581,8 +40623,6 @@ wordDict = {
 	'B-ORG': 1, 'O': 3
 }, 'millar': {
 	'O': 1
-}, 'messed': {
-	'O': 1
 }, '19996/97': {
 	'O': 1
 }, 'airdrops': {
@@ -40603,8 +40643,6 @@ wordDict = {
 	'I-ORG': 1
 }, '44-35': {
 	'O': 1
-}, 'tomasz': {
-	'B-PER': 1
 }, 'rally': {
 	'I-MISC': 8, 'O': 15
 }, 'three-member': {
@@ -40641,12 +40679,12 @@ wordDict = {
 	'I-MISC': 1, 'O': 2
 }, 'peace': {
 	'I-MISC': 5, 'B-LOC': 1, 'O': 70
-}, 'laughing': {
-	'O': 1
 }, 'backs': {
 	'O': 3
 }, '118': {
 	'O': 3
+}, 'fortnight': {
+	'O': 1
 }, 'nick': {
 	'B-PER': 8
 }, 'everton': {
@@ -40673,8 +40711,6 @@ wordDict = {
 	'B-PER': 1
 }, 'javedan': {
 	'B-ORG': 1
-}, 'abdallah': {
-	'I-PER': 1
 }, 'users': {
 	'O': 2
 }, 'srpska': {
@@ -40705,8 +40741,6 @@ wordDict = {
 	'O': 1
 }, '165.2': {
 	'O': 1
-}, 'replaces': {
-	'O': 3
 }, 'posters': {
 	'O': 1
 }, 'eco-terrorism': {
@@ -40739,8 +40773,6 @@ wordDict = {
 	'O': 1
 }, 'attacking': {
 	'O': 1
-}, 'stocher': {
-	'I-PER': 1
 }, 'departs': {
 	'O': 1
 }, 'three-pointer': {
@@ -40751,12 +40783,10 @@ wordDict = {
 	'O': 2
 }, 'broad': {
 	'O': 4
-}, 'puk-run': {
-	'B-MISC': 1
 }, 'beers': {
 	'O': 5
-}, 'tottenham': {
-	'B-ORG': 3
+}, 'buffalo': {
+	'B-ORG': 2
 }, 'breakthroughs': {
 	'O': 1
 }, 'funaki': {
@@ -40771,6 +40801,8 @@ wordDict = {
 	'B-PER': 1
 }, 'issued': {
 	'O': 12
+}, 'deportivo': {
+	'B-ORG': 3, 'B-PER': 1
 }, 'gutensohn': {
 	'I-PER': 2
 }, '146.2': {
@@ -40821,8 +40853,6 @@ wordDict = {
 	'O': 1
 }, 'uphold': {
 	'O': 1
-}, '1:19.08': {
-	'O': 1
 }, '15/9': {
 	'O': 1
 }, 'roshan': {
@@ -40832,8 +40862,6 @@ wordDict = {
 }, 'dystrophy': {
 	'O': 4
 }, 'languages': {
-	'O': 2
-}, 'vicious': {
 	'O': 2
 }, 'orazio': {
 	'B-PER': 1
@@ -40849,8 +40877,8 @@ wordDict = {
 	'O': 14
 }, 'dramatically': {
 	'O': 1
-}, 'inflammation': {
-	'O': 2
+}, 'totti': {
+	'I-PER': 1
 }, 'breathing': {
 	'O': 6
 }, 'wished': {
@@ -40892,8 +40920,6 @@ wordDict = {
 }, 'duffy': {
 	'B-PER': 4
 }, 'polyester': {
-	'O': 1
-}, 'infections': {
 	'O': 1
 }, 'fremantle': {
 	'B-ORG': 2
@@ -40951,7 +40977,7 @@ wordDict = {
 	'O': 1
 }, 'gmbh': {
 	'I-ORG': 3
-}, '100=1992': {
+}, 'north-west': {
 	'O': 1
 }, 'jared': {
 	'B-PER': 4
@@ -41009,10 +41035,6 @@ wordDict = {
 	'O': 2
 }, 'careered': {
 	'O': 1
-}, '7.23': {
-	'O': 1
-}, '5.13': {
-	'O': 1
 }, 'pushing': {
 	'O': 2
 }, 'underwood': {
@@ -41035,16 +41057,12 @@ wordDict = {
 	'I-PER': 1
 }, 'slater': {
 	'I-PER': 2
-}, '601,000': {
-	'O': 1
 }, '3,060': {
 	'O': 1
-}, 'masturbation': {
+}, 'firming': {
 	'O': 1
 }, 'ukraine': {
 	'I-LOC': 1, 'B-LOC': 30
-}, 'pitching': {
-	'O': 1
 }, 'ukraina': {
 	'B-LOC': 1
 }, 'dividing': {
@@ -41117,8 +41135,6 @@ wordDict = {
 	'O': 1
 }, 'aboard': {
 	'O': 5
-}, 'marek': {
-	'B-PER': 1
 }, 'kristina': {
 	'B-PER': 2
 }, 'motor': {
@@ -41217,8 +41233,6 @@ wordDict = {
 	'O': 1
 }, '33,149': {
 	'O': 1
-}, 'hank': {
-	'B-PER': 1
 }, 'women': {
 	'I-MISC': 1, 'O': 116
 }, '+282.1': {
@@ -41235,14 +41249,14 @@ wordDict = {
 	'O': 1
 }, 'islamabad': {
 	'B-LOC': 7
+}, 'mijatovic': {
+	'O': 1
 }, '5-220': {
 	'O': 1
 }, 'column': {
 	'O': 7
 }, 'lumber': {
 	'O': 4
-}, '95/96': {
-	'O': 1
 }, 'nawaz': {
 	'B-PER': 2
 }, 'anchorage': {
@@ -41287,8 +41301,6 @@ wordDict = {
 	'O': 2
 }, '0.6': {
 	'O': 2
-}, 'two-nil': {
-	'O': 1
 }, 'tae': {
 	'B-PER': 1
 }, 'even-par': {
@@ -41331,6 +41343,8 @@ wordDict = {
 	'O': 113
 }, 'panis': {
 	'I-PER': 2
+}, 'heath': {
+	'B-PER': 1
 }, 'internationally-sponsored': {
 	'O': 1
 }, 'traders': {
@@ -41339,8 +41353,8 @@ wordDict = {
 	'B-PER': 12
 }, '1:05.735': {
 	'O': 1
-}, 'lapentti': {
-	'I-PER': 3
+}, 'carrier': {
+	'O': 2
 }, 'camilla': {
 	'B-ORG': 1, 'B-PER': 2
 }, 'linding': {
@@ -41379,8 +41393,6 @@ wordDict = {
 	'B-LOC': 2
 }, 'shattering': {
 	'O': 1
-}, 'sprague': {
-	'B-LOC': 1
 }, 'detachment': {
 	'O': 1
 }, 'abuse': {
@@ -41393,10 +41405,8 @@ wordDict = {
 	'O': 15
 }, 'footpath': {
 	'O': 1
-}, '7.80': {
-	'O': 1
-}, 'courtney': {
-	'B-PER': 4
+}, 'sporitelna': {
+	'I-ORG': 1
 }, 'revenge-minded': {
 	'O': 1
 }, '2123': {
@@ -41409,8 +41419,6 @@ wordDict = {
 	'B-PER': 5
 }, 'light': {
 	'I-ORG': 1, 'O': 31, 'I-PER': 2
-}, 'jin': {
-	'B-PER': 1
 }, '130.4': {
 	'O': 1
 }, 'chapman': {
@@ -41533,6 +41541,8 @@ wordDict = {
 	'O': 19
 }, 'edging': {
 	'O': 1
+}, 'movladi': {
+	'B-PER': 1
 }, 'belted': {
 	'O': 3
 }, 'freeman': {
@@ -41583,8 +41593,8 @@ wordDict = {
 	'O': 2
 }, 'articles': {
 	'O': 2
-}, 'ldp-dominated': {
-	'B-MISC': 1
+}, 'transmitter': {
+	'O': 2
 }, 'subsidiaries': {
 	'I-ORG': 1, 'O': 1
 }, 'progressive': {
@@ -41613,7 +41623,7 @@ wordDict = {
 	'B-LOC': 4
 }, 'transmitted': {
 	'O': 3
-}, '2,341.5': {
+}, '8-120': {
 	'O': 1
 }, 'biehl': {
 	'I-ORG': 1
@@ -41657,8 +41667,8 @@ wordDict = {
 	'O': 16
 }, 'hriday': {
 	'I-LOC': 1
-}, 'zaire': {
-	'B-LOC': 18
+}, '80': {
+	'O': 17
 }, '81': {
 	'O': 16
 }, '86': {
@@ -41677,8 +41687,8 @@ wordDict = {
 	'O': 2
 }, 'sentiment': {
 	'O': 2
-}, 'citko': {
-	'I-PER': 1
+}, 'frontier': {
+	'B-ORG': 1, 'O': 1
 }, 'arriving': {
 	'O': 5
 }, 'stevanin': {
@@ -41767,8 +41777,6 @@ wordDict = {
 	'B-PER': 1, 'I-PER': 2
 }, '1991-1992': {
 	'O': 1
-}, 'banisadr': {
-	'B-PER': 5, 'I-PER': 1
 }, 'rdainah': {
 	'B-PER': 1, 'I-PER': 1
 }, 'westner': {
@@ -41795,8 +41803,8 @@ wordDict = {
 	'I-LOC': 2, 'O': 1
 }, 'devon': {
 	'B-PER': 2
-}, 'jacqui': {
-	'B-PER': 1
+}, '285-6': {
+	'O': 1
 }, 'astle': {
 	'B-ORG': 1, 'B-PER': 2, 'I-PER': 1
 }, '1-10-100': {
@@ -41825,8 +41833,8 @@ wordDict = {
 	'I-PER': 1
 }, 'proposing': {
 	'O': 3
-}, 'rovers': {
-	'B-ORG': 1, 'I-ORG': 3
+}, 'hardcourts': {
+	'O': 1
 }, 'homers': {
 	'O': 7
 }, '10-0-44-1': {
@@ -41863,6 +41871,8 @@ wordDict = {
 	'B-PER': 2, 'I-PER': 1
 }, '653': {
 	'O': 1
+}, 'banat': {
+	'B-LOC': 1
 }, 'giovanelli': {
 	'I-PER': 1
 }, 'gallen': {
@@ -41881,8 +41891,6 @@ wordDict = {
 	'I-PER': 1
 }, 'interview-t&n': {
 	'B-MISC': 1
-}, 'pakistan-ruled': {
-	'B-MISC': 2
 }, '317': {
 	'O': 3
 }, 'reversed': {
@@ -41939,10 +41947,8 @@ wordDict = {
 	'O': 3
 }, '+65': {
 	'O': 1
-}, 'northcote': {
-	'B-ORG': 2
-}, 'freund': {
-	'I-PER': 2
+}, 'levitt': {
+	'I-PER': 1
 }, 'dynamo': {
 	'B-ORG': 4, 'B-PER': 1
 }, 'leslie': {
@@ -42005,6 +42011,8 @@ wordDict = {
 	'B-PER': 1
 }, 'rayyan': {
 	'I-PER': 1
+}, 'invaders': {
+	'O': 1
 }, 'linked': {
 	'O': 4
 }, '20s': {
@@ -42049,6 +42057,8 @@ wordDict = {
 	'O': 1
 }, 'ray': {
 	'B-PER': 3
+}, '55,929.89': {
+	'O': 1
 }, 'clash': {
 	'O': 11
 }, 'centre': {
@@ -42071,8 +42081,6 @@ wordDict = {
 	'B-LOC': 3
 }, 'head-butt': {
 	'I-PER': 1
-}, 'ammar': {
-	'B-PER': 3
 }, 'hu': {
 	'B-PER': 2
 }, '49.97': {
@@ -42107,12 +42115,16 @@ wordDict = {
 	'B-LOC': 1
 }, 'looked': {
 	'O': 16
+}, '154.82': {
+	'O': 1
 }, 'agencies': {
 	'O': 2
 }, 'w46.50': {
 	'O': 1
 }, 'kongsvinger': {
 	'B-ORG': 2
+}, 'uncertain': {
+	'O': 2
 }, 'schulz': {
 	'B-PER': 1
 }, 'xavier': {
@@ -42127,12 +42139,12 @@ wordDict = {
 	'O': 1
 }, 'nominee': {
 	'O': 6
+}, 'private-sector': {
+	'O': 1
 }, 'kanie': {
 	'B-LOC': 1
 }, 'brenda': {
 	'B-PER': 3
-}, 'enemy': {
-	'O': 2
 }, 'chances': {
 	'O': 4
 }, 'electoral': {
@@ -42177,8 +42189,6 @@ wordDict = {
 	'O': 1
 }, 'q2': {
 	'O': 5
-}, 'realised': {
-	'O': 3
 }, 'waterreus': {
 	'I-PER': 1
 }, '6000': {
@@ -42187,6 +42197,8 @@ wordDict = {
 	'B-ORG': 2
 }, 'symcox': {
 	'I-PER': 1
+}, 'loxley': {
+	'B-ORG': 2
 }, 'gouging': {
 	'O': 1
 }, 'eat': {
@@ -42291,6 +42303,8 @@ wordDict = {
 	'O': 1
 }, 'acquired': {
 	'O': 6
+}, 'mozambican': {
+	'B-MISC': 1
 }, 'turbulent': {
 	'O': 1
 }, 'mid-september': {
@@ -42429,8 +42443,6 @@ wordDict = {
 	'O': 1
 }, '1.04': {
 	'O': 1
-}, 'chipsets': {
-	'O': 1
 }, 'april': {
 	'O': 36
 }, '11-year-old': {
@@ -42455,8 +42467,6 @@ wordDict = {
 	'B-ORG': 1
 }, 'unclear': {
 	'O': 4
-}, 'otero': {
-	'I-PER': 1
 }, 'wall': {
 	'O': 3, 'B-ORG': 4, 'I-PER': 1, 'B-PER': 1, 'I-ORG': 1, 'B-LOC': 13
 }, 'vtm': {
@@ -42467,6 +42477,8 @@ wordDict = {
 	'O': 14
 }, 'packaging': {
 	'O': 2
+}, '9:30': {
+	'O': 1
 }, '52.75': {
 	'O': 1
 }, 'symphonies': {
@@ -42569,8 +42581,8 @@ wordDict = {
 	'O': 2
 }, 'abandoned': {
 	'O': 13
-}, 'unlike': {
-	'O': 4
+}, 'cologne': {
+	'B-ORG': 8, 'I-PER': 1, 'B-LOC': 2
 }, 'u.n.-sponsored': {
 	'B-MISC': 1
 }, 'appropriations': {
@@ -42601,8 +42613,6 @@ wordDict = {
 	'O': 1
 }, 'supply': {
 	'O': 9
-}, '988.2': {
-	'O': 1
 }, 'major-league': {
 	'O': 8
 }, 'ringing': {
@@ -42611,8 +42621,6 @@ wordDict = {
 	'O': 1
 }, 'insurgency-related': {
 	'O': 1
-}, 'euser': {
-	'I-PER': 1
 }, 'thus': {
 	'O': 2
 }, 'rwandan': {
@@ -42647,8 +42655,8 @@ wordDict = {
 	'B-ORG': 6
 }, 'buddhist': {
 	'I-ORG': 1
-}, 'prinosil': {
-	'I-PER': 2
+}, '4:24.427': {
+	'O': 1
 }, 'cross': {
 	'I-ORG': 3, 'O': 7
 }, 'yayuk': {
@@ -42689,9 +42697,11 @@ wordDict = {
 	'O': 1
 }, 'espinho': {
 	'B-ORG': 2, 'I-ORG': 1
+}, 'asmara': {
+	'B-LOC': 1
 }, 'retarded': {
 	'O': 1
-}, 'starker': {
+}, '184': {
 	'O': 1
 }, 'jugomagnat': {
 	'I-ORG': 1
@@ -42715,8 +42725,6 @@ wordDict = {
 	'I-ORG': 4
 }, 'whale': {
 	'O': 4
-}, 'griqualand': {
-	'B-ORG': 1
 }, 'collar': {
 	'O': 1
 }, 'deporting': {
@@ -42755,8 +42763,6 @@ wordDict = {
 	'B-MISC': 54, 'O': 1
 }, 'torquay': {
 	'B-ORG': 4
-}, 'limp': {
-	'O': 1
 }, 'breaker': {
 	'O': 1
 }, 'inc.': {
@@ -42765,8 +42771,8 @@ wordDict = {
 	'O': 2
 }, 'touches': {
 	'O': 1
-}, 'nadal': {
-	'I-PER': 1
+}, 'a0': {
+	'O': 1
 }, 'excessive': {
 	'O': 3
 }, 'cried': {
@@ -42797,8 +42803,8 @@ wordDict = {
 	'O': 4
 }, '+3.5': {
 	'O': 1
-}, 'excellent': {
-	'O': 3
+}, 'biologist': {
+	'O': 1
 }, 'illinois': {
 	'B-LOC': 2, 'I-ORG': 1, 'O': 1, 'B-PER': 2
 }, 'crumbled': {
@@ -42863,7 +42869,7 @@ wordDict = {
 	'O': 3
 }, 'susceptibility': {
 	'O': 1
-}, 'backlash': {
+}, 'polluters': {
 	'O': 1
 }, 'protesters': {
 	'O': 7
@@ -42873,8 +42879,6 @@ wordDict = {
 	'O': 1
 }, 'ridden': {
 	'O': 2
-}, 'plotted': {
-	'O': 1
 }, 'valladolid': {
 	'B-ORG': 1
 }, 'know': {
@@ -42897,8 +42901,6 @@ wordDict = {
 	'B-ORG': 1
 }, 'largest-selling': {
 	'O': 1
-}, 'cristofoletto': {
-	'I-PER': 1
 }, 'iberia': {
 	'B-ORG': 1
 }, 'georges': {
@@ -42909,6 +42911,8 @@ wordDict = {
 	'I-ORG': 1
 }, 'stahl': {
 	'I-ORG': 1
+}, 'maakinen': {
+	'B-PER': 1
 }, 'loser': {
 	'O': 1
 }, 'loses': {
@@ -42921,12 +42925,14 @@ wordDict = {
 	'O': 1
 }, '1791': {
 	'O': 1
-}, 'contacting': {
+}, '.389': {
 	'O': 1
 }, 'bankwatch': {
 	'I-ORG': 1
 }, 'january': {
 	'B-LOC': 1, 'O': 32, 'B-PER': 1
+}, 'gayle': {
+	'I-PER': 1
 }, 'simply': {
 	'O': 2
 }, 'pantomime': {
@@ -43063,6 +43069,8 @@ wordDict = {
 	'O': 1
 }, 'throne': {
 	'O': 2
+}, 'heartbeat': {
+	'O': 2
 }, 'rare': {
 	'O': 9
 }, 'testosterone': {
@@ -43083,12 +43091,10 @@ wordDict = {
 	'I-ORG': 3, 'O': 3
 }, 'surge': {
 	'O': 5
-}, 'newbridge': {
-	'B-ORG': 1
 }, 'carries': {
 	'O': 3
-}, 'carrier': {
-	'O': 2
+}, 'lapentti': {
+	'I-PER': 3
 }, 'sweat': {
 	'O': 2
 }, 'wheats': {
@@ -43097,9 +43103,11 @@ wordDict = {
 	'B-PER': 8, 'I-PER': 1
 }, 'urges': {
 	'O': 2
-}, '285-6': {
-	'O': 1
+}, 'slalom': {
+	'O': 3
 }, 'fatally': {
+	'O': 1
+}, 'four-decade': {
 	'O': 1
 }, 'suharto': {
 	'B-PER': 2, 'I-ORG': 1
@@ -43149,6 +43157,8 @@ wordDict = {
 	'O': 1
 }, 'exciting': {
 	'O': 1
+}, 'tip-off': {
+	'O': 1
 }, 'texaco': {
 	'B-ORG': 1
 }, 'transfer': {
@@ -43163,8 +43173,6 @@ wordDict = {
 	'B-ORG': 3
 }, 'intention': {
 	'O': 4
-}, 'kv': {
-	'O': 5
 }, 'cairo': {
 	'O': 1, 'B-LOC': 15
 }, 'immune': {
@@ -43177,8 +43185,6 @@ wordDict = {
 	'O': 1
 }, 'cullinan': {
 	'I-PER': 1
-}, 'yakoma': {
-	'B-LOC': 1
 }, '1:56.318': {
 	'O': 1
 }, 'appointing': {
@@ -43203,6 +43209,8 @@ wordDict = {
 	'B-ORG': 1
 }, 'ec': {
 	'B-ORG': 4
+}, 'counterparts': {
+	'O': 1
 }, 'bch': {
 	'B-ORG': 1
 }, '+331': {
@@ -43242,6 +43250,8 @@ wordDict = {
 }, 'lightning': {
 	'O': 2
 }, '1740': {
+	'O': 1
+}, '+4.7': {
 	'O': 1
 }, '286.5': {
 	'O': 1
@@ -43317,8 +43327,6 @@ wordDict = {
 	'O': 2
 }, 'toured': {
 	'O': 1
-}, 'anza': {
-	'B-LOC': 2
 }, 'long-time': {
 	'O': 3
 }, '312-408-8721': {
@@ -43351,16 +43359,14 @@ wordDict = {
 	'O': 6
 }, 'shkvyrin': {
 	'B-PER': 2
-}, 'justification': {
-	'O': 1
 }, 'margaret': {
 	'B-PER': 3
 }, 'maureen': {
 	'B-PER': 2
 }, 'accomplish': {
 	'O': 2
-}, 'four-hour': {
-	'O': 3
+}, 'stanic': {
+	'I-PER': 1
 }, '6.15': {
 	'O': 1
 }, '8/30': {
@@ -43385,14 +43391,8 @@ wordDict = {
 	'O': 1
 }, 'brechin': {
 	'B-ORG': 2
-}, 'horst': {
-	'B-PER': 1
-}, 'unwound': {
-	'O': 1
 }, 'ranks': {
 	'O': 5
-}, 'watkinson': {
-	'I-PER': 2
 }, 'infuriated': {
 	'O': 3
 }, 'urals': {
@@ -43415,8 +43415,8 @@ wordDict = {
 	'B-ORG': 1, 'B-PER': 2, 'I-PER': 1
 }, 'tonnes': {
 	'O': 76
-}, 'danie': {
-	'B-PER': 1
+}, 'dutra': {
+	'B-PER': 1, 'I-PER': 1
 }, 'sask': {
 	'B-LOC': 1
 }, 'wsrl': {

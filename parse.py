@@ -1,6 +1,7 @@
 import os
 import string
 from common import writeData
+from config import USING_IB
 # import sys
 
 
@@ -51,7 +52,7 @@ def readData(path, filename, verboseMode=False):
             # convert words to lower case ... but may want to not do this for B/I entities?
             if iLoop == 1:
                 line = line.lower()
-            # if iLoop == 3: line = line.replace("I-", "").replace("B-", "")
+            if not USING_IB and iLoop == 3: line = line.replace("I-", "").replace("B-", "")
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
             if iLoop == 1:
@@ -90,7 +91,7 @@ def readData(path, filename, verboseMode=False):
 
 # read the test data into arrays
 def readTestDataBaseline(path, filename, verboseMode=False):
-    textArray, posArray, positionArray = readData(path, filename, verboseMode)
+    textArray, posArray, positionArray, startEnt, endEnt = readData(path, filename, verboseMode)
     tests = []
     for i in range(len(textArray)):
         tests.append((textArray[i], posArray[i], positionArray[i]))

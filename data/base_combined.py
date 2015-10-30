@@ -593,6 +593,8 @@ combinedDict = {
 	'I-PER': 1
 }, 'meagre|JJ': {
 	'O': 1
+}, 'casting|VBG': {
+	'O': 1
 }, '4.10|CD': {
 	'O': 2
 }, 'force|VBP': {
@@ -869,8 +871,8 @@ combinedDict = {
 	'B-PER': 4
 }, 'authorised|VBD': {
 	'O': 1
-}, 'recording|VBG': {
-	'O': 1
+}, 'counterpart|NN': {
+	'O': 9
 }, 'charges|NNS': {
 	'O': 24
 }, 'approved|VBD': {
@@ -1529,8 +1531,8 @@ combinedDict = {
 	'B-PER': 1
 }, 'unitog|NNP': {
 	'B-ORG': 2
-}, 'single|JJ': {
-	'O': 20
+}, '1:19.41|CD': {
+	'O': 1
 }, 'absence|NN': {
 	'O': 9
 }, 'cohen|NNP': {
@@ -1559,14 +1561,14 @@ combinedDict = {
 	'O': 3
 }, 'refugee|NN': {
 	'O': 7
-}, '1.24|CD': {
-	'O': 1
 }, 'mccurry|NNP': {
 	'I-PER': 3
 }, 'roo|NNP': {
 	'I-LOC': 1
 }, 'marble|NNP': {
 	'I-ORG': 3, 'O': 1
+}, 'turbo|NN': {
+	'O': 1
 }, 'bulldozer|NN': {
 	'O': 1
 }, '21,000|CD': {
@@ -1629,8 +1631,8 @@ combinedDict = {
 	'B-PER': 1, 'I-PER': 1
 }, 'impact-|NNP': {
 	'O': 1
-}, 'added|VBN': {
-	'O': 9
+}, 'snow|NNP': {
+	'B-PER': 1, 'I-PER': 1
 }, 'friction|NN': {
 	'O': 1
 }, 'added|VBD': {
@@ -1815,8 +1817,8 @@ combinedDict = {
 	'O': 1
 }, 'cells|NNS': {
 	'O': 2
-}, 'palmeiras|NNS': {
-	'B-ORG': 1
+}, 'february|NNP': {
+	'O': 17
 }, 'state-paid|JJ': {
 	'O': 2
 }, 'three-man|JJ': {
@@ -2075,8 +2077,8 @@ combinedDict = {
 	'B-PER': 1
 }, 'baird|NNP': {
 	'I-ORG': 2
-}, 'fabrizio|NNP': {
-	'B-PER': 2
+}, 'pick|VB': {
+	'O': 4
 }, '40s|NNS': {
 	'O': 1
 }, 'holstein|NN': {
@@ -2687,8 +2689,8 @@ combinedDict = {
 	'I-LOC': 2
 }, 'neighbours|NNS': {
 	'O': 8
-}, 'unlisted|JJ': {
-	'O': 3
+}, 'jerzy|NNP': {
+	'B-PER': 1
 }, '2.45|CD': {
 	'O': 1
 }, 'chart|VB': {
@@ -3313,8 +3315,6 @@ combinedDict = {
 	'O': 1
 }, 'though|RB': {
 	'O': 1
-}, 'diocese|NN': {
-	'O': 1
 }, 'founded|VBD': {
 	'O': 3
 }, 'sharman|NNP': {
@@ -3621,6 +3621,8 @@ combinedDict = {
 	'O': 4
 }, 'hyper-inflation|NN': {
 	'O': 1
+}, 'ministers|NNP': {
+	'O': 1
 }, 'anderton|NNP': {
 	'I-PER': 1
 }, 'limped|VBN': {
@@ -3853,8 +3855,8 @@ combinedDict = {
 	'B-ORG': 4
 }, 'republic|NN': {
 	'O': 8
-}, 'a.m|RB': {
-	'O': 1
+}, 'bosnian|JJ': {
+	'B-MISC': 12
 }, 'dynamics|NNPS': {
 	'I-ORG': 1
 }, 'tariffs|VBZ': {
@@ -3943,8 +3945,8 @@ combinedDict = {
 	'O': 1
 }, 'journal|NNP': {
 	'B-ORG': 3, 'I-ORG': 5
-}, 'after|NNP': {
-	'O': 15
+}, 'manual|JJ': {
+	'O': 2
 }, 'meissnitzer|NNP': {
 	'I-PER': 5
 }, 'fairmont|NNP': {
@@ -4275,8 +4277,8 @@ combinedDict = {
 	'O': 5
 }, 'ferrer|NNP': {
 	'O': 1
-}, 'fleuchaus|NNP': {
-	'B-PER': 1
+}, 'guilty|JJ': {
+	'O': 9
 }, 'dn|NN': {
 	'O': 6
 }, '2,998|CD': {
@@ -5139,8 +5141,8 @@ combinedDict = {
 	'O': 5
 }, 'versus|IN': {
 	'O': 6
-}, 'occurred|VBN': {
-	'O': 2
+}, 'ahold|NNP': {
+	'B-ORG': 3, 'B-PER': 1, 'B-LOC': 3
 }, '375.00|CD': {
 	'O': 1
 }, '13th|JJ': {
@@ -5205,8 +5207,8 @@ combinedDict = {
 	'B-MISC': 3, 'O': 7
 }, 'damp|VB': {
 	'O': 1
-}, '2-2|RB': {
-	'O': 2
+}, 'recording|VBG': {
+	'O': 1
 }, 'tons|NNS': {
 	'O': 2
 }, 'quitting|VBG': {
@@ -5255,8 +5257,8 @@ combinedDict = {
 	'O': 2
 }, 'brother|NN': {
 	'O': 4
-}, 'fringe|NN': {
-	'O': 1
+}, '3.2|CD': {
+	'O': 5
 }, '2,386|CD': {
 	'O': 1
 }, 'shook|VBD': {
@@ -5437,8 +5439,8 @@ combinedDict = {
 	'I-PER': 2
 }, 'archaeologists|NNP': {
 	'O': 1
-}, 'arabic|NNP': {
-	'B-MISC': 1, 'B-LOC': 1
+}, 'quinn|NNP': {
+	'I-PER': 1
 }, 'fulcheri|NNP': {
 	'I-PER': 1
 }, '1:51.006|CD': {
@@ -5881,8 +5883,8 @@ combinedDict = {
 	'I-PER': 1
 }, '37|CD': {
 	'O': 8
-}, 'returns|NNS': {
-	'O': 8
+}, 'babies|NNS': {
+	'O': 3
 }, 'spa-francorchamps|JJ': {
 	'B-LOC': 2
 }, '869.3|CD': {
@@ -6745,8 +6747,8 @@ combinedDict = {
 	'O': 5
 }, 'opecna|NNP': {
 	'B-ORG': 1
-}, 'mountains|NNPS': {
-	'I-LOC': 2
+}, 'silence|NN': {
+	'O': 2
 }, 'slam|NN': {
 	'O': 5
 }, 'remaining|VBG': {
@@ -6921,8 +6923,8 @@ combinedDict = {
 	'O': 1
 }, 'lebanese|NNP': {
 	'B-ORG': 1
-}, '9-2|JJ': {
-	'O': 1
+}, 'testimony|NN': {
+	'O': 4
 }, 'twins|NNP': {
 	'B-ORG': 2, 'I-ORG': 3
 }, 'suspected|NNP': {
@@ -7281,8 +7283,8 @@ combinedDict = {
 	'O': 1
 }, 'nasdaq|NNP': {
 	'B-MISC': 7
-}, 'outside|RB': {
-	'O': 3
+}, 'mock|JJ': {
+	'O': 1
 }, 'boosted|VBN': {
 	'O': 1
 }, '3,292|CD': {
@@ -7447,6 +7449,8 @@ combinedDict = {
 	'O': 1
 }, 'self-imposed|JJ': {
 	'O': 1
+}, 'qualify|VBP': {
+	'O': 1
 }, 'installment|NN': {
 	'O': 1
 }, 'dionne|NNP': {
@@ -7543,8 +7547,8 @@ combinedDict = {
 	'I-PER': 1
 }, 'willie|NNP': {
 	'B-PER': 3
-}, '142|CD': {
-	'O': 4
+}, '14,153|CD': {
+	'O': 1
 }, 'ashley|NNP': {
 	'B-PER': 1
 }, 'share|NN': {
@@ -7847,7 +7851,7 @@ combinedDict = {
 	'O': 4
 }, 'marketing|NN': {
 	'O': 6
-}, 'besirovic|NNP': {
+}, 'hadji|NNP': {
 	'I-PER': 1
 }, 'hangs|VBZ': {
 	'O': 1
@@ -8199,6 +8203,8 @@ combinedDict = {
 	'O': 4
 }, 'donald|NNP': {
 	'B-PER': 2, 'I-PER': 1
+}, 'mark|NNP': {
+	'B-PER': 50
 }, 'make|VB': {
 	'O': 58
 }, 'gang|NN': {
@@ -8315,7 +8321,7 @@ combinedDict = {
 	'O': 1
 }, 'minefields|NNS': {
 	'O': 3
-}, '103-95|CD': {
+}, 'fifa|JJ': {
 	'O': 1
 }, 'kovasevic|NNP': {
 	'I-PER': 1
@@ -8483,8 +8489,8 @@ combinedDict = {
 	'O': 1
 }, 'wosz|NNP': {
 	'B-PER': 1
-}, '3mo|CD': {
-	'O': 1
+}, 'agreed|VBD': {
+	'O': 24
 }, 'form|VBP': {
 	'O': 1
 }, 'kopessoua|NNP': {
@@ -8953,8 +8959,8 @@ combinedDict = {
 	'B-PER': 9
 }, 'experience|NN': {
 	'O': 3
-}, 'sellers|VBZ': {
-	'O': 1
+}, 'loos|NNP': {
+	'I-ORG': 2
 }, 'czechoslovak|JJ': {
 	'O': 1
 }, 'russian-chechen|NNP': {
@@ -9161,8 +9167,8 @@ combinedDict = {
 	'B-ORG': 1, 'B-PER': 2, 'I-PER': 2
 }, 'sagging|VBG': {
 	'O': 1
-}, 'bosnian|JJ': {
-	'B-MISC': 12
+}, 'a.m|RB': {
+	'O': 1
 }, 'vigilance|NN': {
 	'O': 2
 }, 'venray|NNP': {
@@ -9255,7 +9261,7 @@ combinedDict = {
 	'I-ORG': 1
 }, 'calmer|JJR': {
 	'O': 1
-}, 'terminated|VBD': {
+}, 'incendiaries|NNS': {
 	'O': 1
 }, 'psychiatrists|NNS': {
 	'O': 1
@@ -9287,8 +9293,8 @@ combinedDict = {
 	'B-ORG': 2
 }, 'weibring|NNP': {
 	'I-PER': 2
-}, '81.64|CD': {
-	'O': 1
+}, 'iseas|NNP': {
+	'B-ORG': 1
 }, 'trident|NNP': {
 	'B-MISC': 1
 }, '15,704.3|CD': {
@@ -9357,6 +9363,8 @@ combinedDict = {
 	'O': 1
 }, 'sourav|NNP': {
 	'B-PER': 1
+}, 'fringe|NN': {
+	'O': 1
 }, '11.27|CD': {
 	'O': 1
 }, 'waalijk|NNP': {
@@ -9487,8 +9495,6 @@ combinedDict = {
 	'I-PER': 2
 }, 'loyalist|JJ': {
 	'O': 1
-}, 'schoesser|NNP': {
-	'I-PER': 1
 }, 'government|NNP': {
 	'B-ORG': 1, 'O': 4
 }, 'scans|NNS': {
@@ -9717,8 +9723,8 @@ combinedDict = {
 	'O': 1
 }, 'kerry|NNP': {
 	'I-PER': 1
-}, 'snow|NNP': {
-	'B-PER': 1, 'I-PER': 1
+}, 'added|VBN': {
+	'O': 9
 }, '8:00|CD': {
 	'O': 1
 }, 'storm|NN': {
@@ -9805,7 +9811,7 @@ combinedDict = {
 	'B-PER': 2, 'I-PER': 4
 }, '170.42|CD': {
 	'O': 2
-}, 'hadji|NNP': {
+}, 'besirovic|NNP': {
 	'I-PER': 1
 }, 'stevanin|JJ': {
 	'B-PER': 1
@@ -9939,8 +9945,8 @@ combinedDict = {
 	'B-MISC': 1
 }, 'hasina|NNP': {
 	'B-PER': 5
-}, 'ministers|NNP': {
-	'O': 1
+}, 'uhelna|NNP': {
+	'I-ORG': 1
 }, 'ministers|NNS': {
 	'O': 14
 }, 'coordinator|NN': {
@@ -10017,7 +10023,7 @@ combinedDict = {
 	'B-ORG': 1
 }, 'bales|NNS': {
 	'O': 2
-}, 'thanking|VBG': {
+}, '242.94|CD': {
 	'O': 1
 }, '2nd|JJ': {
 	'O': 1
@@ -10247,7 +10253,7 @@ combinedDict = {
 	'O': 1
 }, 'ripped|VBD': {
 	'O': 1
-}, '242.94|CD': {
+}, 'thanking|VBG': {
 	'O': 1
 }, 'licence|NN': {
 	'O': 1
@@ -10363,8 +10369,8 @@ combinedDict = {
 	'B-PER': 2
 }, 'extra|JJ': {
 	'O': 7
-}, 'grainbelt|JJS': {
-	'O': 1
+}, 'pushpakumara|NNP': {
+	'B-PER': 1, 'I-PER': 2
 }, 'hibernian|NNP': {
 	'B-ORG': 2, 'B-LOC': 1
 }, 'novotna|NNP': {
@@ -10791,8 +10797,8 @@ combinedDict = {
 	'O': 3
 }, 'privatisatio|JJ': {
 	'O': 1
-}, 'pushpakumara|NNP': {
-	'B-PER': 1, 'I-PER': 2
+}, 'grainbelt|JJS': {
+	'O': 1
 }, 'protecting|VBG': {
 	'O': 2
 }, '105,000|CD': {
@@ -11061,8 +11067,8 @@ combinedDict = {
 	'O': 1
 }, '1009|CD': {
 	'O': 1
-}, 'february|NNP': {
-	'O': 17
+}, 'palmeiras|NNS': {
+	'B-ORG': 1
 }, '78th|CD': {
 	'O': 1
 }, 'discussions|NNS': {
@@ -11565,8 +11571,8 @@ combinedDict = {
 	'O': 3
 }, 'legs|NNS': {
 	'O': 4
-}, 'gilford|NNP': {
-	'I-PER': 2
+}, 'brazil|JJ': {
+	'B-LOC': 1
 }, 'converted|VBN': {
 	'O': 1
 }, 'beach|NN': {
@@ -11683,6 +11689,8 @@ combinedDict = {
 	'O': 2
 }, '251/01|NNP': {
 	'O': 1
+}, '9-2|JJ': {
+	'O': 1
 }, 'fraser|NNP': {
 	'I-PER': 1, 'B-LOC': 2
 }, 'road|NNP': {
@@ -11741,8 +11749,8 @@ combinedDict = {
 	'O': 1
 }, 'suffering|VBG': {
 	'O': 7
-}, 'discipline|NN': {
-	'O': 3
+}, 'stat:exempt-ult|NN': {
+	'O': 1
 }, 'nilis|NNP': {
 	'B-PER': 3, 'I-PER': 2
 }, 'incumbent|JJ': {
@@ -12073,8 +12081,8 @@ combinedDict = {
 	'B-ORG': 3, 'I-ORG': 1
 }, 'multi-party|JJ': {
 	'O': 1
-}, 'un|NNS': {
-	'B-ORG': 1
+}, 'campese|NNS': {
+	'O': 1
 }, 'campese|NNP': {
 	'O': 1, 'B-PER': 2, 'I-PER': 3
 }, 'co-pilot|NNS': {
@@ -12207,8 +12215,8 @@ combinedDict = {
 	'B-ORG': 2
 }, 'atlanta-based|JJ': {
 	'B-MISC': 1
-}, 'grossman|NNP': {
-	'I-PER': 2
+}, '87,241|CD': {
+	'O': 1
 }, '3.35|CD': {
 	'O': 2
 }, 'stalemate|NN': {
@@ -12265,6 +12273,8 @@ combinedDict = {
 	'O': 1
 }, 'ground|NN': {
 	'O': 24
+}, '142|CD': {
+	'O': 4
 }, 'addressing|VBG': {
 	'O': 2
 }, 'witchdoctor|NN': {
@@ -12291,6 +12301,8 @@ combinedDict = {
 	'O': 2
 }, '5.65|CD': {
 	'O': 1
+}, 'jonk|NNP': {
+	'B-PER': 1, 'I-PER': 2
 }, '86|CD': {
 	'O': 12
 }, 'projected|VBN': {
@@ -12533,8 +12545,8 @@ combinedDict = {
 	'O': 1
 }, 'pnw|NNP': {
 	'B-ORG': 1
-}, 'tajikistan|NNP': {
-	'B-LOC': 1
+}, 'veglio|NNP': {
+	'I-PER': 1
 }, 'release|VB': {
 	'O': 4
 }, '5-55|CD': {
@@ -12681,8 +12693,8 @@ combinedDict = {
 	'O': 5
 }, '1464/96|CD': {
 	'O': 1
-}, '4.70|CD': {
-	'O': 5
+}, 'samara|NNP': {
+	'I-ORG': 1
 }, 'irrational|JJ': {
 	'O': 1
 }, 'alexandra|NNP': {
@@ -12703,8 +12715,8 @@ combinedDict = {
 	'O': 1
 }, 'knu|VBG': {
 	'B-ORG': 1
-}, 'available|JJ': {
-	'O': 42
+}, 'norwich|NNP': {
+	'B-ORG': 4
 }, 'lot|NN': {
 	'O': 23
 }, '.650|CD': {
@@ -12837,6 +12849,8 @@ combinedDict = {
 	'B-PER': 1
 }, 'mid-tier|NN': {
 	'O': 1
+}, 'schoesser|NNP': {
+	'I-PER': 1
 }, 'progress|VB': {
 	'O': 1
 }, 'maritime|NNP': {
@@ -12959,6 +12973,8 @@ combinedDict = {
 	'O': 7
 }, '1:49.65|CD': {
 	'O': 1
+}, 'reserve|NNP': {
+	'I-ORG': 2, 'O': 1
 }, 'maruyama|NNP': {
 	'B-PER': 1, 'I-PER': 1
 }, 'athletic|NNP': {
@@ -14033,8 +14049,8 @@ combinedDict = {
 	'I-ORG': 1
 }, 'prescott|NNP': {
 	'B-PER': 2, 'I-PER': 2
-}, '25,929|CD': {
-	'O': 1
+}, 'prescott|NNS': {
+	'B-PER': 1
 }, '38:34.436|CD': {
 	'O': 1
 }, 'sheepmeat|VB': {
@@ -14117,8 +14133,8 @@ combinedDict = {
 	'I-PER': 1
 }, 'pct|JJ': {
 	'O': 5
-}, 'bigger|JJR': {
-	'O': 1
+}, 'combines|VBZ': {
+	'O': 2
 }, 'tami|NNP': {
 	'B-PER': 2
 }, 'goey|NNP': {
@@ -14283,6 +14299,8 @@ combinedDict = {
 	'O': 2
 }, 'suspects|NNS': {
 	'O': 5
+}, 'drifted|VBD': {
+	'O': 2
 }, 'west|NN': {
 	'O': 13
 }, 'experienced|JJ': {
@@ -14373,7 +14391,7 @@ combinedDict = {
 	'O': 1
 }, 'suspension|NN': {
 	'O': 5
-}, 'qualify|VBP': {
+}, '1992/93|CD': {
 	'O': 1
 }, 'chupabolos|VBZ': {
 	'O': 1
@@ -14413,8 +14431,8 @@ combinedDict = {
 	'O': 1
 }, 'naturally|RB': {
 	'O': 1
-}, 'marcin|NNP': {
-	'B-PER': 2
+}, 'sixth-seeded|JJ': {
+	'O': 2
 }, 'tuesday|NNP': {
 	'O': 177
 }, 'diplomats|NNS': {
@@ -14445,8 +14463,8 @@ combinedDict = {
 	'B-ORG': 1
 }, 'prediction|NN': {
 	'O': 2
-}, 'valletta|NNP': {
-	'I-ORG': 3, 'B-LOC': 6
+}, '24.sep.02|CD': {
+	'O': 1
 }, 'stands|VBZ': {
 	'O': 3
 }, 'scares|NNS': {
@@ -15649,8 +15667,8 @@ combinedDict = {
 	'O': 6
 }, 'analogue|JJ': {
 	'O': 1
-}, 'buza|NNP': {
-	'B-PER': 2
+}, 'shotgun|NN': {
+	'O': 2
 }, 'sales-usda|NN': {
 	'O': 1
 }, 'rabbi|NNP': {
@@ -16183,7 +16201,7 @@ combinedDict = {
 	'O': 1
 }, 'mill|NN': {
 	'O': 2
-}, '350,000|CD': {
+}, 'bunkering|NN': {
 	'O': 1
 }, '1803|CD': {
 	'O': 1
@@ -16515,8 +16533,8 @@ combinedDict = {
 	'I-PER': 2
 }, '12/15/2010|CD': {
 	'O': 1
-}, 'jonk|NNP': {
-	'B-PER': 1, 'I-PER': 2
+}, '3:33.94|CD': {
+	'O': 1
 }, 'forecasters|NNS': {
 	'O': 1
 }, 'oceanic|NNP': {
@@ -17091,8 +17109,8 @@ combinedDict = {
 	'B-ORG': 1
 }, 'exploded|VBD': {
 	'O': 6
-}, '50-cent|JJ': {
-	'O': 1
+}, 'stoltenberg|NNP': {
+	'I-PER': 4
 }, 'mutually|RB': {
 	'O': 1
 }, 'statoil|NNP': {
@@ -17149,8 +17167,8 @@ combinedDict = {
 	'B-PER': 2, 'I-PER': 13
 }, '115.0|CD': {
 	'O': 1
-}, 'hardware|NN': {
-	'O': 2
+}, 'tracheotomy|NNS': {
+	'O': 1
 }, 'make|VBP': {
 	'O': 5
 }, 'testing|VBG': {
@@ -17175,8 +17193,6 @@ combinedDict = {
 	'O': 3
 }, 'nastja|NNP': {
 	'B-PER': 1
-}, 'commonplace|JJ': {
-	'O': 1
 }, 'boys|NNS': {
 	'O': 3
 }, '.538|CD': {
@@ -17661,8 +17677,8 @@ combinedDict = {
 	'I-MISC': 1
 }, 'ferrigato|TO': {
 	'B-PER': 1
-}, 'pick|VB': {
-	'O': 4
+}, 'fabrizio|NNP': {
+	'B-PER': 2
 }, 'hesitancy|NN': {
 	'O': 1
 }, 'calif.|NNP': {
@@ -17741,8 +17757,8 @@ combinedDict = {
 	'O': 1
 }, 'defused|VBN': {
 	'O': 2
-}, 'jerzy|NNP': {
-	'B-PER': 1
+}, 'unlisted|JJ': {
+	'O': 3
 }, '4,658,000|CD': {
 	'O': 1
 }, '10-year|JJ': {
@@ -18147,8 +18163,8 @@ combinedDict = {
 	'B-ORG': 3
 }, 'southeast|NN': {
 	'O': 2
-}, '3.2|CD': {
-	'O': 5
+}, 'rain|NNP': {
+	'O': 1
 }, 'bjp|NNP': {
 	'B-ORG': 2, 'B-PER': 1, 'O': 1
 }, 'interested|JJ': {
@@ -18657,7 +18673,7 @@ combinedDict = {
 	'O': 1
 }, 'highlights|VBZ': {
 	'O': 3
-}, 'fifa|JJ': {
+}, '103-95|CD': {
 	'O': 1
 }, '238.36|CD': {
 	'O': 2
@@ -18687,8 +18703,8 @@ combinedDict = {
 	'O': 1
 }, 'ulihrach|NNP': {
 	'I-PER': 5
-}, 'agreed|VBD': {
-	'O': 24
+}, '3mo|CD': {
+	'O': 1
 }, 'agreed|VBN': {
 	'O': 21
 }, 'complete|JJ': {
@@ -18767,8 +18783,8 @@ combinedDict = {
 	'O': 1
 }, 'midfielder|JJR': {
 	'O': 3
-}, 'loos|NNP': {
-	'I-ORG': 2
+}, 'sellers|VBZ': {
+	'O': 1
 }, 'angeles|NNP': {
 	'I-LOC': 16, 'B-PER': 2, 'I-ORG': 23
 }, '600|CD': {
@@ -18815,7 +18831,7 @@ combinedDict = {
 	'O': 1
 }, 'putra|NNP': {
 	'I-ORG': 1
-}, 'incendiaries|NNS': {
+}, 'terminated|VBD': {
 	'O': 1
 }, 'chilli|JJ': {
 	'O': 2
@@ -18889,8 +18905,8 @@ combinedDict = {
 	'O': 2
 }, 'servette|JJ': {
 	'B-ORG': 1
-}, 'sc|NNP': {
-	'B-ORG': 3
+}, 'suvit|NNP': {
+	'B-PER': 1
 }, 'earned|VBD': {
 	'O': 7
 }, 'earned|VBN': {
@@ -18973,8 +18989,8 @@ combinedDict = {
 	'B-PER': 1, 'O': 32
 }, '37-year|JJ': {
 	'O': 1
-}, 'stat:exempt-ult|NN': {
-	'O': 1
+}, 'discipline|NN': {
+	'O': 3
 }, 'orchestrated|VBN': {
 	'O': 1
 }, 'sforza|NNP': {
@@ -19145,12 +19161,16 @@ combinedDict = {
 	'I-PER': 1
 }, 'ally|RB': {
 	'B-PER': 1
+}, 'arabic|NNP': {
+	'B-MISC': 1, 'B-LOC': 1
 }, 'rnr|CC': {
 	'O': 1
 }, 'drakes|NNP': {
 	'I-PER': 1
 }, '30-year-old|JJ': {
 	'O': 2
+}, '10.02|CD': {
+	'O': 1
 }, 'waist|NN': {
 	'O': 1
 }, 'flooding|NN': {
@@ -19305,8 +19325,8 @@ combinedDict = {
 	'O': 1
 }, 'large|JJ': {
 	'O': 18
-}, 'plot|NN': {
-	'O': 2
+}, 'shubei|NNP': {
+	'I-PER': 2
 }, 'mbeki|NNP': {
 	'I-PER': 1
 }, 'campuses|NNS': {
@@ -19341,8 +19361,8 @@ combinedDict = {
 	'B-PER': 2
 }, 'socialists|NNPS': {
 	'O': 2
-}, '87,241|CD': {
-	'O': 1
+}, 'grossman|NNP': {
+	'I-PER': 2
 }, 'levitt|NNP': {
 	'I-PER': 1
 }, 'plying|VBG': {
@@ -19705,8 +19725,8 @@ combinedDict = {
 	'B-PER': 7
 }, 'nhamavila|NNP': {
 	'B-LOC': 1
-}, 'drifted|VBD': {
-	'O': 2
+}, 'wait|VB': {
+	'O': 8
 }, 'extremadura|NNP': {
 	'B-ORG': 1
 }, 'internationals|NNS': {
@@ -19737,8 +19757,8 @@ combinedDict = {
 	'B-LOC': 1
 }, 'bay|NN': {
 	'O': 1
-}, 'sixth-seeded|JJ': {
-	'O': 2
+}, 'marcin|NNP': {
+	'B-PER': 2
 }, '581.2|CD': {
 	'O': 1
 }, 'altered|VBN': {
@@ -20837,6 +20857,8 @@ combinedDict = {
 	'B-ORG': 1
 }, '23-24|CD': {
 	'O': 1
+}, 'seven-hitter|NN': {
+	'O': 1
 }, '.462|CD': {
 	'O': 3
 }, 'gualtiero|NNP': {
@@ -21091,8 +21113,6 @@ combinedDict = {
 	'O': 1
 }, 'secretary-general|NN': {
 	'O': 5
-}, 'tikhomirov-maskhadov|JJ': {
-	'B-MISC': 1
 }, 'expanding|VBG': {
 	'O': 4
 }, 'limit|VB': {
@@ -21149,8 +21169,6 @@ combinedDict = {
 	'O': 2
 }, 'clerck|NNP': {
 	'I-PER': 1
-}, 'campese|NNS': {
-	'O': 1
 }, 'aziz|NNP': {
 	'I-PER': 1
 }, '42.4|CD': {
@@ -21431,7 +21449,7 @@ combinedDict = {
 	'I-PER': 1
 }, 'involves|VBZ': {
 	'O': 5
-}, '1:18.32|CD': {
+}, 'means|NN': {
 	'O': 1
 }, 'apparently|RB': {
 	'O': 8
@@ -22179,8 +22197,8 @@ combinedDict = {
 	'B-PER': 1
 }, 'clarifications|NNS': {
 	'O': 1
-}, 'biblical|JJ': {
-	'B-MISC': 1
+}, '1,328|CD': {
+	'O': 1
 }, 'rant|NN': {
 	'O': 1
 }, 'chihuahua|NNP': {
@@ -22341,8 +22359,8 @@ combinedDict = {
 	'O': 1
 }, 'unitaire|NNP': {
 	'I-ORG': 1
-}, 'ieng|VBG': {
-	'B-PER': 3
+}, 'outdueled|VBD': {
+	'O': 2
 }, 'liposuction|NN': {
 	'O': 2
 }, '10.57:33|CD': {
@@ -22359,8 +22377,8 @@ combinedDict = {
 	'B-ORG': 1
 }, 'presented|VBD': {
 	'O': 1
-}, 'socha|NNP': {
-	'I-PER': 1
+}, '42-2-2423-0003|CD': {
+	'O': 2
 }, 'presented|VBN': {
 	'O': 1
 }, 'wong|NNP': {
@@ -22495,8 +22513,8 @@ combinedDict = {
 	'O': 4
 }, 'noon|NNP': {
 	'I-PER': 1
-}, '.579|CD': {
-	'O': 1
+}, 'monthly|RB': {
+	'O': 2
 }, 'football-ohio|NNP': {
 	'I-ORG': 1
 }, 'downgraded|VBD': {
@@ -22623,8 +22641,8 @@ combinedDict = {
 	'O': 1
 }, 'prisoner|NN': {
 	'O': 2
-}, 'islands|NNP': {
-	'I-LOC': 2
+}, 'zeljko|NNP': {
+	'B-PER': 1
 }, 'non-governmental|JJ': {
 	'O': 1
 }, 'passport|NN': {
@@ -23345,8 +23363,8 @@ combinedDict = {
 	'O': 1
 }, '1,100|CD': {
 	'O': 2
-}, 'opposing|VBG': {
-	'O': 3
+}, 'carrying|VBG': {
+	'O': 20
 }, 'high-flying|VBG': {
 	'O': 1
 }, 'pdsr|NNP': {
@@ -23415,8 +23433,8 @@ combinedDict = {
 	'O': 2
 }, 'sleeping|VBG': {
 	'O': 1
-}, '0.15|CD': {
-	'O': 3
+}, 'rain-shortened|JJ': {
+	'O': 1
 }, 'usa|NNP': {
 	'O': 1, 'B-LOC': 5, 'B-PER': 1
 }, 'season-high|JJ': {
@@ -23433,7 +23451,7 @@ combinedDict = {
 	'O': 1
 }, 'babbel|NNP': {
 	'I-PER': 1
-}, 'declared|JJ': {
+}, 'foray|NN': {
 	'O': 1
 }, 'abnout|JJ': {
 	'O': 1
@@ -23773,8 +23791,8 @@ combinedDict = {
 	'O': 1
 }, 'widow|NN': {
 	'O': 2
-}, 'virginia|NNP': {
-	'I-LOC': 3, 'B-ORG': 1, 'B-PER': 1, 'B-LOC': 3
+}, 'culprit|NN': {
+	'O': 1
 }, 'rfdg|NNP': {
 	'O': 1
 }, 'czech|VB': {
@@ -24219,8 +24237,8 @@ combinedDict = {
 	'B-MISC': 1, 'O': 14
 }, 'ingot|NN': {
 	'O': 2
-}, 'adelaide|IN': {
-	'B-ORG': 2
+}, 'flnc|NNP': {
+	'B-ORG': 1
 }, 'interrosimpex|NNP': {
 	'B-LOC': 1
 }, 'tackle|VB': {
@@ -24415,7 +24433,7 @@ combinedDict = {
 	'O': 18
 }, 'anti-rangoon|JJ': {
 	'B-MISC': 1
-}, 'nitty-gritty|NN': {
+}, 'asylum-seekers|NNS': {
 	'O': 1
 }, 'issuer|NN': {
 	'O': 3
@@ -24507,8 +24525,8 @@ combinedDict = {
 	'O': 1
 }, 'nayan|NNP': {
 	'B-PER': 1
-}, 'samara|NNP': {
-	'I-ORG': 1
+}, '4.70|CD': {
+	'O': 5
 }, 'media|NNP': {
 	'I-ORG': 1, 'O': 2
 }, 'media|NNS': {
@@ -24613,7 +24631,7 @@ combinedDict = {
 	'B-PER': 2
 }, 'beja|NNP': {
 	'B-LOC': 1
-}, 'means|NN': {
+}, '1:18.32|CD': {
 	'O': 1
 }, 'gyaicain|NN': {
 	'B-PER': 1
@@ -24725,8 +24743,8 @@ combinedDict = {
 	'O': 1
 }, 'european|NNP': {
 	'B-MISC': 13, 'B-ORG': 28, 'I-ORG': 1
-}, 'norwich|NNP': {
-	'B-ORG': 4
+}, 'available|JJ': {
+	'O': 42
 }, 'schreuder|NNP': {
 	'B-PER': 1
 }, 'babri|NNP': {
@@ -24807,8 +24825,6 @@ combinedDict = {
 	'I-PER': 1
 }, '1:48.91|CD': {
 	'O': 1
-}, 'mehrtens|NNP': {
-	'B-PER': 1, 'I-PER': 2
 }, 'amro|NNP': {
 	'I-ORG': 1
 }, 'pour|VBP': {
@@ -24983,8 +24999,8 @@ combinedDict = {
 	'O': 135
 }, 'mugabe|NNP': {
 	'I-PER': 2
-}, 'profession|NN': {
-	'O': 1
+}, 'limit|NN': {
+	'O': 4
 }, 'billed|VBN': {
 	'O': 1
 }, 'georgios|NNP': {
@@ -25081,9 +25097,9 @@ combinedDict = {
 	'O': 1
 }, 'ferdinand|NNP': {
 	'I-PER': 4
-}, '43,430|CD': {
+}, 'oportunity|NN': {
 	'O': 1
-}, 'outfield|NN': {
+}, 'unidentifed|JJ': {
 	'O': 1
 }, 'baltika|NNP': {
 	'B-ORG': 1
@@ -25329,8 +25345,8 @@ combinedDict = {
 	'O': 12
 }, 'erzincan|JJ': {
 	'B-LOC': 1
-}, 'parties|NNS': {
-	'O': 17
+}, 'nicolas|NNP': {
+	'B-PER': 6
 }, 'unita|JJ': {
 	'B-ORG': 2
 }, 'airways|NNPS': {
@@ -25475,8 +25491,8 @@ combinedDict = {
 	'O': 3
 }, 'yogic|JJ': {
 	'O': 2
-}, '8.20-8.50|CD': {
-	'O': 1
+}, 'bodies|NNS': {
+	'O': 15
 }, 'nyva|NNP': {
 	'B-ORG': 1
 }, '389|CD': {
@@ -25615,7 +25631,7 @@ combinedDict = {
 	'O': 1
 }, 'indians|NNPS': {
 	'B-MISC': 1, 'B-ORG': 2, 'I-ORG': 1
-}, 'feb|JJR': {
+}, 'accordance|NN': {
 	'O': 2
 }, 'rene|NNP': {
 	'B-MISC': 1, 'B-PER': 2
@@ -26207,8 +26223,6 @@ combinedDict = {
 	'I-ORG': 2
 }, '251|CD': {
 	'O': 3
-}, 'testimony|NN': {
-	'O': 4
 }, 'producer|NNP': {
 	'O': 1
 }, 'incessantly|RB': {
@@ -26239,8 +26253,8 @@ combinedDict = {
 	'O': 2
 }, '1yr|CD': {
 	'O': 1
-}, 'guilty|JJ': {
-	'O': 9
+}, 'fleuchaus|NNP': {
+	'B-PER': 1
 }, 'guzman|NNP': {
 	'B-PER': 2, 'I-PER': 3
 }, 'sidwell|NNP': {
@@ -26417,6 +26431,8 @@ combinedDict = {
 	'B-PER': 2
 }, 'building|NNP': {
 	'B-ORG': 1, 'I-ORG': 2, 'O': 2
+}, 'housecall|NN': {
+	'B-ORG': 2
 }, '843|CD': {
 	'O': 1
 }, 'zhirinovsky|NNP': {
@@ -26591,8 +26607,8 @@ combinedDict = {
 	'O': 2
 }, 'my|NNP': {
 	'I-MISC': 1
-}, 'dkba|NNP': {
-	'B-ORG': 3
+}, 'supermarkets|NNP': {
+	'O': 1
 }, 'sake|FW': {
 	'B-PER': 2
 }, 'ends|NNS': {
@@ -28017,8 +28033,8 @@ combinedDict = {
 	'O': 1
 }, '1996-08-27|CD': {
 	'O': 97
-}, 'supermarkets|NNP': {
-	'O': 1
+}, 'dkba|NNP': {
+	'B-ORG': 3
 }, '26-57|CD': {
 	'O': 1
 }, 'renegade|NN': {
@@ -28219,8 +28235,8 @@ combinedDict = {
 	'O': 1
 }, 'sundstrom|NNP': {
 	'I-PER': 1
-}, '24.sep.02|CD': {
-	'O': 1
+}, 'valletta|NNP': {
+	'I-ORG': 3, 'B-LOC': 6
 }, 'benin|NNP': {
 	'B-LOC': 2
 }, 'rate|NNP': {
@@ -28679,8 +28695,8 @@ combinedDict = {
 	'O': 19
 }, 'veteran|JJ': {
 	'O': 5
-}, 'tracheotomy|NNS': {
-	'O': 1
+}, 'hardware|NN': {
+	'O': 2
 }, '83rd|CD': {
 	'O': 3
 }, 'village|NN': {
@@ -28905,8 +28921,6 @@ combinedDict = {
 	'O': 1
 }, 'wiesner|NNP': {
 	'I-PER': 3
-}, 'manual|JJ': {
-	'O': 2
 }, '15.5|CD': {
 	'O': 1
 }, 'german-based|JJ': {
@@ -28989,8 +29003,8 @@ combinedDict = {
 	'O': 4
 }, 'lennart|NNP': {
 	'B-PER': 3
-}, 'suvit|NNP': {
-	'B-PER': 1
+}, 'sc|NNP': {
+	'B-ORG': 3
 }, 'tough|JJ': {
 	'O': 13
 }, 'mixing|VBG': {
@@ -29517,6 +29531,8 @@ combinedDict = {
 	'B-PER': 1, 'I-PER': 1
 }, 'morton|NNP': {
 	'B-ORG': 2, 'I-ORG': 1
+}, '350,000|CD': {
+	'O': 1
 }, 'def|NNS': {
 	'O': 1
 }, 'fears|NNS': {
@@ -29573,8 +29589,8 @@ combinedDict = {
 	'O': 1
 }, '198354.941|CD': {
 	'O': 1
-}, '42-2-2423-0003|CD': {
-	'O': 2
+}, 'socha|NNP': {
+	'I-PER': 1
 }, '36337.137|CD': {
 	'O': 1
 }, 'lift|NN': {
@@ -29605,6 +29621,8 @@ combinedDict = {
 	'B-ORG': 1, 'B-LOC': 6
 }, 'voted|VBN': {
 	'O': 1
+}, 'gilford|NNP': {
+	'I-PER': 2
 }, 'coverable|JJ': {
 	'O': 1
 }, 'bolton|NNP': {
@@ -29627,8 +29645,8 @@ combinedDict = {
 	'I-PER': 1
 }, 'w-14|CD': {
 	'O': 1
-}, 'zeljko|NNP': {
-	'B-PER': 1
+}, 'islands|NNP': {
+	'I-LOC': 2
 }, 'islands|NNS': {
 	'O': 3
 }, 'enterprise|NNP': {
@@ -29725,8 +29743,6 @@ combinedDict = {
 	'O': 84
 }, 'dore|NNP': {
 	'B-PER': 1
-}, 'counterpart|NN': {
-	'O': 9
 }, 'returned|VBN': {
 	'O': 8
 }, 'siegfried|NNP': {
@@ -30041,8 +30057,8 @@ combinedDict = {
 	'I-ORG': 2
 }, 'minutka|NNP': {
 	'B-LOC': 1
-}, 'limit|NN': {
-	'O': 4
+}, 'profession|NN': {
+	'O': 1
 }, 'zaireans|NNPS': {
 	'B-MISC': 1
 }, 'routes|NNS': {
@@ -30119,8 +30135,8 @@ combinedDict = {
 	'B-ORG': 22
 }, '4,900|CD': {
 	'O': 1
-}, 'bodies|NNS': {
-	'O': 15
+}, '8.20-8.50|CD': {
+	'O': 1
 }, 'habibullah|NNP': {
 	'I-LOC': 2
 }, '830.60|CD': {
@@ -30315,8 +30331,8 @@ combinedDict = {
 	'O': 1
 }, 'madhumalla|NNP': {
 	'B-LOC': 1
-}, '747s|NNS': {
-	'O': 1
+}, 'handed|VBN': {
+	'O': 6
 }, '5,350|CD': {
 	'O': 1
 }, 'corrected|VBN': {
@@ -30923,8 +30939,8 @@ combinedDict = {
 	'O': 36
 }, 'agents|NNS': {
 	'O': 9
-}, 'jarmo|NNP': {
-	'B-PER': 3
+}, 'missionary|NNP': {
+	'I-LOC': 3
 }, 'trent|NNP': {
 	'B-LOC': 6
 }, '1445|CD': {
@@ -31363,8 +31379,8 @@ combinedDict = {
 	'O': 1
 }, 'receipts|NNS': {
 	'O': 3
-}, '10.02|CD': {
-	'O': 1
+}, 'right-field|JJ': {
+	'O': 3
 }, 'hanson|NNP': {
 	'B-ORG': 2, 'B-PER': 1, 'I-PER': 1
 }, 'eamonn|NNP': {
@@ -31441,8 +31457,8 @@ combinedDict = {
 	'O': 2
 }, 'nationalist|NN': {
 	'O': 5
-}, 'ahold|NNP': {
-	'B-ORG': 3, 'B-PER': 1, 'B-LOC': 3
+}, 'occurred|VBN': {
+	'O': 2
 }, 'planted|VBN': {
 	'O': 2
 }, 'tikhomirov|NNP': {
@@ -31481,8 +31497,8 @@ combinedDict = {
 	'O': 1
 }, 'njos|NNP': {
 	'I-PER': 2
-}, 'monthly|RB': {
-	'O': 2
+}, '.579|CD': {
+	'O': 1
 }, '+2|CD': {
 	'O': 1
 }, 'swiss|NNP': {
@@ -31605,8 +31621,8 @@ combinedDict = {
 	'O': 4
 }, 'demand|VBP': {
 	'O': 3
-}, 'announces|VBZ': {
-	'O': 2
+}, '23.50|CD': {
+	'O': 1
 }, '256.4|CD': {
 	'O': 1
 }, 'retailer|NN': {
@@ -31755,6 +31771,8 @@ combinedDict = {
 	'B-ORG': 5
 }, 'correspondents|NNS': {
 	'O': 1
+}, '2-2|RB': {
+	'O': 2
 }, 'tap|NN': {
 	'O': 3
 }, 'barton|NNP': {
@@ -31841,8 +31859,8 @@ combinedDict = {
 	'I-PER': 4
 }, '119.6|CD': {
 	'O': 1
-}, 'cruise|NNP': {
-	'B-PER': 1, 'I-PER': 1
+}, '72.41|CD': {
+	'O': 1
 }, 'fio|NN': {
 	'O': 4
 }, 'aoki|NNP': {
@@ -32067,8 +32085,8 @@ combinedDict = {
 	'O': 1
 }, 'chartered|JJ': {
 	'O': 1
-}, 'hoek|NNP': {
-	'B-ORG': 2
+}, 'accepted|VBN': {
+	'O': 3
 }, 'loss|NNS': {
 	'O': 1
 }, 'fernando|NNP': {
@@ -32229,6 +32247,8 @@ combinedDict = {
 	'O': 1
 }, 'failure|NN': {
 	'O': 7
+}, 'buza|NNP': {
+	'B-PER': 2
 }, 'creutzfeldt-jakob|NNP': {
 	'B-MISC': 2
 }, 'weight|NN': {
@@ -32519,8 +32539,8 @@ combinedDict = {
 	'O': 2
 }, 'hubner|NNP': {
 	'I-PER': 2
-}, 'prescott|NNS': {
-	'B-PER': 1
+}, '25,929|CD': {
+	'O': 1
 }, 'jamaica|NNP': {
 	'B-LOC': 11
 }, '307|CD': {
@@ -32791,8 +32811,8 @@ combinedDict = {
 	'O': 7
 }, 'suburban|JJ': {
 	'O': 1
-}, 'journey|NN': {
-	'O': 4
+}, 'position-squaring|NN': {
+	'O': 1
 }, 'phones|NNS': {
 	'O': 1
 }, '1-10-100|CD': {
@@ -32903,8 +32923,6 @@ combinedDict = {
 	'O': 1
 }, 'inactivity|NN': {
 	'O': 1
-}, 'right-field|JJ': {
-	'O': 3
 }, 'munteanu|NNP': {
 	'I-PER': 1
 }, 'bureau|NNP': {
@@ -33015,8 +33033,8 @@ combinedDict = {
 	'B-LOC': 3
 }, 'apa|NNP': {
 	'B-ORG': 1
-}, 'combines|VBZ': {
-	'O': 2
+}, 'bigger|JJR': {
+	'O': 1
 }, 'barada|NNP': {
 	'I-PER': 1
 }, 'hay|NN': {
@@ -33111,8 +33129,6 @@ combinedDict = {
 	'O': 1
 }, 'non-binding|JJ': {
 	'O': 1
-}, 'accepted|VBN': {
-	'O': 3
 }, 'definitive|JJ': {
 	'O': 2
 }, '49.49|CD': {
@@ -33197,8 +33213,6 @@ combinedDict = {
 	'O': 2
 }, '84.20|CD': {
 	'O': 1
-}, 'quinn|NNP': {
-	'I-PER': 1
 }, 'sealed|JJ': {
 	'O': 2
 }, 'brisbane|NNP': {
@@ -33239,6 +33253,8 @@ combinedDict = {
 	'O': 13
 }, 'j.s.|NNP': {
 	'B-PER': 1
+}, 'maru|NNP': {
+	'I-MISC': 1, 'I-PER': 1
 }, 'gulyayeva|NNP': {
 	'I-PER': 1
 }, 'trailed|VBD': {
@@ -33419,9 +33435,9 @@ combinedDict = {
 	'O': 1
 }, 'treasure|NN': {
 	'O': 1
-}, 'turbo|NN': {
-	'O': 1
-}, '*note|SYM': {
+}, 'tikhomirov-maskhadov|JJ': {
+	'B-MISC': 1
+}, 'diocese|NN': {
 	'O': 1
 }, 'porsche|NNP': {
 	'I-MISC': 2, 'B-ORG': 2
@@ -33923,8 +33939,8 @@ combinedDict = {
 	'B-ORG': 1
 }, 'ratings|NNS': {
 	'O': 3
-}, 'greater|NNP': {
-	'O': 1
+}, 'itself|PRP': {
+	'O': 6
 }, '1.70|CD': {
 	'O': 1
 }, 'komala|NNP': {
@@ -34023,6 +34039,8 @@ combinedDict = {
 	'B-LOC': 1
 }, 'simitis|NNP': {
 	'I-PER': 3
+}, 'occured|VBD': {
+	'O': 1
 }, 'qualify|VB': {
 	'O': 1
 }, 'nomo|NN': {
@@ -34319,8 +34337,8 @@ combinedDict = {
 	'O': 9
 }, '8-0-33-0|CD': {
 	'O': 1
-}, '23.50|CD': {
-	'O': 1
+}, 'announces|VBZ': {
+	'O': 2
 }, 'mosque|JJ': {
 	'O': 1
 }, '169|CD': {
@@ -34725,10 +34743,8 @@ combinedDict = {
 	'O': 4
 }, 'interfere|VB': {
 	'O': 3
-}, '1:19.41|CD': {
-	'O': 1
-}, '1992/93|CD': {
-	'O': 1
+}, 'single|JJ': {
+	'O': 20
 }, 'saudi|NNP': {
 	'B-MISC': 3, 'B-ORG': 1, 'B-LOC': 12
 }, 'appellants|NNS': {
@@ -35633,8 +35649,6 @@ combinedDict = {
 	'O': 1
 }, 'bourses|NNS': {
 	'O': 3
-}, '1150-1200|CD': {
-	'O': 1
 }, 'alves|NNPS': {
 	'I-PER': 1
 }, 'fourth|NNP': {
@@ -35759,8 +35773,8 @@ combinedDict = {
 	'B-LOC': 18
 }, 'lindholm|NNP': {
 	'I-PER': 1
-}, 'mark|NNP': {
-	'B-PER': 50
+}, 'returns|NNS': {
+	'O': 8
 }, 'abidjan|JJ': {
 	'B-LOC': 1
 }, 'liverpool|NNP': {
@@ -35945,8 +35959,6 @@ combinedDict = {
 	'I-ORG': 1
 }, '5,200|CD': {
 	'O': 1
-}, 'uhelna|NNP': {
-	'I-ORG': 1
 }, 'yatchenko|NNP': {
 	'I-PER': 1
 }, 'mixed|JJ': {
@@ -36371,8 +36383,6 @@ combinedDict = {
 	'O': 1
 }, 'facilities|NNS': {
 	'O': 2
-}, 'bunkering|NN': {
-	'O': 1
 }, 'switch|VB': {
 	'O': 1
 }, 'gagne|NNP': {
@@ -36381,8 +36391,6 @@ combinedDict = {
 	'O': 3
 }, 'boyden|NNP': {
 	'I-PER': 1
-}, 'roman|JJ': {
-	'O': 1
 }, 'chievo|VB': {
 	'B-ORG': 1
 }, 'acatepec|NNP': {
@@ -36893,8 +36901,8 @@ combinedDict = {
 	'O': 3
 }, '22.95|CD': {
 	'O': 1
-}, 'carrying|VBG': {
-	'O': 20
+}, 'opposing|VBG': {
+	'O': 3
 }, 'cliftonville|VB': {
 	'B-ORG': 2
 }, 'jan-april|JJ': {
@@ -36969,6 +36977,8 @@ combinedDict = {
 	'B-PER': 4
 }, '235-6745|CD': {
 	'O': 1
+}, 'after|NNP': {
+	'O': 15
 }, 'fire|NN': {
 	'O': 20
 }, 'apostolic|JJ': {
@@ -37207,8 +37217,6 @@ combinedDict = {
 	'O': 14
 }, 'fraud|NN': {
 	'O': 6
-}, 'babies|NNS': {
-	'O': 3
 }, 'jv|NNP': {
 	'O': 1
 }, 'crosson|NNP': {
@@ -37297,6 +37305,8 @@ combinedDict = {
 	'I-MISC': 5, 'I-ORG': 4, 'O': 8
 }, 'nations|NNP': {
 	'I-MISC': 6, 'I-ORG': 1
+}, 'hoek|NNP': {
+	'B-ORG': 2
 }, 'soviet-style|JJ': {
 	'B-MISC': 1
 }, 'pescara|NNP': {
@@ -37319,8 +37329,8 @@ combinedDict = {
 	'I-PER': 1
 }, '0-6|CD': {
 	'O': 2
-}, 'rain-shortened|JJ': {
-	'O': 1
+}, '0.15|CD': {
+	'O': 3
 }, 'league-best|JJS': {
 	'O': 1
 }, 'outagmie|NNP': {
@@ -37429,8 +37439,8 @@ combinedDict = {
 	'I-MISC': 1
 }, 'frontier|NN': {
 	'O': 1
-}, 'seven-hitter|NN': {
-	'O': 1
+}, 'fred|NNP': {
+	'B-PER': 7
 }, '859-1610|CD': {
 	'O': 4
 }, 'gorre|NNP': {
@@ -37457,7 +37467,7 @@ combinedDict = {
 	'O': 1
 }, '6-8|CD': {
 	'O': 2
-}, 'foray|NN': {
+}, 'declared|JJ': {
 	'O': 1
 }, 'shishu|NNP': {
 	'B-ORG': 1
@@ -37733,8 +37743,8 @@ combinedDict = {
 	'O': 1
 }, 'mayor|NN': {
 	'O': 4
-}, 'wait|VB': {
-	'O': 8
+}, 'commonplace|JJ': {
+	'O': 1
 }, 'letitia|NNP': {
 	'B-PER': 1
 }, 'balakov|NNP': {
@@ -38061,8 +38071,6 @@ combinedDict = {
 	'B-PER': 1, 'B-LOC': 2
 }, 'hope|NN': {
 	'O': 6
-}, 'maru|NNP': {
-	'I-MISC': 1, 'I-PER': 1
 }, 'no.1|JJ': {
 	'O': 1
 }, '5,539|CD': {
@@ -38143,8 +38151,8 @@ combinedDict = {
 	'O': 1
 }, 'compiled|VBN': {
 	'O': 1
-}, 'occured|VBD': {
-	'O': 1
+}, 'biblical|JJ': {
+	'B-MISC': 1
 }, 'rally|NN': {
 	'O': 13
 }, '-------------------------|SYM': {
@@ -38877,8 +38885,6 @@ combinedDict = {
 	'O': 1
 }, 'dax|NNP': {
 	'B-MISC': 2
-}, 'fred|NNP': {
-	'B-PER': 7
 }, '2:42|CD': {
 	'O': 1
 }, 'owing|VBG': {
@@ -39491,6 +39497,8 @@ combinedDict = {
 	'O': 1
 }, 'severin|NN': {
 	'B-PER': 1
+}, '81.64|CD': {
+	'O': 1
 }, 'seminary|NN': {
 	'O': 1
 }, 'underage|JJ': {
@@ -39761,11 +39769,13 @@ combinedDict = {
 	'O': 4
 }, 'tempe|NNP': {
 	'B-LOC': 1
-}, 'culprit|NN': {
-	'O': 1
+}, 'virginia|NNP': {
+	'I-LOC': 3, 'B-ORG': 1, 'B-PER': 1, 'B-LOC': 3
 }, 'extras|NNS': {
 	'O': 20
 }, '323-5|CD': {
+	'O': 1
+}, '1150-1200|CD': {
 	'O': 1
 }, 'skipper|VBP': {
 	'O': 1
@@ -40267,8 +40277,6 @@ combinedDict = {
 	'B-ORG': 1, 'B-PER': 2, 'I-PER': 1
 }, 'huddersfield|VBN': {
 	'B-ORG': 2
-}, 'rain|NNP': {
-	'O': 1
 }, 'fft|NNP': {
 	'O': 2
 }, 'gte|NNP': {
@@ -40753,8 +40761,8 @@ combinedDict = {
 	'B-ORG': 1
 }, 'rewe|NNP': {
 	'B-ORG': 1
-}, 'silence|NN': {
-	'O': 2
+}, 'mountains|NNPS': {
+	'I-LOC': 2
 }, 'methodology|NN': {
 	'O': 1
 }, 'attempted|VBD': {
@@ -40993,6 +41001,8 @@ combinedDict = {
 	'O': 48
 }, 'sovetov|NNP': {
 	'I-ORG': 1
+}, 'refunds|NNS': {
+	'O': 7
 }, 'recommend|VBP': {
 	'O': 1
 }, 'chandigarh|NNP': {
@@ -41385,8 +41395,8 @@ combinedDict = {
 	'O': 1
 }, 'whistlestop|JJ': {
 	'O': 1
-}, 'position-squaring|NN': {
-	'O': 1
+}, 'journey|NN': {
+	'O': 4
 }, '1,196|CD': {
 	'O': 1
 }, 'deutsche|NNP': {
@@ -41841,8 +41851,8 @@ combinedDict = {
 	'B-LOC': 11
 }, '8863|CD': {
 	'O': 1
-}, 'angloma|NNP': {
-	'I-PER': 1
+}, 'leila|NNP': {
+	'B-PER': 1
 }, 'give|VB': {
 	'O': 34
 }, 'chryste|NNP': {
@@ -42613,8 +42623,8 @@ combinedDict = {
 	'O': 2
 }, 'caboche|NNP': {
 	'I-PER': 1
-}, 'flnc|NNP': {
-	'B-ORG': 1
+}, 'adelaide|IN': {
+	'B-ORG': 2
 }, 't-bill|NNP': {
 	'O': 1
 }, '10.5-42.3|CD': {
@@ -43017,8 +43027,8 @@ combinedDict = {
 	'O': 1
 }, 'lenzing|NNP': {
 	'B-ORG': 3
-}, 'traders|NNS': {
-	'O': 34
+}, 'uppsala|NNP': {
+	'B-LOC': 1
 }, 'parked|VBN': {
 	'O': 1
 }, '79.94|CD': {
@@ -43727,8 +43737,6 @@ combinedDict = {
 	'O': 1
 }, 'flyer|NN': {
 	'O': 1
-}, 'warring|VBG': {
-	'O': 2
 }, 'deporting|VBG': {
 	'O': 1
 }, 'closer|RBR': {
@@ -43881,8 +43889,8 @@ combinedDict = {
 	'B-ORG': 1, 'B-PER': 6, 'I-PER': 2, 'I-ORG': 2
 }, '32.|NNP': {
 	'O': 1
-}, 'leila|NNP': {
-	'B-PER': 1
+}, 'angloma|NNP': {
+	'I-PER': 1
 }, 'guilin|NN': {
 	'O': 1
 }, 'bar|VB': {
@@ -43989,8 +43997,8 @@ combinedDict = {
 	'O': 1
 }, 'australians|NNPS': {
 	'B-MISC': 1
-}, 'mock|JJ': {
-	'O': 1
+}, 'outside|RB': {
+	'O': 3
 }, 'sponsors|VBZ': {
 	'O': 1
 }, '0.23|CD': {
@@ -44423,8 +44431,8 @@ combinedDict = {
 	'B-LOC': 1
 }, '6.72|CD': {
 	'O': 1
-}, '72.41|CD': {
-	'O': 1
+}, 'un|NNS': {
+	'B-ORG': 1
 }, 'satisfy|VB': {
 	'O': 1
 }, 'declining|VBG': {
@@ -44635,8 +44643,8 @@ combinedDict = {
 	'O': 1
 }, 'acting|NN': {
 	'O': 2
-}, 'delphis|NNP': {
-	'O': 2
+}, 'fund|VB': {
+	'O': 1
 }, 'boldon|NNP': {
 	'I-PER': 3
 }, 'gough|JJ': {
@@ -45307,8 +45315,8 @@ combinedDict = {
 	'O': 1
 }, '27:25.13|CD': {
 	'O': 1
-}, 'veglio|NNP': {
-	'I-PER': 1
+}, 'tajikistan|NNP': {
+	'B-LOC': 1
 }, 'april-july|RB': {
 	'O': 1
 }, 'thunderstorms|NNP': {
@@ -45391,8 +45399,8 @@ combinedDict = {
 	'O': 2
 }, 'kdp|NNP': {
 	'B-ORG': 15
-}, 'reserve|NNP': {
-	'I-ORG': 2, 'O': 1
+}, 'rationalised|VBN': {
+	'O': 1
 }, 'michaela|NNP': {
 	'B-PER': 1
 }, 'daily|RB': {
@@ -45553,7 +45561,7 @@ combinedDict = {
 	'B-ORG': 1
 }, 'krzysztof|NNP': {
 	'B-PER': 2
-}, '14,153|CD': {
+}, '*note|SYM': {
 	'O': 1
 }, 'injected|VBN': {
 	'O': 1
@@ -46505,8 +46513,8 @@ combinedDict = {
 	'O': 2
 }, 'tibor|NNP': {
 	'B-PER': 1
-}, 'shubei|NNP': {
-	'I-PER': 2
+}, 'plot|NN': {
+	'O': 2
 }, 'chris|NNP': {
 	'B-PER': 21
 }, 'schedule|NNP': {
@@ -47015,8 +47023,8 @@ combinedDict = {
 	'O': 70
 }, 'singles|NNS': {
 	'O': 55
-}, 'outdueled|VBD': {
-	'O': 2
+}, 'ieng|VBG': {
+	'B-PER': 3
 }, '147,000|CD': {
 	'O': 1
 }, 'ryutaro|NNP': {
@@ -47105,8 +47113,8 @@ combinedDict = {
 	'B-ORG': 1, 'B-LOC': 1
 }, '25-6-95-4|CD': {
 	'O': 1
-}, 'housecall|NN': {
-	'B-ORG': 2
+}, 'mehrtens|NNP': {
+	'B-PER': 1, 'I-PER': 2
 }, 'mehrtens|NNS': {
 	'B-PER': 1
 }, 'mcgeechan|NNP': {
@@ -47209,8 +47217,6 @@ combinedDict = {
 	'I-MISC': 4, 'O': 720
 }, 'lamy|NNP': {
 	'I-PER': 1
-}, '3:33.94|CD': {
-	'O': 1
 }, '10th|CD': {
 	'O': 1
 }, 'workers|NNPS': {
@@ -47357,7 +47363,7 @@ combinedDict = {
 	'O': 1
 }, 'society|NN': {
 	'O': 1
-}, 'asylum-seekers|NNS': {
+}, 'nitty-gritty|NN': {
 	'O': 1
 }, 'fluminense|VB': {
 	'B-ORG': 1
@@ -47445,7 +47451,7 @@ combinedDict = {
 	'O': 1
 }, 'abortions|NNS': {
 	'O': 1
-}, 'unidentifed|JJ': {
+}, 'outfield|NN': {
 	'O': 1
 }, '14:58.29|CD': {
 	'O': 1
@@ -47481,7 +47487,7 @@ combinedDict = {
 	'O': 40
 }, '0|CD': {
 	'O': 780
-}, 'oportunity|NN': {
+}, '43,430|CD': {
 	'O': 1
 }, 'collective|NNP': {
 	'I-LOC': 1
@@ -47573,7 +47579,7 @@ combinedDict = {
 	'O': 2
 }, 'tobacco|NN': {
 	'O': 3
-}, 'accordance|NN': {
+}, 'feb|JJR': {
 	'O': 2
 }, 'culminated|VBN': {
 	'O': 2
@@ -48393,8 +48399,8 @@ combinedDict = {
 	'O': 1
 }, 'malin|NNP': {
 	'I-PER': 1
-}, 'handed|VBN': {
-	'O': 6
+}, '747s|NNS': {
+	'O': 1
 }, 'whitewash|NN': {
 	'O': 2
 }, 'concert|NN': {
@@ -48499,8 +48505,8 @@ combinedDict = {
 	'O': 3
 }, 'stenhousemuir|NNP': {
 	'B-ORG': 2
-}, 'itself|PRP': {
-	'O': 6
+}, 'greater|NNP': {
+	'O': 1
 }, 'presidency|NN': {
 	'O': 6
 }, 'declared|VBN': {
@@ -48533,8 +48539,8 @@ combinedDict = {
 	'O': 10
 }, '50-year|JJ': {
 	'O': 1
-}, 'missionary|NNP': {
-	'I-LOC': 3
+}, 'jarmo|NNP': {
+	'B-PER': 3
 }, 'q2|NNP': {
 	'O': 3
 }, 'parted|VBN': {
@@ -48847,8 +48853,8 @@ combinedDict = {
 	'B-ORG': 1
 }, 'profile|NNP': {
 	'O': 2
-}, 'nicolas|NNP': {
-	'B-PER': 6
+}, 'parties|NNS': {
+	'O': 17
 }, 'latter|NN': {
 	'O': 2
 }, 'face|NNP': {
@@ -48955,8 +48961,6 @@ combinedDict = {
 	'O': 1
 }, 'lahd|NNP': {
 	'B-ORG': 1, 'B-PER': 6, 'I-PER': 1, 'B-LOC': 1
-}, 'iseas|NNP': {
-	'B-ORG': 1
 }, '2:00.91|CD': {
 	'O': 1
 }, '13:12|CD': {
@@ -49283,7 +49287,7 @@ combinedDict = {
 	'O': 1
 }, 'goalless|NNP': {
 	'O': 1
-}, 'casting|VBG': {
+}, 'roman|JJ': {
 	'O': 1
 }, 'experienced|VBD': {
 	'O': 3
@@ -49323,6 +49327,8 @@ combinedDict = {
 	'O': 2
 }, 'actor|NNP': {
 	'O': 2
+}, 'cruise|NNP': {
+	'B-PER': 1, 'I-PER': 1
 }, 'third-longest|JJ': {
 	'O': 1
 }, 'softbank|VBG': {
@@ -50227,8 +50233,8 @@ combinedDict = {
 	'O': 7
 }, 'belinda|NNP': {
 	'B-PER': 1
-}, 'refunds|NNS': {
-	'O': 7
+}, '1.24|CD': {
+	'O': 1
 }, 'noting|VBG': {
 	'O': 2
 }, 'trust|NN': {
@@ -50629,8 +50635,8 @@ combinedDict = {
 	'I-PER': 1
 }, 'tiny|JJ': {
 	'O': 3
-}, 'brazil|JJ': {
-	'B-LOC': 1
+}, 'warring|VBG': {
+	'O': 2
 }, 'occasional|JJ': {
 	'O': 2
 }, 'traditionally|RB': {
@@ -50698,8 +50704,6 @@ combinedDict = {
 }, 'barsosio|NNP': {
 	'I-PER': 1
 }, 'entitled|VBN': {
-	'O': 1
-}, '1,328|CD': {
 	'O': 1
 }, 'residential|JJ': {
 	'O': 1
@@ -50797,8 +50801,8 @@ combinedDict = {
 	'O': 5
 }, 'plastics|NNS': {
 	'O': 2
-}, 'fund|VB': {
-	'O': 1
+}, 'delphis|NNP': {
+	'O': 2
 }, 'dealing|NN': {
 	'O': 1
 }, 'degree|NN': {
@@ -50849,8 +50853,8 @@ combinedDict = {
 	'O': 1
 }, 'sighted|VBN': {
 	'O': 1
-}, 'stoltenberg|NNP': {
-	'I-PER': 4
+}, '50-cent|JJ': {
+	'O': 1
 }, 'cal|NNP': {
 	'B-PER': 4
 }, 'elisha|NNP': {
@@ -50917,8 +50921,6 @@ combinedDict = {
 	'O': 2
 }, 'sesa|NNP': {
 	'I-PER': 1
-}, 'rationalised|VBN': {
-	'O': 1
 }, '49.67|CD': {
 	'O': 1
 }, 'allais|NNPS': {
@@ -51205,8 +51207,8 @@ combinedDict = {
 	'O': 5
 }, 'lands|NNP': {
 	'O': 1
-}, 'uppsala|NNP': {
-	'B-LOC': 1
+}, 'traders|NNS': {
+	'O': 34
 }, 'concepts|NNS': {
 	'O': 1
 }, 'supervision|NN': {
@@ -51987,8 +51989,6 @@ combinedDict = {
 	'B-PER': 1
 }, 'friend|VBD': {
 	'O': 1
-}, 'shotgun|NN': {
-	'O': 2
 }, 'tranfers|NNS': {
 	'O': 1
 }, 'solidify|VB': {

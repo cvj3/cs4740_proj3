@@ -7,8 +7,8 @@ __author__ = "Alin Barsan, Curtis Josey"
 
 if __name__ == "__main__":
     parse.main("data", "train.txt")
-    # predictions = get_baseline_predictions( \
-    #    parse.readTestDataBaseline("data", "test.txt"))
+    #predictions = get_baseline_predictions(parse.readTestDataBaseline("data", "test.txt"))
+    #write_predictions_to_file(predictions, "baseline.csv")
 
     start("Start Parsing Test Data")
     tests = parse.readTestData("data", TEST_FILENAME)
@@ -19,5 +19,5 @@ if __name__ == "__main__":
     end("Finished Generating Predictions")
 
     start("Start Writing Predictions")
-    write_predictions_to_file(predictions)
+    write_predictions_to_file(predictions, "results.csv")
     end("Finished Writing Predictions")
