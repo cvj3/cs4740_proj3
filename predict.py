@@ -43,7 +43,7 @@ def predict_baseline_fallback(word, tag):
 	except: #key error
 		try: 
 			res = max(words[word].iteritems(), key=operator.itemgetter(1))[0]
-		except: 
+		except:
 			res = max(tagged[tag].iteritems(), key=operator.itemgetter(1))[0]
 	return res
 
@@ -61,7 +61,6 @@ def get_hmm_predictions(tests):
 		"ORG": [],
 		"MISC": []
 	}
-
 	counter = 0
 	for test in tests:
 		counter += 1
@@ -69,7 +68,6 @@ def get_hmm_predictions(tests):
 		tokens = test[0]
 		tags = test[1]
 		positions = test[2]
-
 		viterbi = {}
 		backpointer = {}
 
@@ -133,7 +131,6 @@ def get_hmm_predictions(tests):
 			pos = pair[1]
 			res = res.replace("I-", "").replace("B-", "")
 			if res != "O": results[res].append(pos)
-		
 		
 	return results
 

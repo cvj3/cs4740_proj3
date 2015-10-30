@@ -135,6 +135,59 @@ def readTestData(path, filename, verboseMode=False):
     return tests
 
 
+def prepareUnitTestData(path, filename, numTests):
+    tests = []
+
+    dir = os.path.dirname(__file__)
+    filename = os.path.join(dir, path + '/' + filename)
+
+    position = 0
+
+    # loop until done
+    with open(filename) as f:
+        iLoop = 0
+        # read / parse 3 lines at a time
+        test = []
+        # test = (token, tag, position, answer)
+        for line in f:
+            iLoop += 1
+
+            if iLoop == 1:
+                line = line.lower()
+
+            # split with no args accomodates 'whitespace' (tabs or spaces)
+            line = line.strip().split()
+            if iLoop == 2 or iLoop == 3:
+                # pre-process [part of speech]: convert punct to "."
+                for i in range(len(line)):
+                    if line[i] in string.punctuation:
+                        line[i] = "."
+            test.append(line)
+            if iLoop == 3:
+                positions = [str(p) for p in range(position, position + len(test[0]))]
+                position += len(test[0])
+                tests.append(([t.lower() for t in test[0]], test[1], positions, test[2]))
+                test = []
+
+            if iLoop == 9: #skip the next two tests
+                iLoop = 0
+
+            if len(tests) == numTests: break
+
+    expected_results = {
+        "PER": [],
+        "LOC": [],
+        "ORG": [],
+        "MISC": []
+    }
+    for test in tests:
+        for i in range(len(test[0])):
+            res = test[3][i].replace("I-", "").replace("B-", "")
+            position = test[2][i]
+            if res != "O": expected_results[res].append(position)
+
+    return tests, expected_results
+
 # build data into dictionary objects
 def buildData(textArray, posArray, entityArray):
     bcombinedDict = dict()
@@ -176,3 +229,24 @@ def buildData(textArray, posArray, entityArray):
             entityDict[entity_prev][entity] = entityDict[entity_prev].get(entity, 0) + 1
 
     return bcombinedDict, bwordDict, btagDict, entityDict, combinedDict, wordDict, tagDict
+
+def scoreUnitTestResults(predicted, expected_results, tests):
+    totalExpected = 0
+    totalPredicted = 0
+    correctPredictions = 0
+    numTests = len(tests)
+
+    for entity in expected_results:
+        predictions = predicted[entity]
+        expected = expected_results[entity]
+        for pos in expected:
+            totalExpected += 1
+            if pos in predictions: correctPredictions += 1
+
+    for entity in predicted:
+        totalPredicted += len(predicted[entity])
+
+    print "\n\nRan %d Tests.\n" % len(tests)
+    print "Correct Predictions / # Predictions Made: %.2f%%" % (float(correctPredictions) / float(totalPredicted) * 100)
+    print "Correct Predictions / # Expected Predictions: %.2f%%" % (float(correctPredictions) / float(totalExpected) * 100)
+        
