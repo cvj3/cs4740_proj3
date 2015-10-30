@@ -5,6 +5,8 @@ if USING_BASELINE:
 	from data.base_words import wordDict as words
 	# not actually used for baseline, but needed to compile
 	from data.entity import entityDict as entities
+	from data.start_entity import startEnt
+	from data.end_entity import endEnt
 else:
 	from data.combined import combinedDict as combined
 	from data.tagged import tagDict as tagged

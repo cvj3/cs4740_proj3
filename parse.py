@@ -1,4 +1,5 @@
 import os
+import string
 from common import writeData
 # import sys
 
@@ -9,10 +10,13 @@ __author__ = "Alin Barsan, Curtis Josey"
 # param1 = path, param2 = filename
 def main(param1, param2):
     # Read and Parse XML
-    textArray, posArray, entityArray, startEnt, endEnt = readData(param1, param2, False)
+    textArray, posArray, entityArray, startEnt, endEnt = \
+        readData(param1, param2, False)
 
     # build Data
-    baseCombinedDict, baseWordDict, baseTagDict, entityDict, combined, word, tag = buildData(textArray, posArray, entityArray)
+    baseCombinedDict, baseWordDict, baseTagDict, entityDict, \
+        combined, word, tag = \
+        buildData(textArray, posArray, entityArray)
 
     # Write out to a dictionary file (lib/data.py)
     writeData('data', 'base_combined.py', 'combinedDict', baseCombinedDict)
@@ -25,6 +29,8 @@ def main(param1, param2):
     writeData('data', 'start_entity.py', 'startEnt', startEnt)
     writeData('data', 'end_entity.py', 'endEnt', endEnt)
 
+
+# read training file and return parsed data
 def readData(path, filename, verboseMode=False):
     textArray = []
     posArray = []
@@ -41,14 +47,34 @@ def readData(path, filename, verboseMode=False):
         # read / parse 3 lines at a time
         for line in f:
             iLoop += 1
-            #if iLoop == 3: line = line.replace("I-", "").replace("B-", "")
-            line = line.strip().split() #split with no args splits on whitespace.  Train is tab deliminated.  Test is not.
+
+            # convert words to lower case ... but may want to not do this for B/I entities?
             if iLoop == 1:
+                line = line.lower()
+            # if iLoop == 3: line = line.replace("I-", "").replace("B-", "")
+            # split with no args accomodates 'whitespace' (tabs or spaces)
+            line = line.strip().split()
+            if iLoop == 1:
+                # words
                 textArray += line
             elif iLoop == 2:
+                # preprocess punctuation
+                for i in range(len(line)):
+                    if line[i] in string.punctuation:
+                        line[i] = "."
+                    #elif line[i] != "NNP":
+                    #    print textArray[len(textArray) - len(line) + i]
+                # part of speech
                 posArray += line
             else:
-                entityArray += line   
+                # preprocess punctuation
+                for i in range(len(line)):
+                    if line[i] in string.punctuation:
+                        line[i] = "O"
+#                    elif line[i] not in ["B-ORG", "I-ORG", "B-MISC", "I-MISC", "B-PER", "I-PER", "B-LOC", "I-LOC"]:
+#                        print textArray[len(textArray) - len(line) + i]
+                # entity type / set
+                entityArray += line
                 startEnt[line[0]] = startEnt.get(line[0], 0) + 1
                 endEnt[line[-1]] = endEnt.get(line[-1], 0) + 1
                 iLoop = 0
@@ -56,11 +82,13 @@ def readData(path, filename, verboseMode=False):
                 # verify all three arrays are equal size, else throw error
                 if (len(textArray) != len(posArray)) or \
                         (len(textArray) != len(entityArray)):
-                    raise Exception("readline error; array size mismatch! " + str(line))
+                    raise Exception("training err: array mismatch! " + str(line))
 
     # return arrays
     return textArray, posArray, entityArray, startEnt, endEnt
 
+
+# read the test data into arrays
 def readTestDataBaseline(path, filename, verboseMode=False):
     textArray, posArray, positionArray = readData(path, filename, verboseMode)
     tests = []
@@ -68,6 +96,8 @@ def readTestDataBaseline(path, filename, verboseMode=False):
         tests.append((textArray[i], posArray[i], positionArray[i]))
     return tests
 
+
+# read the test
 def readTestData(path, filename, verboseMode=False):
     tests = []
 
@@ -84,7 +114,17 @@ def readTestData(path, filename, verboseMode=False):
         # third element of test is list of positions
         for line in f:
             iLoop += 1
-            line = line.strip().split() #split with no args splits on whitespace.  Train is tab deliminated.  Test is not.
+
+            if iLoop == 1:
+                line = line.lower()
+
+            # split with no args accomodates 'whitespace' (tabs or spaces)
+            line = line.strip().split()
+            if iLoop == 2:
+                # pre-process [part of speech]: convert punct to "."
+                for i in range(len(line)):
+                    if line[i] in string.punctuation:
+                        line[i] = "."
             test.append(line)
             if iLoop == 3:
                 tests.append((test[0], test[1], test[2]))
@@ -92,6 +132,7 @@ def readTestData(path, filename, verboseMode=False):
                 iLoop = 0
 
     return tests
+
 
 # build data into dictionary objects
 def buildData(textArray, posArray, entityArray):
