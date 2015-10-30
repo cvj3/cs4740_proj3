@@ -48,6 +48,9 @@ def readData(path, filename, verboseMode=False):
         for line in f:
             iLoop += 1
 
+            # convert words to lower case ... but may want to not do this for B/I entities?
+            if iLoop == 1:
+                line = line.lower()
             # if iLoop == 3: line = line.replace("I-", "").replace("B-", "")
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
@@ -59,13 +62,17 @@ def readData(path, filename, verboseMode=False):
                 for i in range(len(line)):
                     if line[i] in string.punctuation:
                         line[i] = "."
+                    #elif line[i] != "NNP":
+                    #    print textArray[len(textArray) - len(line) + i]
                 # part of speech
                 posArray += line
             else:
                 # preprocess punctuation
                 for i in range(len(line)):
                     if line[i] in string.punctuation:
-                        line[i] = "O`"
+                        line[i] = "O"
+#                    elif line[i] not in ["B-ORG", "I-ORG", "B-MISC", "I-MISC", "B-PER", "I-PER", "B-LOC", "I-LOC"]:
+#                        print textArray[len(textArray) - len(line) + i]
                 # entity type / set
                 entityArray += line
                 startEnt[line[0]] = startEnt.get(line[0], 0) + 1
@@ -81,6 +88,7 @@ def readData(path, filename, verboseMode=False):
     return textArray, posArray, entityArray, startEnt, endEnt
 
 
+# read the test data into arrays
 def readTestDataBaseline(path, filename, verboseMode=False):
     textArray, posArray, positionArray = readData(path, filename, verboseMode)
     tests = []
@@ -89,6 +97,7 @@ def readTestDataBaseline(path, filename, verboseMode=False):
     return tests
 
 
+# read the test
 def readTestData(path, filename, verboseMode=False):
     tests = []
 
@@ -105,16 +114,17 @@ def readTestData(path, filename, verboseMode=False):
         # third element of test is list of positions
         for line in f:
             iLoop += 1
+
+            if iLoop == 1:
+                line = line.lower()
+
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
             if iLoop == 2:
                 # pre-process [part of speech]: convert punct to "."
                 for i in range(len(line)):
                     if line[i] in string.punctuation:
-                        print line[i]
                         line[i] = "."
-                        print line[i]
-                print line
             test.append(line)
             if iLoop == 3:
                 tests.append((test[0], test[1], test[2]))

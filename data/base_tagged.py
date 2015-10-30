@@ -29,6 +29,8 @@ tagDict = {
 	'I-LOC': 2, 'B-ORG': 27, 'O': 96, 'I-PER': 17, 'I-MISC': 2, 'B-MISC': 1, 'I-ORG': 5, 'B-PER': 20
 }, 'POS': {
 	'I-MISC': 15, 'I-LOC': 3, 'I-ORG': 28, 'O': 1437
+}, '.': {
+	'I-LOC': 9, 'B-ORG': 1, 'I-PER': 4, 'O': 25549, 'I-MISC': 8, 'B-MISC': 44, 'I-ORG': 40
 }, 'TO': {
 	'B-ORG': 14, 'I-ORG': 1, 'B-LOC': 25, 'O': 3393, 'B-PER': 2
 }, 'PRP': {
@@ -53,8 +55,6 @@ tagDict = {
 	'B-LOC': 1, 'O': 38
 }, 'RBR': {
 	'O': 175
-}, 'O': {
-	'I-LOC': 9, 'B-ORG': 1, 'I-PER': 4, 'O': 25549, 'I-MISC': 8, 'B-MISC': 44, 'I-ORG': 40
 }, 'CD': {
 	'B-ORG': 15, 'O': 19232, 'B-PER': 4, 'I-MISC': 45, 'B-MISC': 20, 'I-ORG': 7, 'B-LOC': 1
 }, 'EX': {
