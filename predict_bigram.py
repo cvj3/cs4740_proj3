@@ -2,6 +2,7 @@ from config import USING_IB
 from data.base_combined import combinedDict as base_combined
 from data.base_tagged import tagDict as base_tagged
 from data.base_words import wordDict as base_words
+from data.entsums import entSums as entsums
 from data.words import wordDict as words
 from data.tagged import tagDict as tagged
 from data.start_entity import startEnt
@@ -16,13 +17,6 @@ else: STATES = ["PER", "LOC", "ORG", "MISC", "O"]
 
 
 def get_baseline_predictions(tests):
-	from data.base_combined import combinedDict as combined
-	from data.base_tagged import tagDict as tagged
-	from data.base_words import wordDict as words
-	# not actually used for baseline, but needed to compile
-	from data.entity import entityDict as entities
-	from data.start_entity import startEnt
-	from data.end_entity import endEnt
 	results = {
 		"PER": [],
 		"LOC": [],
@@ -34,7 +28,7 @@ def get_baseline_predictions(tests):
 		tag = test[1]
 		position = test[2]
 		res = predict_baseline_fallback(word, tag)
-		#res = predict_baseline_naive(word)
+		res = res.replace("I-", "").replace("B-", "")
 		if res != "O": results[res].append(position)
 	return results
 
@@ -73,6 +67,13 @@ def get_hmm_predictions(tests):
 		positions = test[2]
 		viterbi = {}
 		backpointer = {}
+
+		tokens = [word.lower() for word in tokens]
+		filteredtags = []
+		for tag in tags:
+			if tag in string.punctuation: tag = "."
+			filteredtags.append(tag)
+		tags = filteredtags
 
 		#initialization step
 		for state in STATES:
@@ -131,11 +132,8 @@ def get_hmm_predictions(tests):
 	return results
 
 def conditional_probability(entity, word, tag):
-	word = word.lower()
-	if tag in string.punctuation: tag = "."
-	one = float(words[entity].get(word, 0)) / float(sum(words[entity].itervalues()))
-	two = float(tagged[entity].get(tag, 0)) / float(sum(tagged[entity].itervalues()))
-	if not one: one = float(1) / float(sum(words[entity].itervalues())) # trivial add one "smoothing"
+	one = (float(words[entity].get(word, 0)) + 1) / (entsums[entity] + 1)
+	two = float(tagged[entity].get(tag, 0)) / entsums[entity]
 	return float(one) * float(two)
 
 

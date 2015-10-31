@@ -103,3 +103,15 @@
 	on the same set we trained on, it would seem that the smoothing is hurting our performance, when it's actually helping.  This is probably why you
 	shouldn't do this, but if you're actively thinking about what the methodologies you're using will do in this scenario, you can mitigate the adverse
 	effects of testing on your training set.
+
+	Bigram vs Trigram (with fixes and optimizations added to bigram):
+		Bigram: 73.8 - 86.7
+		Trigram: 73.7 - 85.6
+	Maybe the bigram is still better :( Will have to submit one of these as well to see
+
+	Current to-submit list:
+	trigram-add-one-nomatch-no-end-scaling
+	trigram-add-one-always-no-end-scaling
+	bigram-add-one-always-no-end-scaling
+
+	Checking IB included again to see if we've been dropping any value not having it.  3000 unit tests: 59-81. worse.
