@@ -1,0 +1,105 @@
+10/30:
+	added lines:
+		word = word.lower()
+		if tag in string.punctuation: tag = ".""
+	to predict conditional probability in predict.py...  I thought we were properly lowercasing words and processing punct in POS tags.
+	I wanted to add an extra check/layer of enforcement, just in case it wasn't happening.  
+	Unit tests (3000) prior to change:
+		HMM: 88.6 - 42.4
+		Baseline: 90.3 - 88.7
+	Post change:
+		HMM: 90.3 - 91.8
+		Baseline: 90.3 - 88.7
+	On Kaggle:
+	No IB: 62.792 - identical to last HMM submission.  Must have been an error with the unit tests that we fixed :(
+
+
+	Using Pr(word | ent) instead of Pr(ent | word) (same for tagged)
+	On Kaggle: .60308
+
+
+	Using a trivial add-one smoothing for unknown words (if word isn't found, we act as if there is only one occurence of it)
+	Unit tests (3000): (don't expect much from the unit tests, since all of these words HAVE been seen.)
+		HMM: 68.6 - 82.19
+		Previously: 90.3 - 91.8
+	On Kaggle: .68176!!!!!!! Huge improvement.  We're nearing the baseline.
+
+
+	Trying out Trigram
+		HMM: 60.86 - 66.33
+		Previously: 68.6 - 82.19
+	On Kaggle: .53528.... ouch
+
+
+	68-67 on 100 went to 77 - 83 when REMOVING END SCALING (in the termination step)
+	Trying on 3000 unit tests:
+		HMM-Tri: 66.3 - 75.93
+		Previous-Tri: 60.86 - 66.33
+		Vs Bigram: 68.6 - 82.19
+
+		HMM-Bi: 68.6 - 82.49 (slight improvement)
+		Previous-Bi: 68.6 - 82.19
+
+	Trigram did much better with end scaling removed.  Will run this model on kaggle when submission limit resets
+	(btw, its now 10/31, happy halloween, reader!)
+
+	Trying with I- and B- tags added back in.  Maybe trigrams do better with this info.
+	77-83 on 100 unit tests went to 68-77  (22 seconds runtime to 86 seconds)
+
+	Without add-one smoothing (to get a better comparison to the baseline) trigram does 90.30 - 61.83 (100 cases) vs 77-83
+	Add-one smoothing is bad for unit tests.  It gives value to combinations of entities and words that never happen in unit test cases
+	Anyway, 90-61 tells us that our prediction rate is pretty good, but that we're not making enough predictions.
+
+
+	Optimizing a bit (full csv file production takes 723 seconds = 12 minutes)
+	noticed that the sum(____.itervalues) was taking a huge time for the words dictionary, because there are SO many key-value pairs.
+	These are static values.  It makes sense to pre-process these, instead of processing it for each iteration.  
+	Took a 100 unit test from 22 seconds down to 6 (including pre-processing time)
+	Full CSV output (3000 individual sets of test sequences)
+	723s (12 min) -> 208s (3.5 min)
+
+	Repeating this for tag sums (this is actually the same value.  using it for both)
+	Full CSV output (3000 individual sets of test sequences)
+	723s (12 min) -> 205s (3.4 min)
+
+	Moved checking if tag is punctuation out of the probability computations and into the start of each test.
+	723s (12 min) -> 200s (3.3 min)
+
+	Missed one words counting (in the add-one naive smoothing) - replaced it with the new dict lookup
+	723s (12 min) -> 18s (.3 min)
+
+	Oh.  Unit tests (3000 cases) confirm 66-75.9 (current known best)... we didnt break anything.  Glad I optimized... its now 4000% faster.
+
+
+	Fixed a bug i found in the trigram (3000 cases)
+		HMM-Tri: 67.8 - 81.4
+		Previous-BestTri: 66.3 - 75.93
+
+	End scaling added back in (3000 cases)
+		did worse.  (62-71). leaving it out
+
+	Changed add 1 smoothing to add 1 in ALL cases (so an unseen isn't equally valued as something that did have one occurence)
+		HMM-Tri: 73.7 - 85.6 (very promising!)
+		Previous-BestTri: 67.8 - 81.4  (take with grain of salt, definitely helps not fail unit tests as much. may not be as helpful normally)
+
+	No front-scaling? - definitely hurt
+		HMM-Tri: 68.6 - 84.4
+		Previous-BestTri: 73.7 - 85.6 
+
+	Current state of things: we should see if add one when there is no match is better than always adding one (on kaggle) Will submit:
+	trigram-add-one-nomatch-no-end-scaling
+	trigram-add-one-always-no-end-scaling
+
+	NOTE: "end state scaling" is where in the termination step, you scale the viterbi score of each state for the last entry by it's likelihood to appear
+		at the end of the sequence.  I believe this is hurting because our sequences are not natural endings, our sequences are just truncated.  Thus, its
+		ending frequently on the most common entity - "O".  This is causing us to over-predict / over-value an "O" at the end of our sequence.
+
+	Cool note: obviously both models should do super well on training.  But our HMM does much worse than the baseline on training.
+	Well, this is because of the smoothing.  There's no reason to give value to things that we know can't have value when testing on our own training data
+	Without the smoothing, the trigram HMM does 91.2 - 92.4 compared to the 90.3 - 88.7.  We are beating our baseline locally!!! 
+	Hopefully, with smoothing, this will beat the baseline when looking at external test data.
+
+	IMPORTANT TO NOTE: Since we didnt make a reserved set, it's crucial to be aware of things like this.  Without thinking about the influence of testing
+	on the same set we trained on, it would seem that the smoothing is hurting our performance, when it's actually helping.  This is probably why you
+	shouldn't do this, but if you're actively thinking about what the methodologies you're using will do in this scenario, you can mitigate the adverse
+	effects of testing on your training set.

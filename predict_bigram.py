@@ -1,5 +1,21 @@
-from config import USING_BASELINE, USING_IB
-if USING_BASELINE:
+from config import USING_IB
+from data.base_combined import combinedDict as base_combined
+from data.base_tagged import tagDict as base_tagged
+from data.base_words import wordDict as base_words
+from data.words import wordDict as words
+from data.tagged import tagDict as tagged
+from data.start_entity import startEnt
+from data.end_entity import endEnt
+from data.entity import entityDict as entities
+import operator
+import itertools
+import string
+
+if USING_IB: STATES = ["I-PER", "I-LOC", "I-ORG", "I-MISC", "B-PER", "B-LOC", "B-ORG", "B-MISC", "O"]
+else: STATES = ["PER", "LOC", "ORG", "MISC", "O"]
+
+
+def get_baseline_predictions(tests):
 	from data.base_combined import combinedDict as combined
 	from data.base_tagged import tagDict as tagged
 	from data.base_words import wordDict as words
@@ -7,21 +23,6 @@ if USING_BASELINE:
 	from data.entity import entityDict as entities
 	from data.start_entity import startEnt
 	from data.end_entity import endEnt
-else:
-	from data.combined import combinedDict as combined
-	from data.tagged import tagDict as tagged
-	from data.words import wordDict as words
-	from data.entity import entityDict as entities
-	from data.start_entity import startEnt
-	from data.end_entity import endEnt
-import operator
-import itertools
-
-if USING_IB: STATES = ["I-PER", "I-LOC", "I-ORG", "I-MISC", "B-PER", "B-LOC", "B-ORG", "B-MISC", "O"]
-else: STATES = ["PER", "LOC", "ORG", "MISC", "O"]
-
-
-def get_baseline_predictions(tests):
 	results = {
 		"PER": [],
 		"LOC": [],
@@ -39,20 +40,22 @@ def get_baseline_predictions(tests):
 
 def predict_baseline_fallback(word, tag):
 	try:
-		res = max(combined[word + "|" + tag].iteritems(), key=operator.itemgetter(1))[0]
+		res = max(base_combined[word + "|" + tag].iteritems(), key=operator.itemgetter(1))[0]
 	except: #key error
 		try: 
-			res = max(words[word].iteritems(), key=operator.itemgetter(1))[0]
+			res = max(base_words[word].iteritems(), key=operator.itemgetter(1))[0]
 		except:
-			res = max(tagged[tag].iteritems(), key=operator.itemgetter(1))[0]
+			print tag
+			res = max(base_tagged[tag].iteritems(), key=operator.itemgetter(1))[0]
 	return res
 
 def predict_baseline_naive(word):
 	try: 
-		res = max(words[word].iteritems(), key=operator.itemgetter(1))[0]
+		res = max(base_words[word].iteritems(), key=operator.itemgetter(1))[0]
 	except:
 		res = "O"
 	return res 
+
 
 def get_hmm_predictions(tests):
 	results = {
@@ -98,7 +101,7 @@ def get_hmm_predictions(tests):
 		highest = 0
 		best_state = "O"
 		for state in STATES:
-			score = viterbi[state].get(last, 0) * conditional_entity_probability(state, None) #- tended to make final state O too often
+			score = viterbi[state].get(last, 0)# * conditional_entity_probability(state, None) #- tended to make final state O too often
 			if score >= highest:
 				highest = score
 				best_state = state
@@ -119,13 +122,6 @@ def get_hmm_predictions(tests):
 			back_state = predicted_state
 			i -= 1
 
-		'''
-		print "Backpointers:\n"
-		print str(backpointer)
-		print "\nPredictions:\n"
-		print str(predictions)
-		if counter == 2: break
-		'''
 		for pair in predictions:
 			res = pair[0]
 			pos = pair[1]
@@ -135,25 +131,13 @@ def get_hmm_predictions(tests):
 	return results
 
 def conditional_probability(entity, word, tag):
+	word = word.lower()
+	if tag in string.punctuation: tag = "."
 	one = float(words[entity].get(word, 0)) / float(sum(words[entity].itervalues()))
 	two = float(tagged[entity].get(tag, 0)) / float(sum(tagged[entity].itervalues()))
+	if not one: one = float(1) / float(sum(words[entity].itervalues())) # trivial add one "smoothing"
 	return float(one) * float(two)
-	'''
-	try:
-		count = combined[entity][word + "|" + tag]
-		total = sum(combined[entity].itervalues())
-	except: #key error, fall back
-		try: 
-			count = words[entity][word]
-			total = sum(words[entity].itervalues())
-		except: # key error, fall back
-			try: # if this fails, then there is no match, return a probability of 0
-				count = tagged[entity][tag]
-				total = sum(tagged[entity].itervalues())
-			except:
-				return 0
-	return float(count) / float(total)
-	'''
+
 
 def conditional_entity_probability(entity_prev, entity):
 	#try:

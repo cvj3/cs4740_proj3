@@ -230,11 +230,20 @@ def buildData(textArray, posArray, entityArray):
 
     return bcombinedDict, bwordDict, btagDict, entityDict, combinedDict, wordDict, tagDict
 
-def scoreUnitTestResults(predicted, expected_results, tests):
+def writeUnitTestFile(tests):
+    output = ""
+    for test in tests:
+        output += "\t".join(test[0]) + "\n"
+        output += "\t".join(test[1]) + "\n"
+        output += "\t".join(test[2]) + "\n"
+    f = open("data/large_unit_test.txt", "w")
+    f.write(output)
+    f.close()
+
+def scoreUnitTestResults(predicted, expected_results):
     totalExpected = 0
     totalPredicted = 0
     correctPredictions = 0
-    numTests = len(tests)
 
     for entity in expected_results:
         predictions = predicted[entity]
@@ -246,7 +255,6 @@ def scoreUnitTestResults(predicted, expected_results, tests):
     for entity in predicted:
         totalPredicted += len(predicted[entity])
 
-    print "\n\nRan %d Tests.\n" % len(tests)
     print "Correct Predictions / # Predictions Made: %.2f%%" % (float(correctPredictions) / float(totalPredicted) * 100)
     print "Correct Predictions / # Expected Predictions: %.2f%%" % (float(correctPredictions) / float(totalExpected) * 100)
         
