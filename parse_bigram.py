@@ -116,8 +116,7 @@ def readTestData(path, filename, verboseMode=False):
         for line in f:
             iLoop += 1
 
-            if iLoop == 1:
-                line = line.lower()
+            if iLoop == 1: line = line.lower()
 
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
@@ -152,8 +151,7 @@ def prepareUnitTestData(path, filename, numTests):
         for line in f:
             iLoop += 1
 
-            if iLoop == 1:
-                line = line.lower()
+            if iLoop == 1: line = line.lower()
 
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
@@ -244,17 +242,23 @@ def scoreUnitTestResults(predicted, expected_results):
     totalExpected = 0
     totalPredicted = 0
     correctPredictions = 0
+    error_summary = {}
 
     for entity in expected_results:
+        localCorrect = 0
         predictions = predicted[entity]
         expected = expected_results[entity]
-        for pos in expected:
+        for position in expected:
             totalExpected += 1
-            if pos in predictions: correctPredictions += 1
+            if position in predictions:
+                correctPredictions += 1
+                localCorrect += 1
+        error_summary[entity] = len(predictions) - localCorrect
 
     for entity in predicted:
         totalPredicted += len(predicted[entity])
 
     print "Correct Predictions / # Predictions Made: %.2f%%" % (float(correctPredictions) / float(totalPredicted) * 100)
     print "Correct Predictions / # Expected Predictions: %.2f%%" % (float(correctPredictions) / float(totalExpected) * 100)
+    print str(error_summary)
         

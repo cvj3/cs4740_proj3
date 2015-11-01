@@ -2,8 +2,10 @@ import os
 import string
 from common import writeData
 from config import USING_IB
+import nltk
+from nltk.stem.snowball import SnowballStemmer
+s = SnowballStemmer("english")
 # import sys
-
 
 __author__ = "Alin Barsan, Curtis Josey"
 
@@ -42,13 +44,14 @@ def readData(path, filename, verboseMode=False):
         for line in f:
             iLoop += 1
 
-            if iLoop == 1:
+            if iLoop == 1: 
                 line = line.lower()
             if not USING_IB and iLoop == 3: line = line.replace("I-", "").replace("B-", "")
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
             if iLoop == 1:
                 # words
+                line = [s.stem(word) for word in line]
                 textArray.append(line) # Storing each line seperately now.  before, end of one line was treated as coming right before the start of another
             elif iLoop == 2:
                 # preprocess punctuation

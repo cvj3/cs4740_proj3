@@ -24,7 +24,7 @@ def get_baseline_predictions(tests):
 		"MISC": []
 	}
 	for test in tests:
-		word = test[0]
+		word = test[0].lower()
 		tag = test[1]
 		position = test[2]
 		res = predict_baseline_fallback(word, tag)
@@ -39,7 +39,6 @@ def predict_baseline_fallback(word, tag):
 		try: 
 			res = max(base_words[word].iteritems(), key=operator.itemgetter(1))[0]
 		except:
-			print tag
 			res = max(base_tagged[tag].iteritems(), key=operator.itemgetter(1))[0]
 	return res
 
@@ -135,7 +134,6 @@ def conditional_probability(entity, word, tag):
 	one = (float(words[entity].get(word, 0)) + 1) / (entsums[entity] + 1)
 	two = float(tagged[entity].get(tag, 0)) / entsums[entity]
 	return float(one) * float(two)
-
 
 def conditional_entity_probability(entity_prev, entity):
 	#try:

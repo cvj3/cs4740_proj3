@@ -8,6 +8,9 @@ from data_trigram.entity import entityDict as entities
 import operator
 import itertools
 import string
+import nltk
+from nltk.stem.snowball import SnowballStemmer
+s = SnowballStemmer("english")
 
 if USING_IB: STATES = ["I-PER", "I-LOC", "I-ORG", "I-MISC", "B-PER", "B-LOC", "B-ORG", "B-MISC", "O"]
 else: STATES = ["PER", "LOC", "ORG", "MISC", "O"]
@@ -26,7 +29,7 @@ def get_hmm_predictions(tests):
 		tokens = test[0]
 		tags = test[1]
 
-		tokens = [word.lower() for word in tokens]
+		tokens = [s.stem(word.lower()) for word in tokens]
 		filteredtags = []
 		for tag in tags:
 			if tag in string.punctuation: tag = "."
@@ -111,8 +114,8 @@ def get_hmm_predictions(tests):
 	return results
 
 def conditional_probability(entity, word, tag):
-	one = (float(words[entity].get(word, 0)) + 1) / (entsums[entity] + 1)
-	two = float(tagged[entity].get(tag, 0)) / entsums[entity]
+	one = (float(words[entity].get(word, 0)) + 1) / (entsums[entity])
+	two = float(tagged[entity].get(tag, 0)) / (entsums[entity])
 	return float(one) * float(two)
 
 
