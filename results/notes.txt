@@ -130,4 +130,4 @@
 	Tried down-scaling misc probability predictions: 	if entity.lower().strip() == "misc": one *= .5
 	Locally, 79-85, but on kaggle: 71.427
 
-
+	Next - consider a different smoothing.  For unseen words, maybe add them to the dictionary in memory once seen?
