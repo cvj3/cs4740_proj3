@@ -12,7 +12,7 @@ from common import *
 __author__ = "Alin Barsan, Curtis Josey"
 
 if __name__ == "__main__":
-    main("data", "train.txt")
+    #main("data", "train.txt")
 
     start("Start Parsing Test Data")
     tests = readTestData("data", "test.txt")
@@ -23,4 +23,4 @@ if __name__ == "__main__":
     end("Finished Generating Predictions")
 
     start("Start Writing Predictions")
-    write_predictions_to_file(predictions, "trigram-manual-entity-probability-tweaked.csv")
+    write_predictions_to_file(predictions, "trigram-scale-by-ent-likelihood.csv")

@@ -125,9 +125,18 @@
 
 	trigram with stemming of words is at 71.619 on kaggle (NEW BEST)
 		HMM-Tri-Stemming: 74.8 - 85.2
+		Bigram-Tri-Stemmin: 74.6 - 86.1
 
 	Added tracking how many errors happens for each entity during unit testing.  MISC was very high.
 	Tried down-scaling misc probability predictions: 	if entity.lower().strip() == "misc": one *= .5
 	Locally, 79-85, but on kaggle: 71.427
 
 	Next - consider a different smoothing.  For unseen words, maybe add them to the dictionary in memory once seen?
+
+
+	88.2 - 77.6 - Potential new best? (on unit training)
+	Now scaling by count(ent) / total number of ents seen - scaling by likelihood of seeing the entity.
+	We get much better accuracy in terms of predictions made, but make less predictions.  
+	New Kaggle best!!! 73.167!
+
+	looked into adding some simple rules... but these technically should be evident from the probabilities during training... none of the rules helped much.

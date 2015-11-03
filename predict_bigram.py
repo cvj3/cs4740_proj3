@@ -11,6 +11,9 @@ from data.entity import entityDict as entities
 import operator
 import itertools
 import string
+import nltk
+from nltk.stem.snowball import SnowballStemmer
+s = SnowballStemmer("english")
 
 if USING_IB: STATES = ["I-PER", "I-LOC", "I-ORG", "I-MISC", "B-PER", "B-LOC", "B-ORG", "B-MISC", "O"]
 else: STATES = ["PER", "LOC", "ORG", "MISC", "O"]
@@ -67,7 +70,7 @@ def get_hmm_predictions(tests):
 		viterbi = {}
 		backpointer = {}
 
-		tokens = [word.lower() for word in tokens]
+		tokens = [s.stem(word.lower()) for word in tokens]
 		filteredtags = []
 		for tag in tags:
 			if tag in string.punctuation: tag = "."

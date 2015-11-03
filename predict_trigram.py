@@ -11,9 +11,12 @@ import string
 import nltk
 from nltk.stem.snowball import SnowballStemmer
 s = SnowballStemmer("english")
+from rules import *
 
 if USING_IB: STATES = ["I-PER", "I-LOC", "I-ORG", "I-MISC", "B-PER", "B-LOC", "B-ORG", "B-MISC", "O"]
 else: STATES = ["PER", "LOC", "ORG", "MISC", "O"]
+
+TOTAL = sum(entsums.itervalues()) 
 
 def get_hmm_predictions(tests):
 	results = {
@@ -116,9 +119,9 @@ def get_hmm_predictions(tests):
 def conditional_probability(entity, word, tag):
 	one = (float(words[entity].get(word, 0)) + 1) / (entsums[entity])
 	two = float(tagged[entity].get(tag, 0)) / (entsums[entity])
-	return float(one) * float(two)
-
-
+	three = float(entsums[entity]) / TOTAL
+	score = float(one) * float(two) * float(three)
+	return adjust_conditional_probability(entity, word, tag, score)
 
 def conditional_entity_probability(entity_one, entity_two, entity):
 	try:
@@ -134,7 +137,8 @@ def conditional_entity_probability(entity_one, entity_two, entity):
 			count = entities[entity_one].get(entity_two, {}).get(entity, 0)
 			if not count: return 0
 			total = sum(entities[entity_one][entity_two].itervalues())
-		return float(count) / float(total)
+		score = float(count) / float(total)
 	except:
-		return 0
+		score = 0
+	return adjust_conditional_entity_probability(entity_one, entity_two, entity, score)
 

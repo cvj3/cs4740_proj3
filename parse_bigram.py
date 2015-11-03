@@ -2,6 +2,10 @@ import os
 import string
 from common import writeData
 from config import USING_IB
+
+import nltk
+from nltk.stem.snowball import SnowballStemmer
+s = SnowballStemmer("english")
 # import sys
 
 
@@ -56,7 +60,8 @@ def readData(path, filename, verboseMode=False):
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
             if iLoop == 1:
-                # words
+                # words                
+                line = [s.stem(word) for word in line]
                 textArray += line
             elif iLoop == 2:
                 # preprocess punctuation

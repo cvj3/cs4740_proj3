@@ -13,7 +13,7 @@ else:
 __author__ = "Alin Barsan, Curtis Josey"
 
 if __name__ == "__main__":
-    main("data", "train.txt")
+    #main("data", "train.txt")
     start("")
     tests, expected_results = prepareUnitTestData("data", "train.txt", 3000)
     writeUnitTestFile(tests) 
