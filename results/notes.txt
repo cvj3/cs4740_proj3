@@ -140,3 +140,24 @@
 	New Kaggle best!!! 73.167!
 
 	looked into adding some simple rules... but these technically should be evident from the probabilities during training... none of the rules helped much.
+
+	Our new best now has a lower correct/expected count, which means we are now making more "O" predictions than desireable.
+	One simple approach = if ent is O, then reduce the scaling factor by .50.
+	This brought us to 86.3 - 81.76, which may do better than 88.2 - 77.6.  Will have to wait till 8 to see!
+	Current Best: 88.2 - 77.6 - (Total: 165.8)
+	Manual Scalings of O Likelihood:
+		0.5: 86.3 - 81.76 (Total: 168.1)
+		.25: 84.5 - 83.8  (Total: 168.3)
+		.35: 85.7 - 82.5  (Total: 168.3)
+		.75: 87.6 - 79.3  (Total: 166.9)
+
+	So, our trigram does well on the training data without add-one smoothing.  What if we added one more intelligently, so that we maintain this level of 
+	performance for test data that looks similar to our training data (like 90% accuracy), and only allow an accuracy drop when the word is truly unknown.
+	Currently our smoothing smooths pr(word | ent) so it's adding one to a word that we have seen for ents we've never seen it with.  What if we only did this
+	when we haven't seen the word at all?
+
+		now on unit test: 93.1 - 88.1 (with .5 downscaling on O likelihood) Kaggle: 77.249
+						  93.5 - 86.0 (without downscaling)	KAGGLE: 78.302 - NEW BEST WOOOOOOOOOOOO
+
+	93.46 - 86.02 is our new best unit score.  
+	90.7 - 91.49 is our score without scaling by ent likelihood. - Kaggle: 78.147 (slight decrease)

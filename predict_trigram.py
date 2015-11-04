@@ -116,11 +116,21 @@ def get_hmm_predictions(tests):
 		
 	return results
 
+
+def smooth_word(word, score):
+	word_seen = False
+	for ent in STATES:
+		if words[ent].get(word): word_seen = True
+	if not word_seen: score = 1
+	return float(score)
+
 def conditional_probability(entity, word, tag):
-	one = (float(words[entity].get(word, 0)) + 1) / (entsums[entity])
+	one_count = (float(words[entity].get(word, 0)))
+	if not one_count: one_count = smooth_word(word, one_count)
+	one = one_count / (entsums[entity])
 	two = float(tagged[entity].get(tag, 0)) / (entsums[entity])
 	three = float(entsums[entity]) / TOTAL
-	score = float(one) * float(two) * float(three)
+	score = float(one) * float(two)# * float(three)
 	return adjust_conditional_probability(entity, word, tag, score)
 
 def conditional_entity_probability(entity_one, entity_two, entity):

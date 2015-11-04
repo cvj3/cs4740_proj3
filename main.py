@@ -23,4 +23,4 @@ if __name__ == "__main__":
     end("Finished Generating Predictions")
 
     start("Start Writing Predictions")
-    write_predictions_to_file(predictions, "trigram-scale-by-ent-likelihood.csv")
+    write_predictions_to_file(predictions, "trigram-conditional-smoothing-no-ent-scaling.csv")
