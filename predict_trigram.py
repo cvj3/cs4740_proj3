@@ -5,6 +5,7 @@ from data_trigram.tagged import tagDict as tagged
 from data_trigram.start_entity import startEnt
 from data_trigram.end_entity import endEnt
 from data_trigram.entity import entityDict as entities
+from data.supplement import supplement
 import operator
 import itertools
 import string
@@ -117,20 +118,33 @@ def get_hmm_predictions(tests):
 	return results
 
 
-def smooth_word(word, score):
+def smooth_word(word, entity, score):
 	word_seen = False
-	for ent in STATES:
+	used_supplement = False
+	for ent in STATES: #check if the word has been seen for ANY entity (not just the entity from the calling function)
 		if words[ent].get(word): word_seen = True
-	if not word_seen: score = 1
-	return float(score)
+	if not word_seen: 
+		if supplement.get(word):
+			if supplement.get(word) == entity:
+				#http://www.clips.uantwerpen.be/conll2003/ner/lists/eng.list
+				#list of known entities pulled from above with original source http://www.clips.uantwerpen.be/conll2003/ner/
+				score = 10 #assign a relatively high score to the known entity according to our supplement
+				used_supplement = True
+				# 0 score is given to all other entities for this word
+		else: score = 1 #if word is unknown and not in our supplement, give it a count of 1 for smoothing
+	return float(score), used_supplement
 
 def conditional_probability(entity, word, tag):
 	one_count = (float(words[entity].get(word, 0)))
-	if not one_count: one_count = smooth_word(word, one_count)
+	used_supplement = False
+	if not one_count: one_count, used_supplement = smooth_word(word, entity, one_count)
 	one = one_count / (entsums[entity])
 	two = float(tagged[entity].get(tag, 0)) / (entsums[entity])
+	if not two and used_supplement: 
+		# don't let POS make pr total = 0 if we used the supplement to successfuly look up an unknown word
+		two = 1
 	three = float(entsums[entity]) / TOTAL
-	score = float(one) * float(two)# * float(three)
+	score = float(one) * float(two) * float(three)
 	return adjust_conditional_probability(entity, word, tag, score)
 
 def conditional_entity_probability(entity_one, entity_two, entity):

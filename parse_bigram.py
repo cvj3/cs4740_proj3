@@ -23,6 +23,8 @@ def main(param1, param2):
         combined, word, tag = \
         buildData(textArray, posArray, entityArray)
 
+    supp = buildSupplementData()
+
     # Write out to a dictionary file (lib/data.py)
     writeData('data', 'base_combined.py', 'combinedDict', baseCombinedDict)
     writeData('data', 'base_words.py', 'wordDict', baseWordDict)
@@ -33,6 +35,8 @@ def main(param1, param2):
     writeData('data', 'tagged.py', 'tagDict', tag)
     writeData('data', 'start_entity.py', 'startEnt', startEnt)
     writeData('data', 'end_entity.py', 'endEnt', endEnt)
+
+    writeData('data', 'supplement.py', 'supplement', supp)
 
 
 # read training file and return parsed data
@@ -267,3 +271,13 @@ def scoreUnitTestResults(predicted, expected_results):
     print "Correct Predictions / # Expected Predictions: %.2f%%" % (float(correctPredictions) / float(totalExpected) * 100)
     print str(error_summary)
         
+def buildSupplementData():
+    supp = {}
+    with open("data/supplement.txt") as f:
+        for line in f:
+            pair = line.split(" ", 1)
+            ent = pair[0]
+            word = pair[1].split(" ", 1)[0].strip().lower()
+            if not " " in word:
+                supp[word] = ent
+    return supp    

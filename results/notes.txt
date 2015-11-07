@@ -161,3 +161,40 @@
 
 	93.46 - 86.02 is our new best unit score.  
 	90.7 - 91.49 is our score without scaling by ent likelihood. - Kaggle: 78.147 (slight decrease)
+
+11/7
+
+	So, let's say we do smooth an unknown.  Compare this to something we've seen once.
+	Should these have the same value?  What if we added one to the count of every seen
+	value (only for the word - ent and pos - ent pairs we've SEEN, not all possible
+	pairs like we do for the unknown words.)  Would this help value seen examples
+	more heavily?
+
+	Also, (even though it was a slight hit on kaggle) - going to remove the ent likelihood scaling.
+	it's not what viterbi says to do and the likelihoods are already supposed to be built in.  It's likely
+	just a random variation and we shouldn't base our approach on it.
+
+	Locally, this shouldn't make much of a difference:
+	90.67 - 91.78 locally
+	"trigram-add-one-to-seen" - Kaggle: 77.840 - worse
+
+	looking into using a supplemental lookup table for possible unknown words.
+	if a word isn't in our training, but DOES appear in the supplemental source, we only assign points for the entity
+	it is labeled with in the supplement.
+
+	Locally - no change
+	On kaggle: HUGE improvement - 84.566!
+	On kaggle with ent scaling - 84.789 with ent scaling.  It seems to be better, but i'm still not sure it's a strict
+	improvement.  It may just happen to be an improvement for the two entities it's testing on.  I hesitate to use this
+	for the final submissions
+
+	Added logic: if we use the supplement to look up a word, ignore the POS likelihood if the likelihood is 0 (dont let
+	POS pr = 0 erase our supplement lookup.)
+	This only improved Kaggle score by 0.02%, but it's something!
+
+	Maybe we aren't using as much of the supplemental list as we could be.  Currently, ignores any phrases that have multiple words (doesnt add it to supplement list)
+	Trivial solution: first word is always taken and added.  May want to look into an even better / more complex solution
+	later.  This means that if the same word is seen mutliple times, it just overwrites the previous association for it.
+	This improved us by .8%!
+
+	new kaggle score: 85.642% :)
