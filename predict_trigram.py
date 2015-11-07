@@ -6,6 +6,7 @@ from data_trigram.start_entity import startEnt
 from data_trigram.end_entity import endEnt
 from data_trigram.entity import entityDict as entities
 from data.supplement import supplement
+from data.large_supp import large_supplement
 import operator
 import itertools
 import string
@@ -117,6 +118,25 @@ def get_hmm_predictions(tests):
 		
 	return results
 
+def fallback_unknown_word_trivial(word, entity, score):	
+	used_supplement = False
+	if supplement.get(word):
+		used_supplement = True
+		if supplement.get(word) == entity:
+			#http://www.clips.uantwerpen.be/conll2003/ner/lists/eng.list
+			#list of known entities pulled from above with original source http://www.clips.uantwerpen.be/conll2003/ner/
+			score = 1 #assign a score to the known entity according to our supplement (0 to all others by omission)
+	return score, used_supplement
+
+def fallback_unknown_word_complex(word, entity, score):
+	used_supplement = False
+	if large_supplement.get(word):
+		used_supplement = True
+		score = large_supplement[word].get(entity, 0)
+		#count is taken from training data, 0 if no occurences seen
+		#http://www.clips.uantwerpen.be/conll2003/ner/lists/eng.list
+		#list of known entities pulled from above with original source http://www.clips.uantwerpen.be/conll2003/ner/
+	return score, used_supplement
 
 def smooth_word(word, entity, score):
 	word_seen = False
@@ -124,14 +144,8 @@ def smooth_word(word, entity, score):
 	for ent in STATES: #check if the word has been seen for ANY entity (not just the entity from the calling function)
 		if words[ent].get(word): word_seen = True
 	if not word_seen: 
-		if supplement.get(word):
-			if supplement.get(word) == entity:
-				#http://www.clips.uantwerpen.be/conll2003/ner/lists/eng.list
-				#list of known entities pulled from above with original source http://www.clips.uantwerpen.be/conll2003/ner/
-				score = 10 #assign a relatively high score to the known entity according to our supplement
-				used_supplement = True
-				# 0 score is given to all other entities for this word
-		else: score = 1 #if word is unknown and not in our supplement, give it a count of 1 for smoothing
+		score, used_supplement = fallback_unknown_word_complex(word, entity, score)
+		if not used_supplement: score = 1  #if the supplement was not used, do add-one smoothing for unseen words
 	return float(score), used_supplement
 
 def conditional_probability(entity, word, tag):

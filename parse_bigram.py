@@ -24,6 +24,7 @@ def main(param1, param2):
         buildData(textArray, posArray, entityArray)
 
     supp = buildSupplementData()
+    large_supp = buildLargeSupplementData()
 
     # Write out to a dictionary file (lib/data.py)
     writeData('data', 'base_combined.py', 'combinedDict', baseCombinedDict)
@@ -37,6 +38,7 @@ def main(param1, param2):
     writeData('data', 'end_entity.py', 'endEnt', endEnt)
 
     writeData('data', 'supplement.py', 'supplement', supp)
+    writeData('data', 'large_supp.py', 'large_supplement', large_supp)
 
 
 # read training file and return parsed data
@@ -281,3 +283,15 @@ def buildSupplementData():
             if not " " in word:
                 supp[word] = ent
     return supp    
+
+def buildLargeSupplementData():
+    supp = {}
+    with open("data/supplement.txt") as f:
+        for line in f:
+            items = line.split()
+            ent = items[0]
+            for word in items[1:]:
+                word = word.lower().strip()                
+                supp[word] = supp.get(word, {})
+                supp[word][ent] = supp[word].get(ent, 0) + 1
+    return supp  

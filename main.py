@@ -23,4 +23,4 @@ if __name__ == "__main__":
     end("Finished Generating Predictions")
 
     start("Start Writing Predictions")
-    write_predictions_to_file(predictions, "trigram-supplement-first-word.csv")
+    write_predictions_to_file(predictions, "trigram-supplement-complex.csv")
