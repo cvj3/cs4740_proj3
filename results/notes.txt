@@ -198,3 +198,16 @@
 	This improved us by .8%!
 
 	new kaggle score: 85.642% :)
+
+	Refactored fallback smoothing with supplement into external functions.
+	Re-ran naive approach to make sure it is still consistent - no differences in files (trigram-supplement-naive) vs 
+	...first-word.csv, so will not be submitting that new file
+
+	Produced trigram-supplement-complex.csv to test on kaggle
+	This now takes all words from the supplemental file and organizes them in dict[word][entity] = count(word, entity)
+	Now our complex function will return that count or 0 if there is no match for the pair.  if the word isn't in 
+	that supplemental dict at all, it falls back to trivial add-one smoothing.
+
+	went up .93%, so pretty much 1%.
+
+	new kaggle score: 86.581%!
