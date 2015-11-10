@@ -145,7 +145,7 @@ def smooth_word(word, entity, score):
 		if words[ent].get(word): word_seen = True
 	if not word_seen: 
 		score, used_supplement = fallback_unknown_word_complex(word, entity, score)
-		if not used_supplement: score = .01  #if the supplement was not used, do add-one smoothing for unseen words
+		if not used_supplement: score = 1  #if the supplement was not used, do add-one smoothing for unseen words
 	return float(score), used_supplement
 
 def conditional_probability(entity, word, tag):
