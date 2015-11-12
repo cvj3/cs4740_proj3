@@ -211,3 +211,15 @@
 	went up .93%, so pretty much 1%.
 
 	new kaggle score: 86.581%!
+
+	11/9
+	Tried add .1 and .01 smoothing instead of 1 on kaggle.  No difference in score.
+
+	Prediction accuracy is good (~93%), but not making enough predictions (~86%)
+	Maybe if we downscale O-O-O transition likelihood:
+
+	 0.5 (locally): 92.90 - 88.46	Kaggle: 85.736
+	0.75 (locally): 93.25 - 87.52	Kaggle: 85.885
+	0.25 (locally): 91.42 - 89.50	Kaggle: 85.758
+
+	None did better.
