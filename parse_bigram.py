@@ -2,8 +2,7 @@ import os
 import string
 from common import writeData
 from config import USING_IB
-
-import nltk
+# import nltk
 from nltk.stem.snowball import SnowballStemmer
 s = SnowballStemmer("english")
 # import sys
@@ -59,14 +58,15 @@ def readData(path, filename, verboseMode=False):
         for line in f:
             iLoop += 1
 
-            # convert words to lower case ... but may want to not do this for B/I entities?
+            # convert words to lower case; may not want to do this for B/I?
             if iLoop == 1:
                 line = line.lower()
-            if not USING_IB and iLoop == 3: line = line.replace("I-", "").replace("B-", "")
+            if not USING_IB and iLoop == 3:
+                line = line.replace("I-", "").replace("B-", "")
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
             if iLoop == 1:
-                # words                
+                # words
                 line = [s.stem(word) for word in line]
                 textArray += line
             elif iLoop == 2:
@@ -74,7 +74,7 @@ def readData(path, filename, verboseMode=False):
                 for i in range(len(line)):
                     if line[i] in string.punctuation:
                         line[i] = "."
-                    #elif line[i] != "NNP":
+                    # elif line[i] != "NNP":
                     #    print textArray[len(textArray) - len(line) + i]
                 # part of speech
                 posArray += line
@@ -83,8 +83,6 @@ def readData(path, filename, verboseMode=False):
                 for i in range(len(line)):
                     if line[i] in string.punctuation:
                         line[i] = "O"
-#                    elif line[i] not in ["B-ORG", "I-ORG", "B-MISC", "I-MISC", "B-PER", "I-PER", "B-LOC", "I-LOC"]:
-#                        print textArray[len(textArray) - len(line) + i]
                 # entity type / set
                 entityArray += line
                 startEnt[line[0]] = startEnt.get(line[0], 0) + 1
@@ -102,7 +100,8 @@ def readData(path, filename, verboseMode=False):
 
 # read the test data into arrays
 def readTestDataBaseline(path, filename, verboseMode=False):
-    textArray, posArray, positionArray, startEnt, endEnt = readData(path, filename, verboseMode)
+    textArray, posArray, positionArray, startEnt, endEnt = \
+        readData(path, filename, verboseMode)
     tests = []
     for i in range(len(textArray)):
         tests.append((textArray[i], posArray[i], positionArray[i]))
@@ -127,7 +126,8 @@ def readTestData(path, filename, verboseMode=False):
         for line in f:
             iLoop += 1
 
-            if iLoop == 1: line = line.lower()
+            if iLoop == 1:
+                line = line.lower()
 
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
@@ -162,7 +162,8 @@ def prepareUnitTestData(path, filename, numTests):
         for line in f:
             iLoop += 1
 
-            if iLoop == 1: line = line.lower()
+            if iLoop == 1:
+                line = line.lower()
 
             # split with no args accomodates 'whitespace' (tabs or spaces)
             line = line.strip().split()
@@ -178,7 +179,8 @@ def prepareUnitTestData(path, filename, numTests):
                 tests.append(([t.lower() for t in test[0]], test[1], positions, test[2]))
                 test = []
 
-            if iLoop == 9: #skip the next two tests
+            # skip the next two tests
+            if iLoop == 9:
                 iLoop = 0
 
             if len(tests) == numTests: break
@@ -193,9 +195,11 @@ def prepareUnitTestData(path, filename, numTests):
         for i in range(len(test[0])):
             res = test[3][i].replace("I-", "").replace("B-", "")
             position = test[2][i]
-            if res != "O": expected_results[res].append(position)
+            if res != "O":
+                expected_results[res].append(position)
 
     return tests, expected_results
+
 
 # build data into dictionary objects
 def buildData(textArray, posArray, entityArray):
@@ -239,6 +243,7 @@ def buildData(textArray, posArray, entityArray):
 
     return bcombinedDict, bwordDict, btagDict, entityDict, combinedDict, wordDict, tagDict
 
+
 def writeUnitTestFile(tests):
     output = ""
     for test in tests:
@@ -248,6 +253,7 @@ def writeUnitTestFile(tests):
     f = open("data/large_unit_test.txt", "w")
     f.write(output)
     f.close()
+
 
 def scoreUnitTestResults(predicted, expected_results):
     totalExpected = 0
@@ -272,7 +278,8 @@ def scoreUnitTestResults(predicted, expected_results):
     print "Correct Predictions / # Predictions Made: %.2f%%" % (float(correctPredictions) / float(totalPredicted) * 100)
     print "Correct Predictions / # Expected Predictions: %.2f%%" % (float(correctPredictions) / float(totalExpected) * 100)
     print str(error_summary)
-        
+
+
 def buildSupplementData():
     supp = {}
     with open("data/supplement.txt") as f:
@@ -282,7 +289,8 @@ def buildSupplementData():
             word = pair[1].split(" ", 1)[0].strip().lower()
             if not " " in word:
                 supp[word] = ent
-    return supp    
+    return supp
+
 
 def buildLargeSupplementData():
     supp = {}
@@ -291,7 +299,7 @@ def buildLargeSupplementData():
             items = line.split()
             ent = items[0]
             for word in items[1:]:
-                word = word.lower().strip()                
+                word = word.lower().strip()
                 supp[word] = supp.get(word, {})
                 supp[word][ent] = supp[word].get(ent, 0) + 1
-    return supp  
+    return supp

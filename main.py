@@ -1,18 +1,20 @@
+from common import *
 from config import *
 from parse_bigram import readTestData
-if BIGRAM: 
+
+if BIGRAM:
     from parse_bigram import main
     from predict_bigram import get_hmm_predictions
 else:
     from parse_trigram import main
     from predict_trigram import get_hmm_predictions
-from common import *
 
 
 __author__ = "Alin Barsan, Curtis Josey"
 
+
 if __name__ == "__main__":
-    #main("data", "train.txt")
+    # main("data", "train.txt")
 
     start("Start Parsing Test Data")
     tests = readTestData("data", "test.txt")

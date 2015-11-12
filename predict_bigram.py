@@ -9,158 +9,170 @@ from data.start_entity import startEnt
 from data.end_entity import endEnt
 from data.entity import entityDict as entities
 import operator
-import itertools
+# import itertools
 import string
-import nltk
+# import nltk
 from nltk.stem.snowball import SnowballStemmer
 s = SnowballStemmer("english")
 
-if USING_IB: STATES = ["I-PER", "I-LOC", "I-ORG", "I-MISC", "B-PER", "B-LOC", "B-ORG", "B-MISC", "O"]
-else: STATES = ["PER", "LOC", "ORG", "MISC", "O"]
+if USING_IB:
+    STATES = ["I-PER", "I-LOC", "I-ORG", "I-MISC", "B-PER", "B-LOC", "B-ORG", "B-MISC", "O"]
+else:
+    STATES = ["PER", "LOC", "ORG", "MISC", "O"]
 
 
 def get_baseline_predictions(tests):
-	results = {
-		"PER": [],
-		"LOC": [],
-		"ORG": [],
-		"MISC": []
-	}
-	for test in tests:
-		word = test[0].lower()
-		tag = test[1]
-		position = test[2]
-		res = predict_baseline_fallback(word, tag)
-		res = res.replace("I-", "").replace("B-", "")
-		if res != "O": results[res].append(position)
-	return results
+    results = {
+        "PER": [],
+        "LOC": [],
+        "ORG": [],
+        "MISC": []
+    }
+    for test in tests:
+        word = test[0].lower()
+        tag = test[1]
+        position = test[2]
+        res = predict_baseline_fallback(word, tag)
+        res = res.replace("I-", "").replace("B-", "")
+        if res != "O":
+            results[res].append(position)
+    return results
+
 
 def predict_baseline_fallback(word, tag):
-	try:
-		res = max(base_combined[word + "|" + tag].iteritems(), key=operator.itemgetter(1))[0]
-	except: #key error
-		try: 
-			res = max(base_words[word].iteritems(), key=operator.itemgetter(1))[0]
-		except:
-			res = max(base_tagged[tag].iteritems(), key=operator.itemgetter(1))[0]
-	return res
+    try:
+        res = max(base_combined[word + "|" + tag].iteritems(), key=operator.itemgetter(1))[0]
+    except:  # key error
+        try:
+            res = max(base_words[word].iteritems(), key=operator.itemgetter(1))[0]
+        except:
+            res = max(base_tagged[tag].iteritems(), key=operator.itemgetter(1))[0]
+    return res
+
 
 def predict_baseline_naive(word):
-	try: 
-		res = max(base_words[word].iteritems(), key=operator.itemgetter(1))[0]
-	except:
-		res = "O"
-	return res 
+    try:
+        res = max(base_words[word].iteritems(), key=operator.itemgetter(1))[0]
+    except:
+        res = "O"
+    return res
 
 
 def get_hmm_predictions(tests):
-	results = {
-		"PER": [],
-		"LOC": [],
-		"ORG": [],
-		"MISC": []
-	}
-	counter = 0
-	for test in tests:
-		counter += 1
-		if counter % 100 == 0: print "On test %d" % counter
-		tokens = test[0]
-		tags = test[1]
-		positions = test[2]
-		viterbi = {}
-		backpointer = {}
+    results = {
+        "PER": [],
+        "LOC": [],
+        "ORG": [],
+        "MISC": []
+    }
+    counter = 0
+    for test in tests:
+        counter += 1
+        if counter % 100 == 0:
+            print "On test %d" % counter
+        tokens = test[0]
+        tags = test[1]
+        positions = test[2]
+        viterbi = {}
+        backpointer = {}
 
-		tokens = [s.stem(word.lower()) for word in tokens]
-		filteredtags = []
-		for tag in tags:
-			if tag in string.punctuation: tag = "."
-			filteredtags.append(tag)
-		tags = filteredtags
+        tokens = [s.stem(word.lower()) for word in tokens]
+        filteredtags = []
+        for tag in tags:
+            if tag in string.punctuation:
+                tag = "."
+            filteredtags.append(tag)
+        tags = filteredtags
 
-		#initialization step
-		for state in STATES:
-			viterbi[state] = {}
-			viterbi[state][0] = conditional_entity_probability(None, state) * conditional_probability(state, tokens[0], tags[0])
-			backpointer[state] = {}
-			backpointer[state][0] = "START"
+        # initialization step
+        for state in STATES:
+            viterbi[state] = {}
+            viterbi[state][0] = conditional_entity_probability(None, state) * conditional_probability(state, tokens[0], tags[0])
+            backpointer[state] = {}
+            backpointer[state][0] = "START"
 
-		#recursion steps
-		for i in range(1, len(tokens)):
-			word = tokens[i]
-			tag = tags[i]
-			for state in STATES:
-				highest = 0
-				best_state = "O"
-				for sprime in STATES:
-					score = viterbi[sprime].get(i-1, 0) * conditional_entity_probability(sprime, state) * conditional_probability(state, word, tag)
-					if score >= highest:
-						highest = score
-						best_state = sprime
-				viterbi[state][i] = highest
-				backpointer[state][i] = best_state
+        # recursion steps
+        for i in range(1, len(tokens)):
+            word = tokens[i]
+            tag = tags[i]
+            for state in STATES:
+                highest = 0
+                best_state = "O"
+                for sprime in STATES:
+                    score = viterbi[sprime].get(i-1, 0) * conditional_entity_probability(sprime, state) * conditional_probability(state, word, tag)
+                    if score >= highest:
+                        highest = score
+                        best_state = sprime
+                viterbi[state][i] = highest
+                backpointer[state][i] = best_state
 
-		#termination steps
-		last = len(tokens) - 1
-		highest = 0
-		best_state = "O"
-		for state in STATES:
-			score = viterbi[state].get(last, 0)# * conditional_entity_probability(state, None) #- tended to make final state O too often
-			if score >= highest:
-				highest = score
-				best_state = state
-		viterbi["END"] = {}
-		viterbi["END"][last] = highest
-		backpointer["END"] = {}
-		backpointer["END"][last] = best_state
+        # termination steps
+        last = len(tokens) - 1
+        highest = 0
+        best_state = "O"
+        for state in STATES:
+            score = viterbi[state].get(last, 0)# * conditional_entity_probability(state, None) #- tended to make final state O too often
+            if score >= highest:
+                highest = score
+                best_state = state
+        viterbi["END"] = {}
+        viterbi["END"][last] = highest
+        backpointer["END"] = {}
+        backpointer["END"][last] = best_state
 
-		#follow backtrace
-		predictions = []
-		predictions.append((best_state, positions[last]))
-		back_state = best_state
-		i = last - 1
-		while i >= 0:
-			predicted_state = backpointer[back_state][i + 1]
-			position = positions[i]
-			predictions.insert(0,(predicted_state, position))
-			back_state = predicted_state
-			i -= 1
+        #follow backtrace
+        predictions = []
+        predictions.append((best_state, positions[last]))
+        back_state = best_state
+        i = last - 1
+        while i >= 0:
+            predicted_state = backpointer[back_state][i + 1]
+            position = positions[i]
+            predictions.insert(0,(predicted_state, position))
+            back_state = predicted_state
+            i -= 1
 
-		for pair in predictions:
-			res = pair[0]
-			pos = pair[1]
-			res = res.replace("I-", "").replace("B-", "")
-			if res != "O": results[res].append(pos)
-		
-	return results
+        for pair in predictions:
+            res = pair[0]
+            pos = pair[1]
+            res = res.replace("I-", "").replace("B-", "")
+            if res != "O": results[res].append(pos)
+
+    return results
+
 
 def smooth_word(word, score):
-	word_seen = False
-	for ent in STATES: #check if the word has been seen for ANY entity (not just the entity from the calling function)
-		if words[ent].get(word): word_seen = True
-	if not word_seen: score = 1
-	return float(score)
+    word_seen = False
+    for ent in STATES:  # check if the word has been seen for ANY entity (not just the entity from the calling function)
+        if words[ent].get(word):
+            word_seen = True
+    if not word_seen:
+        score = 1
+    return float(score)
+
 
 def conditional_probability(entity, word, tag):
-	one_count = (float(words[entity].get(word, 0)))
-	if not one_count: one_count = smooth_word(word, one_count)
-	one = one_count / (entsums[entity])
-	two = float(tagged[entity].get(tag, 0)) / (entsums[entity])
-	#three = float(entsums[entity]) / TOTAL
-	score = float(one) * float(two)# * float(three)
-	return score
+    one_count = (float(words[entity].get(word, 0)))
+    if not one_count:
+        one_count = smooth_word(word, one_count)
+    one = one_count / (entsums[entity])
+    two = float(tagged[entity].get(tag, 0)) / (entsums[entity])
+    # three = float(entsums[entity]) / TOTAL
+    score = float(one) * float(two)  # * float(three)
+    return score
+
 
 def conditional_entity_probability(entity_prev, entity):
-	#try:
-	if not entity_prev and entity:
-		count = startEnt.get(entity, 0)
-		total = sum(startEnt.itervalues())
-	elif not entity and entity_prev:			
-		count = endEnt.get(entity_prev, 0)
-		total = sum(endEnt.itervalues())
-	else:
-		count = entities[entity_prev].get(entity, 0)
-		total = sum(entities[entity_prev].itervalues())
-	#except:
-	#	return float(0)
-	return float(count) / float(total)
-
+    # try:
+    if not entity_prev and entity:
+        count = startEnt.get(entity, 0)
+        total = sum(startEnt.itervalues())
+    elif not entity and entity_prev:
+        count = endEnt.get(entity_prev, 0)
+        total = sum(endEnt.itervalues())
+    else:
+        count = entities[entity_prev].get(entity, 0)
+        total = sum(entities[entity_prev].itervalues())
+    # except:
+    #   return float(0)
+    return float(count) / float(total)
